@@ -7,6 +7,7 @@
   "repository": "git://github.com/steedos-labs/contract.git",
   "scripts": {
     "start": "moleculer-runner steedos-packages/*/package.service.js --config steedos.config.js --hot --repl",
+    "build": "lerna run build",
     "repl": "moleculer-runner --repl"
   },
   "dependencies": {
