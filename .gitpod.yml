@@ -24,6 +24,7 @@ tasks:
       npm config set registry=https://registry.npmmirror.com
       npm install -g steedos-cli
       yarn
+      yarn build
       gp await-port 5000
       yarn start
 
