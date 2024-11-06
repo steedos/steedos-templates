@@ -1,0 +1,9 @@
+name: address
+amis:
+  id: 'u:e6e8dc3426ac'
+group: 开票信息
+is_wide: true
+label: 地址
+rows: 3
+sort_no: 1050
+type: text

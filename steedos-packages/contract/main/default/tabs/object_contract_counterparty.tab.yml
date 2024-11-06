@@ -1,0 +1,8 @@
+name: object_contract_counterparty
+desktop: true
+icon: channel_program_members
+label: 相对方
+mobile: true
+object: contract_counterparty
+permissions: []
+type: object

@@ -1,0 +1,25 @@
+name: appendix
+amis:
+  id: 'u:b5d6d1313b53'
+create: true
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: false
+generated: false
+group: 合同信息
+hidden: false
+index: false
+is_name: false
+is_wide: true
+label: 合同附件
+multiple: true
+primary: false
+readonly: false
+required: false
+searchable: false
+show_as_qr: false
+sort_no: 850
+static: false
+type: file
+unique: false
+write_requires_master_read: false

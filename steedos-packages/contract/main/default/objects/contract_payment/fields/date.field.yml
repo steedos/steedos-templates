@@ -1,0 +1,8 @@
+name: date
+amis:
+  id: 'u:0552c9555962'
+group: 通用
+label: 付款日期
+required: true
+sort_no: 150
+type: date

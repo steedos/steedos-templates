@@ -1,0 +1,8 @@
+name: object_contract_invoicing
+desktop: true
+icon: drafts
+label: 合同开票
+mobile: true
+object: contract_invoicing
+permissions: []
+type: object

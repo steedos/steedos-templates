@@ -1,0 +1,99 @@
+{
+    "type": "steedos-record-service",
+    "body": [
+        {
+            "type": "steedos-record-detail-header",
+            "label": "标题面板",
+            "objectApiName": "${objectName}",
+            "recordId": "${recordId}",
+            "showBackButton": "${!_inDrawer}",
+            "id": "u:d91f87a50bd7"
+        },
+        {
+            "type": "tabs",
+            "className": "steedos-record-tabs bg-white p-4 sm:m-2 sm:border sm:rounded",
+            "tabs": [
+                {
+                    "title": "详细",
+                    "className": "px-0 py-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-form",
+                            "label": "对象表单",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "appId": "${appId}",
+                            "id": "u:2bd7544cba9c"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:100c3de46e0c",
+                            "relatedObjectApiName": "contract_return_payment_plan"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:ef78d63df28b",
+                            "relatedObjectApiName": "contract_invoicing",
+                            "visibleOn": "${record.cash_flow_type == 'receive'}"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:d1d8bb800e78",
+                            "relatedObjectApiName": "contract_return",
+                            "visibleOn": "${record.cash_flow_type == 'receive'}"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:b4e574cb20e0",
+                            "relatedObjectApiName": "contract_payment",
+                            "visibleOn": "${record.cash_flow_type == 'pay'}"
+                        }
+                    ],
+                    "id": "u:5d4e7e3f6ecc"
+                },
+                {
+                    "title": "其他",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:43781ca49e1c",
+                            "relatedObjectApiName": "audit_records"
+                        }
+                    ],
+                    "id": "u:04a3f0044e72"
+                }
+            ],
+            "id": "u:7a281800066b"
+        }
+    ],
+    "regions": [
+        "body"
+    ],
+    "data": {},
+    "id": "page_contract_record_detail",
+    "name": "page_contract_record_detail",
+    "objectApiName": "${objectName}",
+    "bodyClassName": "",
+    "className": "object-detail-page steedos-record-content overflow-y-auto p-0 m-0 flex-1 h-full bg-gray-100",
+    "asideResizor": false,
+    "editorState": "default",
+    "pullRefresh": {
+        "disabled": true
+    }
+}

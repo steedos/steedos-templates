@@ -1,0 +1,7 @@
+name: date
+amis:
+  id: 'u:639b1cd5ff5d'
+group: 通用
+label: 开票日期
+sort_no: 300
+type: date

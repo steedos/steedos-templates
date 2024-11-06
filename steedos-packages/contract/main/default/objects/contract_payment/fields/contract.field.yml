@@ -1,0 +1,14 @@
+name: contract
+amis:
+  id: 'u:b65000bfef26'
+filters:
+  - - cash_flow_type
+    - '='
+    - pay
+group: 通用
+label: 付款合同
+reference_to: contract
+required: true
+sort_no: 100
+type: master_detail
+write_requires_master_read: true

@@ -1,0 +1,7 @@
+name: code
+filters: []
+hidden: false
+label: 排序号
+required: false
+sort_no: 110
+type: text

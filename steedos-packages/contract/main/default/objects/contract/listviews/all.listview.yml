@@ -1,0 +1,47 @@
+name: all
+columns:
+  - field: name
+  - field: 'no'
+  - field: cash_flow_type
+  - field: implementation
+  - field: contract_counterparty
+  - field: contract_counterparty_contact
+  - field: company_id
+  - field: owner
+  - field: amount
+  - field: signed_date
+  - field: start_date
+  - field: end_date
+  - field: remark
+filter_scope: space
+filters: []
+from_code_id: contracts.all
+is_enable: true
+label: 所有合同
+mobile_columns:
+  - field: name
+  - field: 'no'
+  - field: implementation
+  - field: company_id
+  - field: contract_counterparty
+  - field: amount
+scrolling_mode: standard
+searchable_fields:
+  - field: name
+  - field: 'no'
+  - field: contract_type
+  - field: implementation
+  - field: instance_state
+  - field: company_id
+  - field: contract_counterparty
+  - field: owner
+  - field: signed_date
+shared_to: space
+show_count: false
+sort:
+  - field_name: signed_date
+    order: desc
+  - field_name: created
+    order: desc
+sort_no: 100
+type: grid

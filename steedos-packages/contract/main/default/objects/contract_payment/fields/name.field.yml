@@ -1,0 +1,13 @@
+name: name
+amis:
+  id: 'u:716750872a93'
+filterable: true
+filters: []
+formula: 'HTFK-{000}'
+group: 通用
+index: true
+label: 付款编号
+required: true
+searchable: true
+sort_no: 50
+type: autonumber

@@ -1,0 +1,8 @@
+name: object_contract_payment
+desktop: true
+icon: contact_request
+label: 合同付款
+mobile: true
+object: contract_payment
+permissions: []
+type: object

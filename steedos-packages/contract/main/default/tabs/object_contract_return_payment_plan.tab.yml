@@ -1,0 +1,8 @@
+name: object_contract_return_payment_plan
+desktop: true
+icon: answer_public
+label: 回/付款计划
+mobile: true
+object: contract_return_payment_plan
+permissions: []
+type: object

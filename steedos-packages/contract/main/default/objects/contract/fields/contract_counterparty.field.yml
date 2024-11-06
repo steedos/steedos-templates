@@ -1,0 +1,9 @@
+name: contract_counterparty
+amis:
+  id: 'u:fc358c74c589'
+group: 合同信息
+label: 对方公司
+reference_to: contract_counterparty
+required: true
+sort_no: 550
+type: lookup

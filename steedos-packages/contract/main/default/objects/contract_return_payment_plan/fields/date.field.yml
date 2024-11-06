@@ -1,0 +1,8 @@
+name: date
+amis:
+  id: 'u:81b6f5273b59'
+group: 通用
+label: 计划日期
+required: true
+sort_no: 150
+type: date

@@ -1,0 +1,15 @@
+name: company_id
+amis:
+  id: 'u:99b1a78aa531'
+description: ''
+enable_thousands: true
+group: 合同信息
+index: true
+inlineHelpText: ''
+label: 我方公司
+reference_to: company
+required: true
+sort_no: 450
+sortable: true
+type: lookup
+visible_on: ''

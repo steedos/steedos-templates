@@ -1,0 +1,12 @@
+name: name
+amis:
+  id: 'u:41b6db48b2b6'
+filterable: true
+formula: 'HTKP-{000}'
+group: 通用
+index: true
+label: 编号
+required: true
+searchable: true
+sort_no: 50
+type: autonumber

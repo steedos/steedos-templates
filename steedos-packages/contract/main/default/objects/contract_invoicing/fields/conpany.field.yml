@@ -1,0 +1,8 @@
+name: conpany
+amis:
+  id: 'u:e20194a44cb8'
+group: 开票信息
+label: 公司主体
+required: true
+sort_no: 850
+type: text

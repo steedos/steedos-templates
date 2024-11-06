@@ -1,0 +1,13 @@
+name: owner
+amis:
+  id: 'u:e970eb9979a2'
+description: ''
+enable_thousands: true
+group: 通用
+index: true
+inlineHelpText: ''
+label: 所有者
+required: true
+sort_no: 250
+sortable: true
+visible_on: ''

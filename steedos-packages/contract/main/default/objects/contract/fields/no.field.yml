@@ -1,0 +1,20 @@
+name: 'no'
+amis:
+  id: 'u:0cb33147c9c6'
+filterable: true
+formula: >+
+  IF(ISPICKVAL( cash_flow_type , "receive"), "SKHT", "FKHT") & "-" &
+  "{YYYY}{000}"
+
+group: 通用
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同编号
+readonly: true
+required: false
+searchable: true
+sort_no: 100
+sortable: true
+type: autonumber

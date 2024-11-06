@@ -1,0 +1,19 @@
+name: type
+amis:
+  id: 'u:61cc56b8e57c'
+data_type: text
+group: 通用
+label: 发票类型
+options:
+  - label: 增值税普通发票
+    value: v1
+    color: '#7ed321'
+  - label: 增值税专用发票
+    value: v2
+    color: '#f5a623'
+  - label: 增值税电子发票
+    value: v3
+    color: '#4a90e2'
+required: true
+sort_no: 150
+type: select

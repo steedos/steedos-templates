@@ -1,0 +1,25 @@
+name: all
+columns:
+  - field: name
+  - field: date
+  - field: amount
+  - field: contract
+  - field: remark
+  - field: created_by
+  - field: created
+crud_mode: table
+filter_scope: space
+filters: []
+is_enable: true
+label: 所有
+searchable_fields:
+  - field: name
+  - field: contract
+  - field: date
+  - field: amount
+shared_to: space
+sort:
+  - field_name: date
+    order: desc
+  - field_name: created
+    order: desc

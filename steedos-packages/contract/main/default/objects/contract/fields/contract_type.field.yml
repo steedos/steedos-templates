@@ -1,0 +1,19 @@
+name: contract_type
+amis:
+  id: 'u:2559d719edf5'
+filterable: true
+group: 通用
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同分类
+multiple: false
+omit: false
+readonly: false
+reference_to: contract_types
+required: false
+searchable: false
+sort_no: 200
+sortable: false
+type: lookup

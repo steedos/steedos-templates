@@ -1,0 +1,17 @@
+name: name
+amis:
+  id: 'u:bf182b515614'
+filterable: true
+group: 通用
+hidden: false
+index: true
+is_name: true
+is_wide: false
+label: 合同名称
+omit: false
+readonly: false
+required: true
+searchable: true
+sort_no: 50
+sortable: false
+type: text

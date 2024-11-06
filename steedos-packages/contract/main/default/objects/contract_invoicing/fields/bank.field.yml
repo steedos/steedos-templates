@@ -1,0 +1,7 @@
+name: bank
+amis:
+  id: 'u:d684be4c7ae1'
+group: 开票信息
+label: 开户行
+sort_no: 950
+type: text

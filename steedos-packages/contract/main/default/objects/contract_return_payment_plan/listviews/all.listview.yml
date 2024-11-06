@@ -1,0 +1,27 @@
+name: all
+columns:
+  - field: name
+  - field: date
+  - field: amount
+  - field: owner
+  - field: contract
+crud_mode: table
+filter_scope: space
+filters: []
+is_enable: true
+label: 所有
+mobile_columns:
+  - field: name
+  - field: date
+  - field: amount
+  - field: owner
+searchable_fields:
+  - field: name
+  - field: contract
+  - field: date
+  - field: amount
+  - field: owner
+shared_to: space
+sort:
+  - field_name: date
+    order: asc

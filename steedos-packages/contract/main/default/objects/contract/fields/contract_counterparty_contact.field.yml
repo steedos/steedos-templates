@@ -1,0 +1,8 @@
+name: contract_counterparty_contact
+amis:
+  id: 'u:fb2188bd86c3'
+group: 合同信息
+label: 对方联系人
+required: true
+sort_no: 600
+type: text

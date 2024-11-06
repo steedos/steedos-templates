@@ -1,0 +1,7 @@
+name: object_contract
+desktop: true
+label: 合同
+mobile: true
+object: contract
+permissions: []
+type: object

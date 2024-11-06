@@ -1,0 +1,8 @@
+name: tax
+amis:
+  id: 'u:5a912087a9fe'
+group: 通用
+label: 税率
+required: true
+sort_no: 200
+type: text

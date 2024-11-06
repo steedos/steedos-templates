@@ -1,0 +1,8 @@
+name: object_contract_return
+desktop: true
+icon: branch_merge
+label: 合同回款
+mobile: true
+object: contract_return
+permissions: []
+type: object

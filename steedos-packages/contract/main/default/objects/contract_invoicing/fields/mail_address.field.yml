@@ -1,0 +1,8 @@
+name: mail_address
+amis:
+  id: 'u:68489369108f'
+group: 邮寄信息
+is_wide: true
+label: 地址
+sort_no: 1200
+type: text

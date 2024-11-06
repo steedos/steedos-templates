@@ -1,0 +1,15 @@
+name: name
+amis:
+  id: 'u:0eaaf27061c8'
+  type: input-text
+  editorState: default
+filterable: true
+filters: []
+formula: 'HTSK-{000}'
+group: 通用
+index: true
+label: 收款编号
+required: true
+searchable: true
+sort_no: 50
+type: autonumber

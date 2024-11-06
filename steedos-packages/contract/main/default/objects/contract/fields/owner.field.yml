@@ -1,0 +1,13 @@
+name: owner
+amis:
+  id: 'u:4c02639cd9eb'
+description: ''
+enable_thousands: true
+group: 合同信息
+index: true
+inlineHelpText: ''
+label: 我方负责人
+required: true
+sort_no: 500
+sortable: true
+visible_on: ''

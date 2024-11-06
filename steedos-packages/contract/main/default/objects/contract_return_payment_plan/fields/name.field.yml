@@ -1,0 +1,13 @@
+name: name
+amis:
+  id: 'u:facdc085c62c'
+  type: input-text
+  editorState: default
+filterable: true
+group: 通用
+index: true
+label: 资金类型
+required: true
+searchable: true
+sort_no: 50
+type: text

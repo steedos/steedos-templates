@@ -1,0 +1,6 @@
+name: contract_types
+custom: true
+enable_enhanced_lookup: false
+icon: record
+label: 合同分类
+version: 2

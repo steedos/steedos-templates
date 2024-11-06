@@ -1,0 +1,31 @@
+name: all
+columns:
+  - field: name
+  - field: contract
+  - field: type
+  - field: tax
+  - field: amount
+  - field: date
+  - field: conpany
+  - field: tax_num
+  - field: created_by
+  - field: created
+crud_mode: table
+filter_scope: space
+filters: []
+is_enable: true
+label: 所有
+searchable_fields:
+  - field: name
+  - field: contract
+  - field: type
+  - field: date
+  - field: amount
+  - field: conpany
+  - field: tax_num
+shared_to: space
+sort:
+  - field_name: date
+    order: desc
+  - field_name: created
+    order: desc

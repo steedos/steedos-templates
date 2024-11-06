@@ -1,0 +1,27 @@
+name: cash_flow_type
+amis:
+  id: 'u:02262766fe0f'
+data_type: text
+filterable: false
+filters: []
+group: 通用
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 收付款类型
+multiple: false
+omit: false
+options:
+  - label: 收款合同
+    value: receive
+    color: 49d181
+  - label: 付款合同
+    value: pay
+    color: E99695
+readonly: false
+required: true
+searchable: false
+sort_no: 150
+sortable: false
+type: select
