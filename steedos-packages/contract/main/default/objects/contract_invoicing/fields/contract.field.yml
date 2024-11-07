@@ -1,14 +1,17 @@
 name: contract
 amis:
-  id: 'u:e9bef7d7c4ab'
+  id: 'u:671cb1127b2a'
+auto_fill_mapping:
+  - from: 'no'
+    to: number
 filters:
   - - cash_flow_type
     - '='
     - receive
-group: 通用
-label: 回款合同
+group: 基础信息
+label: 合同
 reference_to: contract
 required: true
-sort_no: 100
+sort_no: 50
 type: master_detail
 write_requires_master_read: true

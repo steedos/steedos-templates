@@ -1,14 +1,14 @@
 name: owner
 amis:
-  id: 'u:d8758cef9f72'
+  id: 'u:94d1f476dc7f'
 description: ''
 enable_thousands: true
-group: 通用
+group: 系统信息
 hidden: true
 index: true
 inlineHelpText: ''
 label: 所有者
 omit: true
-sort_no: 400
+sort_no: 950
 sortable: true
 visible_on: ''

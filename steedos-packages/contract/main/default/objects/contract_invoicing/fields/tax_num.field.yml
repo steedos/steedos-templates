@@ -3,6 +3,6 @@ amis:
   id: 'u:1e9dc5591bdf'
 group: 开票信息
 label: 税号
-required: true
-sort_no: 900
+required: false
+sort_no: 550
 type: text

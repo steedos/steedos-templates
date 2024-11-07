@@ -1,7 +1,7 @@
 name: date
 amis:
-  id: 'u:639b1cd5ff5d'
-group: 通用
+  id: 'u:f653dbc471b1'
+group: 基础信息
 label: 开票日期
-sort_no: 300
+sort_no: 200
 type: date

@@ -1,0 +1,16 @@
+name: customer
+amis:
+  id: 'u:5e983cf288bf'
+auto_fill_mapping:
+  - from: tax_id
+    to: tax_num
+  - from: household
+    to: bank
+  - from: account
+    to: account
+filters: []
+group: 开票信息
+label: 公司主体
+reference_to: contract_counterparty
+sort_no: 500
+type: lookup

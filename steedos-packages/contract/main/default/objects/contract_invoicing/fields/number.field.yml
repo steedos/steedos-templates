@@ -1,0 +1,8 @@
+name: number
+amis:
+  id: 'u:c5a649bbd83a'
+group: 基础信息
+label: 合同编号
+sort_no: 150
+static: true
+type: text

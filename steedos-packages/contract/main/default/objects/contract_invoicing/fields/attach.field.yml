@@ -1,0 +1,8 @@
+name: attach
+amis:
+  id: 'u:86935b8708cd'
+group: 基础信息
+is_wide: true
+label: 合同、开具信息、结算单等上传
+sort_no: 450
+type: file

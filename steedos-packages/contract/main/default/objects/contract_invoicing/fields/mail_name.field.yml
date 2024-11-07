@@ -3,5 +3,5 @@ amis:
   id: 'u:48a8d2570f8e'
 group: 邮寄信息
 label: 姓名
-sort_no: 1100
+sort_no: 750
 type: text

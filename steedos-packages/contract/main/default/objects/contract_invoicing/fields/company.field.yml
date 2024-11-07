@@ -1,0 +1,8 @@
+name: company
+amis:
+  id: 'u:a2fab4c8941c'
+group: 基础信息
+label: 开票单位
+reference_to: contract_org_info
+sort_no: 250
+type: lookup

@@ -1,12 +1,12 @@
 name: locked
 amis:
-  id: 'u:f1ffdd1f2765'
+  id: 'u:2f5f795248ee'
 description: ''
 enable_thousands: true
-group: 通用
+group: 系统信息
 hidden: false
 inlineHelpText: ''
 label: 已锁定
-sort_no: 450
+sort_no: 900
 type: boolean
 visible_on: '{{false}}'

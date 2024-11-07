@@ -15,9 +15,10 @@ enable_tasks: false
 enable_tree: false
 enable_workflow: true
 field_groups:
-  - group_name: 通用
+  - group_name: 基础信息
   - group_name: 开票信息
   - group_name: 邮寄信息
+  - group_name: 系统信息
 icon: drafts
 is_enable: true
 label: 合同开票

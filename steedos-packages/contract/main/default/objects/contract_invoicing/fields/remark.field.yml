@@ -1,9 +1,0 @@
-name: remark
-amis:
-  id: 'u:6005c7769e0b'
-group: 通用
-is_wide: true
-label: 备注
-rows: 3
-sort_no: 800
-type: textarea
