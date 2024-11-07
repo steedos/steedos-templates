@@ -1,0 +1,7 @@
+name: account
+amis:
+  id: 'u:84952329273b'
+group: 合同信息
+label: 账号
+sort_no: 450
+type: text

@@ -1,0 +1,7 @@
+name: bank
+amis:
+  id: 'u:bf8f0af848fc'
+group: 合同信息
+label: 开户行
+sort_no: 400
+type: text

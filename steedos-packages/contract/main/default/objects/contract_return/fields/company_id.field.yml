@@ -1,14 +1,14 @@
 name: company_id
 amis:
-  id: 'u:4ad2115130bc'
+  id: 'u:216b14b30600'
 description: ''
 enable_thousands: true
-group: 通用
+group: 系统信息
 index: true
 inlineHelpText: ''
 label: 主分部
 reference_to: company
-sort_no: 400
+sort_no: 950
 sortable: true
 type: lookup
 visible_on: '{{false}}'

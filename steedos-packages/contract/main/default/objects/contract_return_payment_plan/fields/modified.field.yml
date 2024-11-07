@@ -5,6 +5,6 @@ disabled: true
 group: 通用
 label: 修改时间
 readonly: true
-sort_no: 650
+sort_no: 600
 sortable: true
 type: datetime

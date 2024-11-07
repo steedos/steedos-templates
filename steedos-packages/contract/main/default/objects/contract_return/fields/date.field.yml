@@ -1,8 +1,8 @@
 name: date
 amis:
   id: 'u:bc6d36d821ed'
-group: 通用
+group: 回款信息
 label: 回款日期
-required: true
-sort_no: 150
+required: false
+sort_no: 600
 type: date

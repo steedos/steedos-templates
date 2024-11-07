@@ -15,7 +15,10 @@ enable_tasks: false
 enable_tree: false
 enable_workflow: true
 field_groups:
+  - group_name: 合同信息
   - group_name: 通用
+  - group_name: 回款信息
+  - group_name: 系统信息
 icon: branch_merge
 is_enable: true
 label: 合同回款

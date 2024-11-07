@@ -1,0 +1,15 @@
+name: mode
+amis:
+  id: 'u:98c631943131'
+data_type: text
+group: 回款信息
+label: 回款方式
+options:
+  - label: 现金
+    value: v1
+  - label: 银行转账
+    value: v2
+  - label: 其他
+    value: v3
+sort_no: 650
+type: select

@@ -1,9 +1,9 @@
 name: created_by
 amis: {}
 disabled: true
-group: 通用
+group: 系统信息
 label: 创建人
 readonly: true
 reference_to: users
-sort_no: 600
+sort_no: 1200
 type: lookup

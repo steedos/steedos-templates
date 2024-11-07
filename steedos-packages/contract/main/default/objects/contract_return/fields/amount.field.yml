@@ -1,10 +1,11 @@
 name: amount
 amis:
   id: 'u:2642a54ba789'
-group: 通用
-label: 回款金额
+group: 回款信息
+is_wide: false
+label: 本次回款金额
 precision: 18
 required: true
 scale: 2
-sort_no: 200
+sort_no: 700
 type: currency

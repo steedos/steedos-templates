@@ -1,0 +1,8 @@
+name: object_contract_follow
+desktop: true
+icon: call_coaching
+label: 合同跟进
+mobile: true
+object: contract_follow
+permissions: []
+type: object

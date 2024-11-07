@@ -25,5 +25,5 @@ options:
     value: v5
     description: 续签了新的合同
     color: '#8b572a'
-sort_no: 700
+sort_no: 600
 type: select

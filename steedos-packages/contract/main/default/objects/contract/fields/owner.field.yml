@@ -3,11 +3,13 @@ amis:
   id: 'u:4c02639cd9eb'
 description: ''
 enable_thousands: true
-group: 合同信息
+group: 系统信息
+hidden: true
 index: true
 inlineHelpText: ''
 label: 我方负责人
-required: true
-sort_no: 600
+omit: true
+required: false
+sort_no: 1700
 sortable: true
-visible_on: ''
+visible_on: '{{false}}'

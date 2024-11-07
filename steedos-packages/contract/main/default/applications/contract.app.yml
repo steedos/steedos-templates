@@ -56,48 +56,55 @@ tab_items:
     group: 合同台账
     _id: a8d1d8ce-9374-484e-aea8-23c4e94190d8
     index: 1
+  object_contract_follow:
+    group: 合同台账
+    index: 2
   object_contract_return:
     group: 合同款项
     _id: 20216f99-6b72-46df-9cb5-6ba2e35f68f5
-    index: 2
+    index: 3
   object_contract_payment:
     group: 合同款项
     _id: 22ee8c29-2053-4db2-8f19-1db12cd22f8d
-    index: 3
+    index: 4
   object_contract_return_payment_plan:
     group: 合同款项
     _id: a1b5de06-8989-42e2-aa78-1e8f6103e8a5
-    index: 4
+    index: 5
   object_contract_invoicing:
     group: 合同发票
     _id: 14bbf563-2d52-4ace-86b9-761c0d217ede
-    index: 5
+    index: 6
   object_contract_invoice:
     group: 合同发票
     _id: 7b3c8a2c-b24d-41af-8ddb-2217619305da
-    index: 6
+    index: 7
   object_contract_invoice_plan:
     group: 合同发票
     _id: c6019564-6d79-477b-857d-bcfb5ddcf35c
-    index: 7
+    index: 8
+  object_contract_org_info:
+    group: 公司信息
+    _id: b8dcd026-915d-4dfd-b1a2-e3097e9336fd
+    index: 9
   object_contract_counterparty:
     group: 公司信息
     _id: 0e530c46-0320-4e4c-a987-18d70f7ace73
-    index: 8
+    index: 10
   object_contract_template:
     group: 基础信息
     _id: 5a503d5d-3242-4c9c-bafb-cd98eefd1e84
-    index: 9
-  object_contract_follow:
-    group: 合同台账
+    index: 11
 tabs:
   - object_contract
+  - object_contract_follow
   - object_contract_return
   - object_contract_payment
   - object_contract_return_payment_plan
   - object_contract_invoicing
   - object_contract_invoice
   - object_contract_invoice_plan
+  - object_contract_org_info
   - object_contract_counterparty
   - object_contract_template
 visible: true

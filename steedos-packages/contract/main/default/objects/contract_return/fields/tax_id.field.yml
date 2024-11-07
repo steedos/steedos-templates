@@ -1,0 +1,7 @@
+name: tax_id
+amis:
+  id: 'u:8261c0c7d2aa'
+group: 合同信息
+label: 税号
+sort_no: 500
+type: text

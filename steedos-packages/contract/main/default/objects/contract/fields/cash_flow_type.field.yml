@@ -25,6 +25,6 @@ options:
 readonly: false
 required: true
 searchable: false
-sort_no: 550
+sort_no: 500
 sortable: false
 type: select

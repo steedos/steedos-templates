@@ -4,7 +4,7 @@ amis:
 group: 通用
 label: 计划金额
 precision: 18
-required: true
+required: false
 scale: 2
 sort_no: 200
 type: currency

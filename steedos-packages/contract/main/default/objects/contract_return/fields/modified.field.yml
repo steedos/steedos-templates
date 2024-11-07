@@ -1,10 +1,10 @@
 name: modified
 amis:
-  id: 'u:2bd9bfe1aa7e'
+  id: 'u:ce7c8cfe2d44'
 disabled: true
-group: 通用
+group: 系统信息
 label: 修改时间
 readonly: true
-sort_no: 650
+sort_no: 1250
 sortable: true
 type: datetime

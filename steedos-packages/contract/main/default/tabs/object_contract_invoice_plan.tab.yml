@@ -1,0 +1,8 @@
+name: object_contract_invoice_plan
+desktop: true
+icon: case_wrap_up
+label: 开/收票计划
+mobile: true
+object: contract_invoice_plan
+permissions: []
+type: object

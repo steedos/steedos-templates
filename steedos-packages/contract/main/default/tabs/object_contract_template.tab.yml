@@ -1,0 +1,8 @@
+name: object_contract_template
+desktop: true
+icon: entitlement_template
+label: 合同模版库
+mobile: true
+object: contract_template
+permissions: []
+type: object

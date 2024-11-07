@@ -1,0 +1,8 @@
+name: object_contract_invoice
+desktop: true
+icon: call_history
+label: 合同收票
+mobile: true
+object: contract_invoice
+permissions: []
+type: object

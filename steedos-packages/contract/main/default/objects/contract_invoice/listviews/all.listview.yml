@@ -7,6 +7,7 @@ crud_mode: table
 filter_scope: space
 filters: []
 label: 所有
+shared: true
 shared_to: space
 sort:
   - field_name: created

@@ -3,9 +3,11 @@ amis:
   id: 'u:bfc3ab57a97d'
 description: ''
 group: 通用
+hidden: true
 index: true
 inlineHelpText: ''
 label: 所有者
+omit: true
 sort_no: 350
 sortable: true
 visible_on: '{{false}}'

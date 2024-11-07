@@ -1,9 +1,12 @@
 name: remark
 amis:
   id: 'u:a2cc4781cd56'
+description: ''
+enable_thousands: true
 group: 通用
+inlineHelpText: ''
 is_wide: true
 label: 回款说明
 rows: 3
-sort_no: 250
+sort_no: 550
 type: textarea

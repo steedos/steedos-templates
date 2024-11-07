@@ -8,7 +8,7 @@ index: true
 inlineHelpText: ''
 label: 主分部
 reference_to: company
-sort_no: 400
+sort_no: 350
 sortable: true
 type: lookup
 visible_on: '{{false}}'

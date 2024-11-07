@@ -1,0 +1,21 @@
+name: customer
+amis:
+  id: 'u:83ce812debd1'
+auto_fill_mapping:
+  - from: fcafy1
+    to: customer_name
+  - from: phone
+    to: phone
+  - from: household
+    to: bank
+  - from: account
+    to: account
+  - from: tax_id
+    to: tax_id
+depend_on: []
+filters: []
+group: 合同信息
+label: 客户信息
+reference_to: contract_counterparty
+sort_no: 250
+type: lookup
