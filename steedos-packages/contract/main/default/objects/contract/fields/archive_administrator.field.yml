@@ -4,5 +4,5 @@ amis:
 group: 归档信息
 label: 归档管理员
 reference_to: users
-sort_no: 950
+sort_no: 850
 type: lookup

@@ -10,6 +10,6 @@ inlineHelpText: ''
 label: 我方负责人
 omit: true
 required: false
-sort_no: 1700
+sort_no: 1600
 sortable: true
 visible_on: '{{false}}'

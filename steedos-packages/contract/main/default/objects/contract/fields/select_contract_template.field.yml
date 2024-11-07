@@ -1,6 +1,10 @@
 name: select_contract_template
 amis:
   id: 'u:ebe03f95d439'
+auto_fill_mapping:
+  - from: template
+    to: template
+filters: []
 group: 合同内容
 label: 选择合同模版
 reference_to: contract_template
