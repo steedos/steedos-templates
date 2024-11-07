@@ -2,14 +2,14 @@ name: owner
 amis:
   id: 'u:090402cbbe46'
 description: ''
+enable_thousands: true
 group: 通用
 hidden: true
 index: true
 inlineHelpText: ''
 label: 负责人
 omit: true
+required: true
 sort_no: 250
 sortable: true
 visible_on: ''
-enable_thousands: true
-required: true

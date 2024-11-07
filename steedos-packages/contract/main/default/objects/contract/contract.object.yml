@@ -26,7 +26,7 @@ field_groups:
   - group_name: 发票记录
   - group_name: 系统信息
     collapsed: true
-icon: contract
+icon: customer_portal_users
 is_enable: true
 label: 合同
 version: 2

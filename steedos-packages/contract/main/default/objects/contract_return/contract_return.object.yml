@@ -5,11 +5,10 @@ enable_dataloader: true
 enable_enhanced_lookup: true
 enable_events: false
 enable_files: false
-enable_form_tabs: false
 enable_inline_edit: true
 enable_instances: false
-enable_lock_detail: true
 enable_notes: false
+enable_share: false
 enable_split: false
 enable_tasks: false
 enable_tree: false
@@ -19,8 +18,8 @@ field_groups:
   - group_name: 通用
   - group_name: 回款信息
   - group_name: 系统信息
-icon: branch_merge
+icon: recent
 is_enable: true
+is_system: true
 label: 合同回款
-locked: false
 version: 2

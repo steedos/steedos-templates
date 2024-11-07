@@ -16,7 +16,7 @@ enable_tree: false
 enable_workflow: true
 field_groups:
   - group_name: 通用
-icon: call_history
+icon: letterhead
 is_enable: true
 label: 合同收票
 locked: false

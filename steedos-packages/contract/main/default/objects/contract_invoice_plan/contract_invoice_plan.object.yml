@@ -16,7 +16,7 @@ enable_tree: false
 enable_workflow: true
 field_groups:
   - group_name: 通用
-icon: case_wrap_up
+icon: employee_asset
 is_enable: true
 label: 开/收票计划
 locked: false
