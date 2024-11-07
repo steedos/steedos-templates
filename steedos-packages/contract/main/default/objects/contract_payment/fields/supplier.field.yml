@@ -2,15 +2,13 @@ name: supplier
 amis:
   id: 'u:b5cec407935d'
 auto_fill_mapping:
-  - from: nick_name
-    to: supplier_name
-  - from: phone
-    to: phone
-description: ''
+  - from: household
+    to: bank
+  - from: account
+    to: account
 enable_thousands: true
 filters: []
 group: 合同信息
-inlineHelpText: ''
 label: 供应商信息
 reference_to: contract_counterparty
 sort_no: 150
