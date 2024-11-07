@@ -4,7 +4,6 @@ columns:
   - field: tax_id
   - field: bank
   - field: account
-  - field: account_name
   - field: created_by
   - field: created
 crud_mode: table

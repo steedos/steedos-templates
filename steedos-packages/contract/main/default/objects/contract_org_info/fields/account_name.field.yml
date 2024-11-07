@@ -1,7 +1,0 @@
-name: account_name
-amis:
-  id: 'u:1363b347d560'
-group: 通用
-label: 账户名
-sort_no: 250
-type: text
