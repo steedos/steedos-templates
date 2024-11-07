@@ -4,8 +4,6 @@ columns:
   - field: contract
   - field: number
   - field: customer
-  - field: customer_name
-  - field: phone
   - field: bank
   - field: account
   - field: tax_id

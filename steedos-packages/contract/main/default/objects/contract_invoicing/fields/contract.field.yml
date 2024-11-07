@@ -4,10 +4,6 @@ amis:
 auto_fill_mapping:
   - from: 'no'
     to: number
-filters:
-  - - cash_flow_type
-    - '='
-    - receive
 group: 基础信息
 label: 合同
 reference_to: contract

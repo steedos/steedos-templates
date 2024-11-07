@@ -8,10 +8,6 @@ create: true
 enable_enhanced_lookup: true
 enable_thousands: true
 filterable: false
-filters:
-  - - cash_flow_type
-    - '='
-    - pay
 generated: false
 group: 通用
 hidden: false
