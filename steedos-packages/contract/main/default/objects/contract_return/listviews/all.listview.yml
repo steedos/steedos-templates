@@ -1,26 +1,38 @@
 name: all
 columns:
   - field: name
-  - field: date
-  - field: amount
   - field: contract
-  - field: remark
-  - field: created_by
-  - field: created
+  - field: number
+  - field: customer
+  - field: customer_name
+  - field: phone
+  - field: bank
+  - field: account
+  - field: tax_id
+  - field: date
+  - field: mode
+  - field: amount
 crud_mode: table
 filter_scope: space
 filters: []
+from_code_id: contract_return.all
 is_enable: true
 label: 所有
+mobile_columns: []
+scrolling_mode: standard
 searchable_fields:
   - field: name
   - field: contract
   - field: date
-  - field: amount
-shared: true
+  - field: number
+  - field: type
+  - field: customer
+  - field: mode
 shared_to: space
 sort:
   - field_name: date
     order: desc
   - field_name: created
     order: desc
+sort_no: 100
+type: grid

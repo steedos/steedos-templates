@@ -3,6 +3,6 @@ amis:
   id: 'u:f10a09f74285'
 group: 合同信息
 label: 合同编号
-sort_no: 150
+sort_no: 100
 static: true
 type: text

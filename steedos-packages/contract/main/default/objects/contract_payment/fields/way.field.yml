@@ -1,9 +1,8 @@
-name: mode
+name: way
 amis:
-  id: 'u:98c631943131'
-data_type: text
-group: 回款信息
-label: 回款方式
+  id: 'u:7c1c6ab7f763'
+group: 付款信息
+label: 付款方式
 options:
   - label: 现金
     value: v1
@@ -14,5 +13,5 @@ options:
   - label: 其他
     value: v3
     color: '#f5a623'
-sort_no: 650
+sort_no: 400
 type: select

@@ -1,0 +1,7 @@
+name: phone
+amis:
+  id: 'u:07fd7d520147'
+group: 合同信息
+label: 手机号
+sort_no: 300
+type: text

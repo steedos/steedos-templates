@@ -1,12 +1,14 @@
 name: all
 columns:
   - field: name
-  - field: date
-  - field: amount
   - field: contract
-  - field: remark
-  - field: created_by
-  - field: created
+  - field: number
+  - field: supplier
+  - field: supplier_name
+  - field: phone
+  - field: date
+  - field: way
+  - field: amount
 crud_mode: table
 filter_scope: space
 filters: []
@@ -16,8 +18,9 @@ searchable_fields:
   - field: name
   - field: contract
   - field: date
-  - field: amount
-shared: true
+  - field: number
+  - field: type
+  - field: supplier
 shared_to: space
 sort:
   - field_name: date

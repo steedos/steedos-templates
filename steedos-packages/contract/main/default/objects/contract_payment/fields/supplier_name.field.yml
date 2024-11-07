@@ -1,0 +1,7 @@
+name: supplier_name
+amis:
+  id: 'u:1d4972f7e0be'
+group: 合同信息
+label: 姓名
+sort_no: 250
+type: text

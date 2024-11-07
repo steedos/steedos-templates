@@ -1,0 +1,14 @@
+name: supplier
+amis:
+  id: 'u:b5cec407935d'
+auto_fill_mapping:
+  - from: fcafy1
+    to: supplier_name
+  - from: phone
+    to: phone
+filters: []
+group: 合同信息
+label: 供应商信息
+reference_to: contract_counterparty
+sort_no: 200
+type: lookup
