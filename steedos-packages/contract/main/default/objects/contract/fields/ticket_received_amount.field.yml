@@ -1,0 +1,12 @@
+name: ticket_received_amount
+amis: {}
+data_type: currency
+group: 发票记录
+label: 已收票金额
+precision: 18
+scale: 2
+sort_no: 1450
+summary_field: ticket_amount
+summary_object: contract_invoice
+summary_type: sum
+type: summary

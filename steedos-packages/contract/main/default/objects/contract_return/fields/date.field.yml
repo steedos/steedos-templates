@@ -2,7 +2,7 @@ name: date
 amis:
   id: 'u:bc6d36d821ed'
 group: 通用
-label: 收款日期
+label: 回款日期
 required: true
 sort_no: 150
 type: date

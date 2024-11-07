@@ -8,7 +8,7 @@ filters: []
 formula: 'HTSK-{000}'
 group: 通用
 index: true
-label: 收款编号
+label: 回款编号
 required: true
 searchable: true
 sort_no: 50

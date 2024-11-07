@@ -2,11 +2,10 @@ name: 'no'
 amis:
   id: 'u:0cb33147c9c6'
 filterable: true
-formula: >+
-  IF(ISPICKVAL( cash_flow_type , "receive"), "SKHT", "FKHT") & "-" &
-  "{YYYY}{000}"
+formula: |+
+  HT_{YY}{MM}{DD}-{000}
 
-group: 通用
+group: 合同信息
 hidden: false
 index: false
 is_name: false
@@ -15,6 +14,6 @@ label: 合同编号
 readonly: true
 required: false
 searchable: true
-sort_no: 100
+sort_no: 300
 sortable: true
 type: autonumber

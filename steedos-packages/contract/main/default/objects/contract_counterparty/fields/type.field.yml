@@ -1,0 +1,12 @@
+name: type
+amis:
+  id: 'u:b8217de3bcd5'
+group: 通用
+label: 相对方类型
+options:
+  - label: 客户
+    value: customer
+  - label: 供应商
+    value: suppilier
+sort_no: 50
+type: select

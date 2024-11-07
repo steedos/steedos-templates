@@ -2,13 +2,13 @@ name: receive_amount
 amis: {}
 data_type: currency
 filters: []
-group: 收付款情况
-label: 收款金额
+group: 回款记录
+label: 已回款金额
 precision: 18
 scale: 2
-sort_no: 950
+sort_no: 1150
 summary_field: amount
 summary_object: contract_return
 summary_type: sum
 type: summary
-visible_on: '${record.cash_flow_type == ''receive''}'
+visible_on: ''

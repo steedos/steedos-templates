@@ -1,0 +1,7 @@
+name: fcafy1
+amis:
+  id: 'u:dac8f1f35cc0'
+group: 通用
+label: 姓名
+sort_no: 150
+type: text

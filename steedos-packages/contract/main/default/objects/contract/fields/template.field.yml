@@ -1,0 +1,7 @@
+name: template
+amis:
+  id: 'u:6603bd05d170'
+group: 合同内容
+label: 模版
+sort_no: 150
+type: file

@@ -1,0 +1,12 @@
+name: name
+amis:
+  id: 'u:2d2bc41f86cb'
+filterable: true
+group: 通用
+index: true
+is_wide: true
+label: 计划标签
+required: true
+searchable: true
+sort_no: 400
+type: text

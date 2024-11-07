@@ -1,0 +1,7 @@
+name: tax_id
+amis:
+  id: 'u:a368afd8efb2'
+group: 通用
+label: 税号
+sort_no: 350
+type: text

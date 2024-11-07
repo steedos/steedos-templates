@@ -1,8 +1,10 @@
 name: modified
+amis:
+  id: 'u:5b1555cea206'
 disabled: true
-group: ''
+group: 通用
 label: 修改时间
 readonly: true
-sort_no: 9999
+sort_no: 850
 sortable: true
 type: datetime

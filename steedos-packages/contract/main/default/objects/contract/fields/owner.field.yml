@@ -8,6 +8,6 @@ index: true
 inlineHelpText: ''
 label: 我方负责人
 required: true
-sort_no: 500
+sort_no: 600
 sortable: true
 visible_on: ''

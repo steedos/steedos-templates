@@ -3,14 +3,14 @@ amis:
   id: 'u:c86b76880c7a'
 description: ''
 enable_thousands: true
-group: 通用
+group: 系统信息
 hidden: false
 index: true
 inlineHelpText: ''
 label: 所属分部
 multiple: true
 reference_to: company
-sort_no: 400
+sort_no: 1750
 sortable: true
 type: lookup
 visible_on: '{{false}}'

@@ -1,0 +1,7 @@
+name: household
+amis:
+  id: 'u:5ae0aea085b7'
+group: 通用
+label: 户行
+sort_no: 250
+type: text

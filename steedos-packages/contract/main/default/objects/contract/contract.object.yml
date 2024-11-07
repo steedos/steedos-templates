@@ -1,12 +1,5 @@
 name: contract
-compactLayouts:
-  - 'no'
-  - cash_flow_type
-  - implementation
-  - contract_counterparty_contact
-  - owner
-  - amount
-  - release
+compactLayouts: []
 custom: true
 enable_api: true
 enable_audit: true
@@ -23,10 +16,14 @@ enable_tasks: false
 enable_trash: true
 enable_workflow: true
 field_groups:
-  - group_name: 通用
+  - group_name: 合同内容
   - group_name: 合同信息
-  - group_name: 收付款情况
+  - group_name: 签约信息
+  - group_name: 归档信息
     collapsed: false
+  - group_name: 回款记录
+  - group_name: 付款记录
+  - group_name: 发票记录
   - group_name: 系统信息
     collapsed: true
 icon: contract

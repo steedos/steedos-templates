@@ -1,0 +1,11 @@
+name: need_invoice_amount
+amis: {}
+data_type: currency
+formula: '${amount}-${invoice_amount}'
+formula_blank_value: zeroes
+group: 发票记录
+label: 待开票金额
+precision: 18
+scale: 2
+sort_no: 1400
+type: formula

@@ -1,0 +1,7 @@
+name: phone
+amis:
+  id: 'u:946f84034666'
+group: 通用
+label: 手机
+sort_no: 200
+type: text

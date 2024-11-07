@@ -1,0 +1,8 @@
+name: contracting_personnel
+amis:
+  id: 'u:de73164074ff'
+group: 签约信息
+label: 签约人员
+reference_to: users
+sort_no: 950
+type: lookup

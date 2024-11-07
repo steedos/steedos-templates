@@ -18,6 +18,6 @@ field_groups:
   - group_name: 通用
 icon: branch_merge
 is_enable: true
-label: 合同收款
+label: 合同回款
 locked: false
 version: 2

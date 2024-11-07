@@ -4,9 +4,11 @@ amis:
 description: ''
 enable_thousands: true
 group: 通用
+hidden: true
 index: true
 inlineHelpText: ''
 label: 所有者
+omit: true
 sort_no: 300
 sortable: true
 visible_on: '{{false}}'

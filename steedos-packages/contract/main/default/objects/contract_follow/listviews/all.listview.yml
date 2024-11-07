@@ -1,0 +1,13 @@
+name: all
+columns:
+  - field: name
+  - field: created_by
+  - field: created
+crud_mode: table
+filter_scope: space
+filters: []
+label: 所有
+shared_to: space
+sort:
+  - field_name: created
+    order: desc

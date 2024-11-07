@@ -1,0 +1,27 @@
+name: contract
+create: true
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: false
+filters:
+  - - cash_flow_type
+    - '='
+    - pay
+generated: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 付款合同
+multiple: false
+primary: false
+readonly: false
+reference_to: contract
+required: true
+searchable: false
+show_as_qr: false
+sort_no: 150
+static: false
+type: master_detail
+unique: false
+write_requires_master_read: true

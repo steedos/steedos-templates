@@ -1,0 +1,8 @@
+name: select_contract_template
+amis:
+  id: 'u:ebe03f95d439'
+group: 合同内容
+label: 选择合同模版
+reference_to: contract_template
+sort_no: 100
+type: lookup

@@ -7,6 +7,7 @@ filters: []
 is_enable: true
 label: 所有
 searchable_fields: []
+shared: true
 shared_to: space
 sort:
   - field_name: created

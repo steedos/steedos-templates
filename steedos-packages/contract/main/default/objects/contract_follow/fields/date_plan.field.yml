@@ -1,0 +1,7 @@
+name: date_plan
+amis:
+  id: 'u:e409ef5304b4'
+group: 通用
+label: 计划日期
+sort_no: 100
+type: date

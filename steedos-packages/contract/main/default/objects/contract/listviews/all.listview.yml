@@ -36,6 +36,7 @@ searchable_fields:
   - field: contract_counterparty
   - field: owner
   - field: signed_date
+shared: true
 shared_to: space
 show_count: false
 sort:

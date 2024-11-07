@@ -9,7 +9,7 @@ inlineHelpText: ''
 label: 我方公司
 reference_to: company
 required: true
-sort_no: 450
+sort_no: 500
 sortable: true
 type: lookup
 visible_on: ''

@@ -1,10 +1,13 @@
 name: signed_date
 amis:
   id: 'u:98a093736c10'
+description: ''
+enable_thousands: true
 filterable: true
 group: 合同信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 签订日期
@@ -12,7 +15,7 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 700
+sort_no: 750
 sortable: true
 type: date
 visible_on: ''

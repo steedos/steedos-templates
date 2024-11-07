@@ -21,6 +21,7 @@ searchable_fields:
   - field: date
   - field: amount
   - field: owner
+shared: true
 shared_to: space
 sort:
   - field_name: date

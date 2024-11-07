@@ -17,6 +17,7 @@ searchable_fields:
   - field: contract
   - field: date
   - field: amount
+shared: true
 shared_to: space
 sort:
   - field_name: date

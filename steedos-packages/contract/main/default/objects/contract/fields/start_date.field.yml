@@ -7,11 +7,11 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 合同开始日期
+label: 生效日期
 omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 750
+sort_no: 400
 sortable: false
 type: date

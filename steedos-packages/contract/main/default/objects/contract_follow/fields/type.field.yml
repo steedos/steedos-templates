@@ -1,0 +1,10 @@
+name: type
+amis:
+  id: 'u:a37be02d8553'
+description: |-
+  合同在有效期内为“一般事项”，合同超过有效期为“续签事项”
+  IF(SEARCH("合同即将到期",事项)==0,'一般事项','续签事项')
+group: 通用
+label: 事项类型判断
+sort_no: 200
+type: text

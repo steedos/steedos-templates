@@ -18,6 +18,6 @@ field_groups:
   - group_name: 通用
 icon: answer_public
 is_enable: true
-label: 收/付款计划
+label: 回/付款计划
 locked: false
 version: 2

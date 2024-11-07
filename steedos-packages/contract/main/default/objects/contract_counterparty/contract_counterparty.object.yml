@@ -15,10 +15,9 @@ enable_tasks: false
 enable_tree: false
 enable_workflow: true
 field_groups:
-  - group_name: 系统信息
-    collapsed: true
+  - group_name: 通用
 icon: channel_program_members
 is_enable: true
-label: 相对方
+label: 客户及供应商清单
 locked: false
 version: 2

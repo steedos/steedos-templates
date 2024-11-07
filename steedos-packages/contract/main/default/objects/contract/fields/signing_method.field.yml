@@ -1,0 +1,15 @@
+name: signing_method
+amis:
+  id: 'u:dcbecfbbff9d'
+data_type: text
+group: 签约信息
+label: 签订方式
+options:
+  - label: 面签
+    value: face
+  - label: 物流签
+    value: logistics
+  - label: 电子签
+    value: electronic
+sort_no: 900
+type: select

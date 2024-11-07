@@ -1,0 +1,9 @@
+name: amount
+amis:
+  id: 'u:7c91bb50a9e7'
+group: 通用
+label: 发票金额
+precision: 18
+scale: 2
+sort_no: 250
+type: currency

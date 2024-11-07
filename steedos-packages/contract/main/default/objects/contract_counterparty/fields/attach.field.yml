@@ -1,0 +1,8 @@
+name: attach
+amis:
+  id: 'u:19c3760a1d52'
+description: 可以上传其他信息
+group: 通用
+label: 附件
+sort_no: 400
+type: file

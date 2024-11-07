@@ -1,24 +1,24 @@
 name: appendix
 amis:
-  id: 'u:b5d6d1313b53'
+  id: 'u:53024c4b005e'
 create: true
 enable_enhanced_lookup: true
 enable_thousands: true
 filterable: false
 generated: false
-group: 合同信息
+group: 归档信息
 hidden: false
 index: false
 is_name: false
-is_wide: true
-label: 合同附件
+is_wide: false
+label: 已签合同附件
 multiple: true
 primary: false
 readonly: false
 required: false
 searchable: false
 show_as_qr: false
-sort_no: 850
+sort_no: 1100
 static: false
 type: file
 unique: false

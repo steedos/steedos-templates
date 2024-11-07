@@ -1,8 +1,8 @@
 name: implementation
 amis:
-  id: 'u:2aff1b668585'
+  id: 'u:81c634abb45e'
 data_type: text
-group: 通用
+group: 合同信息
 label: 执行情况
 options:
   - label: 执行中
@@ -25,5 +25,5 @@ options:
     value: v5
     description: 续签了新的合同
     color: '#8b572a'
-sort_no: 250
+sort_no: 700
 type: select

@@ -1,0 +1,9 @@
+name: to_be_signed
+amis:
+  id: 'u:c2432ad6fa0a'
+description: 此处上传为签约合同草件，附件可上传word文档、合同实拍图片、扫描件、截图等
+group: 合同内容
+label: 待签约合同附件上传
+required: false
+sort_no: 200
+type: file

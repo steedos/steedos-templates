@@ -1,11 +1,11 @@
 name: instance_state
 amis:
-  id: 'u:231c620c10d2'
+  id: 'u:a84c62c5175a'
 description: ''
 enable_thousands: true
-group: 通用
+group: 系统信息
 inlineHelpText: ''
-label: 审批状态
+label: 申请单审批状态
 options:
   - label: 草稿
     value: draft
@@ -20,6 +20,6 @@ options:
   - label: 已取消
     value: terminated
 readonly: true
-sort_no: 300
+sort_no: 1800
 type: select
-visible_on: ''
+visible_on: '{{false}}'

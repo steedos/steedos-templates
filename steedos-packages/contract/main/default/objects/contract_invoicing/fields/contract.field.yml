@@ -6,7 +6,7 @@ filters:
     - '='
     - receive
 group: 通用
-label: 收款合同
+label: 回款合同
 reference_to: contract
 required: true
 sort_no: 100

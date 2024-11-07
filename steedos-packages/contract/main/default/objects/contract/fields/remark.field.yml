@@ -1,10 +1,13 @@
 name: remark
 amis:
   id: 'u:6b32af917963'
+description: ''
+enable_thousands: true
 filterable: false
 group: 合同信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: true
 label: 备注
@@ -13,6 +16,6 @@ readonly: false
 required: false
 rows: 2
 searchable: false
-sort_no: 900
+sort_no: 800
 sortable: false
 type: textarea
