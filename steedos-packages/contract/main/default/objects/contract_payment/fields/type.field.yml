@@ -1,0 +1,16 @@
+name: type
+amis:
+  id: 'u:47ef3ac7e9c9'
+data_type: text
+group: 合同信息
+label: 合同类型
+options:
+  - label: 标准合同
+    value: standard
+  - label: 非标准合同
+    value: non-standard
+  - label: 虚拟合同
+    value: virtual
+sort_no: 200
+static: true
+type: select

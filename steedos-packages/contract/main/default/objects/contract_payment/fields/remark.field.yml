@@ -1,9 +1,0 @@
-name: remark
-amis:
-  id: 'u:fe8f9cfd4887'
-group: 通用
-is_wide: true
-label: 付款说明
-rows: 3
-sort_no: 250
-type: textarea

@@ -11,3 +11,5 @@ omit: true
 sort_no: 250
 sortable: true
 visible_on: ''
+enable_thousands: true
+required: true
