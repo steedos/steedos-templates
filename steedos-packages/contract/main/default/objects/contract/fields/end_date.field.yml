@@ -7,7 +7,7 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 有效天至
+label: 有效期至
 omit: false
 readonly: false
 required: false

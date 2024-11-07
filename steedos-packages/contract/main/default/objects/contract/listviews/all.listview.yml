@@ -2,17 +2,21 @@ name: all
 columns:
   - field: name
   - field: 'no'
-  - field: cash_flow_type
   - field: implementation
-  - field: contract_counterparty
-  - field: contract_counterparty_contact
-  - field: company_id
-  - field: owner
+  - field: cash_flow_type
   - field: amount
-  - field: signed_date
   - field: start_date
   - field: end_date
-  - field: remark
+  - field: contract_counterparty
+  - field: signing_date
+  - field: signing_method
+  - field: contracting_personnel
+  - field: appendix
+  - field: type
+  - field: need_receive_amount
+  - field: need_pay_amount
+  - field: need_invoice_amount
+  - field: need_ticket_received_amount
 filter_scope: space
 filters: []
 from_code_id: contracts.all
@@ -22,7 +26,6 @@ mobile_columns:
   - field: name
   - field: 'no'
   - field: implementation
-  - field: company_id
   - field: contract_counterparty
   - field: amount
 scrolling_mode: standard
@@ -36,7 +39,6 @@ searchable_fields:
   - field: contract_counterparty
   - field: owner
   - field: signed_date
-shared: true
 shared_to: space
 show_count: false
 sort:

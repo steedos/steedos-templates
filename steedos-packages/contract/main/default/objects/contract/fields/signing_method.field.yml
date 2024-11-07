@@ -3,7 +3,7 @@ amis:
   id: 'u:dcbecfbbff9d'
 data_type: text
 group: 签约信息
-label: 签订方式
+label: 签约方式
 options:
   - label: 面签
     value: face
