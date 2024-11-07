@@ -32,7 +32,7 @@ defaultValueVariables:
           - label: 是否是工作区管理员
             value: 'global[''user''][''is_space_admin'']'
 description: 查看合同看板，管理合同及其收付款，发起和处理合同相关流程。
-icon_slds: contract
+icon_slds: customer_portal_users
 is_creator: true
 is_new_window: false
 is_use_ie: false
