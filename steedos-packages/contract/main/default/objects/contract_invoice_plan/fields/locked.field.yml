@@ -6,6 +6,6 @@ group: 通用
 hidden: false
 inlineHelpText: ''
 label: 已锁定
-sort_no: 450
+sort_no: 500
 type: boolean
 visible_on: '{{false}}'

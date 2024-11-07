@@ -1,6 +1,10 @@
 name: contract
 amis:
   id: 'u:c2193f012792'
+auto_fill_mapping:
+  - from: 'no'
+    to: number
+filters: []
 group: 通用
 label: 合同
 reference_to: contract

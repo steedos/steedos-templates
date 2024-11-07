@@ -1,0 +1,8 @@
+name: number
+amis:
+  id: 'u:8c37c0093161'
+group: 通用
+label: 合同编号
+sort_no: 100
+static: true
+type: text

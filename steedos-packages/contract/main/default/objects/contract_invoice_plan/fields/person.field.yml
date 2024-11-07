@@ -4,5 +4,5 @@ amis:
 group: 通用
 label: 负责人
 reference_to: users
-sort_no: 300
+sort_no: 350
 type: lookup

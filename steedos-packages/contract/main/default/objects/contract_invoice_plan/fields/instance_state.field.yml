@@ -19,6 +19,6 @@ options:
   - label: 已取消
     value: terminated
 readonly: true
-sort_no: 600
+sort_no: 650
 type: select
 visible_on: '{{false}}'

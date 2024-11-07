@@ -5,5 +5,5 @@ group: 通用
 label: 创建人
 readonly: true
 reference_to: users
-sort_no: 700
+sort_no: 750
 type: lookup

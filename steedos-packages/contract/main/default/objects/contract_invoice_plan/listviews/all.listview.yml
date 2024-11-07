@@ -1,13 +1,24 @@
 name: all
 columns:
+  - field: contract
+  - field: number
   - field: name
-  - field: created_by
-  - field: created
+  - field: invoice
+  - field: date_plan
+  - field: amount
+  - field: person
 crud_mode: table
 filter_scope: space
 filters: []
+is_enable: true
 label: 所有
-shared: true
+searchable_fields:
+  - field: contract
+  - field: number
+  - field: invoice
+  - field: amount
+  - field: person
+  - field: amount_type
 shared_to: space
 sort:
   - field_name: created
