@@ -1,0 +1,11 @@
+name: name
+amis:
+  id: 'u:106f6d4363da'
+filterable: true
+group: 通用
+index: true
+label: 单位名称
+required: true
+searchable: true
+sort_no: 50
+type: text

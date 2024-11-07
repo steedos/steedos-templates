@@ -1,0 +1,7 @@
+name: account
+amis:
+  id: 'u:344346c2b4c3'
+group: 通用
+label: 账号
+sort_no: 200
+type: text

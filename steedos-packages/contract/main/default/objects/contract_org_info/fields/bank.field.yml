@@ -1,0 +1,7 @@
+name: bank
+amis:
+  id: 'u:eb6d26376f85'
+group: 通用
+label: 开户行
+sort_no: 150
+type: text

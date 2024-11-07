@@ -1,0 +1,24 @@
+name: all
+columns:
+  - field: name
+  - field: tax_id
+  - field: bank
+  - field: account
+  - field: account_name
+  - field: created_by
+  - field: created
+crud_mode: table
+filter_scope: space
+filters: []
+is_enable: true
+label: 所有
+searchable_fields:
+  - field: name
+  - field: tax_id
+  - field: bank
+  - field: account
+  - field: account_name
+shared_to: space
+sort:
+  - field_name: created
+    order: desc
