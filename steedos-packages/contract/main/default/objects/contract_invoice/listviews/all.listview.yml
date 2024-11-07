@@ -1,13 +1,25 @@
 name: all
 columns:
   - field: name
-  - field: created_by
-  - field: created
+  - field: contract
+  - field: number
+  - field: date
+  - field: company
+  - field: fq0r4i
+  - field: ticket_amount
 crud_mode: table
 filter_scope: space
 filters: []
+is_enable: true
 label: 所有
-shared: true
+searchable_fields:
+  - field: contract
+  - field: name
+  - field: number
+  - field: date
+  - field: company
+  - field: fq0r4i
+  - field: ticket_amount
 shared_to: space
 sort:
   - field_name: created

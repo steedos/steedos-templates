@@ -1,8 +1,12 @@
 name: name
+amis:
+  id: 'u:257603816d41'
 filterable: true
+formula: 'HTSP-{000}'
+group: 通用
 index: true
-label: 名称
+label: 收票编号
 required: true
 searchable: true
-sort_no: 10
-type: text
+sort_no: 100
+type: autonumber

@@ -1,0 +1,14 @@
+name: fq0r4i
+amis:
+  id: 'u:84b5b43504af'
+group: 通用
+label: 收票类型
+options:
+  - label: 增值税普通发票
+    value: v1
+  - label: 增值税专用发票
+    value: v2
+  - label: 增值税电子普通发票
+    value: v3
+sort_no: 300
+type: select

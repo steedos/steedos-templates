@@ -1,0 +1,7 @@
+name: date
+amis:
+  id: 'u:f1b8443f126f'
+group: 通用
+label: 收票日期
+sort_no: 200
+type: date

@@ -1,0 +1,8 @@
+name: company
+amis:
+  id: 'u:9c375c02014a'
+group: 通用
+label: 收票单位
+reference_to: contract_org_info
+sort_no: 250
+type: lookup

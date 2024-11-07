@@ -1,9 +1,12 @@
 name: ticket_amount
+amis:
+  id: 'u:91f0c054edf7'
 create: true
 enable_enhanced_lookup: true
 enable_thousands: true
 filterable: false
 generated: false
+group: 通用
 hidden: false
 index: false
 is_name: false
@@ -13,11 +16,11 @@ multiple: false
 precision: 18
 primary: false
 readonly: false
-required: true
+required: false
 scale: 2
 searchable: false
 show_as_qr: false
-sort_no: 160
+sort_no: 350
 sortable: true
 static: false
 type: currency
