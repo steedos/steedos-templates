@@ -4,8 +4,8 @@ columns:
   - field: contract
   - field: number
   - field: supplier
-  - field: supplier_name
-  - field: phone
+  - field: bank
+  - field: account
   - field: date
   - field: way
   - field: amount

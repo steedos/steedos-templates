@@ -1,8 +1,11 @@
 name: date
 amis:
   id: 'u:cc739d30d95f'
+description: ''
+enable_thousands: true
 group: 付款信息
+inlineHelpText: ''
 label: 付款日期
 required: false
-sort_no: 350
+sort_no: 400
 type: date

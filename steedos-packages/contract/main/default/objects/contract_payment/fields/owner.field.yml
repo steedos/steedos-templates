@@ -9,6 +9,6 @@ index: true
 inlineHelpText: ''
 label: 所有者
 omit: true
-sort_no: 550
+sort_no: 600
 sortable: true
 visible_on: '{{false}}'

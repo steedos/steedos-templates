@@ -6,9 +6,12 @@ auto_fill_mapping:
     to: supplier_name
   - from: phone
     to: phone
+description: ''
+enable_thousands: true
 filters: []
 group: 合同信息
+inlineHelpText: ''
 label: 供应商信息
 reference_to: contract_counterparty
-sort_no: 200
+sort_no: 150
 type: lookup

@@ -1,10 +1,13 @@
 name: amount
 amis:
   id: 'u:ac538fdad5fd'
+description: ''
+enable_thousands: true
 group: 付款信息
+inlineHelpText: ''
 label: 付款金额
 precision: 18
 required: false
 scale: 2
-sort_no: 450
+sort_no: 500
 type: currency

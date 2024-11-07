@@ -1,7 +1,10 @@
 name: number
 amis:
   id: 'u:f10a09f74285'
+description: ''
+enable_thousands: true
 group: 合同信息
+inlineHelpText: ''
 label: 合同编号
 sort_no: 100
 static: true

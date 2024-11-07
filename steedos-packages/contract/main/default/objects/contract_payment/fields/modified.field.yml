@@ -1,10 +1,14 @@
 name: modified
 amis:
   id: 'u:83dede1d3921'
+description: ''
 disabled: true
+enable_thousands: true
 group: 系统信息
+index: true
+inlineHelpText: ''
 label: 修改时间
 readonly: true
-sort_no: 800
+sort_no: 850
 sortable: true
 type: datetime

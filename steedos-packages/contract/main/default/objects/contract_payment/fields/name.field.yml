@@ -1,13 +1,16 @@
 name: name
 amis:
   id: 'u:28bbb4dd8a2e'
+description: ''
+enable_thousands: true
 filterable: true
 filters: []
 formula: 'HTFK-{000}'
 group: 付款信息
 index: true
+inlineHelpText: ''
 label: 付款编号
 required: true
 searchable: true
-sort_no: 500
+sort_no: 550
 type: autonumber

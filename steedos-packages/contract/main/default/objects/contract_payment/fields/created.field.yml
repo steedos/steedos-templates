@@ -1,10 +1,14 @@
 name: created
 amis:
   id: 'u:c2b47f5955de'
+description: ''
 disabled: true
+enable_thousands: true
 group: 系统信息
+index: true
+inlineHelpText: ''
 label: 创建时间
 readonly: true
-sort_no: 700
+sort_no: 750
 sortable: true
 type: datetime

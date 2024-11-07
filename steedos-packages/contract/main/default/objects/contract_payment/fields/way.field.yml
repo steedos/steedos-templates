@@ -1,7 +1,10 @@
 name: way
 amis:
   id: 'u:7c1c6ab7f763'
+description: ''
+enable_thousands: true
 group: 付款信息
+inlineHelpText: ''
 label: 付款方式
 options:
   - label: 现金
@@ -13,5 +16,5 @@ options:
   - label: 其他
     value: v3
     color: '#f5a623'
-sort_no: 400
+sort_no: 450
 type: select
