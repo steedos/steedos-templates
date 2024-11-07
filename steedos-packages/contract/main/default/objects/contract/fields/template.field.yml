@@ -5,3 +5,4 @@ group: 合同内容
 label: 模版
 sort_no: 150
 type: file
+visible_on: "{{formData.type === 'standard' ? true: false}}"

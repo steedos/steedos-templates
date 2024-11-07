@@ -10,3 +10,4 @@ label: 选择合同模版
 reference_to: contract_template
 sort_no: 100
 type: lookup
+visible_on: "{{formData.type === 'standard' ? true: false}}"
