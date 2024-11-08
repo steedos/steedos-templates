@@ -2,10 +2,6 @@ name: project
 label: Project
 description: 
 fields:
-  account:
-    label: Account
-    help: 
-    description: 
   closed:
     label: Closed
     help: 
@@ -80,10 +76,6 @@ fields:
     description: 
   project_manager:
     label: Project Manager
-    help: 
-    description: 
-  project_program:
-    label: Project Program
     help: 
     description: 
   project_type:

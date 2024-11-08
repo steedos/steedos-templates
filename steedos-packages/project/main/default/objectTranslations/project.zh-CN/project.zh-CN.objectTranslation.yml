@@ -2,10 +2,6 @@ name: project
 label: 项目
 description: 
 fields:
-  account:
-    label: 客户
-    help: 
-    description: 
   closed:
     label: 已关闭
     help: 
@@ -80,10 +76,6 @@ fields:
     description: 
   project_manager:
     label: 项目经理
-    help: 
-    description: 
-  project_program:
-    label: 项目集
     help: 
     description: 
   project_type:
