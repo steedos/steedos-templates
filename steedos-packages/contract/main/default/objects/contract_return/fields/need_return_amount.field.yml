@@ -7,3 +7,4 @@ precision: 18
 scale: 2
 sort_no: 750
 type: currency
+hidden: true

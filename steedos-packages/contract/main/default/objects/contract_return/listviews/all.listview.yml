@@ -9,6 +9,8 @@ columns:
   - field: account
   - field: contract
   - field: number
+  - field: created_by
+  - field: created
 crud_mode: table
 filter_scope: space
 filters: []
