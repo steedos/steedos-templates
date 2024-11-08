@@ -23,12 +23,6 @@ dataset_query:
         - project.project_manager
         - null
       - - field
-        - project.account
-        - null
-      - - field
-        - project.project_program
-        - null
-      - - field
         - project.kickoff
         - null
       - - field
@@ -193,20 +187,6 @@ result_metadata:
     visibility_type: normal
     table_id: project
     remapped_to: external_project_manager
-  - id: project.account
-    name: account
-    display_name: 客户
-    base_type: type/Text
-    effective_type: type/Text
-    semantic_type: type/FK
-    field_ref:
-      - field
-      - project.account
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: project
-    remapped_to: external_account
   - id: project.project_amount
     name: project_amount
     display_name: 项目金额
@@ -689,25 +669,6 @@ result_metadata:
     display_name: 项目经理
   - description: null
     semantic_type: type/Name
-    table_id: accounts
-    coercion_strategy: null
-    name: external_account
-    settings: null
-    source: fields
-    remapped_from: account
-    fk_field_id: account
-    field_ref:
-      - field
-      - accounts.name
-      - source-field: project.account
-    effective_type: type/Text
-    nfc_path: null
-    parent_id: null
-    id: accounts.name
-    visibility_type: normal
-    display_name: 客户
-  - description: null
-    semantic_type: type/Name
     table_id: contracts
     coercion_strategy: null
     name: external_contract
@@ -823,4 +784,4 @@ result_metadata:
 table_id: project
 updated_at: 2023-11-24T02:34:17.888Z
 visualization_settings: >-
-  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","project.name",null],"enabled":true},{"name":"project_code","fieldRef":["field","project.project_code",null],"enabled":true},{"name":"project_type","fieldRef":["field","project.project_type",null],"enabled":true},{"name":"status","fieldRef":["field","project.status",null],"enabled":true},{"name":"project_manager","fieldRef":["field","project.project_manager",null],"enabled":true},{"name":"account","fieldRef":["field","project.account",null],"enabled":true},{"name":"project_amount","fieldRef":["field","project.project_amount",null],"enabled":false},{"name":"contract","fieldRef":["field","project.contract",null],"enabled":false},{"name":"project_program","fieldRef":["field","project.project_program",null],"enabled":true},{"name":"kickoff","fieldRef":["field","project.kickoff",null],"enabled":true},{"name":"deadline","fieldRef":["field","project.deadline",null],"enabled":true},{"name":"project_cost_budget","fieldRef":["field","project.project_cost_budget",null],"enabled":true},{"name":"project_labor_budget","fieldRef":["field","project.project_labor_budget",null],"enabled":true},{"name":"contracts_all_income","fieldRef":["field","project.contracts_all_income",null],"enabled":false},{"name":"project_labor","fieldRef":["field","project.project_labor",null],"enabled":true},{"name":"contracts_received_income","fieldRef":["field","project.contracts_received_income",null],"enabled":true},{"name":"project_labor_balance","fieldRef":["field","project.project_labor_balance",null],"enabled":true},{"name":"contracts_waiting_income","fieldRef":["field","project.contracts_waiting_income",null],"enabled":true},{"name":"contracts_made_invoice","fieldRef":["field","project.contracts_made_invoice",null],"enabled":true},{"name":"contracts_all_pay","fieldRef":["field","project.contracts_all_pay",null],"enabled":true},{"name":"contracts_paid_pay","fieldRef":["field","project.contracts_paid_pay",null],"enabled":true},{"name":"contracts_waiting_pay","fieldRef":["field","project.contracts_waiting_pay",null],"enabled":true},{"name":"contracts_received_invoice","fieldRef":["field","project.contracts_received_invoice",null],"enabled":true},{"name":"open_tasks","fieldRef":["field","project.open_tasks",null],"enabled":true},{"name":"open_issues","fieldRef":["field","project.open_issues",null],"enabled":true},{"name":"internal","fieldRef":["field","project.internal",null],"enabled":false},{"name":"closed","fieldRef":["field","project.closed",null],"enabled":false},{"name":"count_milestones","fieldRef":["field","project.count_milestones",null],"enabled":true},{"name":"others","fieldRef":["field","project.others",null],"enabled":false},{"name":"count_milestones_ok","fieldRef":["field","project.count_milestones_ok",null],"enabled":true},{"name":"workload_days","fieldRef":["field","project.workload_days",null],"enabled":true},{"name":"description","fieldRef":["field","project.description",null],"enabled":false},{"name":"owner","fieldRef":["field","project.owner",null],"enabled":false},{"name":"locked","fieldRef":["field","project.locked",null],"enabled":false},{"name":"company_id","fieldRef":["field","project.company_id",null],"enabled":true},{"name":"company_ids","fieldRef":["field","project.company_ids",null],"enabled":false},{"name":"instance_state","fieldRef":["field","project.instance_state",null],"enabled":false},{"name":"created","fieldRef":["field","project.created",null],"enabled":false},{"name":"created_by","fieldRef":["field","project.created_by",null],"enabled":false},{"name":"modified","fieldRef":["field","project.modified",null],"enabled":false},{"name":"modified_by","fieldRef":["field","project.modified_by",null],"enabled":false}],"table.pivot_column":"project_manager","table.cell_column":"project_amount"}
+  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","project.name",null],"enabled":true},{"name":"project_code","fieldRef":["field","project.project_code",null],"enabled":true},{"name":"project_type","fieldRef":["field","project.project_type",null],"enabled":true},{"name":"status","fieldRef":["field","project.status",null],"enabled":true},{"name":"project_manager","fieldRef":["field","project.project_manager",null],"enabled":true},{"name":"project_amount","fieldRef":["field","project.project_amount",null],"enabled":false},{"name":"contract","fieldRef":["field","project.contract",null],"enabled":false},{"name":"project_program","fieldRef":["field","project.project_program",null],"enabled":true},{"name":"kickoff","fieldRef":["field","project.kickoff",null],"enabled":true},{"name":"deadline","fieldRef":["field","project.deadline",null],"enabled":true},{"name":"project_cost_budget","fieldRef":["field","project.project_cost_budget",null],"enabled":true},{"name":"project_labor_budget","fieldRef":["field","project.project_labor_budget",null],"enabled":true},{"name":"contracts_all_income","fieldRef":["field","project.contracts_all_income",null],"enabled":false},{"name":"project_labor","fieldRef":["field","project.project_labor",null],"enabled":true},{"name":"contracts_received_income","fieldRef":["field","project.contracts_received_income",null],"enabled":true},{"name":"project_labor_balance","fieldRef":["field","project.project_labor_balance",null],"enabled":true},{"name":"contracts_waiting_income","fieldRef":["field","project.contracts_waiting_income",null],"enabled":true},{"name":"contracts_made_invoice","fieldRef":["field","project.contracts_made_invoice",null],"enabled":true},{"name":"contracts_all_pay","fieldRef":["field","project.contracts_all_pay",null],"enabled":true},{"name":"contracts_paid_pay","fieldRef":["field","project.contracts_paid_pay",null],"enabled":true},{"name":"contracts_waiting_pay","fieldRef":["field","project.contracts_waiting_pay",null],"enabled":true},{"name":"contracts_received_invoice","fieldRef":["field","project.contracts_received_invoice",null],"enabled":true},{"name":"open_tasks","fieldRef":["field","project.open_tasks",null],"enabled":true},{"name":"open_issues","fieldRef":["field","project.open_issues",null],"enabled":true},{"name":"internal","fieldRef":["field","project.internal",null],"enabled":false},{"name":"closed","fieldRef":["field","project.closed",null],"enabled":false},{"name":"count_milestones","fieldRef":["field","project.count_milestones",null],"enabled":true},{"name":"others","fieldRef":["field","project.others",null],"enabled":false},{"name":"count_milestones_ok","fieldRef":["field","project.count_milestones_ok",null],"enabled":true},{"name":"workload_days","fieldRef":["field","project.workload_days",null],"enabled":true},{"name":"description","fieldRef":["field","project.description",null],"enabled":false},{"name":"owner","fieldRef":["field","project.owner",null],"enabled":false},{"name":"locked","fieldRef":["field","project.locked",null],"enabled":false},{"name":"company_id","fieldRef":["field","project.company_id",null],"enabled":true},{"name":"company_ids","fieldRef":["field","project.company_ids",null],"enabled":false},{"name":"instance_state","fieldRef":["field","project.instance_state",null],"enabled":false},{"name":"created","fieldRef":["field","project.created",null],"enabled":false},{"name":"created_by","fieldRef":["field","project.created_by",null],"enabled":false},{"name":"modified","fieldRef":["field","project.modified",null],"enabled":false},{"name":"modified_by","fieldRef":["field","project.modified_by",null],"enabled":false}],"table.pivot_column":"project_manager","table.cell_column":"project_amount"}

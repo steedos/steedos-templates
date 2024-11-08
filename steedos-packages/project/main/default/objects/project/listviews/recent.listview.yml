@@ -11,8 +11,6 @@ columns:
   - field: deadline
     width: '150'
     wrap: false
-  - field: account
-    wrap: false
   - field: open_tasks_it
     width: '100'
     wrap: false
@@ -26,7 +24,6 @@ columns:
     wrap: false
 filter_fields:
   - internal
-  - account
   - contract
   - status
   - project_manager
@@ -46,8 +43,6 @@ searchable_fields:
   - field: project_type
   - field: status
   - field: project_manager
-  - field: account
-  - field: project_program
   - field: kickoff
   - field: deadline
   - field: others
