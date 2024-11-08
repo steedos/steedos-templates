@@ -2,6 +2,6 @@ name: customer_name
 amis:
   id: 'u:7a462397b366'
 group: 合同信息
-label: 姓名
+label: 联系人
 sort_no: 600
 type: text
