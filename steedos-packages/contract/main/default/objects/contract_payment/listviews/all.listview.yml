@@ -1,14 +1,16 @@
 name: all
 columns:
   - field: name
-  - field: contract
-  - field: number
   - field: supplier
-  - field: bank
-  - field: account
   - field: date
   - field: way
   - field: amount
+  - field: bank
+  - field: account
+  - field: contract
+  - field: number
+  - field: created_by
+  - field: created
 crud_mode: table
 filter_scope: space
 filters: []
