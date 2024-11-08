@@ -10,6 +10,7 @@ enable_inline_edit: true
 enable_instances: false
 enable_lock_detail: true
 enable_notes: false
+enable_share: false
 enable_split: false
 enable_tasks: false
 enable_tree: false
@@ -19,8 +20,9 @@ field_groups:
   - group_name: 付款信息
   - group_name: 系统信息
     collapsed: true
-icon: store_group
+icon: call_history
 is_enable: true
+is_system: true
 label: 合同付款
 locked: false
 version: 2

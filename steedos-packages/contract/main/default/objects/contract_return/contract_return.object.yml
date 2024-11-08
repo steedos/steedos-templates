@@ -18,7 +18,7 @@ field_groups:
   - group_name: 通用
   - group_name: 回款信息
   - group_name: 系统信息
-icon: recent
+icon: app
 is_enable: true
 is_system: true
 label: 合同回款

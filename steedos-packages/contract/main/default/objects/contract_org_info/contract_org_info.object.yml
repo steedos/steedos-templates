@@ -16,7 +16,7 @@ enable_tree: false
 enable_workflow: true
 field_groups:
   - group_name: 通用
-icon: individual
+icon: user_role
 is_enable: true
 label: 机构单位信息
 locked: false

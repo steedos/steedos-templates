@@ -15,7 +15,7 @@ enable_tree: false
 enable_workflow: true
 field_groups:
   - group_name: 通用
-icon: employee_job
+icon: location
 is_enable: true
 is_system: true
 label: 客户及供应商清单

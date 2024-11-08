@@ -19,7 +19,7 @@ field_groups:
   - group_name: 开票信息
   - group_name: 邮寄信息
   - group_name: 系统信息
-icon: drafts
+icon: contact_request
 is_enable: true
 label: 合同开票
 locked: false
