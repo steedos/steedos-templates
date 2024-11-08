@@ -1,0 +1,12 @@
+name: contract_kanban
+desktop: true
+icon: kanban
+is_new_window: false
+is_use_iframe: true
+label: 合同汇总概览
+locked: false
+mobile: true
+permissions: []
+type: url
+url: >-
+  /analytics/embed/dashboard/672dab77183671062121e5d9%23titled=false&bordered=false

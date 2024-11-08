@@ -1,0 +1,40 @@
+name: 回款合同总金额
+created_at: 2024-11-08T06:12:27.481Z
+creator_id: 672c613be5b79e069e68d09b
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    aggregation:
+      - - sum
+        - - field
+          - contract.amount
+          - null
+    filter:
+      - '='
+      - - field
+        - contract.cash_flow_type
+        - null
+      - receive
+display: scalar
+enable_embedding: false
+entity_id: 672dabcb183671062121e5db
+id: 672dabcb183671062121e5db
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/Integer
+    display_name: 合同金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+table_id: contract
+updated_at: 2024-11-08T06:12:27.481Z
+visualization_settings: '{"column_settings":{"[\"name\",\"sum\"]":{"suffix":"","prefix":"¥ "}}}'

@@ -1,0 +1,179 @@
+name: 合同汇总概览
+archived: 'false'
+auto_apply_filters: 'true'
+enable_embedding: 'false'
+entity_id: 672dab77183671062121e5d9
+id: 672dab77183671062121e5d9
+parameters: []
+show_in_getting_started: 'false'
+cards:
+  - card_id: 672dab61183671062121e5d8
+    col: 0
+    entity_id: 672dab7f183671062121e5da
+    id: 672dab7f183671062121e5da
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672dab61183671062121e5d8
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dac92183671062121e5df
+    col: 9
+    entity_id: 672dac9a183671062121e5e0
+    id: 672dac9a183671062121e5e0
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672dac92183671062121e5df
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dabcb183671062121e5db
+    col: 3
+    entity_id: 672daeb4183671062121e5e5
+    id: 672daeb4183671062121e5e5
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672dabcb183671062121e5db
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dabfb183671062121e5dd
+    col: 6
+    entity_id: 672daeb4183671062121e5e6
+    id: 672daeb4183671062121e5e6
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672dabfb183671062121e5dd
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dad5f183671062121e5e1
+    col: 12
+    entity_id: 672daeb4183671062121e5e7
+    id: 672daeb4183671062121e5e7
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672dad5f183671062121e5e1
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dad86183671062121e5e3
+    col: 15
+    entity_id: 672daeb4183671062121e5e8
+    id: 672daeb4183671062121e5e8
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672dad86183671062121e5e3
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672db004183671062121e5ef
+    col: 0
+    entity_id: 672db0d3183671062121e5f0
+    id: 672db0d3183671062121e5f0
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672db004183671062121e5ef
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 3
+    series: []
+    size_x: 8
+    size_y: 4
+    visualization_settings: '{}'
+  - card_id: 672db155183671062121e5f1
+    col: 8
+    entity_id: 672db1ab183671062121e5f7
+    id: 672db1ab183671062121e5f7
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672db155183671062121e5f1
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 3
+    series: []
+    size_x: 4
+    size_y: 4
+    visualization_settings: '{}'
+  - card_id: 672db253183671062121e5f8
+    col: 12
+    entity_id: 672db263183671062121e5f9
+    id: 672db263183671062121e5f9
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672db253183671062121e5f8
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 3
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: '"{}"'
+  - card_id: 672db592183671062121e5fa
+    col: 0
+    entity_id: 672db5c1183671062121e5fb
+    id: 672db5c1183671062121e5fb
+    parameter_mappings:
+      - parameter_id: e2fad49d
+        card_id: 672db592183671062121e5fa
+        target:
+          - dimension
+          - - field
+            - contract.signing_date
+            - null
+    row: 7
+    series: []
+    size_x: 18
+    size_y: 5
+    visualization_settings: '"{}"'

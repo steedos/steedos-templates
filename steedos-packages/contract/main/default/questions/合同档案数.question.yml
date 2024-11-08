@@ -1,0 +1,30 @@
+name: 合同档案数
+created_at: 2024-11-08T06:10:41.177Z
+creator_id: 672c613be5b79e069e68d09b
+database_id: 1
+dataset_query:
+  query:
+    source-table: contract
+    aggregation:
+      - - count
+  type: query
+  database: 1
+display: scalar
+entity_id: 672dab61183671062121e5d8
+id: 672dab61183671062121e5d8
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: contract
+updated_at: 2024-11-08T06:10:41.177Z
+visualization_settings: '{"column_settings":{"[\"name\",\"count\"]":{"suffix":"份"}}}'
