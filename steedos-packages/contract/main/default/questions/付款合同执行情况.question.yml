@@ -1,0 +1,127 @@
+name: 付款合同执行情况
+created_at: 2024-11-08T07:39:27.441Z
+creator_id: 672c613be5b79e069e68d09b
+database_id: 1
+dataset_query:
+  query:
+    source-table: contract
+    filter:
+      - '='
+      - - field
+        - contract.cash_flow_type
+        - null
+      - pay
+    aggregation:
+      - - sum
+        - - field
+          - contract.amount
+          - null
+      - - sum
+        - - field
+          - contract.pay_amount
+          - null
+      - - sum
+        - - field
+          - contract.need_pay_amount
+          - null
+      - - sum
+        - - field
+          - contract.ticket_received_amount
+          - null
+      - - sum
+        - - field
+          - contract.need_ticket_received_amount
+          - null
+    breakout:
+      - - field
+        - contract.name
+        - null
+      - - field
+        - contract.no
+        - null
+  type: query
+  database: 1
+display: table
+entity_id: 672dc02f183671062121e610
+id: 672dc02f183671062121e610
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: name
+    name: name
+    unit: null
+    display_name: 合同名称
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: contract
+    field_ref:
+      - field
+      - contract.name
+      - null
+  - id: 'no'
+    name: 'no'
+    unit: null
+    display_name: 合同编号
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: contract
+    field_ref:
+      - field
+      - contract.no
+      - null
+  - base_type: type/Integer
+    display_name: 合同金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+  - base_type: type/Integer
+    display_name: 已付款金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 1
+    name: sum_2
+    semantic_type: null
+    source: aggregation
+  - base_type: type/Integer
+    display_name: 待付款金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 2
+    name: sum_3
+    semantic_type: null
+    source: aggregation
+  - base_type: type/Integer
+    display_name: 已收票金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 3
+    name: sum_4
+    semantic_type: null
+    source: aggregation
+  - base_type: type/Integer
+    display_name: 待收票金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 4
+    name: sum_5
+    semantic_type: null
+    source: aggregation
+table_id: contract
+updated_at: 2024-11-08T07:39:27.441Z
+visualization_settings: >-
+  {"column_settings":{"[\"name\",\"sum\"]":{"column_title":"合同金额"},"[\"name\",\"sum_2\"]":{"column_title":"已付款金额"},"[\"name\",\"sum_3\"]":{"column_title":"待付款金额"},"[\"name\",\"sum_4\"]":{"column_title":"已收票金额"},"[\"name\",\"sum_5\"]":{"column_title":"待收票金额"}},"table.pivot_column":"name","table.cell_column":"sum"}

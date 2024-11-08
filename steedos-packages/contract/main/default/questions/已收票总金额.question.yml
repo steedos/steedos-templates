@@ -1,0 +1,33 @@
+name: 已收票总金额
+created_at: 2024-11-08T08:02:46.274Z
+creator_id: 672c613be5b79e069e68d09b
+database_id: 1
+dataset_query:
+  query:
+    source-table: contract
+    aggregation:
+      - - sum
+        - - field
+          - contract.ticket_received_amount
+          - null
+  type: query
+  database: 1
+display: scalar
+entity_id: 672dc5a6183671062121e622
+id: 672dc5a6183671062121e622
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/Integer
+    display_name: 已收票金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+table_id: contract
+updated_at: 2024-11-08T08:02:46.274Z
+visualization_settings: '{"column_settings":{"[\"name\",\"sum\"]":{"prefix":"¥"}}}'

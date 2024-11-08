@@ -1,0 +1,12 @@
+name: contract_kp_kanban
+desktop: true
+icon: field_sales
+is_new_window: false
+is_use_iframe: true
+label: 合同开票数据
+locked: false
+mobile: true
+permissions: []
+type: url
+url: >-
+  /analytics/embed/dashboard/672dc393183671062121e618%23titled=false&bordered=false

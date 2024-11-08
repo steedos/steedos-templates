@@ -1,0 +1,36 @@
+name: 付款合同数量
+created_at: 2024-11-08T07:32:46.886Z
+creator_id: 672c613be5b79e069e68d09b
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    filter:
+      - '='
+      - - field
+        - contract.cash_flow_type
+        - null
+      - pay
+    aggregation:
+      - - count
+display: scalar
+entity_id: 672dbe9e183671062121e607
+id: 672dbe9e183671062121e607
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: contract
+updated_at: 2024-11-08T07:32:46.886Z
+visualization_settings: '{}'

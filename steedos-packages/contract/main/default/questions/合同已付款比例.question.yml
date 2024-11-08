@@ -1,0 +1,36 @@
+name: 合同已付款比例
+created_at: 2024-11-08T07:36:35.208Z
+creator_id: 672c613be5b79e069e68d09b
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    filter:
+      - '='
+      - - field
+        - contract.cash_flow_type
+        - null
+      - pay
+    aggregation:
+      - - aggregation-options
+        - - sum
+          - - /
+            - - field
+              - contract.pay_amount
+              - null
+            - - field
+              - contract.amount
+              - null
+        - name: 已付款比例
+          display-name: 已付款比例
+display: scalar
+entity_id: 672dbf83183671062121e60c
+id: 672dbf83183671062121e60c
+parameter_mappings: []
+parameters: []
+query_type: query
+table_id: contract
+updated_at: 2024-11-08T07:36:35.208Z
+visualization_settings: '{}'

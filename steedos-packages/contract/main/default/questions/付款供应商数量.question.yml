@@ -1,0 +1,59 @@
+name: 付款供应商数量
+created_at: 2024-11-08T07:37:42.945Z
+creator_id: 672c613be5b79e069e68d09b
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    filter:
+      - '='
+      - - field
+        - contract.cash_flow_type
+        - null
+      - pay
+    aggregation:
+      - - distinct
+        - - field
+          - contract.contract_counterparty
+          - null
+display: scalar
+entity_id: 672dbfc6183671062121e60e
+id: 672dbfc6183671062121e60e
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 合同相对方不同值
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: distinct
+    semantic_type: type/Quantity
+    source: aggregation
+    remapped_to: external_contract_counterparty
+  - description: null
+    semantic_type: type/Name
+    table_id: contract_counterparty
+    coercion_strategy: null
+    name: external_contract_counterparty
+    settings: null
+    source: fields
+    remapped_from: contract_counterparty
+    fk_field_id: contract_counterparty
+    field_ref:
+      - field
+      - contract_counterparty.name
+      - source-field: contract.contract_counterparty
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: contract_counterparty.name
+    visibility_type: normal
+    display_name: 合同相对方
+table_id: contract
+updated_at: 2024-11-08T07:37:42.945Z
+visualization_settings: '{}'

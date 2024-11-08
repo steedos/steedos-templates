@@ -1,0 +1,79 @@
+name: 合同开票数据
+archived: 'false'
+auto_apply_filters: 'true'
+enable_embedding: 'false'
+entity_id: 672dc393183671062121e618
+id: 672dc393183671062121e618
+parameters: []
+show_in_getting_started: 'false'
+cards:
+  - card_id: 672dabcb183671062121e5db
+    col: 3
+    entity_id: 672dc462183671062121e61a
+    id: 672dc462183671062121e61a
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 4
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dc385183671062121e617
+    col: 7
+    entity_id: 672dc462183671062121e61b
+    id: 672dc462183671062121e61b
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 4
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dbb66183671062121e5fc
+    col: 0
+    entity_id: 672dc462183671062121e61c
+    id: 672dc462183671062121e61c
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dc3f9183671062121e619
+    col: 11
+    entity_id: 672dc462183671062121e61d
+    id: 672dc462183671062121e61d
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 4
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dad5f183671062121e5e1
+    col: 15
+    entity_id: 672dc462183671062121e61e
+    id: 672dc462183671062121e61e
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 672dbd50183671062121e605
+    col: 7
+    entity_id: 672dc47b183671062121e61f
+    id: 672dc47b183671062121e61f
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 11
+    size_y: 7
+    visualization_settings: '{}'
+  - card_id: 672dc4e8183671062121e620
+    col: 0
+    entity_id: 672dc4f4183671062121e621
+    id: 672dc4f4183671062121e621
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 7
+    size_y: 7
+    visualization_settings: '{}'
