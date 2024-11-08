@@ -6,9 +6,10 @@ columns:
   - field: type
   - field: owner
   - field: mark
+  - field: modified_by
+  - field: modified
   - field: created_by
   - field: created
-  - field: modified
 crud_mode: table
 filter_scope: space
 filters: []

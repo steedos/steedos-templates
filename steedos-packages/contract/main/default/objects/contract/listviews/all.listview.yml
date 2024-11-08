@@ -17,6 +17,10 @@ columns:
   - field: need_pay_amount
   - field: need_invoice_amount
   - field: need_ticket_received_amount
+  - field: modified_by
+  - field: modified
+  - field: created_by
+  - field: created
 filter_scope: space
 filters: []
 from_code_id: contracts.all

@@ -10,6 +10,8 @@ columns:
   - field: tax_num
   - field: contract
   - field: number
+  - field: modified_by
+  - field: modified
   - field: created_by
   - field: created
 crud_mode: table
