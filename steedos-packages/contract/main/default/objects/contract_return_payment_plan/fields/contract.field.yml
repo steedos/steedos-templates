@@ -9,5 +9,5 @@ group: 通用
 label: 合同
 reference_to: contract
 required: true
-sort_no: 100
+sort_no: 10
 type: master_detail

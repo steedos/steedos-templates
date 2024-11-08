@@ -3,6 +3,7 @@ amis:
   id: 'u:facdc085c62c'
   type: input-text
   editorState: default
+description: '请标注资金类型：回款/付款'
 filterable: true
 group: 通用
 index: true

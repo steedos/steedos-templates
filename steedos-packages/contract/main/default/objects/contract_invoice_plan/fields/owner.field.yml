@@ -2,12 +2,14 @@ name: owner
 amis:
   id: 'u:bfc3ab57a97d'
 description: ''
+enable_thousands: true
 group: 通用
 hidden: true
 index: true
 inlineHelpText: ''
-label: 所有者
+label: 负责人
 omit: true
-sort_no: 450
+required: true
+sort_no: 350
 sortable: true
-visible_on: '{{false}}'
+visible_on: ''

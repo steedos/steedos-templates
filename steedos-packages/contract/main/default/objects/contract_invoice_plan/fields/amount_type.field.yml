@@ -6,3 +6,4 @@ group: 通用
 label: 计划标签
 sort_no: 400
 type: text
+hidden: true

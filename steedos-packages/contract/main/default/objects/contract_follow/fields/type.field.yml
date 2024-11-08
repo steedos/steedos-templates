@@ -8,3 +8,4 @@ group: 通用
 label: 事项类型判断
 sort_no: 200
 type: text
+hidden: true

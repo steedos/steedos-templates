@@ -1,12 +1,11 @@
 name: all
 columns:
-  - field: contract
-  - field: number
   - field: name
-  - field: invoice
   - field: date_plan
   - field: amount
-  - field: person
+  - field: owner
+  - field: contract
+  - field: number
 crud_mode: table
 filter_scope: space
 filters: []

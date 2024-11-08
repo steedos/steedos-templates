@@ -1,8 +1,0 @@
-name: person
-amis:
-  id: 'u:fce8633b7828'
-group: 通用
-label: 负责人
-reference_to: users
-sort_no: 350
-type: lookup

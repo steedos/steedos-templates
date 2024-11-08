@@ -1,12 +1,12 @@
 name: name
 amis:
   id: 'u:2d2bc41f86cb'
-description: 'MAPX(''last'',合同编号,合同编号,资金类型)'
+description: '请标注发票形式：开票回款/收票付款'
 filterable: true
 group: 通用
 index: true
 is_wide: false
-label: 资金类型
+label: 发票形式
 required: true
 searchable: true
 sort_no: 150
