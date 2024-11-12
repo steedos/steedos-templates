@@ -10,6 +10,6 @@ inlineHelpText: ''
 label: 合同负责人
 omit: true
 required: true
-sort_no: 800
+sort_no: 750
 sortable: true
 visible_on: ''

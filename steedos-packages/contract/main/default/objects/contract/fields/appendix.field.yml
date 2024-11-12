@@ -7,7 +7,7 @@ enable_thousands: true
 filterable: false
 generated: false
 group: 归档信息
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
@@ -23,3 +23,4 @@ static: false
 type: file
 unique: false
 write_requires_master_read: false
+

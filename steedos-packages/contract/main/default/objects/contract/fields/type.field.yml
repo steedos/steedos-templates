@@ -12,6 +12,6 @@ options:
     value: non-standard
   - label: 虚拟合同
     value: virtual
-required: true
-sort_no: 750
+required: false
+sort_no: 800
 type: select
