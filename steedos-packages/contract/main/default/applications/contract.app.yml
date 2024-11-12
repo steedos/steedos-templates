@@ -49,8 +49,6 @@ tab_groups:
     default_open: true
   - group_name: 公司信息
     default_open: true
-  - group_name: 基础信息
-    default_open: true
 tab_items:
   contract_kanban:
     group: ''
@@ -85,9 +83,6 @@ tab_items:
   object_contract_counterparty:
     group: 公司信息
     index: 11
-  object_contract_template:
-    group: 基础信息
-    index: 12
 visible: true
 visibleOnVariables:
   - label: 表单字段
