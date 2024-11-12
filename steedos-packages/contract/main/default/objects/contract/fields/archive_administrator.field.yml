@@ -6,3 +6,4 @@ label: 归档管理员
 reference_to: users
 sort_no: 850
 type: lookup
+hidden: true

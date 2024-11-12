@@ -14,6 +14,6 @@ label: 合同编号
 readonly: true
 required: false
 searchable: true
-sort_no: 300
+sort_no: 100
 sortable: true
 type: autonumber

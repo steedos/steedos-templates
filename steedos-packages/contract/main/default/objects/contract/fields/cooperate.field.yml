@@ -1,0 +1,10 @@
+name: cooperate
+amis:
+  id: 'u:688cdb34516e'
+group: 归档信息
+is_wide: true
+label: 合同协作人
+multiple: true
+reference_to: users
+sort_no: 950
+type: lookup

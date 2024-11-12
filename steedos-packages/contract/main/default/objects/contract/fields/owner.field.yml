@@ -1,15 +1,15 @@
 name: owner
 amis:
-  id: 'u:4c02639cd9eb'
+  id: 'u:4be33fafaa4b'
 description: ''
 enable_thousands: true
-group: 系统信息
+group: 归档信息
 hidden: true
 index: true
 inlineHelpText: ''
-label: 我方负责人
+label: 合同负责人
 omit: true
-required: false
-sort_no: 1600
+required: true
+sort_no: 800
 sortable: true
-visible_on: '{{false}}'
+visible_on: ''

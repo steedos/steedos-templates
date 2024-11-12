@@ -4,5 +4,5 @@ amis:
 group: 签约信息
 label: 签约人员
 reference_to: users
-sort_no: 750
+sort_no: 700
 type: lookup

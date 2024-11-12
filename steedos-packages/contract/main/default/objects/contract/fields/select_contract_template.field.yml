@@ -4,10 +4,14 @@ amis:
 auto_fill_mapping:
   - from: template
     to: template
+description: ''
+enable_thousands: true
 filters: []
 group: 合同内容
+hidden: true
+inlineHelpText: ''
 label: 选择合同模版
 reference_to: contract_template
-sort_no: 100
+sort_no: 450
 type: lookup
-visible_on: "{{formData.type === 'standard' ? true: false}}"
+visible_on: '{{formData.type === ''standard'' ? true: false}}'

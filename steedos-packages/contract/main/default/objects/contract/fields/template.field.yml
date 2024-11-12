@@ -1,8 +1,12 @@
 name: template
 amis:
   id: 'u:6603bd05d170'
+description: ''
+enable_thousands: true
 group: 合同内容
+hidden: true
+inlineHelpText: ''
 label: 模版
-sort_no: 150
+sort_no: 500
 type: file
-visible_on: "{{formData.type === 'standard' ? true: false}}"
+visible_on: '{{formData.type === ''standard'' ? true: false}}'

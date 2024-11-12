@@ -2,7 +2,11 @@ name: implementation
 amis:
   id: 'u:81c634abb45e'
 data_type: text
+filters: []
 group: 合同信息
+inlineHelpText: >-
+  执行中：没有超过有效期，正常执行中；已终止：未超过有效期，因各种原因停止执行；已变更：未超过有效期，因各种原因变更了条款，通过新的合同继续执行；已完结：已经超过有效期，合同终止；已续签：已经超过有效期，续签了新的合同。
+is_wide: false
 label: 执行情况
 options:
   - label: 执行中
@@ -25,7 +29,5 @@ options:
     value: v5
     description: 续签了新的合同
     color: '#8b572a'
-sort_no: 600
+sort_no: 400
 type: select
-description: '执行中：没有超过有效期，正常执行中；已终止：未超过有效期，因各种原因停止执行；已变更：未超过有效期，因各种原因变更了条款，通过新的合同继续执行；已完结：已经超过有效期，合同终止；已续签：已经超过有效期，续签了新的合同。'
-is_wide: true

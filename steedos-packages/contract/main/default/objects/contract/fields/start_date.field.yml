@@ -12,6 +12,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 400
+sort_no: 200
 sortable: false
 type: date

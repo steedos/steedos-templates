@@ -3,5 +3,5 @@ amis:
   id: 'u:d7d29b6f084a'
 group: 签约信息
 label: 签约日期
-sort_no: 650
+sort_no: 600
 type: date
