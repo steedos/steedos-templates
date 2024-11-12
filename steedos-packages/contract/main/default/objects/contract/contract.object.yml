@@ -1,12 +1,10 @@
 name: contract
 compactLayouts:
-  - 'no'
-  - contract_counterparty
-  - cash_flow_type
-  - amount
+  - owner
   - need_receive_amount
   - need_pay_amount
-  - implementation
+  - need_invoice_amount
+  - need_ticket_received_amount
 custom: true
 enable_api: true
 enable_audit: true

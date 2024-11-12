@@ -1,0 +1,155 @@
+{
+    "type": "steedos-record-service",
+    "body": [
+        {
+            "type": "steedos-record-detail-header",
+            "label": "标题面板",
+            "objectApiName": "${objectName}",
+            "recordId": "${recordId}",
+            "showBackButton": "${!_inDrawer}",
+            "id": "u:7ef34bf985a2"
+        },
+        {
+            "type": "tabs",
+            "className": "steedos-record-tabs bg-white p-4 sm:m-2 sm:border sm:rounded",
+            "tabs": [
+                {
+                    "title": "详细",
+                    "className": "px-0 py-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-form",
+                            "label": "对象表单",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "appId": "${appId}",
+                            "id": "u:87611528435f",
+                            "mode": "read",
+                            "className": "mb-4",
+                            "enableInitApi": false,
+                            "enableTabs": true,
+                            "tabsMode": ""
+                        }
+                    ],
+                    "id": "u:5d4e7e3f6ecc"
+                },
+                {
+                    "title": "合同附件",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:61ef53b32f1d",
+                            "relatedObjectApiName": "cms_files"
+                        }
+                    ],
+                    "id": "u:8c411543e199"
+                },
+                {
+                    "title": "回款/付款",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:a5b7988a8bca",
+                            "relatedObjectApiName": "contract_return_payment_plan"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:bd3e83c1f451",
+                            "relatedObjectApiName": "contract_return"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:f7dbb9c457a3",
+                            "relatedObjectApiName": "contract_payment"
+                        }
+                    ],
+                    "id": "u:d26a43f18096"
+                },
+                {
+                    "title": "发票记录",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:60d97b6aa0b1",
+                            "relatedObjectApiName": "contract_invoice_plan"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:dcd685b4e854",
+                            "relatedObjectApiName": "contract_invoicing"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:ae1b2950be7c",
+                            "relatedObjectApiName": "contract_invoice"
+                        }
+                    ],
+                    "id": "u:00adf991c735"
+                },
+                {
+                    "title": "跟进记录",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:224b53d7c37d",
+                            "relatedObjectApiName": "contract_follow"
+                        }
+                    ]
+                },
+                {
+                    "title": "审计日志",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:63fdd008f3ca",
+                            "relatedObjectApiName": "audit_records"
+                        }
+                    ],
+                    "id": "u:bcf797049514"
+                }
+            ],
+            "id": "u:9e2bf1f77e38"
+        }
+    ],
+    "regions": [
+        "body"
+    ],
+    "data": {},
+    "id": "page_contract_record_detail",
+    "name": "page_contract_record_detail",
+    "objectApiName": "${objectName}",
+    "bodyClassName": "",
+    "className": "object-detail-page steedos-record-content overflow-y-auto p-0 m-0 flex-1 h-full bg-gray-100",
+    "asideResizor": false,
+    "editorState": "default",
+    "pullRefresh": {
+        "disabled": true
+    }
+}
