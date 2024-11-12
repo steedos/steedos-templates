@@ -20,6 +20,9 @@ tab_items:
   projects_home:
     group: 项目管理
     index: 0
+  object_project_program:
+    group: 项目管理
+    index: 1
   object_project:
     group: 项目管理
     index: 2
@@ -43,6 +46,7 @@ tab_items:
     index: 8
 tabs:
   - projects_home
+  - object_project_program
   - object_project
   - object_project_milestone
   - object_project_task
