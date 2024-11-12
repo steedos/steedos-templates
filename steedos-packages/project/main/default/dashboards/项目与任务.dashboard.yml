@@ -99,13 +99,14 @@ cards:
     size_x: 5
     size_y: 5
     visualization_settings: '{}'
-  - card_id: 656009fff084ab05cc5731e0
+  - card_id: 6560091af084ab05cc5731de
     col: 13
-    entity_id: 67331620fbc55e0622c92f3e
-    id: 67331620fbc55e0622c92f3e
+    entity_id: 673328a9fbc55e0622c92f40
+    id: 673328a9fbc55e0622c92f40
     parameter_mappings: []
     row: 3
     series: []
     size_x: 5
     size_y: 4
-    visualization_settings: '"{}"'
+    visualization_settings: >-
+      "{\"pivot_table.column_split\":{\"rows\":[null],\"columns\":[],\"values\":[[\"aggregation\",1]]},\"pie.percent_visibility\":\"inside\"}"
