@@ -11,5 +11,5 @@ options:
     value: logistics
   - label: 电子签
     value: electronic
-sort_no: 650
+sort_no: 600
 type: select

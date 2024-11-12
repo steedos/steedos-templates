@@ -1,10 +1,10 @@
 name: cooperate
 amis:
-  id: 'u:688cdb34516e'
-group: 归档信息
+  id: 'u:7ea8b93c4c98'
+group: 签约信息
 is_wide: true
 label: 合同协作人
 multiple: true
 reference_to: users
-sort_no: 950
+sort_no: 650
 type: lookup

@@ -5,3 +5,4 @@ group: 归档信息
 label: 归档日期
 sort_no: 900
 type: date
+hidden: true

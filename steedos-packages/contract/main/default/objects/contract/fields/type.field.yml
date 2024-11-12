@@ -1,8 +1,8 @@
 name: type
 amis:
-  id: 'u:ca8006dc550b'
+  id: 'u:afd8bf0b6549'
 data_type: text
-group: 归档信息
+group: 签约信息
 hidden: true
 label: 合同类型
 options:
@@ -13,5 +13,5 @@ options:
   - label: 虚拟合同
     value: virtual
 required: false
-sort_no: 800
+sort_no: 500
 type: select

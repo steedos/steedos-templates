@@ -2,8 +2,8 @@ name: archive_administrator
 amis:
   id: 'u:2b5e39b02052'
 group: 归档信息
+hidden: true
 label: 归档管理员
 reference_to: users
-sort_no: 850
+sort_no: 1860
 type: lookup
-hidden: true
