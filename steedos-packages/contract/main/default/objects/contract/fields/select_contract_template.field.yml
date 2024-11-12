@@ -12,6 +12,6 @@ hidden: true
 inlineHelpText: ''
 label: 选择合同模版
 reference_to: contract_template
-sort_no: 450
+sort_no: 1880
 type: lookup
 visible_on: '{{formData.type === ''standard'' ? true: false}}'

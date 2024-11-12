@@ -9,5 +9,5 @@ hidden: true
 inlineHelpText: ''
 label: 待签约合同附件上传
 required: false
-sort_no: 550
+sort_no: 1900
 type: file

@@ -7,6 +7,6 @@ group: 合同内容
 hidden: true
 inlineHelpText: ''
 label: 模版
-sort_no: 500
+sort_no: 1890
 type: file
 visible_on: '{{formData.type === ''standard'' ? true: false}}'
