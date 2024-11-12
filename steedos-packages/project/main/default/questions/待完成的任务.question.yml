@@ -1,0 +1,251 @@
+name: 待完成的任务
+created_at: 2024-11-12T07:20:51.249Z
+creator_id: 672dc9a8f42f46069f5443c6
+database_id: 1
+dataset_query:
+  query:
+    source-table: project_task
+    fields:
+      - - field
+        - project_task.name
+        - null
+      - - field
+        - project_task.completed_date
+        - null
+      - - field
+        - project_task.project
+        - null
+      - - field
+        - project_task.state
+        - null
+      - - field
+        - project_task.assignees
+        - null
+      - - field
+        - project_task.start_date
+        - null
+      - - field
+        - project_task.has_complete
+        - null
+      - - field
+        - project_task.due_date
+        - null
+      - - field
+        - project_task.priority
+        - null
+    filter:
+      - '='
+      - - field
+        - project_task.has_complete
+        - null
+      - false
+    order-by:
+      - - asc
+        - - field
+          - project_task.due_date
+          - null
+  type: query
+  database: 1
+display: table
+enable_embedding: false
+entity_id: 673301d3fbc55e0622c92f39
+id: 673301d3fbc55e0622c92f39
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - description: null
+    database_type: java.lang.String
+    semantic_type: type/PK
+    table_id: project_task
+    coercion_strategy: null
+    name: _id
+    fingerprint_version: 0
+    has_field_values: search
+    settings: null
+    caveats: null
+    fk_target_field_id: null
+    dimensions: []
+    dimension_options: []
+    updated_at: '2023-08-04T05:39:33.039939'
+    custom_position: 0
+    effective_type: type/Text
+    active: true
+    nfc_path: null
+    parent_id: null
+    id: project_task._id
+    last_analyzed: null
+    database_is_auto_increment: false
+    position: 0
+    visibility_type: normal
+    default_dimension_option: null
+    target: null
+    preview_display: true
+    display_name: ID
+    database_position: 0
+    database_required: false
+    fingerprint: null
+    created_at: '2023-08-04T05:39:33.039939'
+    base_type: type/Text
+    points_of_interest: null
+  - id: project_task.name
+    name: name
+    display_name: 任务名称
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - project_task.name
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+  - id: project_task.project
+    name: project
+    display_name: 项目
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - project_task.project
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+    remapped_to: external_project
+  - id: project_task.state
+    name: state
+    display_name: 状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - project_task.state
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+  - id: project_task.assignees
+    name: assignees
+    display_name: 分派给
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - project_task.assignees
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+    remapped_to: external_assignees
+  - id: project_task.start_date
+    name: start_date
+    display_name: 开始日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - project_task.start_date
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+  - id: project_task.has_complete
+    name: has_complete
+    display_name: 已完成
+    base_type: type/Boolean
+    effective_type: type/Boolean
+    semantic_type: type/Source
+    field_ref:
+      - field
+      - project_task.has_complete
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+  - id: project_task.due_date
+    name: due_date
+    display_name: 到期日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - project_task.due_date
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+  - id: project_task.completed_date
+    name: completed_date
+    display_name: 实际完成日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - project_task.completed_date
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+  - id: project_task.priority
+    name: priority
+    display_name: 优先级
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - project_task.priority
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project_task
+  - description: null
+    semantic_type: type/Name
+    table_id: project
+    coercion_strategy: null
+    name: external_project
+    settings: null
+    source: fields
+    remapped_from: project
+    fk_field_id: project
+    field_ref:
+      - field
+      - project.name
+      - source-field: project_task.project
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: project.name
+    visibility_type: normal
+    display_name: 项目
+  - description: null
+    semantic_type: type/Name
+    table_id: space_users
+    coercion_strategy: null
+    name: external_assignees
+    settings: null
+    source: fields
+    remapped_from: assignees
+    fk_field_id: assignees
+    field_ref:
+      - field
+      - space_users.name
+      - source-field: project_task.assignees
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: space_users.name
+    visibility_type: normal
+    display_name: 分派给
+table_id: project_task
+updated_at: 2024-11-12T07:20:51.249Z
+visualization_settings: >-
+  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","project_task.name",null],"enabled":true},{"name":"completed_date","fieldRef":["field","project_task.completed_date",null],"enabled":true},{"name":"project","fieldRef":["field","project_task.project",null],"enabled":true},{"name":"state","fieldRef":["field","project_task.state",null],"enabled":true},{"name":"assignees","fieldRef":["field","project_task.assignees",null],"enabled":true},{"name":"start_date","fieldRef":["field","project_task.start_date",null],"enabled":true},{"name":"has_complete","fieldRef":["field","project_task.has_complete",null],"enabled":true},{"name":"due_date","fieldRef":["field","project_task.due_date",null],"enabled":true},{"name":"priority","fieldRef":["field","project_task.priority",null],"enabled":true}],"table.pivot_column":"state","table.cell_column":"priority"}

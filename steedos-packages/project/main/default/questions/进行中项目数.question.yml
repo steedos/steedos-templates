@@ -1,0 +1,37 @@
+name: 进行中项目数
+created_at: 2024-11-12T05:16:39.278Z
+creator_id: 672dc9a8f42f46069f5443c6
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: project
+    filter:
+      - '='
+      - - field
+        - project.status
+        - null
+      - working
+    aggregation:
+      - - count
+display: scalar
+enable_embedding: false
+entity_id: 6732e4b7fbc55e0622c92f0c
+id: 6732e4b7fbc55e0622c92f0c
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: project
+updated_at: 2024-11-12T05:16:39.278Z
+visualization_settings: '{"column_settings":{"[\"name\",\"count\"]":{"number_style":"decimal"}}}'

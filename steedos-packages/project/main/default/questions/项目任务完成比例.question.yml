@@ -1,0 +1,48 @@
+name: 项目任务完成比例
+created_at: 2024-11-12T08:43:55.179Z
+creator_id: 672dc9a8f42f46069f5443c6
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: project_task
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - project_task.has_complete
+        - null
+display: pie
+entity_id: 6733154bfbc55e0622c92f3c
+id: 6733154bfbc55e0622c92f3c
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: has_complete
+    name: has_complete
+    unit: null
+    display_name: 已完成
+    base_type: type/Boolean
+    effective_type: type/Boolean
+    semantic_type: type/Source
+    source: breakout
+    visibility_type: normal
+    table_id: project_task
+    field_ref:
+      - field
+      - project_task.has_complete
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: project_task
+updated_at: 2024-11-12T08:43:55.179Z
+visualization_settings: '{"pie.percent_visibility":"inside","pie.show_total":true}'

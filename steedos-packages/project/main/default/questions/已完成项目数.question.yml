@@ -1,0 +1,36 @@
+name: 已完成项目数
+created_at: 2024-11-12T05:51:26.197Z
+creator_id: 672dc9a8f42f46069f5443c6
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: project
+    filter:
+      - '='
+      - - field
+        - project.status
+        - null
+      - accepted
+    aggregation:
+      - - count
+display: scalar
+entity_id: 6732ecdefbc55e0622c92f11
+id: 6732ecdefbc55e0622c92f11
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: project
+updated_at: 2024-11-12T05:51:26.197Z
+visualization_settings: '{}'

@@ -1,0 +1,37 @@
+name: 未完成任务数
+created_at: 2024-11-12T06:32:00.337Z
+creator_id: 672dc9a8f42f46069f5443c6
+database_id: 1
+dataset_query:
+  query:
+    source-table: project_task
+    filter:
+      - '='
+      - - field
+        - project_task.has_complete
+        - null
+      - false
+    aggregation:
+      - - count
+  type: query
+  database: 1
+display: scalar
+enable_embedding: false
+entity_id: 6732f660fbc55e0622c92f27
+id: 6732f660fbc55e0622c92f27
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: project_task
+updated_at: 2024-11-12T06:32:00.337Z
+visualization_settings: '{}'

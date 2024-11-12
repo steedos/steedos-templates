@@ -1,0 +1,111 @@
+name: 项目与任务
+archived: 'false'
+auto_apply_filters: 'true'
+enable_embedding: 'false'
+entity_id: 6732fad0fbc55e0622c92f2e
+id: 6732fad0fbc55e0622c92f2e
+parameters: []
+show_in_getting_started: 'false'
+cards:
+  - card_id: 6732e4b7fbc55e0622c92f0c
+    col: 0
+    entity_id: 6732fb19fbc55e0622c92f2f
+    id: 6732fb19fbc55e0622c92f2f
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6732ecdefbc55e0622c92f11
+    col: 3
+    entity_id: 6732fb19fbc55e0622c92f30
+    id: 6732fb19fbc55e0622c92f30
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6732f5e2fbc55e0622c92f26
+    col: 9
+    entity_id: 6732fb19fbc55e0622c92f31
+    id: 6732fb19fbc55e0622c92f31
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6732f660fbc55e0622c92f27
+    col: 6
+    entity_id: 6732fb19fbc55e0622c92f32
+    id: 6732fb19fbc55e0622c92f32
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 65600ba9f084ab05cc5731e2
+    col: 0
+    entity_id: 6732fb19fbc55e0622c92f33
+    id: 6732fb19fbc55e0622c92f33
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 13
+    size_y: 4
+    visualization_settings: >-
+      {"table.columns":[{"name":"project_code","fieldRef":["field","project.project_code",null],"enabled":true},{"name":"name","fieldRef":["field","project.name",null],"enabled":true},{"name":"_id","enabled":false},{"name":"status","fieldRef":["field","project.status",null],"enabled":true},{"name":"project_manager","fieldRef":["field","project.project_manager",null],"enabled":true},{"name":"kickoff","fieldRef":["field","project.kickoff",null],"enabled":true},{"name":"deadline","fieldRef":["field","project.deadline",null],"enabled":true},{"name":"project_cost_budget","fieldRef":["field","project.project_cost_budget",null],"enabled":false},{"name":"project_labor_budget","fieldRef":["field","project.project_labor_budget",null],"enabled":true},{"name":"project_labor","fieldRef":["field","project.project_labor",null],"enabled":true},{"name":"open_tasks","fieldRef":["field","project.open_tasks",null],"enabled":false},{"name":"count_milestones","fieldRef":["field","project.count_milestones",null],"enabled":false},{"name":"count_milestones_ok","fieldRef":["field","project.count_milestones_ok",null],"enabled":false}],"table.pivot_column":"project_manager","table.cell_column":"project_amount"}
+  - card_id: 65600dc4f084ab05cc5731e6
+    col: 15
+    entity_id: 6732ffeafbc55e0622c92f37
+    id: 6732ffeafbc55e0622c92f37
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '"{}"'
+  - card_id: 65600ed6f084ab05cc5731e8
+    col: 12
+    entity_id: 6732ffeafbc55e0622c92f38
+    id: 6732ffeafbc55e0622c92f38
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '"{}"'
+  - card_id: 673301d3fbc55e0622c92f39
+    col: 5
+    entity_id: 67330239fbc55e0622c92f3a
+    id: 67330239fbc55e0622c92f3a
+    parameter_mappings: []
+    row: 7
+    series: []
+    size_x: 13
+    size_y: 5
+    visualization_settings: >-
+      {"0":"{","1":"}","table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","project_task.name",null],"enabled":true},{"name":"completed_date","fieldRef":["field","project_task.completed_date",null],"enabled":false},{"name":"project","fieldRef":["field","project_task.project",null],"enabled":true},{"name":"state","fieldRef":["field","project_task.state",null],"enabled":true},{"name":"assignees","fieldRef":["field","project_task.assignees",null],"enabled":true},{"name":"start_date","fieldRef":["field","project_task.start_date",null],"enabled":true},{"name":"has_complete","fieldRef":["field","project_task.has_complete",null],"enabled":false},{"name":"due_date","fieldRef":["field","project_task.due_date",null],"enabled":true},{"name":"priority","fieldRef":["field","project_task.priority",null],"enabled":true}],"table.pivot_column":"state","table.cell_column":"priority","table.column_formatting":[{"columns":["priority"],"type":"single","operator":"=","value":"高","color":"#509EE3","highlight_row":false}]}
+  - card_id: 6733154bfbc55e0622c92f3c
+    col: 0
+    entity_id: 67331575fbc55e0622c92f3d
+    id: 67331575fbc55e0622c92f3d
+    parameter_mappings: []
+    row: 7
+    series: []
+    size_x: 5
+    size_y: 5
+    visualization_settings: '{}'
+  - card_id: 656009fff084ab05cc5731e0
+    col: 13
+    entity_id: 67331620fbc55e0622c92f3e
+    id: 67331620fbc55e0622c92f3e
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 5
+    size_y: 4
+    visualization_settings: '"{}"'
