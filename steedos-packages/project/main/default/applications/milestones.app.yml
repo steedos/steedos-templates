@@ -12,13 +12,8 @@ sort: 20
 tab_groups:
   - group_name: 项目管理
     default_open: true
-    id: 项目管理
   - group_name: 进度管理
     default_open: true
-    id: 进度管理
-  - group_name: 流程审批
-    default_open: true
-    id: 流程审批
 tab_items:
   project_kanban:
     index: 1
@@ -37,17 +32,18 @@ tab_items:
   object_project_task:
     group: 进度管理
     index: 6
-  object_project_issue:
-    group: 进度管理
-    index: 7
   object_project_time:
     group: 进度管理
+    index: 7
+  object_project_expense:
+    group: 进度管理
+    _id: 10bad81c-8260-4f2a-a4c3-41da968b8eb1
     index: 8
-  object_project_log:
+  object_project_issue:
     group: 进度管理
     index: 9
-  object_instance_tasks:
-    group: 流程审批
+  object_project_log:
+    group: 进度管理
     index: 10
 tabs:
   - project_kanban
@@ -56,8 +52,8 @@ tabs:
   - object_project
   - object_project_milestone
   - object_project_task
-  - object_project_issue
   - object_project_time
+  - object_project_expense
+  - object_project_issue
   - object_project_log
-  - object_instance_tasks
 visible: true

@@ -58,16 +58,6 @@ cards:
     size_y: 4
     visualization_settings: >-
       {"table.columns":[{"name":"project_code","fieldRef":["field","project.project_code",null],"enabled":true},{"name":"name","fieldRef":["field","project.name",null],"enabled":true},{"name":"_id","enabled":false},{"name":"status","fieldRef":["field","project.status",null],"enabled":true},{"name":"project_manager","fieldRef":["field","project.project_manager",null],"enabled":true},{"name":"kickoff","fieldRef":["field","project.kickoff",null],"enabled":true},{"name":"deadline","fieldRef":["field","project.deadline",null],"enabled":true},{"name":"project_cost_budget","fieldRef":["field","project.project_cost_budget",null],"enabled":false},{"name":"project_labor_budget","fieldRef":["field","project.project_labor_budget",null],"enabled":true},{"name":"project_labor","fieldRef":["field","project.project_labor",null],"enabled":true},{"name":"open_tasks","fieldRef":["field","project.open_tasks",null],"enabled":false},{"name":"count_milestones","fieldRef":["field","project.count_milestones",null],"enabled":false},{"name":"count_milestones_ok","fieldRef":["field","project.count_milestones_ok",null],"enabled":false}],"table.pivot_column":"project_manager","table.cell_column":"project_amount"}
-  - card_id: 65600dc4f084ab05cc5731e6
-    col: 15
-    entity_id: 6732ffeafbc55e0622c92f37
-    id: 6732ffeafbc55e0622c92f37
-    parameter_mappings: []
-    row: 0
-    series: []
-    size_x: 3
-    size_y: 3
-    visualization_settings: '"{}"'
   - card_id: 65600ed6f084ab05cc5731e8
     col: 12
     entity_id: 6732ffeafbc55e0622c92f38
@@ -110,3 +100,14 @@ cards:
     size_y: 4
     visualization_settings: >-
       "{\"pivot_table.column_split\":{\"rows\":[null],\"columns\":[],\"values\":[[\"aggregation\",1]]},\"pie.percent_visibility\":\"inside\"}"
+  - card_id: 67332ec5fbc55e0622c92f43
+    col: 15
+    entity_id: 67332f69fbc55e0622c92f44
+    id: 67332f69fbc55e0622c92f44
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: >-
+      {"column_settings":{"[\"name\",\"sum\"]":{"number_style":"decimal","currency":"CNY","currency_style":"symbol","decimals":0,"prefix":"¥","number_separators":".,"}}}

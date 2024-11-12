@@ -1,0 +1,33 @@
+name: 已付费用
+created_at: 2024-11-12T10:32:37.102Z
+creator_id: 672dc9a8f42f46069f5443c6
+database_id: 1
+dataset_query:
+  query:
+    source-table: project_expense
+    aggregation:
+      - - sum
+        - - field
+          - project_expense.amount
+          - null
+  type: query
+  database: 1
+display: scalar
+entity_id: 67332ec5fbc55e0622c92f43
+id: 67332ec5fbc55e0622c92f43
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/Integer
+    display_name: 费用合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+table_id: project_expense
+updated_at: 2024-11-12T10:32:37.102Z
+visualization_settings: '{}'

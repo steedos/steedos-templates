@@ -1,0 +1,11 @@
+name: object_project_expense
+desktop: true
+icon: currency
+is_new_window: false
+is_use_iframe: false
+label: 费用
+locked: false
+mobile: true
+object: project_expense
+permissions: []
+type: object
