@@ -54,50 +54,40 @@ tab_groups:
 tab_items:
   contract_kanban:
     group: ''
+    index: 1
   object_contract:
     group: 合同台账
+    index: 2
   object_contract_follow:
     group: 合同台账
-  contract_receive_kanban:
-    group: 合同款项
-  contract_payment_kanban:
-    group: 合同款项
+    index: 3
   object_contract_return_payment_plan:
     group: 合同款项
+    index: 4
   object_contract_return:
     group: 合同款项
+    index: 5
   object_contract_payment:
     group: 合同款项
-  contract_kp_kanban:
-    group: 合同发票
-  contract_sp_kanban:
-    group: 合同发票
+    index: 6
   object_contract_invoice_plan:
     group: 合同发票
+    index: 7
   object_contract_invoicing:
     group: 合同发票
+    index: 8
   object_contract_invoice:
     group: 合同发票
+    index: 9
   object_contract_org_info:
     group: 公司信息
+    index: 10
   object_contract_counterparty:
     group: 公司信息
+    index: 11
   object_contract_template:
     group: 基础信息
-tabs:
-  - contract_kanban
-  - object_contract
-  - object_contract_follow
-  - contract_receive_kanban
-  - object_contract_return_payment_plan
-  - object_contract_return
-  - object_contract_payment
-  - object_contract_invoice_plan
-  - object_contract_invoicing
-  - object_contract_invoice
-  - object_contract_org_info
-  - object_contract_counterparty
-  - object_contract_template
+    index: 12
 visible: true
 visibleOnVariables:
   - label: 表单字段
