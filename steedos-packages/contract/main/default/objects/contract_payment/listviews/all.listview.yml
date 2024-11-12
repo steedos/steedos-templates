@@ -13,6 +13,12 @@ columns:
   - field: modified
   - field: created_by
   - field: created
+mobile_columns:
+  - field: name
+  - field: supplier
+  - field: date
+  - field: amount
+  - field: contract
 crud_mode: table
 filter_scope: space
 filters: []

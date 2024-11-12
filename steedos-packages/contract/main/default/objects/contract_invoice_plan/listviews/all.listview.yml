@@ -6,6 +6,12 @@ columns:
   - field: owner
   - field: contract
   - field: number
+mobile_columns:
+  - field: name
+  - field: date_plan
+  - field: amount
+  - field: owner
+  - field: contract
 crud_mode: table
 filter_scope: space
 filters: []

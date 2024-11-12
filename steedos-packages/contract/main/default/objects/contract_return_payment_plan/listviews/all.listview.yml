@@ -16,6 +16,7 @@ mobile_columns:
   - field: date
   - field: amount
   - field: owner
+  - field: contract
 searchable_fields:
   - field: name
   - field: contract
