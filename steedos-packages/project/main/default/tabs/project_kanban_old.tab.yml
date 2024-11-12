@@ -1,0 +1,12 @@
+name: project_kanban_old
+desktop: true
+icon: goals
+is_new_window: false
+is_use_iframe: true
+label: 项目看板
+locked: false
+mobile: true
+permissions: []
+type: url
+url: >-
+  /analytics/embed/dashboard/655ffd8ff084ab05cc5731c2%23titled=false&bordered=false
