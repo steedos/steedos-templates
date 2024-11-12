@@ -23,7 +23,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": false
+        "has_complete": false
     },
     {
         "_id": "${space_id}_6262136087e5c50032d9bd3d",
@@ -49,7 +49,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true
+        "has_complete": true
     },
     {
         "_id": "${space_id}_6262136187e5c50032d9bd3f",
@@ -75,7 +75,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": false
+        "has_complete": false
     },
     {
         "_id": "${space_id}_6262136687e5c50032d9bd47",
@@ -101,7 +101,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true
+        "has_complete": true
     },
     {
         "_id": "${space_id}_6262136987e5c50032d9bd4d",
@@ -127,7 +127,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true,
+        "has_complete": true,
         "blocked": false,
         "project_milestone": "62623aa687e5c50032d9bdad"
     },
@@ -155,7 +155,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true
+        "has_complete": true
     },
     {
         "_id": "${space_id}_6262136b87e5c50032d9bd51",
@@ -181,7 +181,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": false
+        "has_complete": false
     },
     {
         "_id": "${space_id}_6262136c87e5c50032d9bd53",
@@ -207,7 +207,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true
+        "has_complete": true
     },
     {
         "_id": "${space_id}_6262136d87e5c50032d9bd55",
@@ -233,7 +233,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": false
+        "has_complete": false
     },
     {
         "_id": "${space_id}_6262136e87e5c50032d9bd57",
@@ -259,7 +259,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true
+        "has_complete": true
     },
     {
         "_id": "${space_id}_6262136f87e5c50032d9bd59",
@@ -285,7 +285,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true
+        "has_complete": true
     },
     {
         "_id": "${space_id}_6262137087e5c50032d9bd5b",
@@ -311,7 +311,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": false
+        "has_complete": false
     },
     {
         "_id": "${space_id}_6262137187e5c50032d9bd5d",
@@ -337,7 +337,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": false
+        "has_complete": false
     },
     {
         "_id": "${space_id}_626b566840f71f0031853ac1",
@@ -361,7 +361,7 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "completed": true,
+        "has_complete": true,
         "project_milestone": "62623aa687e5c50032d9bdad",
         "due_date": {
             "$date": "2022-07-06T00:00:00Z"
