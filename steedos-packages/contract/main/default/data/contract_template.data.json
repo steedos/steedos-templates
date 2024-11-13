@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "${space_id}_6734477c1a4da50622cc74d7",
+    "owner": "6732c9c5c1e74506a3383f76",
+    "locked": false,
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "name": "标准合同模版",
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date": "2024-11-13T06:30:20.165Z"
+      },
+    "modified": {
+      "$date": "2024-11-13T06:30:20.165Z"
+      },
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76"
+  }
+]

@@ -1,0 +1,87 @@
+[
+    {
+      "_id": "${space_id}_6732cc2dc1e74506a3383f7c",
+      "company_id": "6732c9cac1e74506a3383f78",
+      "company_ids": [
+        "6732c9cac1e74506a3383f78"
+      ],
+      "locked": false,
+      "owner": "6732c9c5c1e74506a3383f76",
+      "name": "企业管理系统开发服务合同",
+      "contract_counterparty": "${space_id}_6732ca4bc1e74506a3383f79",
+      "cash_flow_type": "receive",
+      "start_date":{
+        "$date": "2024-05-01T00:00:00.000Z"
+        },
+      "end_date":{
+        "$date":  "2024-11-30T00:00:00.000Z"
+        },
+      "signing_method": "electronic",
+      "implementation": "v1",
+      "amount": 500000,
+      "signing_date": {
+        "$date":  "2024-05-09T00:00:00.000Z"
+        },
+      "space": "6732c9cac1e74506a3383f78",
+      "created": {
+        "$date":  "2024-11-12T03:31:57.894Z"
+        },
+      "modified": {
+        "$date":  "2024-11-12T03:39:04.269Z"
+        },
+      "created_by": "6732c9c5c1e74506a3383f76",
+      "modified_by": "6732c9c5c1e74506a3383f76",
+      "need_invoice_amount": "150000",
+      "need_pay_amount": "0",
+      "need_receive_amount": "150000",
+      "need_ticket_received_amount": "0",
+      "no": "HT_241112-001\n\n",
+      "invoice_amount": 350000,
+      "pay_amount": 0,
+      "receive_amount": 350000,
+      "ticket_received_amount": 0
+    },
+    {
+      "_id": "${space_id}_6732ce7ac1e74506a3383f97",
+      "company_id": "6732c9cac1e74506a3383f78",
+      "company_ids": [
+        "6732c9cac1e74506a3383f78"
+      ],
+      "locked": false,
+      "owner": "6732c9c5c1e74506a3383f76",
+      "name": "数据中心服务器采购合同",
+      "contract_counterparty": "${space_id}_6732cad3c1e74506a3383f7a",
+      "cash_flow_type": "pay",
+      "start_date": {
+        "$date": "2024-11-01T00:00:00.000Z"
+        },
+      "amount": 98000,
+      "implementation": "v4",
+      "signing_date": {
+        "$date": "2024-11-06T00:00:00.000Z"
+        },
+      "signing_method": "face",
+      "space": "6732c9cac1e74506a3383f78",
+      "created": {
+        "$date": "2024-11-12T03:41:46.922Z"
+        },
+      "modified": {
+        "$date": "2024-11-13T03:22:42.366Z"
+        },
+      "created_by": "6732c9c5c1e74506a3383f76",
+      "modified_by": "6732c9c5c1e74506a3383f76",
+      "need_invoice_amount": "0",
+      "need_pay_amount": "49000",
+      "need_receive_amount": "0",
+      "need_ticket_received_amount": "49000",
+      "no": "HT_241112-002\n\n",
+      "invoice_amount": 0,
+      "pay_amount": 49000,
+      "receive_amount": 0,
+      "ticket_received_amount": 49000,
+      "end_date": {
+        "$date": "2025-10-31T00:00:00.000Z"
+        },
+      "type": "standard"
+    }
+  ]

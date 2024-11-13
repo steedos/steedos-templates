@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "${space_id}_6732cd0ac1e74506a3383f85",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "contract": "${space_id}_6732cc2dc1e74506a3383f7c",
+    "number": "HT_241112-001\n\n",
+    "contract_amount": 500000,
+    "return_amount": 0,
+    "customer_name": "张一飞",
+    "phone": "021-87654321",
+    "bank": "工商银行上海分行",
+    "account": "9876543210987654321",
+    "tax_id": "987654321098765",
+    "customer": "${space_id}_6732ca4bc1e74506a3383f79",
+    "date": {
+      "$date": "2024-05-14T00:00:00.000Z"},
+    "mode": "v2",
+    "amount": 150000,
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date": "2024-11-12T03:35:38.576Z"},
+    "modified": {
+      "$date": "2024-11-12T03:35:38.576Z"},
+    "owner": "6732c9c5c1e74506a3383f76",
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76",
+    "name": "HTSK-001"
+  },
+  {
+    "_id": "${space_id}_6732cd27c1e74506a3383f88",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "contract": "${space_id}_6732cc2dc1e74506a3383f7c",
+    "number": "HT_241112-001\n\n",
+    "contract_amount": 500000,
+    "return_amount": 150000,
+    "customer_name": "张一飞",
+    "phone": "021-87654321",
+    "bank": "工商银行上海分行",
+    "account": "9876543210987654321",
+    "tax_id": "987654321098765",
+    "customer": "${space_id}_6732ca4bc1e74506a3383f79",
+    "date": {
+      "$date": "2024-11-01T00:00:00.000Z"},
+    "mode": "v2",
+    "amount": 200000,
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date": "2024-11-12T03:36:07.295Z"},
+    "modified": {
+      "$date": "2024-11-12T03:36:07.295Z"},
+    "owner": "6732c9c5c1e74506a3383f76",
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76",
+    "name": "HTSK-002"
+  }
+]

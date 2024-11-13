@@ -1,0 +1,117 @@
+[
+  {
+    "_id": "${space_id}_6732cc88c1e74506a3383f80",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "owner": "6732c9c5c1e74506a3383f76",
+    "contract": " ${space_id}_6732cc2dc1e74506a3383f7c",
+    "number": "HT_241112-001\n\n",
+    "name": "回款（合同签订后支付30%）",
+    "date": {
+      "$date": "2024-05-20T00:00:00.000Z"},
+    "amount": 150000,
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date":  "2024-11-12T03:33:28.403Z"},
+    "modified": {
+      "$date":  "2024-11-12T03:33:28.403Z"},
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76"
+  },
+  {
+    "_id": "${space_id}_6732ccb8c1e74506a3383f83",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "owner": "6732c9c5c1e74506a3383f76",
+    "contract": " ${space_id}_6732cc2dc1e74506a3383f7c",
+    "number": "HT_241112-001\n\n",
+    "name": "回款（项目中期支付40%）",
+    "date": {
+      "$date": "2024-10-17T00:00:00.000Z"},
+    "amount": 200000,
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date":  "2024-11-12T03:34:16.714Z"},
+    "modified": {
+      "$date":  "2024-11-12T03:34:16.714Z"},
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76"
+  },
+  {
+    "_id": "${space_id}_6732ccd0c1e74506a3383f84",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "owner": "6732c9c5c1e74506a3383f76",
+    "contract": " ${space_id}_6732cc2dc1e74506a3383f7c",
+    "number": "HT_241112-001\n\n",
+    "name": "回款（项目验收后支付30%）",
+    "date": {
+      "$date": "2024-12-19T00:00:00.000Z"},
+    "amount": 150000,
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date":  "2024-11-12T03:34:40.877Z"},
+    "modified": {
+      "$date":  "2024-11-12T03:34:40.877Z"},
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76"
+  },
+  {
+    "_id": "${space_id}_6732ceb3c1e74506a3383f99",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "owner": "6732c9c5c1e74506a3383f76",
+    "contract": " ${space_id}_6732ce7ac1e74506a3383f97",
+    "number": "HT_241112-002\n\n",
+    "name": "付款50%",
+    "date": {
+      "$date": "2024-11-01T00:00:00.000Z"},
+    "amount": 49000,
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date":  "2024-11-12T03:42:43.566Z"},
+    "modified": {
+      "$date":  "2024-11-12T03:42:43.566Z"},
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76"
+  },
+  {
+    "_id": "${space_id}_6732ceccc1e74506a3383f9a",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "owner": "6732c9c5c1e74506a3383f76",
+    "contract": " ${space_id}_6732ce7ac1e74506a3383f97",
+    "number": "HT_241112-002\n\n",
+    "name": "运行三个月后付款剩余50%",
+    "date": {
+      "$date": "2025-01-31T00:00:00.000Z"},
+    "amount": 49000,
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date":  "2024-11-12T03:43:08.557Z"},
+    "modified": {
+      "$date":  "2024-11-12T03:43:08.557Z"},
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76"
+  }
+]

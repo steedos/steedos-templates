@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "${space_id}_6732cdaec1e74506a3383f8e",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "contract": "${space_id}_6732cc2dc1e74506a3383f7c",
+    "number": "HT_241112-001\n\n",
+    "date": {
+      "$date": "2024-05-10T00:00:00.000Z"},
+    "company": "${space_id}_6732cb36c1e74506a3383f7b",
+    "type": "v2",
+    "tax": "6",
+    "amount": 150000,
+    "tax_num": "987654321098765",
+    "bank": "工商银行上海分行",
+    "account": "9876543210987654321",
+    "customer": "${space_id}_6732ca4bc1e74506a3383f79",
+    "mail_name": "张一飞",
+    "mail_address": "上海市松江区",
+    "phone": "18677839920",
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date": "2024-11-12T03:38:22.590Z"},
+    "modified": {
+      "$date": "2024-11-12T03:38:22.590Z"},
+    "owner": "6732c9c5c1e74506a3383f76",
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76",
+    "name": "HTKP-001"
+  },
+  {
+    "_id": "${space_id}_6732cdd8c1e74506a3383f91",
+    "company_id": "6732c9cac1e74506a3383f78",
+    "company_ids": [
+      "6732c9cac1e74506a3383f78"
+    ],
+    "locked": false,
+    "contract": "${space_id}_6732cc2dc1e74506a3383f7c",
+    "number": "HT_241112-001\n\n",
+    "date": {
+      "$date": "2024-09-30T00:00:00.000Z"},
+    "company": "${space_id}_6732cb36c1e74506a3383f7b",
+    "type": "v2",
+    "tax": "6",
+    "amount": 200000,
+    "tax_num": "987654321098765",
+    "bank": "工商银行上海分行",
+    "account": "9876543210987654321",
+    "customer": "${space_id}_6732ca4bc1e74506a3383f79",
+    "displayAs": null,
+    "space": "6732c9cac1e74506a3383f78",
+    "created": {
+      "$date": "2024-11-12T03:39:04.237Z"},
+    "modified": {
+      "$date": "2024-11-12T03:39:04.237Z"},
+    "owner": "6732c9c5c1e74506a3383f76",
+    "created_by": "6732c9c5c1e74506a3383f76",
+    "modified_by": "6732c9c5c1e74506a3383f76",
+    "name": "HTKP-002"
+  }
+]
