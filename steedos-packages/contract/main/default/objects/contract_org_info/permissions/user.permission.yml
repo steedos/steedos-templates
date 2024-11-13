@@ -10,5 +10,5 @@ allowReadFiles: true
 modifyAllRecords: false
 permission_set_id: user
 viewAllFiles: true
-viewAllRecords: false
+viewAllRecords: true
 field_permissions: []
