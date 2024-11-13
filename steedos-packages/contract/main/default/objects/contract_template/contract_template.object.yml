@@ -19,5 +19,5 @@ field_groups:
 icon: contract_line_item
 is_enable: true
 is_system: true
-label: 合同模版库
+label: 模版库
 version: 2

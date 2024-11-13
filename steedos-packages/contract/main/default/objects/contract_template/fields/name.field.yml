@@ -2,7 +2,7 @@ name: name
 filterable: true
 filters: []
 index: true
-label: 合同名称
+label: 模版名称
 required: true
 searchable: true
 sort_no: 10
