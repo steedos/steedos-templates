@@ -1,3 +1,4 @@
+[
 { 
     "_id" : "${space_id}_67332e8ffbc55e0622c92f41", 
     "owner" : "672dc9a8f42f46069f5443c6", 
@@ -13,7 +14,7 @@
     "name" : "PE0001", 
     "description" : "业务招待费用", 
     "incurred_date" : ISODate("2022-05-28T00:00:00Z") 
-}
+},
 { 
     "_id" : "${space_id}_67341dd6599b7a06215b8e39", 
     "owner" : "672dc9a8f42f46069f5443c6", 
@@ -29,7 +30,8 @@
     "modified" : ISODate("2022-07-13T03:32:37.990Z"), 
     "created_by" : "672dc9a8f42f46069f5443c6", 
     "modified_by" : "672dc9a8f42f46069f5443c6", 
-    "name" : "PE0002" }
+    "name" : "PE0002" 
+},
 { 
     "_id" : "${space_id}_67341e2f599b7a06215b8e3b", 
     "owner" : "672dc9a8f42f46069f5443c6", 
@@ -47,3 +49,4 @@
     "modified_by" : "672dc9a8f42f46069f5443c6", 
     "name" : "PE0003" 
 }
+]
