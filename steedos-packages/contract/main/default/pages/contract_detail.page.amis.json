@@ -27,7 +27,7 @@
                             "mode": "read",
                             "className": "mb-4",
                             "enableInitApi": false,
-                            "enableTabs": true,
+                            "enableTabs": false,
                             "tabsMode": ""
                         }
                     ],
@@ -51,12 +51,56 @@
                     "title": "回款/付款",
                     "body": [
                         {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:a5b7988a8bca",
-                            "relatedObjectApiName": "contract_return_payment_plan"
+                            "type": "grid",
+                            "columns": [
+                                {
+                                    "body": [
+                                        {
+                                            "type": "steedos-object-related-listview",
+                                            "label": "相关表",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "id": "u:250763f86069",
+                                            "relatedObjectApiName": "contract_return_payment_plan"
+                                        }
+                                    ],
+                                    "id": "u:d61cffa8c183",
+                                    "editorState": "default",
+                                    "md": "",
+                                    "valign": ""
+                                },
+                                {
+                                    "body": [
+                                        {
+                                            "type": "panel",
+                                            "title": "款项情况",
+                                            "body": [
+                                                {
+                                                    "type": "steedos-object-form",
+                                                    "label": "对象表单",
+                                                    "objectApiName": "${objectName}",
+                                                    "recordId": "${recordId}",
+                                                    "mode": "read",
+                                                    "enableInitApi": false,
+                                                    "className": "",
+                                                    "id": "u:3be8bc987cc9",
+                                                    "fields": [
+                                                        "receive_amount",
+                                                        "need_receive_amount",
+                                                        "pay_amount",
+                                                        "need_pay_amount"
+                                                    ]
+                                                }
+                                            ],
+                                            "id": "u:6be612b0c264",
+                                            "affixFooter": false
+                                        }
+                                    ],
+                                    "id": "u:6db8caf03627"
+                                }
+                            ],
+                            "id": "u:31376bc70daa",
+                            "editorState": "default"
                         },
                         {
                             "type": "steedos-object-related-listview",
@@ -81,12 +125,53 @@
                     "title": "发票记录",
                     "body": [
                         {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:60d97b6aa0b1",
-                            "relatedObjectApiName": "contract_invoice_plan"
+                            "type": "grid",
+                            "columns": [
+                                {
+                                    "body": [
+                                        {
+                                            "type": "steedos-object-related-listview",
+                                            "label": "相关表",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "id": "u:bd8e8d9b50d0",
+                                            "relatedObjectApiName": "contract_invoice_plan"
+                                        }
+                                    ],
+                                    "id": "u:5f491705d866"
+                                },
+                                {
+                                    "body": [
+                                        {
+                                            "type": "panel",
+                                            "title": "发票情况",
+                                            "body": [
+                                                {
+                                                    "type": "steedos-object-form",
+                                                    "label": "对象表单",
+                                                    "objectApiName": "${objectName}",
+                                                    "recordId": "${recordId}",
+                                                    "mode": "read",
+                                                    "enableInitApi": false,
+                                                    "className": "",
+                                                    "id": "u:36563b59be8e",
+                                                    "fields": [
+                                                        "invoice_amount",
+                                                        "need_invoice_amount",
+                                                        "ticket_received_amount",
+                                                        "need_ticket_received_amount"
+                                                    ]
+                                                }
+                                            ],
+                                            "id": "u:68446a5d58d1",
+                                            "affixFooter": false
+                                        }
+                                    ],
+                                    "id": "u:0312c697e369"
+                                }
+                            ],
+                            "id": "u:981752b9da15",
+                            "editorState": "default"
                         },
                         {
                             "type": "steedos-object-related-listview",
@@ -115,10 +200,11 @@
                             "label": "相关表",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
-                            "id": "u:224b53d7c37d",
-                            "relatedObjectApiName": "contract_follow"
+                            "id": "u:9dec02a83442",
+                            "relatedObjectApiName": "tasks"
                         }
-                    ]
+                    ],
+                    "id": "u:873dd49cd17a"
                 },
                 {
                     "title": "审计日志",

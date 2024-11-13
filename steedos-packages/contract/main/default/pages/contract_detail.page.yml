@@ -1,4 +1,6 @@
 name: contract_detail
+__filename: >-
+  /workspace/steedos-templates/steedos-packages/contract/main/default/pages/contract_detail.page.yml
 is_active: true
 label: 合同记录详情页
 locked: false
