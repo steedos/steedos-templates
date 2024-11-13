@@ -67,16 +67,6 @@ cards:
     size_x: 6
     size_y: 4
     visualization_settings: '{}'
-  - card_id: 672db253183671062121e5f8
-    col: 12
-    entity_id: 672db263183671062121e5f9
-    id: 672db263183671062121e5f9
-    parameter_mappings: []
-    row: 4
-    series: []
-    size_x: 6
-    size_y: 4
-    visualization_settings: '"{}"'
   - card_id: 672db592183671062121e5fa
     col: 0
     entity_id: 672db5c1183671062121e5fb

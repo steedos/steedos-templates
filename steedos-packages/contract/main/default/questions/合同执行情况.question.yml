@@ -5,6 +5,11 @@ database_id: 1
 dataset_query:
   query:
     source-table: contract
+    order-by:
+      - - desc
+        - - field
+          - contract.created
+          - null
     fields:
       - - field
         - contract.name
@@ -16,31 +21,24 @@ dataset_query:
         - contract.contract_counterparty
         - null
       - - field
-        - contract.amount
-        - null
-      - - field
         - contract.cash_flow_type
         - null
       - - field
-        - contract.owner
-        - null
-      - - field
-        - contract.receive_amount
+        - contract.amount
         - null
       - - field
         - contract.need_receive_amount
         - null
       - - field
-        - contract.pay_amount
-        - null
-      - - field
         - contract.need_pay_amount
         - null
-    order-by:
-      - - desc
-        - - field
-          - contract.signing_date
-          - null
+      - - field
+        - contract.implementation
+        - null
+      - - field
+        - contract.owner
+        - null
+
   type: query
   database: 1
 display: table
@@ -151,6 +149,19 @@ result_metadata:
     source: fields
     visibility_type: normal
     table_id: contract
+  - id: contract.implementation
+    name: implementation
+    display_name: 执行情况
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.implementation
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
   - id: contract.owner
     name: owner
     display_name: 合同负责人
@@ -165,19 +176,6 @@ result_metadata:
     visibility_type: normal
     table_id: contract
     remapped_to: external_owner
-  - id: contract.receive_amount
-    name: receive_amount
-    display_name: 已回款金额
-    base_type: type/Float
-    effective_type: type/Float
-    semantic_type: type/Float
-    field_ref:
-      - field
-      - contract.receive_amount
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: contract
   - id: contract.need_receive_amount
     name: need_receive_amount
     display_name: 待回款金额
@@ -187,19 +185,6 @@ result_metadata:
     field_ref:
       - field
       - contract.need_receive_amount
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: contract
-  - id: contract.pay_amount
-    name: pay_amount
-    display_name: 已付款金额
-    base_type: type/Float
-    effective_type: type/Float
-    semantic_type: type/Float
-    field_ref:
-      - field
-      - contract.pay_amount
       - null
     source: fields
     visibility_type: normal
@@ -258,4 +243,4 @@ result_metadata:
 table_id: contract
 updated_at: 2024-11-08T06:54:10.984Z
 visualization_settings: >-
-  {"progress.goal":0,"column_settings":{"[\"name\",\"sum\"]":{"column_title":"合同金额"},"[\"name\",\"sum_2\"]":{"column_title":"待回款金额"},"[\"name\",\"sum_3\"]":{"column_title":"待付款金额"},"[\"name\",\"sum_4\"]":{"column_title":"待开票金额"},"[\"name\",\"sum_5\"]":{"column_title":"待收票金额","show_mini_bar":false},"[\"name\",\"sum_6\"]":{"column_title":"已开票金额"},"[\"name\",\"sum_7\"]":{"column_title":"待开票金额"},"[\"name\",\"sum_8\"]":{"column_title":"已收票金额"},"[\"name\",\"sum_9\"]":{"column_title":"待收票金额"}},"table.column_formatting":[],"table.pivot_column":"cash_flow_type","table.cell_column":"sum","table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","contract.name",null],"enabled":true},{"name":"no","fieldRef":["field","contract.no",null],"enabled":true},{"name":"contract_counterparty","fieldRef":["field","contract.contract_counterparty",null],"enabled":true},{"name":"amount","fieldRef":["field","contract.amount",null],"enabled":true},{"name":"cash_flow_type","fieldRef":["field","contract.cash_flow_type",null],"enabled":true},{"name":"owner","fieldRef":["field","contract.owner",null],"enabled":true},{"name":"receive_amount","fieldRef":["field","contract.receive_amount",null],"enabled":true},{"name":"need_receive_amount","fieldRef":["field","contract.need_receive_amount",null],"enabled":true},{"name":"pay_amount","fieldRef":["field","contract.pay_amount",null],"enabled":true},{"name":"need_pay_amount","fieldRef":["field","contract.need_pay_amount",null],"enabled":true}]}
+  {"progress.goal":0,"column_settings":{"[\"name\",\"sum\"]":{"column_title":"合同金额"},"[\"name\",\"sum_2\"]":{"column_title":"待回款金额"},"[\"name\",\"sum_3\"]":{"column_title":"待付款金额"},"[\"name\",\"sum_4\"]":{"column_title":"待开票金额"},"[\"name\",\"sum_5\"]":{"column_title":"待收票金额","show_mini_bar":false},"[\"name\",\"sum_6\"]":{"column_title":"已开票金额"},"[\"name\",\"sum_7\"]":{"column_title":"待开票金额"},"[\"name\",\"sum_8\"]":{"column_title":"已收票金额"},"[\"name\",\"sum_9\"]":{"column_title":"待收票金额"}},"table.column_formatting":[],"table.pivot_column":"cash_flow_type","table.cell_column":"sum","table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","contract.name",null],"enabled":true},{"name":"contract_counterparty","fieldRef":["field","contract.contract_counterparty",null],"enabled":true},{"name":"cash_flow_type","fieldRef":["field","contract.cash_flow_type",null],"enabled":true},{"name":"amount","fieldRef":["field","contract.amount",null],"enabled":true},{"name":"implementation","fieldRef":["field","contract.implementation",null],"enabled":true},{"name":"owner","fieldRef":["field","contract.owner",null],"enabled":true},{"name":"need_receive_amount","fieldRef":["field","contract.need_receive_amount",null],"enabled":true},{"name":"need_pay_amount","fieldRef":["field","contract.need_pay_amount",null],"enabled":true},{"fieldRef":["field","contract.no",null],"enabled":true}]}
