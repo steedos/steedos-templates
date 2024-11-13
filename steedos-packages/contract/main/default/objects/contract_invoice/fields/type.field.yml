@@ -1,8 +1,8 @@
-name: fq0r4i
+name: type
 amis:
   id: 'u:84b5b43504af'
 group: 通用
-label: 收票类型
+label: 发票类型
 options:
   - label: 增值税普通发票
     value: v1

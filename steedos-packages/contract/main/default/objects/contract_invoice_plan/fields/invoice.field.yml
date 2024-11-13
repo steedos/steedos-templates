@@ -1,9 +1,0 @@
-name: invoice
-amis:
-  id: 'u:faf27d2c2993'
-description: 'IF(资金类型=="回款","开票","收票")'
-group: 通用
-label: 发票形式(作废)
-sort_no: 200
-type: text
-hidden: true

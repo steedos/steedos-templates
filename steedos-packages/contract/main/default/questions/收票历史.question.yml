@@ -23,7 +23,7 @@ dataset_query:
         - contract_invoice.company
         - null
       - - field
-        - contract_invoice.fq0r4i
+        - contract_invoice.type
         - null
       - - field
         - contract_invoice.ticket_amount
@@ -110,15 +110,15 @@ result_metadata:
     visibility_type: normal
     table_id: contract_invoice
     remapped_to: external_company
-  - id: contract_invoice.fq0r4i
-    name: fq0r4i
+  - id: contract_invoice.type
+    name: type
     display_name: 收票类型
     base_type: type/Text
     effective_type: type/Text
     semantic_type: null
     field_ref:
       - field
-      - contract_invoice.fq0r4i
+      - contract_invoice.type
       - null
     source: fields
     visibility_type: normal
@@ -177,4 +177,4 @@ result_metadata:
 table_id: contract_invoice
 updated_at: 2024-11-08T08:05:58.625Z
 visualization_settings: >-
-  {"table.columns":[{"name":"_id","enabled":false},{"name":"contract","fieldRef":["field","contract_invoice.contract",null],"enabled":true},{"name":"date","fieldRef":["field","contract_invoice.date",null],"enabled":true},{"name":"company","fieldRef":["field","contract_invoice.company",null],"enabled":true},{"name":"fq0r4i","fieldRef":["field","contract_invoice.fq0r4i",null],"enabled":true},{"name":"ticket_amount","fieldRef":["field","contract_invoice.ticket_amount",null],"enabled":true}],"table.pivot_column":"_id","table.cell_column":"ticket_amount"}
+  {"table.columns":[{"name":"_id","enabled":false},{"name":"contract","fieldRef":["field","contract_invoice.contract",null],"enabled":true},{"name":"date","fieldRef":["field","contract_invoice.date",null],"enabled":true},{"name":"company","fieldRef":["field","contract_invoice.company",null],"enabled":true},{"name":"type","fieldRef":["field","contract_invoice.type",null],"enabled":true},{"name":"ticket_amount","fieldRef":["field","contract_invoice.ticket_amount",null],"enabled":true}],"table.pivot_column":"_id","table.cell_column":"ticket_amount"}

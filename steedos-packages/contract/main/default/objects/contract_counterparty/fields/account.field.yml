@@ -2,6 +2,6 @@ name: account
 amis:
   id: 'u:a7f13929d090'
 group: 通用
-label: 账号
+label: 银行账号
 sort_no: 300
 type: text

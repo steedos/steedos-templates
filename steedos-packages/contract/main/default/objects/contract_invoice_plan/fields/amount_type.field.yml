@@ -1,9 +1,0 @@
-name: amount_type
-amis:
-  id: 'u:3e575b7cf570'
-description: '计划开票金额为￥：CONCATENATE(''计划'',发票形式,''金额为'',发票金额,''￥'')'
-group: 通用
-label: 计划标签
-sort_no: 400
-type: text
-hidden: true

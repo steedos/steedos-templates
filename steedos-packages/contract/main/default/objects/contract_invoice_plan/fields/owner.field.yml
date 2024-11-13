@@ -4,7 +4,7 @@ amis:
 description: ''
 enable_thousands: true
 group: 通用
-hidden: true
+hidden: false
 index: true
 inlineHelpText: ''
 label: 负责人

@@ -2,6 +2,6 @@ name: account
 amis:
   id: 'u:4b82bb632048'
 group: 开票信息
-label: 账号
+label: 银行账号
 sort_no: 650
 type: text

@@ -10,7 +10,6 @@ auto_fill_mapping:
     to: return_amount
   - from: need_receive_amount
     to: need_return_amount
-description: 选择合同信息，能够自动填充合同编号信息
 group: 合同信息
 label: 合同
 reference_to: contract
