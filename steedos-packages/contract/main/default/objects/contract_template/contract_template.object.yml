@@ -16,7 +16,7 @@ enable_workflow: true
 field_groups:
   - group_name: 系统信息
     collapsed: true
-icon: timesheet_entry
+icon: contract_line_item
 is_enable: true
 is_system: true
 label: 合同模版库

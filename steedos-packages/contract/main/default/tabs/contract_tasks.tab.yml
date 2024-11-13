@@ -1,0 +1,11 @@
+name: contract_tasks
+desktop: true
+icon: employee_organization
+is_new_window: false
+is_use_iframe: false
+label: 合同跟进
+locked: false
+mobile: true
+object: tasks
+permissions: []
+type: object

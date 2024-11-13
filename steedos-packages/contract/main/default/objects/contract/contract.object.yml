@@ -27,7 +27,7 @@ field_groups:
     collapsed: true
   - group_name: 归档信息
   - group_name: 合同内容
-icon: customer_portal_users
+icon: care_request_reviewer
 is_enable: true
 label: 合同
 version: 2

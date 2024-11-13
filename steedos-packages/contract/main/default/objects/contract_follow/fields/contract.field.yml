@@ -1,9 +1,0 @@
-name: contract
-amis:
-  id: 'u:93385c9f2d82'
-group: 通用
-label: 合同
-reference_to: contract
-required: true
-sort_no: 50
-type: master_detail
