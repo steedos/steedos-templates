@@ -1,0 +1,8 @@
+name: contract_framework_description
+is_active: true
+label: 合同管理框架说明
+locked: false
+pageAssignments: []
+render_engine: amis
+type: app
+widgets: []
