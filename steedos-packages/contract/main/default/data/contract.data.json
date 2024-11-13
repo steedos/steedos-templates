@@ -39,7 +39,8 @@
       "invoice_amount": 350000,
       "pay_amount": 0,
       "receive_amount": 350000,
-      "ticket_received_amount": 0
+      "ticket_received_amount": 0,
+      "type": "standard"
     },
     {
       "_id": "${space_id}_6732ce7ac1e74506a3383f97",

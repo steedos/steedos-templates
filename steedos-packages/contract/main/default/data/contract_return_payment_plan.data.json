@@ -7,7 +7,7 @@
     ],
     "locked": false,
     "owner": "6732c9c5c1e74506a3383f76",
-    "contract": " ${space_id}_6732cc2dc1e74506a3383f7c",
+    "contract": "${space_id}_6732cc2dc1e74506a3383f7c",
     "number": "HT_241112-001\n\n",
     "name": "回款（合同签订后支付30%）",
     "date": {
@@ -30,7 +30,7 @@
     ],
     "locked": false,
     "owner": "6732c9c5c1e74506a3383f76",
-    "contract": " ${space_id}_6732cc2dc1e74506a3383f7c",
+    "contract": "${space_id}_6732cc2dc1e74506a3383f7c",
     "number": "HT_241112-001\n\n",
     "name": "回款（项目中期支付40%）",
     "date": {
@@ -53,7 +53,7 @@
     ],
     "locked": false,
     "owner": "6732c9c5c1e74506a3383f76",
-    "contract": " ${space_id}_6732cc2dc1e74506a3383f7c",
+    "contract": "${space_id}_6732cc2dc1e74506a3383f7c",
     "number": "HT_241112-001\n\n",
     "name": "回款（项目验收后支付30%）",
     "date": {
@@ -76,7 +76,7 @@
     ],
     "locked": false,
     "owner": "6732c9c5c1e74506a3383f76",
-    "contract": " ${space_id}_6732ce7ac1e74506a3383f97",
+    "contract": "${space_id}_6732ce7ac1e74506a3383f97",
     "number": "HT_241112-002\n\n",
     "name": "付款50%",
     "date": {
@@ -99,7 +99,7 @@
     ],
     "locked": false,
     "owner": "6732c9c5c1e74506a3383f76",
-    "contract": " ${space_id}_6732ce7ac1e74506a3383f97",
+    "contract": "${space_id}_6732ce7ac1e74506a3383f97",
     "number": "HT_241112-002\n\n",
     "name": "运行三个月后付款剩余50%",
     "date": {
