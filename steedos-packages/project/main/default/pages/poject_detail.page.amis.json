@@ -100,14 +100,6 @@
                             "recordId": "${recordId}",
                             "id": "u:226dbd412f12",
                             "relatedObjectApiName": "audit_records"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:b2b76e54b2b2",
-                            "relatedObjectApiName": "instances"
                         }
                     ],
                     "id": "u:050e582e45d8"
