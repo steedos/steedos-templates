@@ -1,0 +1,51 @@
+name: 合同资金类型分布
+created_at: 2024-11-13T09:17:31.695Z
+creator_id: 67346cab0ada3506a3207b6e
+database_id: 1
+dataset_query:
+  query:
+    source-table: contract
+    breakout:
+      - - field
+        - contract.cash_flow_type
+        - null
+    aggregation:
+      - - sum
+        - - field
+          - contract.amount
+          - null
+  type: query
+  database: 1
+display: pie
+entity_id: 67346eab0ada3506a3207b7c
+id: 67346eab0ada3506a3207b7c
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: cash_flow_type
+    name: cash_flow_type
+    unit: null
+    display_name: 资金类型
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: contract
+    field_ref:
+      - field
+      - contract.cash_flow_type
+      - null
+  - base_type: type/Integer
+    display_name: 合同金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+table_id: contract
+updated_at: 2024-11-13T09:17:31.695Z
+visualization_settings: '{"pie.percent_visibility":"inside","pie.show_total":true}'

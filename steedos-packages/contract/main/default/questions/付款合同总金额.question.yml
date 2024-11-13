@@ -1,0 +1,39 @@
+name: 付款合同总金额
+created_at: 2024-11-13T09:11:35.138Z
+creator_id: 67346cab0ada3506a3207b6e
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    filter:
+      - '='
+      - - field
+        - contract.cash_flow_type
+        - null
+      - pay
+    aggregation:
+      - - sum
+        - - field
+          - contract.amount
+          - null
+display: scalar
+entity_id: 67346d470ada3506a3207b74
+id: 67346d470ada3506a3207b74
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/Integer
+    display_name: 合同金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+table_id: contract
+updated_at: 2024-11-13T09:11:35.138Z
+visualization_settings: '{}'

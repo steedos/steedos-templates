@@ -1,0 +1,89 @@
+name: 合同类型金额分布
+created_at: 2024-11-13T09:16:00.204Z
+creator_id: 67346cab0ada3506a3207b6e
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    aggregation:
+      - - sum
+        - - field
+          - contract.amount
+          - null
+    breakout:
+      - - field
+        - contract.contract_counterparty
+        - null
+      - - field
+        - contract.cash_flow_type
+        - null
+display: bar
+entity_id: 67346e500ada3506a3207b7a
+id: 67346e500ada3506a3207b7a
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: contract_counterparty
+    name: contract_counterparty
+    unit: null
+    display_name: 合同相对方
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    source: breakout
+    visibility_type: normal
+    table_id: contract
+    field_ref:
+      - field
+      - contract.contract_counterparty
+      - null
+    remapped_to: external_contract_counterparty
+  - id: cash_flow_type
+    name: cash_flow_type
+    unit: null
+    display_name: 资金类型
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: contract
+    field_ref:
+      - field
+      - contract.cash_flow_type
+      - null
+  - base_type: type/Integer
+    display_name: 合同金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+  - description: null
+    semantic_type: type/Name
+    table_id: contract_counterparty
+    coercion_strategy: null
+    name: external_contract_counterparty
+    settings: null
+    source: fields
+    remapped_from: contract_counterparty
+    fk_field_id: contract_counterparty
+    field_ref:
+      - field
+      - contract_counterparty.name
+      - source-field: contract.contract_counterparty
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: contract_counterparty.name
+    visibility_type: normal
+    display_name: 合同相对方
+table_id: contract
+updated_at: 2024-11-13T09:16:00.204Z
+visualization_settings: >-
+  {"graph.x_axis.labels_enabled":false,"graph.y_axis.labels_enabled":false,"graph.x_axis.axis_enabled":"rotate-45","graph.dimensions":["contract_counterparty","cash_flow_type"],"graph.metrics":["sum"]}
