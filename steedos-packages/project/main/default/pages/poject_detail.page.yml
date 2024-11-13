@@ -1,0 +1,13 @@
+name: poject_detail
+is_active: true
+label: 项目记录详情页
+locked: false
+object_name: project
+pageAssignments:
+  - type: orgDefault
+    page: poject_detail
+    desktop: true
+    mobile: true
+render_engine: amis
+type: record
+widgets: []
