@@ -38,45 +38,5 @@
     "name": "合同催款",
     "due_date": {
         "$date":  "2024-11-07T00:00:00.000Z"}
-  },
-  {
-    "_id": "${space_id}_e7deKKERrhYhG3bPQ",
-    "state": "not_started",
-    "priority": "normal",
-    "owner": "6732c9c5c1e74506a3383f76",
-    "locked": false,
-    "company_id": "6732c9cac1e74506a3383f78",
-    "company_ids": [
-      "6732c9cac1e74506a3383f78"
-    ],
-    "related_to": {
-      "o": "contract",
-      "ids": [
-        "${space_id}_6732cc2dc1e74506a3383f7c"
-      ]
-    },
-    "name": "合同催款",
-    "due_date": {
-        "$date":  "2024-11-07T00:00:00.000Z"}
-  },
-  {
-    "_id": "${space_id}_ta98QDNz3eLdbYrn",
-    "state": "not_started",
-    "priority": "normal",
-    "owner": "6732c9c5c1e74506a3383f76",
-    "locked": false,
-    "company_id": "6732c9cac1e74506a3383f78",
-    "company_ids": [
-      "6732c9cac1e74506a3383f78"
-    ],
-    "related_to": {
-      "o": "contract_counterparty",
-      "ids": [
-        "${space_id}_6732ca4bc1e74506a3383f79"
-      ]
-    },
-    "name": "新合同立项跟进",
-    "due_date": {
-        "$date":  "2024-11-20T00:00:00.000Z"}
   }
 ]
