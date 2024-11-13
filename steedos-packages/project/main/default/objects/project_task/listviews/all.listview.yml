@@ -2,16 +2,25 @@ name: all
 columns:
   - field: name
   - field: assignees
-  - field: start_date
-  - field: due_date
+    width: '100'
+    wrap: false
   - field: priority
-  - field: state
-  - field: collaborator
-  - field: project
-  - field: project_milestone
+    width: '80'
+    wrap: false
   - field: has_complete
+    width: '80'
+    wrap: false
+  - field: project
+    wrap: false
+  - field: start_date
+    width: '140'
+    wrap: false
+  - field: due_date
+    width: '140'
+    wrap: false
   - field: completed_date
-  - field: created
+    width: '140'
+    wrap: false
 crud_mode: table
 filter_fields:
   - name
@@ -19,7 +28,6 @@ filter_fields:
   - assignees
   - due_date
   - priority
-  - state
   - completed
 filter_scope: space
 filters: []
@@ -28,7 +36,6 @@ is_enable: true
 label: 所有任务
 mobile_columns:
   - field: name
-  - field: collaborator
   - field: project
   - field: due_date
   - field: priority
@@ -37,7 +44,6 @@ scrolling_mode: standard
 searchable_fields:
   - field: name
   - field: project
-  - field: state
   - field: assignees
   - field: has_complete
   - field: start_date
@@ -46,7 +52,7 @@ searchable_fields:
 shared: true
 show_count: false
 sort:
-  - field_name: created
-    order: desc
+  - field_name: due_date
+    order: asc
 sort_no: 40
 type: grid
