@@ -2,11 +2,14 @@ name: cash_flow_type
 amis:
   id: 'u:02262766fe0f'
 data_type: text
+description: ''
+enable_thousands: true
 filterable: false
 filters: []
 group: 合同信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 资金类型

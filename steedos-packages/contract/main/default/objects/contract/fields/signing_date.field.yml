@@ -1,7 +1,10 @@
 name: signing_date
 amis:
   id: 'u:5e029da987a6'
+description: ''
+enable_thousands: true
 group: 合同信息
+inlineHelpText: ''
 label: 签约日期
 sort_no: 550
 type: date

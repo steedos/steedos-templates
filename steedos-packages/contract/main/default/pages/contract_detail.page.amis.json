@@ -100,7 +100,14 @@
                                 }
                             ],
                             "id": "u:31376bc70daa",
-                            "editorState": "default"
+                            "editorState": "default",
+                            "themeCss": {
+                                "baseControlClassName": {
+                                    "padding-and-margin:default": {
+                                        "paddingBottom": "0.625rem"
+                                    }
+                                }
+                            }
                         },
                         {
                             "type": "steedos-object-related-listview",
@@ -108,7 +115,8 @@
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
                             "id": "u:bd3e83c1f451",
-                            "relatedObjectApiName": "contract_return"
+                            "relatedObjectApiName": "contract_return",
+                            "visibleOn": "cash_flow_type != 'pay'"
                         },
                         {
                             "type": "steedos-object-related-listview",
@@ -116,7 +124,8 @@
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
                             "id": "u:f7dbb9c457a3",
-                            "relatedObjectApiName": "contract_payment"
+                            "relatedObjectApiName": "contract_payment",
+                            "visibleOn": "cash_flow_type != 'receive'"
                         }
                     ],
                     "id": "u:d26a43f18096"
@@ -171,7 +180,20 @@
                                 }
                             ],
                             "id": "u:981752b9da15",
-                            "editorState": "default"
+                            "editorState": "default",
+                            "themeCss": {
+                                "baseControlClassName": {
+                                    "border:default": {
+                                        "top-border-style": "solid",
+                                        "left-border-style": "solid",
+                                        "right-border-style": "solid",
+                                        "bottom-border-style": "solid"
+                                    },
+                                    "padding-and-margin:default": {
+                                        "paddingBottom": "0.625rem"
+                                    }
+                                }
+                            }
                         },
                         {
                             "type": "steedos-object-related-listview",
@@ -179,7 +201,8 @@
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
                             "id": "u:dcd685b4e854",
-                            "relatedObjectApiName": "contract_invoicing"
+                            "relatedObjectApiName": "contract_invoicing",
+                            "visibleOn": "cash_flow_type != 'pay'"
                         },
                         {
                             "type": "steedos-object-related-listview",
@@ -187,7 +210,8 @@
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
                             "id": "u:ae1b2950be7c",
-                            "relatedObjectApiName": "contract_invoice"
+                            "relatedObjectApiName": "contract_invoice",
+                            "visibleOn": "cash_flow_type != 'receive'"
                         }
                     ],
                     "id": "u:00adf991c735"

@@ -2,6 +2,8 @@ name: implementation
 amis:
   id: 'u:81c634abb45e'
 data_type: text
+description: ''
+enable_thousands: true
 filters: []
 group: 合同信息
 inlineHelpText: >-

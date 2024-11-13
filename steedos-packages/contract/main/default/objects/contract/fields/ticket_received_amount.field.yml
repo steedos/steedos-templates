@@ -1,12 +1,16 @@
 name: ticket_received_amount
 amis: {}
 data_type: currency
+description: ''
+enable_thousands: true
 group: 发票款项情况
+inlineHelpText: ''
 label: 已收票金额
 precision: 18
 scale: 2
-sort_no: 1050
+sort_no: 1000
 summary_field: ticket_amount
 summary_object: contract_invoice
 summary_type: sum
 type: summary
+visible_on: cash_flow_type != 'receive'

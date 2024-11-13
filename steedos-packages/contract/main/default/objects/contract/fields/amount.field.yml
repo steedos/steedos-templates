@@ -1,10 +1,13 @@
 name: amount
 amis:
   id: 'u:9ff76934abcd'
+description: ''
+enable_thousands: true
 filterable: false
 group: 合同信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 合同金额

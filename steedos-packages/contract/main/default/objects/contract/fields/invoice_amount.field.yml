@@ -1,14 +1,17 @@
 name: invoice_amount
 amis: {}
 data_type: currency
+description: ''
+enable_thousands: true
 filters: []
 group: 发票款项情况
+inlineHelpText: ''
 label: 已开票金额
 precision: 18
 scale: 2
-sort_no: 950
+sort_no: 900
 summary_field: amount
 summary_object: contract_invoicing
 summary_type: sum
 type: summary
-visible_on: ''
+visible_on: cash_flow_type != 'pay'

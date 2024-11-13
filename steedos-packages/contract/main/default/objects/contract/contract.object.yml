@@ -25,8 +25,6 @@ field_groups:
   - group_name: 发票款项情况
   - group_name: 系统信息
     collapsed: true
-  - group_name: 归档信息
-  - group_name: 合同内容
 icon: care_request_reviewer
 is_enable: true
 label: 合同
