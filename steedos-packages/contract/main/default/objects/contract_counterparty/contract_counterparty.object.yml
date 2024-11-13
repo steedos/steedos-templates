@@ -18,5 +18,5 @@ field_groups:
 icon: location
 is_enable: true
 is_system: true
-label: 客户及供应商清单
+label: 客户及供应商
 version: 2

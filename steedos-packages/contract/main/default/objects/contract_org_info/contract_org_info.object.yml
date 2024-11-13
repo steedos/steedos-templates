@@ -18,6 +18,6 @@ field_groups:
   - group_name: 通用
 icon: user_role
 is_enable: true
-label: 机构单位信息
+label: 我方单位
 locked: false
 version: 2

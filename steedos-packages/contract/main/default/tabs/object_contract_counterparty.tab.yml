@@ -1,7 +1,7 @@
 name: object_contract_counterparty
 desktop: true
 icon: channel_program_members
-label: 相对方
+label: 客户及供应商
 mobile: true
 object: contract_counterparty
 permissions: []

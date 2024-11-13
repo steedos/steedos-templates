@@ -1,7 +1,7 @@
 name: object_contract_org_info
 desktop: true
 icon: employee_organization
-label: 机构单位信息
+label: 我方单位
 mobile: true
 object: contract_org_info
 permissions: []
