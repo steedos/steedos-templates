@@ -10,7 +10,7 @@ inlineHelpText: ''
 label: 所属分部
 multiple: true
 reference_to: company
-sort_no: 1300
+sort_no: 1350
 sortable: true
 type: lookup
 visible_on: '{{false}}'

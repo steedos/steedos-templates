@@ -1,10 +1,10 @@
 name: contract
 compactLayouts:
-  - owner
-  - need_receive_amount
-  - need_pay_amount
-  - need_invoice_amount
-  - need_ticket_received_amount
+  - contract_counterparty
+  - cash_flow_type
+  - amount
+  - implementation
+  - type
 custom: true
 enable_api: true
 enable_audit: true
@@ -17,16 +17,16 @@ enable_instances: false
 enable_notes: false
 enable_search: true
 enable_share: true
-enable_tasks: false
+enable_tasks: true
 enable_trash: true
 enable_workflow: true
 field_groups:
   - group_name: 合同信息
-  - group_name: 签约信息
-  - group_name: 款项情况
-  - group_name: 发票情况
+  - group_name: 发票款项情况
   - group_name: 系统信息
     collapsed: true
+  - group_name: 归档信息
+  - group_name: 合同内容
 icon: customer_portal_users
 is_enable: true
 label: 合同

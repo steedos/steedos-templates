@@ -10,5 +10,5 @@ label: 创建人
 readonly: true
 reference_to: users
 reference_to_field: user
-sort_no: 1150
+sort_no: 1200
 type: lookup

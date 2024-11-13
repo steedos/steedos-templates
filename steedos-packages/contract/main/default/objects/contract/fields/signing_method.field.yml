@@ -1,8 +1,8 @@
 name: signing_method
 amis:
-  id: 'u:dcbecfbbff9d'
+  id: 'u:82866bcb1ee6'
 data_type: text
-group: 签约信息
+group: 合同信息
 label: 签约方式
 options:
   - label: 面签

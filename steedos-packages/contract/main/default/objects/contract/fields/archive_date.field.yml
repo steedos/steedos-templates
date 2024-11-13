@@ -1,8 +1,0 @@
-name: archive_date
-amis:
-  id: 'u:c0aefb49d1a5'
-group: 归档信息
-hidden: true
-label: 归档日期
-sort_no: 1920
-type: date

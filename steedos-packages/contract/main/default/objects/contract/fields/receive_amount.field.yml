@@ -2,11 +2,11 @@ name: receive_amount
 amis: {}
 data_type: currency
 filters: []
-group: 款项情况
+group: 发票款项情况
 label: 已回款金额
 precision: 18
 scale: 2
-sort_no: 700
+sort_no: 750
 summary_field: amount
 summary_object: contract_return
 summary_type: sum

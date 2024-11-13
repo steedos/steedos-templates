@@ -8,6 +8,6 @@ index: true
 inlineHelpText: ''
 label: 创建时间
 readonly: true
-sort_no: 1100
+sort_no: 1150
 sortable: true
 type: datetime

@@ -1,7 +1,7 @@
 name: cooperate
 amis:
-  id: 'u:7ea8b93c4c98'
-group: 签约信息
+  id: 'u:c5a7d091128f'
+group: 合同信息
 is_wide: true
 label: 合同协作人
 multiple: true

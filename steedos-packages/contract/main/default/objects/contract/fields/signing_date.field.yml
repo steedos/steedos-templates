@@ -1,7 +1,7 @@
 name: signing_date
 amis:
-  id: 'u:d7d29b6f084a'
-group: 签约信息
+  id: 'u:5e029da987a6'
+group: 合同信息
 label: 签约日期
 sort_no: 550
 type: date
