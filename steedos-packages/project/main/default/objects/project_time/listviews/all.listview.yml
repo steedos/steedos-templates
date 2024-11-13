@@ -1,19 +1,23 @@
 name: all
 columns:
   - field: name
+    width: '100'
     wrap: false
   - field: project_id
     wrap: false
   - field: owner
     width: '150'
     wrap: false
-  - field: incurred_date
+  - field: created
     width: '150'
     wrap: false
   - field: hours
     width: '100'
     wrap: false
   - field: description
+    wrap: false
+  - field: project_task
+    width: '200'
     wrap: false
 filter_fields:
   - owner
