@@ -1,30 +1,31 @@
 name: all
 columns:
   - field: name
+  - field: contract
   - field: date_plan
   - field: amount
   - field: owner
-  - field: contract
-  - field: number
-mobile_columns:
-  - field: name
-  - field: date_plan
-  - field: amount
-  - field: owner
-  - field: contract
 crud_mode: table
 filter_scope: space
 filters: []
+from_code_id: contract_invoice_plan.all
 is_enable: true
 label: 所有
+mobile_columns:
+  - field: name
+  - field: contract
+  - field: date_plan
+  - field: amount
+scrolling_mode: standard
 searchable_fields:
   - field: contract
-  - field: number
-  - field: invoice
   - field: amount
-  - field: person
-  - field: amount_type
+  - field: name
+  - field: date_plan
+  - field: number
 shared_to: space
 sort:
   - field_name: created
     order: desc
+sort_no: 100
+type: grid

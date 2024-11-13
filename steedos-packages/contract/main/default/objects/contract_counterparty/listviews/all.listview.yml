@@ -7,12 +7,19 @@ columns:
   - field: household
   - field: account
   - field: tax_id
-  - field: attach
+  - field: description
 crud_mode: table
 filter_scope: space
 filters: []
+from_code_id: contract_counterparty.all
 is_enable: true
 label: 所有
+mobile_columns:
+  - field: type
+  - field: name
+  - field: nick_name
+  - field: phone
+scrolling_mode: standard
 searchable_fields:
   - field: name
   - field: type
@@ -21,8 +28,9 @@ searchable_fields:
   - field: household
   - field: account
   - field: tax_id
-shared: true
 shared_to: space
 sort:
   - field_name: created
     order: desc
+sort_no: 100
+type: grid

@@ -1,30 +1,34 @@
 name: all
 columns:
   - field: name
+  - field: contract
   - field: date
   - field: amount
   - field: owner
-  - field: contract
-  - field: number
 crud_mode: table
 filter_scope: space
 filters: []
+from_code_id: contract_return_payment_plan.all
 is_enable: true
 label: 所有
 mobile_columns:
   - field: name
   - field: date
+  - field: contract
   - field: amount
   - field: owner
-  - field: contract
+scrolling_mode: standard
 searchable_fields:
   - field: name
   - field: contract
   - field: date
-  - field: amount
   - field: owner
-shared: true
+  - field: number
 shared_to: space
 sort:
+  - field_name: created
+    order: desc
   - field_name: date
-    order: asc
+    order: desc
+sort_no: 100
+type: grid

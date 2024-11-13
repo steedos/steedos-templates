@@ -1,47 +1,39 @@
 name: all
 columns:
   - field: name
+  - field: contract
   - field: date
-  - field: company
+  - field: customer
   - field: type
   - field: tax
   - field: amount
-  - field: customer
-  - field: tax_num
-  - field: contract
-  - field: number
-  - field: modified_by
-  - field: modified
-  - field: created_by
-  - field: created
-mobile_columns:
-  - field: name
-  - field: date
-  - field: type
-  - field: amount
-  - field: customer
-  - field: contract
+  - field: company
 crud_mode: table
 filter_scope: space
 filters: []
+from_code_id: contract_invoicing.all
 is_enable: true
 label: 所有
+mobile_columns:
+  - field: name
+  - field: contract
+  - field: customer
+  - field: date
+  - field: amount
+scrolling_mode: standard
 searchable_fields:
   - field: name
   - field: contract
   - field: type
   - field: date
-  - field: amount
-  - field: tax_num
   - field: number
   - field: company
-  - field: tax
   - field: customer
-  - field: bank
-  - field: account
 shared_to: space
 sort:
-  - field_name: date
-    order: desc
   - field_name: created
     order: desc
+  - field_name: date
+    order: desc
+sort_no: 100
+type: grid

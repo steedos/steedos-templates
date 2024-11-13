@@ -1,34 +1,35 @@
 name: all
 columns:
   - field: name
+  - field: contract
   - field: date
   - field: company
   - field: ticket_amount
-  - field: contract
-  - field: number
-  - field: modified_by
-  - field: modified
-  - field: created_by
-  - field: created
-mobile_columns:
-  - field: name
-  - field: date
-  - field: company
-  - field: ticket_amount
-  - field: contract
+  - field: type
 crud_mode: table
 filter_scope: space
 filters: []
+from_code_id: contract_invoice.all
 is_enable: true
 label: 所有
+mobile_columns:
+  - field: name
+  - field: contract
+  - field: date
+  - field: company
+  - field: ticket_amount
+scrolling_mode: standard
 searchable_fields:
   - field: contract
   - field: name
   - field: number
   - field: date
   - field: company
+  - field: type
   - field: ticket_amount
 shared_to: space
 sort:
   - field_name: created
     order: desc
+sort_no: 100
+type: grid

@@ -1,39 +1,36 @@
 name: all
 columns:
   - field: name
+  - field: contract
   - field: supplier
   - field: date
   - field: way
   - field: amount
-  - field: bank
-  - field: account
-  - field: contract
-  - field: number
-  - field: modified_by
-  - field: modified
-  - field: created_by
-  - field: created
-mobile_columns:
-  - field: name
-  - field: supplier
-  - field: date
-  - field: amount
-  - field: contract
 crud_mode: table
 filter_scope: space
 filters: []
+from_code_id: contract_payment.all
 is_enable: true
 label: 所有
-searchable_fields:
+mobile_columns:
   - field: name
   - field: contract
-  - field: date
-  - field: number
-  - field: type
   - field: supplier
+  - field: date
+  - field: amount
+scrolling_mode: standard
+searchable_fields:
+  - field: contract
+  - field: number
+  - field: supplier
+  - field: date
+  - field: way
+  - field: name
 shared_to: space
 sort:
-  - field_name: date
-    order: desc
   - field_name: created
     order: desc
+  - field_name: date
+    order: desc
+sort_no: 100
+type: grid
