@@ -7,13 +7,19 @@
     "project_id" : "${space_id}_62620e4d87e5c50032d9bd25", 
     "amount" : 1000, 
     "space" : "672dc9aff42f46069f5443c8", 
-    "created" : ISODate("2022-07-12T10:31:42.997Z"), 
-    "modified" : ISODate("2022-07-13T03:30:43.918Z"), 
+    "created" : {
+        "$date": "2022-08-15T06:26:45.582Z"
+    }, 
+    "modified" : {
+        "$date": "2022-08-15T06:26:45.582Z"
+    }, 
     "created_by" : "672dc9a8f42f46069f5443c6", 
     "modified_by" : "672dc9a8f42f46069f5443c6", 
     "name" : "PE0001", 
     "description" : "业务招待费用", 
-    "incurred_date" : ISODate("2022-05-28T00:00:00Z") 
+    "incurred_date" : {
+        "$date": "2022-06-15T06:26:45.582Z"
+    } 
 },
 { 
     "_id" : "${space_id}_67341dd6599b7a06215b8e39", 
@@ -21,13 +27,19 @@
     "company_id" : "672dc9aff42f46069f5443c8", 
     "company_ids" : [ "672dc9aff42f46069f5443c8" ], 
     "project_id" : "${space_id}_62fefd49f63a8f27ae6a025f", 
-    "incurred_date" : ISODate("2021-08-18T00:00:00Z"), 
+    "incurred_date" : {
+        "$date": "2022-07-15T06:26:45.582Z"
+    }, 
     "amount" : 100000, 
     "description" : "材料采购", 
     "displayAs" : null, 
     "space" : "672dc9aff42f46069f5443c8", 
-    "created" : ISODate("2022-07-13T03:32:37.990Z"), 
-    "modified" : ISODate("2022-07-13T03:32:37.990Z"), 
+    "created" : {
+        "$date": "2022-08-15T06:26:45.582Z"
+    }, 
+    "modified" : {
+        "$date": "2022-08-15T06:26:45.582Z"
+    }, 
     "created_by" : "672dc9a8f42f46069f5443c6", 
     "modified_by" : "672dc9a8f42f46069f5443c6", 
     "name" : "PE0002" 
@@ -38,13 +50,19 @@
     "company_id" : "672dc9aff42f46069f5443c8", 
     "company_ids" : [ "672dc9aff42f46069f5443c8" ], 
     "project_id" : "${space_id}_630486ce9cc40f03d6e7cb60", 
-    "incurred_date" : ISODate("2022-05-10T00:00:00Z"), 
+    "incurred_date" : {
+        "$date": "2022-08-15T06:26:45.582Z"
+    }, 
     "amount" : 65000, 
     "description" : "运输费", 
     "displayAs" : null, 
     "space" : "672dc9aff42f46069f5443c8", 
-    "created" : ISODate("2022-07-13T03:34:07.199Z"), 
-    "modified" : ISODate("2022-07-13T03:34:07.199Z"), 
+    "created" : {
+        "$date": "2022-08-15T06:26:45.582Z"
+    }, 
+    "modified" : {
+        "$date": "2022-08-15T06:26:45.582Z"
+    }, 
     "created_by" : "672dc9a8f42f46069f5443c6", 
     "modified_by" : "672dc9a8f42f46069f5443c6", 
     "name" : "PE0003" 
