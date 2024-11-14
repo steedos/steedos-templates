@@ -48,8 +48,12 @@
             "${space_owner_id}"
         ],
         "business_cost_budget": 5000,
-        "daily_cost_budget": 5000,
-        "project_labor_budget": 50
+        "daily_cost_budget": 5000, 
+        "progress" : 0.35,
+        "project_labor_budget": 50, 
+        "project_expense" : 1000, 
+        "project_expense_balance" : 9000, 
+        "project_expense_budget" : 10000
     },
     {
         "_id": "${space_id}_62620e5787e5c50032d9bd39",
@@ -106,7 +110,10 @@
         "business_cost_budget": 5000,
         "daily_cost_budget": 5000,
         "project_cost_budget": 580000,
-        "project_labor_budget": 20
+        "project_labor_budget": 20, 
+        "progress" : 1, 
+        "project_expense_balance" : 20000, 
+        "project_expense_budget" : 20000
     },
     {
         "_id": "${space_id}_62fefd49f63a8f27ae6a025f",
@@ -166,7 +173,11 @@
         "daily_cost_budget": 0,
         "others": [
             "${space_owner_id}"
-        ]
+        ], 
+        "progress" : 0.75, 
+        "project_expense" : 100000, 
+        "project_expense_balance" : 200000, 
+        "project_expense_budget" : 300000
     },
     {
         "_id": "${space_id}_630486ce9cc40f03d6e7cb60",
@@ -226,6 +237,10 @@
         "others": [
             "${space_owner_id}"
         ],
-        "project_program": "${space_id}_6260eb8832cc250032e1a915"
+        "project_program": "${space_id}_6260eb8832cc250032e1a915", 
+        "progress" : 0.65, 
+        "project_expense" : 65000, 
+        "project_expense_balance" : 55000, 
+        "project_expense_budget" : 120000
     }
 ]
