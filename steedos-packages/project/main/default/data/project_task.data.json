@@ -23,7 +23,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": false
+        "has_complete": false, 
+        "progress" : 0.4
     },
     {
         "_id": "${space_id}_6262136087e5c50032d9bd3d",
@@ -49,7 +50,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": true
+        "has_complete": true, 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_6262136187e5c50032d9bd3f",
@@ -75,7 +77,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": false
+        "has_complete": false, 
+        "progress" : 0.6
     },
     {
         "_id": "${space_id}_6262136687e5c50032d9bd47",
@@ -101,7 +104,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": true
+        "has_complete": true, 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_6262136987e5c50032d9bd4d",
@@ -129,7 +133,8 @@
         ],
         "has_complete": true,
         "blocked": false,
-        "project_milestone": "62623aa687e5c50032d9bdad"
+        "project_milestone": "62623aa687e5c50032d9bdad", 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_6262136a87e5c50032d9bd4f",
@@ -155,7 +160,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": true
+        "has_complete": true, 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_6262136b87e5c50032d9bd51",
@@ -181,7 +187,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": false
+        "has_complete": false, 
+        "progress" : 0.15
     },
     {
         "_id": "${space_id}_6262136c87e5c50032d9bd53",
@@ -207,7 +214,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": true
+        "has_complete": true, 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_6262136d87e5c50032d9bd55",
@@ -233,7 +241,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": false
+        "has_complete": false, 
+        "progress" : 0.25
     },
     {
         "_id": "${space_id}_6262136e87e5c50032d9bd57",
@@ -259,7 +268,9 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": true
+        "has_complete": true, 
+        "progress" : 1, 
+        "start_date" : ISODate("2022-06-06T00:00:00Z")
     },
     {
         "_id": "${space_id}_6262136f87e5c50032d9bd59",
@@ -285,7 +296,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": true
+        "has_complete": true, 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_6262137087e5c50032d9bd5b",
@@ -311,7 +323,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": false
+        "has_complete": false, 
+        "progress" : 0.5
     },
     {
         "_id": "${space_id}_6262137187e5c50032d9bd5d",
@@ -337,7 +350,8 @@
         "company_ids": [
             "z86R5s8DCv7wQydKo"
         ],
-        "has_complete": false
+        "has_complete": false, 
+        "progress" : 0.8
     },
     {
         "_id": "${space_id}_626b566840f71f0031853ac1",
@@ -365,6 +379,7 @@
         "project_milestone": "62623aa687e5c50032d9bdad",
         "due_date": {
             "$date": "2022-07-06T00:00:00Z"
-        }
+        }, 
+        "progress" : 1
     }
 ]

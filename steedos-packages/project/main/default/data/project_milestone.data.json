@@ -29,7 +29,8 @@
         "company_id": "z86R5s8DCv7wQydKo",
         "company_ids": [
             "z86R5s8DCv7wQydKo"
-        ]
+        ], 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_62623ad787e5c50032d9bdae",
@@ -58,7 +59,8 @@
         "company_id": "z86R5s8DCv7wQydKo",
         "company_ids": [
             "z86R5s8DCv7wQydKo"
-        ]
+        ], 
+        "progress" : 0.65
     },
     {
         "_id": "${space_id}_62623aff87e5c50032d9bdaf",
@@ -87,7 +89,8 @@
         "company_id": "z86R5s8DCv7wQydKo",
         "company_ids": [
             "z86R5s8DCv7wQydKo"
-        ]
+        ], 
+        "progress" : 0.15
     },
     {
         "_id": "${space_id}_62623b5e87e5c50032d9bdb4",
@@ -116,7 +119,8 @@
         "company_id": "z86R5s8DCv7wQydKo",
         "company_ids": [
             "z86R5s8DCv7wQydKo"
-        ]
+        ], 
+        "progress" : 0.3
     },
     {
         "_id": "${space_id}_62b283b90aa493003e532996",
@@ -148,7 +152,8 @@
         "company_id": "z86R5s8DCv7wQydKo",
         "company_ids": [
             "z86R5s8DCv7wQydKo"
-        ]
+        ], 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_62b2862b0aa493003e532999",
@@ -180,7 +185,8 @@
         "company_id": "z86R5s8DCv7wQydKo",
         "company_ids": [
             "z86R5s8DCv7wQydKo"
-        ]
+        ], 
+        "progress" : 1
     },
     {
         "_id": "${space_id}_62b286d40aa493003e53299e",
@@ -212,6 +218,7 @@
         "company_id": "z86R5s8DCv7wQydKo",
         "company_ids": [
             "z86R5s8DCv7wQydKo"
-        ]
+        ], 
+        "progress" : 1
     }
 ]
