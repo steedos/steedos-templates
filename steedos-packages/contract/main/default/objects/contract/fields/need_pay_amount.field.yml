@@ -3,7 +3,7 @@ amis: {}
 data_type: currency
 description: ''
 enable_thousands: true
-formula: '${amount}-${pay_amount}'
+formula: '${amount-pay_amount}'
 formula_blank_value: zeroes
 group: 发票款项情况
 inlineHelpText: ''
