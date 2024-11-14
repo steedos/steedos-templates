@@ -1,0 +1,7 @@
+name: progress
+group: 完成情况
+label: 进度
+type: percent
+precision: 18
+scale: 2
+sort_no: 130
