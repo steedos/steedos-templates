@@ -14,6 +14,7 @@ dataset_query:
         - null
   type: query
 display: pie
+enable_embedding: false
 entity_id: 6560091af084ab05cc5731de
 id: 6560091af084ab05cc5731de
 parameter_mappings: []
@@ -26,20 +27,24 @@ result_metadata:
     display_name: 项目类型
     base_type: type/Text
     effective_type: type/Text
-    semantic_type: type/Source
-    source: fields
+    semantic_type: null
+    source: breakout
     visibility_type: normal
     table_id: project
+    field_ref:
+      - field
+      - project.project_type
+      - null
   - base_type: type/BigInteger
     display_name: 计数
     effective_type: type/BigInteger
     field_ref:
       - aggregation
-      - 1
+      - 0
     name: count
     semantic_type: type/Quantity
     source: aggregation
 table_id: project
 updated_at: 2023-11-24T02:23:22.075Z
 visualization_settings: >-
-  {"pivot_table.column_split":{"rows":[null],"columns":[],"values":[["aggregation",1]]}}
+  {"pivot_table.column_split":{"rows":[null],"columns":[],"values":[["aggregation",1]]},"column_settings":{"[\"name\",\"count\"]":{"number_style":"decimal"}},"pie.percent_visibility":"inside","pie.show_legend":true,"pie.show_total":true}
