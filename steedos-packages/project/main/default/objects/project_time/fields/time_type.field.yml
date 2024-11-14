@@ -10,14 +10,19 @@ omit: false
 options:
   - label: 设计
     value: design
+    color: f9e29d
   - label: 研发
     value: rnd
+    color: '4169E1'
   - label: 文档
     value: document
+    color: c11d25
   - label: 测试
     value: test
+    color: 49d181
   - label: 其他
     value: other
+    color: cfd3d7
 readonly: false
 required: false
 searchable: false
