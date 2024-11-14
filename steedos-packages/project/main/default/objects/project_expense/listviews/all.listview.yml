@@ -14,6 +14,9 @@ columns:
   - field: amount
     width: '100'
     wrap: false
+  - field: expense_type
+    width: '100'
+    wrap: false
   - field: description
     wrap: false
   - field: project_task

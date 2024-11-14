@@ -1,0 +1,26 @@
+name: time_type
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 工时类型
+multiple: false
+omit: false
+options:
+  - label: 设计
+    value: design
+  - label: 研发
+    value: rnd
+  - label: 文档
+    value: document
+  - label: 测试
+    value: test
+  - label: 其他
+    value: other
+readonly: false
+required: false
+searchable: false
+sort_no: 135
+sortable: true
+type: select

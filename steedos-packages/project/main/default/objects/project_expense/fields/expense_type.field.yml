@@ -1,0 +1,28 @@
+name: expense_type
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 费用类型
+multiple: false
+omit: false
+options:
+  - label: 交通费
+    value: traffic
+  - label: 餐饮费
+    value: catering
+  - label: 差旅费
+    value: travel
+  - label: 物料费
+    value: material
+  - label: 劳务费
+    value: labor
+  - label: 其他费用
+    value: other
+readonly: false
+required: false
+searchable: false
+sort_no: 150
+sortable: true
+type: select

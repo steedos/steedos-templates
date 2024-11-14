@@ -14,6 +14,9 @@ columns:
   - field: hours
     width: '100'
     wrap: false
+  - field: time_type
+    width: '100'
+    wrap: false
   - field: description
     wrap: false
   - field: project_task
