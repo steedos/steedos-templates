@@ -24,7 +24,8 @@
         "company_ids": [
             "xu68SZ8mgJ9J7EmJE"
         ],
-        "name": "PT0001"
+        "name": "PT0001", 
+        "time_type" : "test"
     },
     {
         "_id": "${space_id}_6264a8a323a44d00326c31c7",
@@ -51,7 +52,8 @@
         "company_ids": [
             "xu68SZ8mgJ9J7EmJE"
         ],
-        "name": "PT0002"
+        "name": "PT0002", 
+        "time_type" : "other"
     },
     {
         "_id": "${space_id}_62b294310aa493003e5329b8",
@@ -80,7 +82,8 @@
         "name": "PT0003",
         "project_task": [
             "${space_id}_62b2948c0aa493003e5329bc"
-        ]
+        ], 
+        "time_type" : "document"
     },
     {
         "_id": "${space_id}_62b294520aa493003e5329ba",
@@ -109,7 +112,8 @@
         "name": "PT0004",
         "project_task": [
             "${space_id}_62b2948c0aa493003e5329bc"
-        ]
+        ], 
+        "time_type" : "document"
     },
     {
         "_id": "${space_id}_62b294ae0aa493003e5329be",
@@ -138,7 +142,8 @@
         "name": "PT0005",
         "project_task": [
             "${space_id}_62b2948c0aa493003e5329bc"
-        ]
+        ], 
+        "time_type" : "document"
     },
     {
         "_id": "${space_id}_62b294c20aa493003e5329c0",
@@ -167,7 +172,8 @@
         "name": "PT0006",
         "project_task": [
             "${space_id}_62b2948c0aa493003e5329bc"
-        ]
+        ], 
+        "time_type" : "document"
     },
     {
         "_id": "${space_id}_62fa062ccb9c8306a51b2a86",
@@ -195,7 +201,8 @@
         "name": "PT0002",
         "incurred_date": {
             "$date": "2022-08-10T00:00:00Z"
-        }
+        }, 
+        "time_type" : "rnd"
     },
     {
         "_id": "${space_id}_62fa0656cb9c8306a51b2a88",
@@ -223,7 +230,8 @@
             "xu68SZ8mgJ9J7EmJE"
         ],
         "incurred_by": "${space_owner_id}",
-        "name": "PT0003"
+        "name": "PT0003", 
+        "time_type" : "document"
     },
     {
         "_id": "${space_id}_62fa07bbcb9c8306a51b2a8e",
@@ -251,7 +259,8 @@
         "name": "PT0004",
         "incurred_date": {
             "$date": "2022-08-11T00:00:00Z"
-        }
+        }, 
+        "time_type" : "rnd"
     },
     {
         "_id": "${space_id}_62fb5820cb9c8306a51b2be3",
@@ -279,7 +288,8 @@
         "name": "PT0006",
         "incurred_date": {
             "$date": "2022-08-13T00:00:00Z"
-        }
+        }, 
+        "time_type" : "design"
     },
     {
         "_id": "${space_id}_62fb665acb9c8306a51b2c0a",
@@ -307,7 +317,8 @@
         ],
         "incurred_by": "${space_owner_id}",
         "name": "PT0007",
-        "hours": 4
+        "hours": 4, 
+        "time_type" : "test"
     },
     {
         "_id": "${space_id}_62ff233bf63a8f27ae6a02a0",
@@ -335,6 +346,7 @@
         "hours": 8,
         "incurred_date": {
             "$date": "2022-08-03T00:00:00Z"
-        }
+        }, 
+        "time_type" : "rnd"
     }
 ]
