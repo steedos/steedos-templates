@@ -270,7 +270,9 @@
         ],
         "has_complete": true, 
         "progress" : 1, 
-        "start_date" : ISODate("2022-06-06T00:00:00Z")
+        "start_date": {
+            "$date": "2022-06-06T00:00:00Z"
+        }
     },
     {
         "_id": "${space_id}_6262136f87e5c50032d9bd59",
