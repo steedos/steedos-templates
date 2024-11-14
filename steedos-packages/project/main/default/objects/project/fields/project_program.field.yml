@@ -11,6 +11,6 @@ readonly: false
 reference_to: project_program
 required: false
 searchable: false
-sort_no: 125
+sort_no: 245
 sortable: false
 type: master_detail

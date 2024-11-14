@@ -11,6 +11,6 @@ omit: false
 readonly: true
 required: false
 searchable: false
-sort_no: 105
+sort_no: 246
 sortable: false
 type: autonumber
