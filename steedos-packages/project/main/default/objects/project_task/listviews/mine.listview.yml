@@ -4,6 +4,7 @@ columns:
   - field: start_date
   - field: due_date
   - field: priority
+  - field: progress
   - field: state
   - field: collaborator
   - field: project
