@@ -12,4 +12,4 @@ required: true
 searchable: false
 sort_no: 130
 sortable: true
-type: lookup
+type: master_detail

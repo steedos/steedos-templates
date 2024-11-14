@@ -8,13 +8,13 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 剩余人工合计(人天)
+label: 剩余人工(人天)
 omit: false
 precision: 18
 readonly: false
 required: false
 scale: 1
 searchable: false
-sort_no: 152
+sort_no: 165
 sortable: false
 type: formula
