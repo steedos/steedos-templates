@@ -3,10 +3,13 @@ columns:
   - field: name
     wrap: false
   - field: project_manager
-    width: '150'
+    width: '100'
     wrap: false
   - field: status
-    width: '150'
+    width: '100'
+    wrap: false
+  - field: progress
+    width: '100'
     wrap: false
   - field: deadline
     width: '150'

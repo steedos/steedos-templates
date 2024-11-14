@@ -8,6 +8,9 @@ columns:
   - field: has_collection
     width: '80'
     wrap: false
+  - field: progress
+    width: '80'
+    wrap: false
   - field: project
     wrap: false
   - field: kickoff
@@ -26,15 +29,9 @@ filter_fields:
   - completed
 filter_scope: space
 filters:
-  - field: project
-    is_default: true
-    is_required: false
-  - field: plan_date
-    is_default: true
-    is_required: false
-  - field: completed
-    operation: '='
-    value: false
+  - - has_complete
+    - '!='
+    - true
 label: 待完成的里程碑
 scrolling_mode: standard
 shared: true

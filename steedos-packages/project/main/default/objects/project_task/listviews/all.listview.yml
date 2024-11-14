@@ -10,6 +10,9 @@ columns:
   - field: has_complete
     width: '80'
     wrap: false
+  - field: progress
+    width: '80'
+    wrap: false
   - field: project
     wrap: false
   - field: start_date
