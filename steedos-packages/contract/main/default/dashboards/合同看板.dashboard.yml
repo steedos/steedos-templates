@@ -5,7 +5,7 @@ enable_embedding: 'false'
 entity_id: 67346d1c0ada3506a3207b72
 id: 67346d1c0ada3506a3207b72
 parameters:
-  - name: 签约时间筛选
+  - name: 签约日期
     slug: '%E7%AD%BE%E7%BA%A6%E6%97%B6%E9%97%B4%E7%AD%9B%E9%80%89'
     id: b5d48911
     type: date/all-options
