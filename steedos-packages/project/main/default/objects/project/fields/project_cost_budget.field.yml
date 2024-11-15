@@ -1,7 +1,7 @@
 name: project_cost_budget
 filterable: false
 group: 预算与执行
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
