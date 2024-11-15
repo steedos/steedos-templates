@@ -8,10 +8,10 @@ dataset_query:
     source-table: project
     fields:
       - - field
-        - project.name
+        - project._id
         - null
       - - field
-        - project.project_code
+        - project.name
         - null
       - - field
         - project.status
@@ -26,22 +26,25 @@ dataset_query:
         - project.deadline
         - null
       - - field
-        - project.project_cost_budget
+        - project.progress
         - null
       - - field
         - project.project_labor_budget
         - null
       - - field
+        - project.project_expense_budget
+        - null
+      - - field
         - project.project_labor
+        - null
+      - - field
+        - project.project_expense
         - null
       - - field
         - project.open_tasks
         - null
       - - field
-        - project.count_milestones
-        - null
-      - - field
-        - project.count_milestones_ok
+        - project.project_code
         - null
   database: '1'
 display: table
@@ -51,7 +54,218 @@ id: 65600ba9f084ab05cc5731e2
 parameter_mappings: []
 parameters: []
 query_type: query
+result_metadata:
+  - description: null
+    database_type: java.lang.String
+    semantic_type: type/PK
+    table_id: project
+    coercion_strategy: null
+    name: _id
+    fingerprint_version: 0
+    has_field_values: search
+    settings: null
+    caveats: null
+    fk_target_field_id: null
+    dimensions: []
+    dimension_options: []
+    updated_at: '2023-08-04T05:39:33.039939'
+    custom_position: 0
+    effective_type: type/Text
+    active: true
+    nfc_path: null
+    parent_id: null
+    id: project._id
+    last_analyzed: null
+    database_is_auto_increment: false
+    position: 0
+    visibility_type: normal
+    default_dimension_option: null
+    target: null
+    preview_display: true
+    display_name: ID
+    database_position: 0
+    database_required: false
+    fingerprint: null
+    created_at: '2023-08-04T05:39:33.039939'
+    base_type: type/Text
+    points_of_interest: null
+  - id: project.name
+    name: name
+    display_name: 名称
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - project.name
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.status
+    name: status
+    display_name: 项目状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - project.status
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.project_manager
+    name: project_manager
+    display_name: 项目经理
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - project.project_manager
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+    remapped_to: external_project_manager
+  - id: project.kickoff
+    name: kickoff
+    display_name: 启动日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - project.kickoff
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.deadline
+    name: deadline
+    display_name: 截止日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - project.deadline
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.progress
+    name: progress
+    display_name: 项目进度
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: null
+    field_ref:
+      - field
+      - project.progress
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.project_labor_budget
+    name: project_labor_budget
+    display_name: 预算人工合计(人天)
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - project.project_labor_budget
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.project_expense_budget
+    name: project_expense_budget
+    display_name: 预计费用(元)
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Score
+    field_ref:
+      - field
+      - project.project_expense_budget
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.project_labor
+    name: project_labor
+    display_name: 累计人工合计(人天)
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - project.project_labor
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.project_expense
+    name: project_expense
+    display_name: 累计费用(元)
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - project.project_expense
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.open_tasks
+    name: open_tasks
+    display_name: 待完成任务
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - project.open_tasks
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - id: project.project_code
+    name: project_code
+    display_name: 项目编号
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - project.project_code
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: project
+  - description: null
+    semantic_type: type/Name
+    table_id: space_users
+    coercion_strategy: null
+    name: external_project_manager
+    settings: null
+    source: fields
+    remapped_from: project_manager
+    fk_field_id: project_manager
+    field_ref:
+      - field
+      - space_users.name
+      - source-field: project.project_manager
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: space_users.name
+    visibility_type: normal
+    display_name: 项目经理
 table_id: project
 updated_at: 2023-11-24T02:34:17.888Z
 visualization_settings: >-
-  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","project.name",null],"enabled":true},{"name":"project_code","fieldRef":["field","project.project_code",null],"enabled":true},{"name":"project_type","fieldRef":["field","project.project_type",null],"enabled":true},{"name":"status","fieldRef":["field","project.status",null],"enabled":true},{"name":"project_manager","fieldRef":["field","project.project_manager",null],"enabled":true},{"name":"project_amount","fieldRef":["field","project.project_amount",null],"enabled":false},{"name":"contract","fieldRef":["field","project.contract",null],"enabled":false},{"name":"project_program","fieldRef":["field","project.project_program",null],"enabled":true},{"name":"kickoff","fieldRef":["field","project.kickoff",null],"enabled":true},{"name":"deadline","fieldRef":["field","project.deadline",null],"enabled":true},{"name":"project_cost_budget","fieldRef":["field","project.project_cost_budget",null],"enabled":true},{"name":"project_labor_budget","fieldRef":["field","project.project_labor_budget",null],"enabled":true},{"name":"contracts_all_income","fieldRef":["field","project.contracts_all_income",null],"enabled":false},{"name":"project_labor","fieldRef":["field","project.project_labor",null],"enabled":true},{"name":"contracts_received_income","fieldRef":["field","project.contracts_received_income",null],"enabled":true},{"name":"project_labor_balance","fieldRef":["field","project.project_labor_balance",null],"enabled":true},{"name":"contracts_waiting_income","fieldRef":["field","project.contracts_waiting_income",null],"enabled":true},{"name":"contracts_made_invoice","fieldRef":["field","project.contracts_made_invoice",null],"enabled":true},{"name":"contracts_all_pay","fieldRef":["field","project.contracts_all_pay",null],"enabled":true},{"name":"contracts_paid_pay","fieldRef":["field","project.contracts_paid_pay",null],"enabled":true},{"name":"contracts_waiting_pay","fieldRef":["field","project.contracts_waiting_pay",null],"enabled":true},{"name":"contracts_received_invoice","fieldRef":["field","project.contracts_received_invoice",null],"enabled":true},{"name":"open_tasks","fieldRef":["field","project.open_tasks",null],"enabled":true},{"name":"open_issues","fieldRef":["field","project.open_issues",null],"enabled":true},{"name":"internal","fieldRef":["field","project.internal",null],"enabled":false},{"name":"closed","fieldRef":["field","project.closed",null],"enabled":false},{"name":"count_milestones","fieldRef":["field","project.count_milestones",null],"enabled":true},{"name":"others","fieldRef":["field","project.others",null],"enabled":false},{"name":"count_milestones_ok","fieldRef":["field","project.count_milestones_ok",null],"enabled":true},{"name":"workload_days","fieldRef":["field","project.workload_days",null],"enabled":true},{"name":"description","fieldRef":["field","project.description",null],"enabled":false},{"name":"owner","fieldRef":["field","project.owner",null],"enabled":false},{"name":"locked","fieldRef":["field","project.locked",null],"enabled":false},{"name":"company_id","fieldRef":["field","project.company_id",null],"enabled":true},{"name":"company_ids","fieldRef":["field","project.company_ids",null],"enabled":false},{"name":"instance_state","fieldRef":["field","project.instance_state",null],"enabled":false},{"name":"created","fieldRef":["field","project.created",null],"enabled":false},{"name":"created_by","fieldRef":["field","project.created_by",null],"enabled":false},{"name":"modified","fieldRef":["field","project.modified",null],"enabled":false},{"name":"modified_by","fieldRef":["field","project.modified_by",null],"enabled":false}],"table.pivot_column":"project_manager","table.cell_column":"project_amount"}
+  {"table.columns":[{"name":"_id","enabled":true},{"name":"name","fieldRef":["field","project.name",null],"enabled":true},{"name":"project_manager","fieldRef":["field","project.project_manager",null],"enabled":true},{"name":"status","fieldRef":["field","project.status",null],"enabled":true},{"name":"progress","fieldRef":["field","project.progress",null],"enabled":true},{"name":"kickoff","fieldRef":["field","project.kickoff",null],"enabled":true},{"name":"deadline","fieldRef":["field","project.deadline",null],"enabled":true},{"name":"project_labor_budget","fieldRef":["field","project.project_labor_budget",null],"enabled":true},{"name":"project_labor","fieldRef":["field","project.project_labor",null],"enabled":true},{"name":"project_cost_budget","fieldRef":["field","project.project_cost_budget",null],"enabled":true},{"name":"open_tasks","fieldRef":["field","project.open_tasks",null],"enabled":true},{"name":"project_code","fieldRef":["field","project.project_code",null],"enabled":true},{"name":"count_milestones","fieldRef":["field","project.count_milestones",null],"enabled":true},{"name":"count_milestones_ok","fieldRef":["field","project.count_milestones_ok",null],"enabled":true},{"name":"project_expense_budget","fieldRef":["field","project.project_expense_budget",null],"enabled":true},{"name":"project_expense","fieldRef":["field","project.project_expense",null],"enabled":true}],"table.pivot_column":"project_manager","table.cell_column":"project_amount","column_settings":{"[\"name\",\"progress\"]":{"number_style":"percent"}}}
