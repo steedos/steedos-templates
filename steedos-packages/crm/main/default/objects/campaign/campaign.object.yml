@@ -1,0 +1,15 @@
+name: campaign
+enable_audit: true
+enable_files: true
+enable_search: true
+icon: campaign
+label: 市场活动
+enable_enhanced_lookup: true
+enable_chatter: true
+version: 2
+# relatedList:
+#   - cms_files
+#   - leads
+#   - opportunity
+#   - campaign_member
+#   - audit_records
