@@ -16,7 +16,6 @@
         "access": "public"
     },
     "dependencies": {
-        "@steedos-labs/master": "2.6.4"
     },
     "devDependencies": {
         "webpack": "^5.88.2",

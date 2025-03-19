@@ -1,14 +1,6 @@
 name: hotRating
 label: 非常重要的业务伙伴
-filters: !<tag:yaml.org,2002:js/function> |-
-  function anonymous(
-  ) {
-
-      return [
-        ["rating","=","Hot"]
-      ];
-
-  }
+filters: [["rating","=","Hot"]]
 columns:
   - field: name
     width: 300

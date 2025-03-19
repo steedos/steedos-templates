@@ -8,3 +8,5 @@ summary_object: quote_line_item
 summary_type: count
 type: summary
 summary_filters: []
+scale: 2
+precision: 18
