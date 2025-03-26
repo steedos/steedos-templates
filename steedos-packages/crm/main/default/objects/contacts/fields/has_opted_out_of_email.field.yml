@@ -1,6 +1,9 @@
 name: has_opted_out_of_email
-label: 退出邮件列表
-type: boolean
-inlineHelpText: 是否将联系人包含在群发邮件列表中。
+amis:
+  id: 'u:4344028fb249'
+group: 通用
 hidden: true
-sort_no: 370
+inlineHelpText: 是否将联系人包含在群发邮件列表中。
+label: 退出邮件列表
+sort_no: 750
+type: boolean

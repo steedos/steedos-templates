@@ -1,5 +1,8 @@
 name: title
+amis:
+  id: 'u:538576cb76db'
+group: 通用
 label: 职务
-type: text
+sort_no: 300
 sortable: true
-sort_no: 150
+type: text

@@ -1,7 +1,9 @@
 name: mailing_address
-type: textarea
-label: 邮寄地址
+amis:
+  id: 'u:023ad2f6331f'
+group: 联系信息
 is_wide: true
+label: 地址
 rows: 3
-group: 地址信息
-sort_no: 230
+sort_no: 1050
+type: textarea

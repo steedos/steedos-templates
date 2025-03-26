@@ -1,11 +1,20 @@
 name: recent
-label: 最近查看
 columns:
-  - name
-  - account
-  - email
-  - phone
+  - field: name
+  - field: account
+  - field: salutation
+  - field: reports_to_id
+  - field: title
+  - field: mobile
+  - field: email
+  - field: birthdate
+  - field: owner
+  - field: created_by
+  - field: created
 filter_fields:
   - name
   - account
   - email
+label: 最近查看
+shared: true
+shared_to: space

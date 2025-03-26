@@ -1,12 +1,21 @@
 name: mine
-label: 我的联系人
 columns:
-  - name
-  - account
-  - email
-  - phone
-filter_scope: mine
+  - field: name
+  - field: account
+  - field: salutation
+  - field: reports_to_id
+  - field: title
+  - field: mobile
+  - field: email
+  - field: birthdate
+  - field: owner
+  - field: created_by
+  - field: created
 filter_fields:
   - name
   - account
   - email
+filter_scope: mine
+label: 我的联系人
+shared: true
+shared_to: space

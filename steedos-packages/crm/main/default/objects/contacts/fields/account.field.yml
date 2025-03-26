@@ -1,8 +1,12 @@
 name: account
-label: 所属客户
-type: master_detail
-reference_to: accounts
-sortable: true
+amis:
+  id: 'u:7ecc5842e217'
 filterable: true
+group: 通用
 inlineHelpText: 联系人所链接的客户。输入客户名称、从列表中选择客户或创建客户。
-sort_no: 120
+label: 客户
+reference_to: accounts
+required: true
+sort_no: 150
+sortable: true
+type: master_detail

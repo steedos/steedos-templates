@@ -1,4 +1,8 @@
 name: phone
+amis:
+  id: 'u:c991cb92df66'
+group: 隐藏分组
 label: 工作电话
+sort_no: 1300
 type: text
-sort_no: 190
+visible_on: 'false'

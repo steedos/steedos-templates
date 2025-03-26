@@ -1,4 +1,8 @@
 name: home_phone
+amis:
+  id: 'u:dda1f8814577'
+group: 隐藏分组
 label: 家庭电话
+sort_no: 1450
 type: text
-sort_no: 210
+visible_on: 'false'

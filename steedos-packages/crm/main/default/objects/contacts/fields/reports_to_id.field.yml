@@ -1,7 +1,10 @@
 name: reports_to_id
-type: lookup
+amis:
+  id: 'u:6908e8ab7187'
+create: true
+group: 通用
+inlineHelpText: 联系人管理员的姓名。输入联系人名称，或从列表中选择联系人。
 label: 直属上司
 reference_to: contacts
-create: true
-inlineHelpText: 联系人管理员的姓名。输入联系人名称，或从列表中选择联系人。
-sort_no: 130
+sort_no: 250
+type: lookup

@@ -1,4 +1,7 @@
 name: mobile
-label: 手机
+amis:
+  id: 'u:0d75a4ab2b69'
+group: 联系信息
+label: 电话
+sort_no: 900
 type: text
-sort_no: 200

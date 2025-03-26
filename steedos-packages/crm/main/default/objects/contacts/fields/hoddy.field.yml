@@ -1,5 +1,9 @@
 name: hoddy
-label: 爱好
-type: text
+amis:
+  id: 'u:77eec3661af3'
+group: 隐藏分组
 is_wide: true
-sort_no: 250
+label: 爱好
+sort_no: 1500
+type: text
+visible_on: 'false'

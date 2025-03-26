@@ -1,4 +1,7 @@
 name: email
+amis:
+  id: 'u:424e6a2d2c94'
+group: 联系信息
 label: 邮件
+sort_no: 950
 type: email
-sort_no: 170

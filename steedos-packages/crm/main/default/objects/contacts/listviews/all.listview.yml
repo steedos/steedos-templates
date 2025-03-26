@@ -1,11 +1,24 @@
 name: all
-label: 所有联系人
 columns:
-  - name
-  - account
-  - email
-  - phone
+  - field: name
+  - field: account
+  - field: salutation
+  - field: reports_to_id
+  - field: title
+  - field: mobile
+  - field: email
+  - field: birthdate
+  - field: owner
+  - field: created_by
+  - field: created
 filter_fields:
   - name
   - account
   - email
+filter_scope: space
+filters: []
+is_enable: true
+label: 所有联系人
+searchable_fields: []
+shared_to: space
+sort: []

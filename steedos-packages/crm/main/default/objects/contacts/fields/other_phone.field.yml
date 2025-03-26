@@ -1,5 +1,8 @@
 name: other_phone
-label: 其他电话
-type: text
+amis:
+  id: 'u:49d557b6d6ff'
+group: 通用
 hidden: true
-sort_no: 330
+label: 其他电话
+sort_no: 550
+type: text

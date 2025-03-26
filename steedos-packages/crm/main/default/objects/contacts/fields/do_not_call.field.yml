@@ -1,6 +1,9 @@
 name: do_not_call
-label: 请勿致电
-type: boolean
-inlineHelpText: 是否想要通过电话联系联系人。
+amis:
+  id: 'u:3696f56b9072'
+group: 通用
 hidden: true
-sort_no: 360
+inlineHelpText: 是否想要通过电话联系联系人。
+label: 请勿致电
+sort_no: 700
+type: boolean

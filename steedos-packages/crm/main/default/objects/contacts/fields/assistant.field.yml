@@ -1,5 +1,8 @@
 name: assistant
-label: 助理
-type: text
+amis:
+  id: 'u:39349232885b'
+group: 通用
 hidden: true
-sort_no: 340
+label: 助理
+sort_no: 600
+type: text

@@ -1,9 +1,12 @@
 name: salutation
-type: select
+amis:
+  id: 'u:ddca9656e9f5'
+group: 通用
 label: 性别
 options:
   - label: 男
     value: Male
   - label: 女
     value: Female
-sort_no: 140
+sort_no: 200
+type: select
