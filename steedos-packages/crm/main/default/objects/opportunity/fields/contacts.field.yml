@@ -1,0 +1,8 @@
+name: contacts
+filterable: true
+label: 联系人
+reference_to: contacts
+required: false
+sort_no: 120
+sortable: true
+type: master_detail

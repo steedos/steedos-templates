@@ -17,13 +17,10 @@ enable_inline_edit: true
 enable_search: true
 enable_share: false
 enable_tasks: true
-extend: leads
 field_groups:
   - group_name: 通用
   - group_name: 地址信息
   - group_name: 系统信息
 icon: lead
-is_enable: true
-is_system: true
 label: 潜在客户
 version: 2
