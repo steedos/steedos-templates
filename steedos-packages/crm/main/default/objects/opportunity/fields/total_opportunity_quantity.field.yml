@@ -1,6 +1,12 @@
 name: total_opportunity_quantity
+amis:
+  id: 'u:89cbaedcfc9a'
+group: 隐藏分组
 hidden: true
 inlineHelpText: 如果业务机会具有产品则为“产品”相关列表中所有产品的所有数量字段值的总计。如果业务机会没有产品则为通用字段。
 label: 数量
-sort_no: 320
+precision: 18
+scale: 2
+sort_no: 1300
 type: number
+visible_on: 'false'

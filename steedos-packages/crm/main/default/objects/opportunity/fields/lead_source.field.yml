@@ -1,5 +1,8 @@
 name: lead_source
+amis:
+  id: 'u:4b99dba387a0'
 filterable: true
+group: 通用
 label: 潜在客户来源
 options:
   - label: 广告
@@ -23,6 +26,6 @@ options:
   - label: 网站
     value: Website
 searchable: true
-sort_no: 260
+sort_no: 400
 sortable: true
 type: select

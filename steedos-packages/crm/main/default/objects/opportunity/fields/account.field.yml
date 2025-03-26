@@ -1,9 +1,12 @@
 name: account
+amis:
+  id: 'u:5a03958eae4c'
 filterable: true
+group: 通用
 inlineHelpText: 业务机会所链接的客户名。您可输入客户名或使用查找图标选择客户。如果您更改的客户有合作伙伴，则将从“合作伙伴”相关列表删除所有合作伙伴。
 label: 客户
 reference_to: accounts
-required: false
-sort_no: 120
+required: true
+sort_no: 150
 sortable: true
 type: master_detail

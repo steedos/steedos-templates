@@ -1,14 +1,24 @@
 name: opportunity
+custom: true
 enable_api: true
-enable_audit: true
+enable_audit: false
 enable_chatter: true
+enable_enhanced_lookup: true
 enable_events: true
 enable_files: true
+enable_inline_edit: true
 enable_notes: false
 enable_search: true
 enable_share: true
 enable_tasks: true
-enable_enhanced_lookup: true
+extend: opportunity
+field_groups:
+  - group_name: 通用
+  - group_name: 进展
+  - group_name: 隐藏分组
+  - group_name: 系统信息
 icon: opportunity
+is_enable: true
+is_system: true
 label: 业务机会
 version: 2

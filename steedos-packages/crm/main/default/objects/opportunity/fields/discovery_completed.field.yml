@@ -1,4 +1,8 @@
 name: discovery_completed
+amis:
+  id: 'u:622d09e9ff51'
+group: 隐藏分组
 label: 勘察结束
-sort_no: 220
+sort_no: 1100
 type: boolean
+visible_on: 'false'

@@ -1,4 +1,7 @@
 name: type
+amis:
+  id: 'u:73e86523a251'
+group: 通用
 inlineHelpText: 业务机会的类型，例如“现有业务”或“新业务”。
 label: 业务机会类型
 options:
@@ -6,5 +9,5 @@ options:
     value: Existing_Business
   - label: 新业务
     value: New_Business
-sort_no: 140
+sort_no: 200
 type: select

@@ -6,7 +6,7 @@ group: 通用
 label: 联系人
 reference_to: contacts
 required: false
-sort_no: 1350
+sort_no: 550
 sortable: true
 type: master_detail
 visible_on: 'false'

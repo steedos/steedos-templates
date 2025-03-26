@@ -1,17 +1,17 @@
 name: won
 columns:
   - field: name
-    width: 220
-  - field: account
-    width: 280
-  - field: amount
-    width: 120
-  - field: amount
-    width: 180
-  - field: lead_source
-    width: 120
   - field: owner
-    width: 120
+  - field: account
+  - field: due_date
+  - field: amount
+  - field: type
+  - field: rating
+  - field: probability
+  - field: forecast_category
+  - field: next_step
+    width: '300'
+    wrap: true
 filter_fields:
   - lead_source
   - account
@@ -23,3 +23,4 @@ filters:
     - Closed_Won
 label: 已成功的业务机会
 shared: true
+shared_to: space

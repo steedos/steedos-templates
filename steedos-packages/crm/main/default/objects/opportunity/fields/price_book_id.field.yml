@@ -1,5 +1,9 @@
 name: price_book_id
+amis:
+  id: 'u:c6e78e7a3650'
+group: 隐藏分组
 label: 价格手册
 reference_to: price_book
-sort_no: 190
+sort_no: 1000
 type: lookup
+visible_on: 'false'

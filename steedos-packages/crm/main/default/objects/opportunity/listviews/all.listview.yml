@@ -1,26 +1,33 @@
 name: all
 columns:
   - field: name
-    width: 220
-  - field: account
-    width: 280
-  - field: amount
-    width: 120
-  - field: due_date
-    width: 120
-  - field: stage
-    width: 160
-  - field: probability
-    width: 120
-  - field: lead_source
-    width: 120
   - field: owner
-    width: 120
+  - field: account
+  - field: due_date
+  - field: amount
+  - field: type
+  - field: rating
+  - field: stage
+  - field: probability
+  - field: forecast_category
+  - field: next_step
+    width: '300'
+    wrap: true
 filter_fields:
   - stage
   - lead_source
   - account
   - name
 filter_scope: space
+filters:
+  - - stage
+    - in
+    - - Qualification
+      - Needs_Analysis
+      - Proposal
+      - Negotiation
+is_enable: true
 label: 全部业务机会
-shared: true
+searchable_fields: []
+shared_to: space
+sort: []

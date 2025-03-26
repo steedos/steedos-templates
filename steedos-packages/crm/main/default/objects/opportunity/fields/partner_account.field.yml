@@ -1,7 +1,11 @@
 name: partner_account
+amis:
+  id: 'u:20e88d64de1e'
+group: 隐藏分组
 hidden: true
 inlineHelpText: 表示该业务机会属于某合作伙伴（只读）
 label: 合作伙伴客户
 readonly: true
-sort_no: 360
+sort_no: 1450
 type: boolean
+visible_on: 'false'

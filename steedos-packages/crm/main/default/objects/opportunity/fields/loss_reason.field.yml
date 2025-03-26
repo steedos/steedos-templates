@@ -1,4 +1,7 @@
 name: loss_reason
+amis:
+  id: 'u:c2006937cd52'
+group: 隐藏分组
 label: 失败原因
 options:
   - label: 竞争失败
@@ -12,6 +15,7 @@ options:
   - label: 其他
     value: Other
 searchable: true
-sort_no: 240
+sort_no: 1500
 sortable: true
 type: select
+visible_on: 'false'

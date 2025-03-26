@@ -1,5 +1,8 @@
 name: forecast_category
-hidden: true
+amis:
+  id: 'u:4e3d453358bc'
+group: 进展
+hidden: false
 inlineHelpText: 在报表、业务机会详细信息和编辑页面、业务机会搜索和业务机会列表视图中显示的预测类别名称。业务机会的设置绑定到其阶段。
 label: 预测类别
 options:
@@ -13,5 +16,6 @@ options:
     value: Submit
   - label: 关闭
     value: Close
-sort_no: 340
+sort_no: 900
 type: select
+visible_on: 'true'

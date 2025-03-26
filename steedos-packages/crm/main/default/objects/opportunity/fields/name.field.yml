@@ -1,9 +1,12 @@
 name: name
+amis:
+  id: 'u:54ec88ef1b46'
+filterable: true
+group: 通用
 index: true
 label: 业务机会名
 required: true
 searchable: true
-sort_no: 100
+sort_no: 50
 sortable: true
 type: text
-filterable: true

@@ -1,5 +1,8 @@
 name: rating
+amis:
+  id: 'u:780ede7885db'
 filterable: true
+group: 通用
 label: 分级
 options:
   - label: 非常重要
@@ -9,6 +12,6 @@ options:
   - label: 普通
     value: Cold
 searchable: true
-sort_no: 180
+sort_no: 350
 sortable: true
 type: select

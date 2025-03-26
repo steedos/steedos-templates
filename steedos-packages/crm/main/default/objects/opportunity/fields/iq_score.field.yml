@@ -1,5 +1,11 @@
 name: iq_score
+amis:
+  id: 'u:32dd0ee8606b'
+group: 隐藏分组
 hidden: true
 label: 业务机会得分
-sort_no: 290
+precision: 18
+scale: 2
+sort_no: 1200
 type: number
+visible_on: 'false'

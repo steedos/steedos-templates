@@ -1,5 +1,10 @@
 name: next_step
+amis:
+  id: 'u:0e23eb45a9c7'
+group: 进展
 inlineHelpText: 说明关闭业务机会后下一步的任务。
+is_wide: true
 label: 下一步
-sort_no: 250
-type: text
+rows: 2
+sort_no: 950
+type: textarea

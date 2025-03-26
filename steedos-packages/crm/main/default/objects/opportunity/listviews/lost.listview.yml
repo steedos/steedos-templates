@@ -1,17 +1,17 @@
 name: lost
 columns:
   - field: name
-    width: 220
-  - field: account
-    width: 280
-  - field: amount
-    width: 120
-  - field: lead_source
-    width: 120
-  - field: loss_reason
-    width: 220
   - field: owner
-    width: 120
+  - field: account
+  - field: due_date
+  - field: amount
+  - field: type
+  - field: rating
+  - field: probability
+  - field: forecast_category
+  - field: next_step
+    width: '300'
+    wrap: true
 filter_fields:
   - loss_reason
   - lead_source
@@ -24,3 +24,4 @@ filters:
     - Closed_Lost
 label: 已失败的业务机会
 shared: true
+shared_to: space

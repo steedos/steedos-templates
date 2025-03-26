@@ -1,6 +1,10 @@
 name: private
+amis:
+  id: 'u:9a96d91e811d'
+group: 隐藏分组
 hidden: true
 inlineHelpText: 业务机会是专用的。只有记录的所有人、层次结构中位于该角色之上的用户和管理员可以查看、编辑或报告专有记录。
 label: 专用
-sort_no: 280
+sort_no: 1150
 type: boolean
+visible_on: 'false'

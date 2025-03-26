@@ -1,6 +1,10 @@
 name: synced_quoted
+amis:
+  id: 'u:c38c2711d659'
+group: 隐藏分组
 hidden: true
 inlineHelpText: 同步到业务机会的报价。只有一个报价可以同步到业务机会。
 label: 同步的报价
-sort_no: 310
+sort_no: 1350
 type: boolean
+visible_on: 'false'

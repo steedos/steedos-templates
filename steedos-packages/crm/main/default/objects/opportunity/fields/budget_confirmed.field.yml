@@ -1,4 +1,8 @@
 name: budget_confirmed
+amis:
+  id: 'u:000fe4cabd56'
+group: 隐藏分组
 label: 有预算
-sort_no: 200
+sort_no: 1650
 type: boolean
+visible_on: 'false'
