@@ -1,5 +1,8 @@
 name: birthdate
-label: 生日
-type: date
+amis:
+  id: 'u:6fad3b9debad'
+group: 通用
 hidden: true
-sort_no: 400
+label: 生日
+sort_no: 700
+type: date

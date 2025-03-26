@@ -1,5 +1,9 @@
 name: account_division
-label: 业务伙伴分部
-type: text
+amis:
+  id: 'u:b32bf715b17c'
+group: 隐藏字段分组
 hidden: true
-sort_no: 360
+label: 业务伙伴分部
+sort_no: 2000
+type: text
+visible_on: 'false'

@@ -9,3 +9,4 @@ omit: false
 required: true
 sort_no: 100
 sortable: true
+visible_on: 'true'

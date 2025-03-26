@@ -1,5 +1,8 @@
 name: partner_account
-label: 合作伙伴
-type: boolean
+amis:
+  id: 'u:66df342fabe0'
+group: 通用
 hidden: true
-sort_no: 370
+label: 合作伙伴
+sort_no: 550
+type: boolean

@@ -1,5 +1,8 @@
 name: email
-label: 电子邮件
-type: email
+amis:
+  id: 'u:a61c83dfd4a4'
+group: 通用
 hidden: true
-sort_no: 420
+label: 电子邮件
+sort_no: 800
+type: email

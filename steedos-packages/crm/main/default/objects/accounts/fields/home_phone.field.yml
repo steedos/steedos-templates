@@ -1,5 +1,8 @@
 name: home_phone
-label: 家庭电话
-type: text
+amis:
+  id: 'u:246a19502d70'
+group: 通用
 hidden: true
-sort_no: 460
+label: 家庭电话
+sort_no: 1000
+type: text

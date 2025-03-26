@@ -1,5 +1,8 @@
 name: department
-label: 部门
-type: text
+amis:
+  id: 'u:45deda50c787'
+group: 通用
 hidden: true
-sort_no: 410
+label: 部门
+sort_no: 750
+type: text

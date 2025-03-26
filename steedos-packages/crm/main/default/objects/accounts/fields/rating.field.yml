@@ -1,7 +1,10 @@
 name: rating
+amis:
+  id: 'u:3ab6bb895e5a'
+filterable: true
+group: 通用
+inlineHelpText: 您如何划分此业务伙伴等级的分类，例如，普通、重要。
 label: 分级
-type: select
-sortable: true
 options:
   - label: 非常重要
     value: Hot
@@ -9,6 +12,6 @@ options:
     value: Warm
   - label: 普通
     value: Cold
-filterable: true
-inlineHelpText: 您如何划分此业务伙伴等级的分类，例如，普通、重要。
-sort_no: 270
+sort_no: 300
+sortable: true
+type: select

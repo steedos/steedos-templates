@@ -1,6 +1,9 @@
 name: other_city
-type: text
-label: 其他地址-城市
+amis:
+  id: 'u:1ccc6ef778ed'
 group: 其他地址信息
 hidden: true
-sort_no: 510
+label: 其他地址-城市
+sort_no: 1350
+type: text
+visible_on: 'false'

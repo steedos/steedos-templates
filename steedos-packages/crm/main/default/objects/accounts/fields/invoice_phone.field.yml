@@ -1,5 +1,8 @@
 name: invoice_phone
+amis:
+  id: 'u:b5559b7df6dd'
+group: 隐藏字段分组
 label: 开票电话
-group: 开票信息
+sort_no: 2050
 type: text
-sort_no: 290
+visible_on: 'false'

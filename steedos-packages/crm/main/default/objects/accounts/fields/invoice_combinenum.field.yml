@@ -1,5 +1,8 @@
 name: invoice_combinenum
+amis:
+  id: 'u:f2f81fc9a50c'
+group: 隐藏字段分组
 label: 账号
-group: 开票信息
+sort_no: 2150
 type: text
-sort_no: 310
+visible_on: 'false'

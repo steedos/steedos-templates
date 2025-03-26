@@ -1,5 +1,8 @@
 name: asst_phone
-label: 助理电话
-type: text
+amis:
+  id: 'u:bfc93fcb6c82'
+group: 通用
 hidden: true
-sort_no: 390
+label: 助理电话
+sort_no: 650
+type: text

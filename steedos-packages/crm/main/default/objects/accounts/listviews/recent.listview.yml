@@ -1,22 +1,26 @@
 name: recent
-label: 最近查看
 columns:
   - field: name
     width: 300
     wrap: true
-  - field: type
-    width: 120
-  - field: rating
-    width: 120
-  - field: billing_address
-    width: 400
-  - field: shipping_address
-    width: 400
   - field: owner
-    width: 120
-filter_scope: space
+  - field: type
+  - field: website
+    width: '200'
+    wrap: true
+  - field: industry
+  - field: rating
+  - field: description
+    width: '300'
+    wrap: true
+  - field: created
+  - field: created_by
 filter_fields:
   - type
   - industry
   - rating
   - name
+filter_scope: space
+label: 最近查看
+shared: true
+shared_to: space

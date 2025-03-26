@@ -1,5 +1,8 @@
 name: invoice_bank
+amis:
+  id: 'u:b5ab5076667c'
+group: 隐藏字段分组
 label: 开户行
-group: 开票信息
+sort_no: 2100
 type: text
-sort_no: 300
+visible_on: 'false'

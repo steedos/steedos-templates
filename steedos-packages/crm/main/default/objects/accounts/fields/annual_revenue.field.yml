@@ -1,5 +1,8 @@
 name: annual_revenue
-label: 年收入
-type: currency
+amis:
+  id: 'u:16f41bcca079'
+group: 通用
 hidden: true
-sort_no: 340
+label: 年收入
+sort_no: 500
+type: currency

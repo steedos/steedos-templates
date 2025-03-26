@@ -1,6 +1,10 @@
 name: is_supplier
-type: boolean
-label: 供应商
+amis:
+  id: 'u:27c0a8633b07'
+group: 隐藏字段分组
 hidden: false
+label: 供应商
 omit: false
-sort_no: 120
+sort_no: 1500
+type: boolean
+visible_on: 'false'

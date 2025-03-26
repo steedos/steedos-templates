@@ -1,8 +1,9 @@
 name: industry
-type: select
+amis:
+  id: 'u:998d18665cb3'
+filterable: true
+group: 通用
 label: 行业
-searchable: true
-sortable: true
 options:
   - label: 农业
     value: Agriculture
@@ -70,5 +71,7 @@ options:
     value: Utilities
   - label: 软件
     value: Software
-filterable: true
-sort_no: 210
+searchable: true
+sort_no: 250
+sortable: true
+type: select

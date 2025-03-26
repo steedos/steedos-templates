@@ -1,6 +1,9 @@
 name: other_zip
-type: text
-label: 其他地址-邮政编码
+amis:
+  id: 'u:256c73059437'
 group: 其他地址信息
 hidden: true
-sort_no: 530
+label: 其他地址-邮政编码
+sort_no: 1450
+type: text
+visible_on: 'false'

@@ -1,5 +1,9 @@
 name: description
-label: 描述
-type: textarea
+amis:
+  id: 'u:760d1971d84c'
+group: 通用
 is_wide: true
-sort_no: 200
+label: 描述
+rows: 3
+sort_no: 450
+type: textarea

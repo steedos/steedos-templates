@@ -1,6 +1,9 @@
 name: shipping_address
-type: textarea
+amis:
+  id: 'u:7017558671e3'
+group: 隐藏字段分组
 label: 发货地址
 rows: 3
-group: 地址信息
-sort_no: 250
+sort_no: 2200
+type: textarea
+visible_on: 'false'

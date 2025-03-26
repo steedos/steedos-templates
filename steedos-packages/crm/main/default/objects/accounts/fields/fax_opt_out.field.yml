@@ -1,6 +1,9 @@
 name: fax_opt_out
-label: 退出传真列表
-type: boolean
-inlineHelpText: 是否将联系人包含在传真中。
+amis:
+  id: 'u:e60e30991f6b'
+group: 通用
 hidden: true
-sort_no: 450
+inlineHelpText: 是否将联系人包含在传真中。
+label: 退出传真列表
+sort_no: 950
+type: boolean

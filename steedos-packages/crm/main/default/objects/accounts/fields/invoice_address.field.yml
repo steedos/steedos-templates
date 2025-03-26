@@ -1,5 +1,8 @@
 name: invoice_address
+amis:
+  id: 'u:66d2c7707e08'
+group: 联系信息
+is_wide: true
 label: 开票地址
-group: 开票信息
+sort_no: 1250
 type: text
-sort_no: 280

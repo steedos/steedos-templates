@@ -1,4 +1,8 @@
 name: fax
-type: text
+amis:
+  id: 'u:e9423d4b2a4b'
+group: 隐藏字段分组
 label: 传真
-sort_no: 190
+sort_no: 1700
+type: text
+visible_on: 'false'

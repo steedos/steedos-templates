@@ -1,5 +1,9 @@
 name: account_number
-type: text
-label: 业务伙伴编号
+amis:
+  id: 'u:6c34f2303028'
+group: 隐藏字段分组
 hidden: true
-sort_no: 260
+label: 业务伙伴编号
+sort_no: 1650
+type: text
+visible_on: 'false'

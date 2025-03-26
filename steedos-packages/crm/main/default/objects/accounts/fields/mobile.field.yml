@@ -1,5 +1,8 @@
 name: mobile
-label: 手机
-type: text
+amis:
+  id: 'u:cd8e9efc03f7'
+group: 通用
 hidden: true
-sort_no: 540
+label: 手机
+sort_no: 1100
+type: text

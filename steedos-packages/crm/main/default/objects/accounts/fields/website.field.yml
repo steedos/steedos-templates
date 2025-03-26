@@ -1,4 +1,7 @@
 name: website
-type: url
+amis:
+  id: 'u:6749001622e4'
+group: 通用
 label: 网站
-sort_no: 170
+sort_no: 200
+type: url

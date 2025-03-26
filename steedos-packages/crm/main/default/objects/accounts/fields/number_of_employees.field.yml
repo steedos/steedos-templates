@@ -1,4 +1,9 @@
 name: number_of_employees
-type: number
+amis:
+  id: 'u:a711107bf51d'
+group: 通用
 label: 员工人数
-sort_no: 220
+precision: 18
+scale: 2
+sort_no: 350
+type: number

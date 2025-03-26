@@ -1,6 +1,10 @@
 name: is_customer
-type: boolean
-label: 客户
+amis:
+  id: 'u:ac05b127214b'
+group: 隐藏字段分组
 hidden: false
+label: 客户
 omit: false
-sort_no: 130
+sort_no: 1550
+type: boolean
+visible_on: 'false'

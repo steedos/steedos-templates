@@ -1,7 +1,10 @@
 name: state
+amis:
+  id: 'u:21896a2b0f79'
+filterable: true
+group: 隐藏字段分组
+inlineHelpText: 业务伙伴被分配至的区域。
 label: 区域
-type: select
-sortable: true
 options:
   - label: 北京
     value: BJ
@@ -71,6 +74,7 @@ options:
     value: AM
   - label: 台湾
     value: TW
-filterable: true
-inlineHelpText: 业务伙伴被分配至的区域。
-sort_no: 230
+sort_no: 1900
+sortable: true
+type: select
+visible_on: 'false'

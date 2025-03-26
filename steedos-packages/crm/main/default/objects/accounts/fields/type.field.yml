@@ -1,7 +1,9 @@
 name: type
+amis:
+  id: 'u:8bd7da35189e'
+filterable: true
+group: 通用
 label: 类型
-type: select
-sortable: true
 options:
   - label: 分析师
     value: Analyst
@@ -23,5 +25,6 @@ options:
     value: Reseller
   - label: 其他
     value: Other
-filterable: true
-sort_no: 140
+sort_no: 150
+sortable: true
+type: select

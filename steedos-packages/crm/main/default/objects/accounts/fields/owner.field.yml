@@ -1,6 +1,12 @@
 name: owner
-label: 我方客户经理
-sortable: true
-omit: false
+amis:
+  id: 'u:dba81145bede'
+group: 通用
 hidden: false
-sort_no: 110
+index: true
+label: 客户所有人
+omit: false
+required: true
+sort_no: 100
+sortable: true
+visible_on: 'true'

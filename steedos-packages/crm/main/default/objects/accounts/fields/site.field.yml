@@ -1,6 +1,10 @@
 name: site
-type: text
-label: 业务伙伴地点
+amis:
+  id: 'u:ae15695ca8b3'
+group: 隐藏字段分组
 hidden: true
 inlineHelpText: 可用业务伙伴地点字段来指定同一公司的不同位置。例如，假设百度在北京和上海均设有办公室。创建两个名为百度的业务伙伴，但是业务伙伴地点的值分别为北京和上海。
-sort_no: 330
+label: 业务伙伴地点
+sort_no: 1800
+type: text
+visible_on: 'false'

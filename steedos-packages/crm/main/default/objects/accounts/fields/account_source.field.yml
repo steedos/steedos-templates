@@ -1,5 +1,9 @@
 name: account_source
-type: text
-label: 业务伙伴来源
+amis:
+  id: 'u:f6615e7c680a'
+group: 隐藏字段分组
 hidden: true
-sort_no: 320
+label: 业务伙伴来源
+sort_no: 1750
+type: text
+visible_on: 'false'

@@ -1,6 +1,9 @@
 name: other_street
-type: text
-label: 其他地址-街道
+amis:
+  id: 'u:aee5b1d58f0d'
 group: 其他地址信息
 hidden: true
-sort_no: 520
+label: 其他地址-街道
+sort_no: 1400
+type: text
+visible_on: 'false'

@@ -1,6 +1,9 @@
 name: billing_address
-type: textarea
-label: 开单地址
+amis:
+  id: 'u:fce55e57e5a8'
+group: 联系信息
+is_wide: true
+label: 发货地址
 rows: 3
-group: 地址信息
-sort_no: 240
+sort_no: 1300
+type: text
