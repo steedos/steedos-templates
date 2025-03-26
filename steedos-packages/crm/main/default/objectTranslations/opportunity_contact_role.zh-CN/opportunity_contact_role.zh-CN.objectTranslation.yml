@@ -1,5 +1,5 @@
 name: opportunity_contact_role
-label: 业务机会联系人角色
+label: 联系人角色
 description: 
 fields:
   contact_id:
