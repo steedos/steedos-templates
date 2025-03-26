@@ -1,8 +1,11 @@
 name: company
+amis:
+  id: 'u:9cba75131d81'
 filterable: true
+group: 通用
 index: true
 label: 公司
 required: true
-sort_no: 160
+sort_no: 350
 sortable: true
 type: text

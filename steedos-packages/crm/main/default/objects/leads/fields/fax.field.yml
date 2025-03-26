@@ -1,5 +1,8 @@
 name: fax
+amis:
+  id: 'u:88aaa349f8b3'
+group: 通用
 hidden: true
 label: 传真
-sort_no: 270
+sort_no: 850
 type: text

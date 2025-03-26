@@ -1,6 +1,9 @@
 name: converted_account
+amis:
+  id: 'u:1f6a62deedfa'
+group: 通用
 hidden: true
 label: 已转换的客户
 reference_to: accounts
-sort_no: 380
+sort_no: 1400
 type: lookup

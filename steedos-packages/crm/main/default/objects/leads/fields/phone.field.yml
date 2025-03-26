@@ -1,4 +1,7 @@
 name: phone
+amis:
+  id: 'u:ab19d7c8e018'
+group: 通用
 label: 电话
-sort_no: 190
+sort_no: 500
 type: text

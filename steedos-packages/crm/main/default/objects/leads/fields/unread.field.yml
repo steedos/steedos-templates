@@ -1,5 +1,8 @@
 name: unread
+amis:
+  id: 'u:b0534849c75c'
+group: 通用
 hidden: true
 label: 未读
-sort_no: 360
+sort_no: 1300
 type: boolean

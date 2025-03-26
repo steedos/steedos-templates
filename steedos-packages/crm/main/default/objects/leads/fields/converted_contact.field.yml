@@ -1,6 +1,9 @@
 name: converted_contact
+amis:
+  id: 'u:30a4eac42f4d'
+group: 通用
 hidden: true
 label: 已转换的联系人
 reference_to: contacts
-sort_no: 390
+sort_no: 1450
 type: lookup

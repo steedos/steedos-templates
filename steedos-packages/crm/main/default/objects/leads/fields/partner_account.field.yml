@@ -1,5 +1,8 @@
 name: partner_account
+amis:
+  id: 'u:f5d60d4fc63b'
+group: 通用
 hidden: true
 label: 合作伙伴客户
-sort_no: 340
+sort_no: 1200
 type: text

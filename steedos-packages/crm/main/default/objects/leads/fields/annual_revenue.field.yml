@@ -1,5 +1,8 @@
 name: annual_revenue
+amis:
+  id: 'u:1effd8374de5'
+group: 通用
 hidden: true
 label: 年收入
-sort_no: 280
+sort_no: 900
 type: currency

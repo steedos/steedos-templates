@@ -1,5 +1,8 @@
 name: converted
+amis:
+  id: 'u:a840f6e5fb5d'
+group: 通用
 hidden: true
 label: 已转换
-sort_no: 370
+sort_no: 1350
 type: boolean

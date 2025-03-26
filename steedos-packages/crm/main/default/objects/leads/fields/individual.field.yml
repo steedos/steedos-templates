@@ -1,5 +1,8 @@
 name: individual
+amis:
+  id: 'u:7accaf6b7c07'
+group: 通用
 hidden: true
 label: 个人
-sort_no: 260
+sort_no: 800
 type: text

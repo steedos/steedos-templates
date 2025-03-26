@@ -1,6 +1,9 @@
 name: converted_opportunity
+amis:
+  id: 'u:6e3a49a0b63d'
+group: 通用
 hidden: true
 label: 已转换的业务机会
 reference_to: opportunity
-sort_no: 400
+sort_no: 1500
 type: lookup

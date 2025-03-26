@@ -1,5 +1,10 @@
 name: number_of_employees
+amis:
+  id: 'u:4330e8448e73'
+group: 通用
 label: 职员数
-sort_no: 200
+precision: 18
+scale: 2
+sort_no: 550
 sortable: true
 type: number

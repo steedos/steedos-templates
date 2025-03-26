@@ -1,4 +1,7 @@
 name: mobilephone
+amis:
+  id: 'u:891ec7641cb3'
+group: 通用
 label: 手机
-sort_no: 210
+sort_no: 600
 type: text

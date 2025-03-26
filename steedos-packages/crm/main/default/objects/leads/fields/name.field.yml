@@ -1,7 +1,10 @@
 name: name
+amis:
+  id: 'u:6d70cfc468d0'
+group: 通用
 index: true
 label: 姓名
 required: true
 searchable: true
-sort_no: 120
+sort_no: 150
 type: text

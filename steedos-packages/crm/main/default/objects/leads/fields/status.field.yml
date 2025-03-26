@@ -1,28 +1,40 @@
 name: status
+amis:
+  id: 'u:16e9e8f44aef'
 defaultValue: New
 filterable: true
+group: 通用
 label: 状态
 options:
   - label: 新建
     value: New
+    color: '#4a90e2'
   - label: 已联系
     value: Working
+    color: '#4a90e2'
   - label: 培育中
     value: Nurturing
+    color: '#4a90e2'
   - label: 已转化
     value: Qualified
+    color: '#4a90e2'
   - label: 无意向
     value: Unqualified
+    color: '#4a90e2'
   - label: 已选择其他品牌
     value: Others
+    color: '#4a90e2'
   - label: 无法联系
     value: Not_Available
+    color: '#4a90e2'
   - label: 经销代
     value: Agent
+    color: '#4a90e2'
   - label: 企业客户
     value: Business
+    color: '#4a90e2'
 required: true
 searchable: true
-sort_no: 100
+sort_no: 50
 sortable: true
 type: select

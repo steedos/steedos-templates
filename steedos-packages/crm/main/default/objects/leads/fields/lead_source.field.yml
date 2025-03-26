@@ -1,5 +1,8 @@
 name: lead_source
+amis:
+  id: 'u:d401ddbb797e'
 filterable: true
+group: 通用
 label: 潜在客户来源
 options:
   - label: 广告
@@ -29,6 +32,6 @@ options:
   - label: 公众号
     value: Official_Accounts
 searchable: true
-sort_no: 220
+sort_no: 650
 sortable: true
 type: select

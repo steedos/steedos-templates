@@ -1,14 +1,20 @@
 name: rating
+amis:
+  id: 'u:046a230442d6'
 filterable: true
+group: 通用
 label: 分级
 options:
   - label: 非常重要
     value: Hot
+    color: '#f5a623'
   - label: 重要
     value: Warm
+    color: '#f5a623'
   - label: 普通
     value: Cold
+    color: '#f5a623'
 searchable: true
-sort_no: 230
+sort_no: 700
 sortable: true
 type: select

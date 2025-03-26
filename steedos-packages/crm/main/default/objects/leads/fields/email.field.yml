@@ -1,4 +1,7 @@
 name: email
+amis:
+  id: 'u:fc44819d709a'
+group: 通用
 label: 电子邮件
-sort_no: 170
+sort_no: 400
 type: email

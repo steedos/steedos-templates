@@ -1,5 +1,8 @@
 name: fax_opt_out
+amis:
+  id: 'u:b6bbd917b837'
+group: 通用
 hidden: true
 label: 退出传真列表
-sort_no: 320
+sort_no: 1100
 type: boolean

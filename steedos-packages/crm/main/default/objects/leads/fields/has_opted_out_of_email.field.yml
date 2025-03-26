@@ -1,5 +1,8 @@
 name: has_opted_out_of_email
+amis:
+  id: 'u:13626d4247ec'
+group: 通用
 hidden: true
 label: 退出邮件列表
-sort_no: 310
+sort_no: 1050
 type: boolean

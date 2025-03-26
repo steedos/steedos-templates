@@ -1,4 +1,7 @@
 name: title
+amis:
+  id: 'u:8b57196cab96'
+group: 通用
 label: 职务
-sort_no: 150
+sort_no: 300
 type: text
