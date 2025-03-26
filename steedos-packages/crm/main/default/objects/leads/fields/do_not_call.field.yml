@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 请勿致电
-sort_no: 1000
+sort_no: 600
 type: boolean

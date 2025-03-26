@@ -1,9 +1,10 @@
 name: converted_opportunity
 amis:
   id: 'u:6e3a49a0b63d'
-group: 通用
-hidden: true
+group: 潜在客户转化情况
+hidden: false
 label: 已转换的业务机会
+readonly: true
 reference_to: opportunity
-sort_no: 1500
+sort_no: 1650
 type: lookup

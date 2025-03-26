@@ -1,9 +1,10 @@
 name: converted_account
 amis:
   id: 'u:1f6a62deedfa'
-group: 通用
-hidden: true
+group: 潜在客户转化情况
+hidden: false
 label: 已转换的客户
+readonly: true
 reference_to: accounts
-sort_no: 1400
+sort_no: 1700
 type: lookup

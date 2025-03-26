@@ -1,8 +1,8 @@
 name: industry
 amis:
-  id: 'u:1b2c606e3a14'
+  id: 'u:762a86870c94'
 filterable: true
-group: 通用
+group: 其他信息
 label: 行业
 options:
   - label: 农业
@@ -72,6 +72,6 @@ options:
   - label: 公用事业
     value: Utilities
 searchable: true
-sort_no: 450
+sort_no: 1450
 sortable: true
 type: select

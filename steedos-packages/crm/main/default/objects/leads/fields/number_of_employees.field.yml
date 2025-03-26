@@ -1,10 +1,10 @@
 name: number_of_employees
 amis:
-  id: 'u:4330e8448e73'
-group: 通用
+  id: 'u:ba6782ea5c14'
+group: 其他信息
 label: 职员数
 precision: 18
 scale: 2
-sort_no: 550
+sort_no: 1400
 sortable: true
 type: number

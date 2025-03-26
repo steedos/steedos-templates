@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 年收入
-sort_no: 900
+sort_no: 550
 type: currency

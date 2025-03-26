@@ -1,4 +1,4 @@
-name: all
+name: converted
 columns:
   - field: name
     wrap: false
@@ -10,15 +10,13 @@ columns:
   - field: phone
   - field: mobilephone
   - field: website
-    wrap: true
     width: '200'
-  - field: status
-    wrap: false
+    wrap: true
   - field: owner
     wrap: false
-  - field: lead_source
-    wrap: false
-  - field: created
+  - field: converted_opportunity
+  - field: converted_account
+  - field: converted_contact
 filter_fields:
   - status
   - rating
@@ -27,20 +25,19 @@ filter_fields:
 filter_scope: space
 filters:
   - - converted
-    - <>
+    - '='
     - true
 is_enable: true
-label: 所有未处理潜在客户
+label: 已转化的潜在客户
 mobile_columns:
   - field: name
   - field: company
   - field: mobilephone
   - field: status
   - field: owner
-  - field: lead_source
 searchable_fields: []
 shared_to: space
 sort:
   - field_name: created
     order: desc
-sort_no: 10
+sort_no: 20

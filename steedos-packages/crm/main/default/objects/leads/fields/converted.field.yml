@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 已转换
-sort_no: 1350
+sort_no: 950
 type: boolean

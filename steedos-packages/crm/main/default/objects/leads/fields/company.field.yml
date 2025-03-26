@@ -6,6 +6,6 @@ group: 通用
 index: true
 label: 公司
 required: true
-sort_no: 350
+sort_no: 150
 sortable: true
 type: text

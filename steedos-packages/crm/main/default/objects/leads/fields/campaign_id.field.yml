@@ -1,9 +1,9 @@
 name: campaign_id
 amis:
-  id: 'u:93ab3309a660'
-group: 通用
+  id: 'u:66cfd345c906'
+group: 其他信息
 label: 市场活动
 reference_to: campaign
 searchable: true
-sort_no: 750
+sort_no: 1600
 type: master_detail

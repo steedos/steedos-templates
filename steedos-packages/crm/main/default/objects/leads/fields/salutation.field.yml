@@ -8,5 +8,5 @@ options:
     value: Male
   - label: 女
     value: Female
-sort_no: 200
+sort_no: 100
 type: select

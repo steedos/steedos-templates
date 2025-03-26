@@ -2,7 +2,10 @@ name: description
 amis:
   id: 'u:e3661b13fc35'
 group: 通用
-hidden: true
+hidden: false
+is_wide: true
 label: 描述
-sort_no: 950
+rows: 2
+sort_no: 300
 type: textarea
+visible_on: 'true'

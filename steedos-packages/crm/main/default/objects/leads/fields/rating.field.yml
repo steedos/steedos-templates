@@ -1,8 +1,8 @@
 name: rating
 amis:
-  id: 'u:046a230442d6'
+  id: 'u:5ea6eef09810'
 filterable: true
-group: 通用
+group: 其他信息
 label: 分级
 options:
   - label: 非常重要
@@ -15,6 +15,6 @@ options:
     value: Cold
     color: '#f5a623'
 searchable: true
-sort_no: 700
+sort_no: 1550
 sortable: true
 type: select

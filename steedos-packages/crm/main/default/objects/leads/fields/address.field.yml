@@ -1,9 +1,9 @@
 name: address
 amis:
-  id: 'u:8521631833a9'
-group: 地址信息
+  id: 'u:369dfe956925'
+group: 联系信息
 is_wide: true
 label: 地址
 rows: 3
-sort_no: 1750
+sort_no: 1350
 type: textarea

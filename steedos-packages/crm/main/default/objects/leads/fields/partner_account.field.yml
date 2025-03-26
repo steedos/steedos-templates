@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 合作伙伴客户
-sort_no: 1200
+sort_no: 800
 type: text

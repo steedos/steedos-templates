@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 未读
-sort_no: 1300
+sort_no: 900
 type: boolean

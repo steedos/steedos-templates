@@ -6,5 +6,5 @@ index: true
 label: 姓名
 required: true
 searchable: true
-sort_no: 150
+sort_no: 50
 type: text

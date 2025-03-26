@@ -1,7 +1,7 @@
 name: mobilephone
 amis:
-  id: 'u:891ec7641cb3'
-group: 通用
+  id: 'u:9c62be8718d9'
+group: 联系信息
 label: 手机
-sort_no: 600
+sort_no: 1250
 type: text

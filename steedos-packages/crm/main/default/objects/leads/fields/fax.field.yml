@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 传真
-sort_no: 850
+sort_no: 500
 type: text

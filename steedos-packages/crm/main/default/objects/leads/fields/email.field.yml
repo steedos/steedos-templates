@@ -1,7 +1,7 @@
 name: email
 amis:
-  id: 'u:fc44819d709a'
-group: 通用
+  id: 'u:7c567e592b60'
+group: 联系信息
 label: 电子邮件
-sort_no: 400
+sort_no: 1300
 type: email

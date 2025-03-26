@@ -1,7 +1,7 @@
 name: phone
 amis:
-  id: 'u:ab19d7c8e018'
-group: 通用
+  id: 'u:5858627a5548'
+group: 联系信息
 label: 电话
-sort_no: 500
+sort_no: 1200
 type: text

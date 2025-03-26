@@ -19,8 +19,11 @@ enable_share: false
 enable_tasks: true
 field_groups:
   - group_name: 通用
-  - group_name: 地址信息
+  - group_name: 联系信息
+  - group_name: 其他信息
+  - group_name: 潜在客户转化情况
   - group_name: 系统信息
+    collapsed: true
 icon: lead
 label: 潜在客户
 version: 2

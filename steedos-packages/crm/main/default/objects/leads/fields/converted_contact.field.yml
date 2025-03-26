@@ -1,9 +1,10 @@
 name: converted_contact
 amis:
   id: 'u:30a4eac42f4d'
-group: 通用
-hidden: true
+group: 潜在客户转化情况
+hidden: false
 label: 已转换的联系人
+readonly: true
 reference_to: contacts
-sort_no: 1450
+sort_no: 1750
 type: lookup

@@ -1,10 +1,12 @@
 name: owner
 amis:
-  id: 'u:1c9f6b678709'
+  id: 'u:a4b9e6c58ffc'
 group: 通用
 hidden: false
 index: true
-label: 我方客户经理
+label: 潜在客户所有人
 omit: false
-sort_no: 100
+required: true
+sort_no: 400
 sortable: true
+visible_on: 'true'

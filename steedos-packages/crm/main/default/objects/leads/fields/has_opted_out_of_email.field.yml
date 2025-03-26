@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 退出邮件列表
-sort_no: 1050
+sort_no: 650
 type: boolean

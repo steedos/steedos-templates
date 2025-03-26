@@ -1,10 +1,10 @@
 name: status
 amis:
-  id: 'u:16e9e8f44aef'
+  id: 'u:49c7a289c8be'
 defaultValue: New
 filterable: true
 group: 通用
-label: 状态
+label: 潜在客户状态
 options:
   - label: 新建
     value: New
@@ -35,6 +35,6 @@ options:
     color: '#4a90e2'
 required: true
 searchable: true
-sort_no: 50
+sort_no: 350
 sortable: true
 type: select

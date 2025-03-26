@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 个人
-sort_no: 800
+sort_no: 450
 type: text

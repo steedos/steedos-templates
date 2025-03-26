@@ -4,5 +4,5 @@ amis:
 group: 通用
 hidden: true
 label: 上次更改客户经理日期
-sort_no: 1150
+sort_no: 750
 type: date
