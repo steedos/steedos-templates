@@ -1,7 +1,7 @@
 name: accounts
 custom: true
 enable_api: true
-enable_audit: true
+enable_audit: false
 enable_chatter: true
 enable_enhanced_lookup: true
 enable_events: true
