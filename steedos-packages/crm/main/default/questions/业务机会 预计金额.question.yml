@@ -1,0 +1,33 @@
+name: 业务机会 预计金额
+created_at: 2025-03-27T03:34:52.784Z
+creator_id: 67e38e8527d75e062530f140
+database_id: 1
+dataset_query:
+  query:
+    source-table: opportunity
+    aggregation:
+      - - sum
+        - - field
+          - opportunity.amount
+          - null
+  type: query
+  database: 1
+display: scalar
+entity_id: 67e4c75c95075e0624129a34
+id: 67e4c75c95075e0624129a34
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/Integer
+    display_name: 预计金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+table_id: opportunity
+updated_at: 2025-03-27T03:34:52.784Z
+visualization_settings: '{}'

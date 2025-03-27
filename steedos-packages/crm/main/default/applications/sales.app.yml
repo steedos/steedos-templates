@@ -47,26 +47,32 @@ tab_items:
     index: 3
   object_opportunity:
     index: 4
-  object_product:
+  object_case:
     index: 5
-  object_price_book:
+  object_product:
     index: 6
-  object_campaign:
+  object_price_book:
     index: 7
-  object_events:
+  object_campaign:
     index: 8
-  object_tasks:
+  object_events:
     index: 9
+  object_tasks:
+    index: 10
+  crm_kanban:
+    index: 11
 tabs:
   - object_leads
   - object_contacts
   - object_accounts
   - object_opportunity
+  - object_case
   - object_product
   - object_price_book
   - object_campaign
   - object_events
   - object_tasks
+  - crm_kanban
 visible: true
 visibleOnVariables:
   - label: 表单字段

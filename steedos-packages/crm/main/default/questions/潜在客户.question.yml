@@ -1,0 +1,187 @@
+name: 潜在客户
+created_at: 2025-03-27T03:29:03.299Z
+creator_id: 67e38e8527d75e062530f140
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: leads
+    fields:
+      - - field
+        - leads.name
+        - null
+      - - field
+        - leads.salutation
+        - null
+      - - field
+        - leads.company
+        - null
+      - - field
+        - leads.title
+        - null
+      - - field
+        - leads.status
+        - null
+      - - field
+        - leads.owner
+        - null
+      - - field
+        - leads.phone
+        - null
+display: table
+entity_id: 67e4c5ff95075e0624129a2e
+id: 67e4c5ff95075e0624129a2e
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - description: null
+    database_type: java.lang.String
+    semantic_type: type/PK
+    table_id: leads
+    coercion_strategy: null
+    name: _id
+    fingerprint_version: 0
+    has_field_values: search
+    settings: null
+    caveats: null
+    fk_target_field_id: null
+    dimensions: []
+    dimension_options: []
+    updated_at: '2023-08-04T05:39:33.039939'
+    custom_position: 0
+    effective_type: type/Text
+    active: true
+    nfc_path: null
+    parent_id: null
+    id: leads._id
+    last_analyzed: null
+    database_is_auto_increment: false
+    position: 0
+    visibility_type: normal
+    default_dimension_option: null
+    target: null
+    preview_display: true
+    display_name: ID
+    database_position: 0
+    database_required: false
+    fingerprint: null
+    created_at: '2023-08-04T05:39:33.039939'
+    base_type: type/Text
+    points_of_interest: null
+  - id: leads.name
+    name: name
+    display_name: 姓名
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - leads.name
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: leads
+  - id: leads.salutation
+    name: salutation
+    display_name: 性别
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - leads.salutation
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: leads
+  - id: leads.company
+    name: company
+    display_name: 公司
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - leads.company
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: leads
+  - id: leads.title
+    name: title
+    display_name: 职务
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - leads.title
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: leads
+  - id: leads.status
+    name: status
+    display_name: 状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - leads.status
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: leads
+  - id: leads.owner
+    name: owner
+    display_name: 我方客户经理
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - leads.owner
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: leads
+    remapped_to: external_owner
+  - id: leads.phone
+    name: phone
+    display_name: 电话
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - leads.phone
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: leads
+  - description: null
+    semantic_type: type/Name
+    table_id: users
+    coercion_strategy: null
+    name: external_owner
+    settings: null
+    source: fields
+    remapped_from: owner
+    fk_field_id: owner
+    field_ref:
+      - field
+      - users.name
+      - source-field: leads.owner
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: users.name
+    visibility_type: normal
+    display_name: 我方客户经理
+table_id: leads
+updated_at: 2025-03-27T03:29:03.299Z
+visualization_settings: >-
+  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","leads.name",null],"enabled":true},{"name":"salutation","fieldRef":["field","leads.salutation",null],"enabled":true},{"name":"company","fieldRef":["field","leads.company",null],"enabled":true},{"name":"title","fieldRef":["field","leads.title",null],"enabled":true},{"name":"status","fieldRef":["field","leads.status",null],"enabled":true},{"name":"owner","fieldRef":["field","leads.owner",null],"enabled":true},{"name":"phone","fieldRef":["field","leads.phone",null],"enabled":true}],"table.pivot_column":"title","table.cell_column":"phone"}

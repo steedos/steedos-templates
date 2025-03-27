@@ -1,0 +1,101 @@
+name: 销售看板
+archived: 'false'
+auto_apply_filters: 'true'
+enable_embedding: 'false'
+entity_id: 67e4c60f95075e0624129a2f
+id: 67e4c60f95075e0624129a2f
+parameters:
+  - name: 业务发生时间
+    slug: '%E4%B8%9A%E5%8A%A1%E5%8F%91%E7%94%9F%E6%97%B6%E9%97%B4'
+    id: 10982ae1
+    type: date/all-options
+    sectionId: date
+  - name: 业务归属
+    slug: '%E4%B8%9A%E5%8A%A1%E5%BD%92%E5%B1%9E'
+    id: b34f4e08
+    type: string/=
+    sectionId: string
+    values_source_type: static-list
+    values_source_config:
+      values:
+        - 我部门的
+        - 我负责的
+show_in_getting_started: 'false'
+cards:
+  - card_id: 67e4c5ff95075e0624129a2e
+    col: 0
+    entity_id: 67e4c62e95075e0624129a30
+    id: 67e4c62e95075e0624129a30
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 18
+    size_y: 4
+    visualization_settings: >-
+      {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","leads.name",null],"enabled":true},{"name":"salutation","fieldRef":["field","leads.salutation",null],"enabled":true},{"name":"company","fieldRef":["field","leads.company",null],"enabled":true},{"name":"title","fieldRef":["field","leads.title",null],"enabled":true},{"name":"owner","fieldRef":["field","leads.owner",null],"enabled":true},{"name":"status","fieldRef":["field","leads.status",null],"enabled":true},{"name":"phone","fieldRef":["field","leads.phone",null],"enabled":true}],"table.pivot_column":"title","table.cell_column":"phone","card.title":"本周新增商机"}
+  - card_id: 67e4c6b295075e0624129a31
+    col: 0
+    entity_id: 67e4c6d495075e0624129a32
+    id: 67e4c6d495075e0624129a32
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: >-
+      {"0":"{","1":"\"","2":"c","3":"a","4":"r","5":"d","6":".","7":"t","8":"i","9":"t","10":"l","11":"e","12":"\"","13":":","14":"\"","15":"新","16":"增","17":"客","18":"户","19":"数","20":"\"","21":",","22":"\"","23":"c","24":"o","25":"l","26":"u","27":"m","28":"n","29":"_","30":"s","31":"e","32":"t","33":"t","34":"i","35":"n","36":"g","37":"s","38":"\"","39":":","40":"{","41":"\"","42":"[","43":"\\","44":"\"","45":"n","46":"a","47":"m","48":"e","49":"\\","50":"\"","51":",","52":"\\","53":"\"","54":"c","55":"o","56":"u","57":"n","58":"t","59":"\\","60":"\"","61":"]","62":"\"","63":":","64":"{","65":"\"","66":"s","67":"u","68":"f","69":"f","70":"i","71":"x","72":"\"","73":":","74":"\"","75":"家","76":"\"","77":"}","78":"}","79":"}","column_settings":{"[\"name\",\"count\"]":{"suffix":"家"}},"card.title":"新增客户数"}
+  - card_id: 67e4c75c95075e0624129a34
+    col: 6
+    entity_id: 67e4c7aa95075e0624129a35
+    id: 67e4c7aa95075e0624129a35
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: >-
+      {"0":"{","1":"\"","2":"c","3":"a","4":"r","5":"d","6":".","7":"t","8":"i","9":"t","10":"l","11":"e","12":"\"","13":":","14":"\"","15":"商","16":"机","17":"预","18":"测","19":"金","20":"额","21":"\"","22":",","23":"\"","24":"c","25":"o","26":"l","27":"u","28":"m","29":"n","30":"_","31":"s","32":"e","33":"t","34":"t","35":"i","36":"n","37":"g","38":"s","39":"\"","40":":","41":"{","42":"\"","43":"[","44":"\\","45":"\"","46":"n","47":"a","48":"m","49":"e","50":"\\","51":"\"","52":",","53":"\\","54":"\"","55":"s","56":"u","57":"m","58":"\\","59":"\"","60":"]","61":"\"","62":":","63":"{","64":"\"","65":"s","66":"u","67":"f","68":"f","69":"i","70":"x","71":"\"","72":":","73":"\"","74":"万","75":"元","76":"\"","77":"}","78":"}","79":"}","card.title":"商机预测金额","column_settings":{"[\"name\",\"sum\"]":{"suffix":"万元"}}}
+  - card_id: 67e4c72395075e0624129a33
+    col: 3
+    entity_id: 67e4c7aa95075e0624129a36
+    id: 67e4c7aa95075e0624129a36
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: >-
+      {"0":"{","1":"\"","2":"c","3":"a","4":"r","5":"d","6":".","7":"t","8":"i","9":"t","10":"l","11":"e","12":"\"","13":":","14":"\"","15":"新","16":"增","17":"商","18":"机","19":"数","20":"\"","21":",","22":"\"","23":"c","24":"o","25":"l","26":"u","27":"m","28":"n","29":"_","30":"s","31":"e","32":"t","33":"t","34":"i","35":"n","36":"g","37":"s","38":"\"","39":":","40":"{","41":"\"","42":"[","43":"\\","44":"\"","45":"n","46":"a","47":"m","48":"e","49":"\\","50":"\"","51":",","52":"\\","53":"\"","54":"c","55":"o","56":"u","57":"n","58":"t","59":"\\","60":"\"","61":"]","62":"\"","63":":","64":"{","65":"\"","66":"s","67":"u","68":"f","69":"f","70":"i","71":"x","72":"\"","73":":","74":"\"","75":"个","76":"\"","77":"}","78":"}","79":"}","card.title":"新增商机数","column_settings":{"[\"name\",\"count\"]":{"suffix":"个"}}}
+  - card_id: 67e4c7e395075e0624129a37
+    col: 9
+    entity_id: 67e4c7f995075e0624129a38
+    id: 67e4c7f995075e0624129a38
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: >-
+      {"card.title":"新增跟进数","column_settings":{"[\"name\",\"count\"]":{"suffix":"次"}}}
+  - card_id: 67e4c81d95075e0624129a39
+    col: 12
+    entity_id: 67e4c83a95075e0624129a3a
+    id: 67e4c83a95075e0624129a3a
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: >-
+      {"card.title":"赢单数","column_settings":{"[\"name\",\"count\"]":{"suffix":"次"}}}
+  - card_id: 67e4c85695075e0624129a3b
+    col: 15
+    entity_id: 67e4c86e95075e0624129a3c
+    id: 67e4c86e95075e0624129a3c
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: >-
+      {"table.cell_column":"count","column_settings":{"[\"name\",\"count\"]":{"suffix":"次"}},"card.title":"输单数"}

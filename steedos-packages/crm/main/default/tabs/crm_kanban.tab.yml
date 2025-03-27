@@ -1,0 +1,12 @@
+name: crm_kanban
+desktop: true
+icon: agent_session
+is_new_window: false
+is_use_iframe: true
+label: 销售看板
+locked: false
+mobile: true
+permissions: []
+type: url
+url: >-
+  /analytics/embed/dashboard/67e4c60f95075e0624129a2f%23titled=false&bordered=false

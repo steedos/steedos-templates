@@ -1,0 +1,7 @@
+name: object_case
+desktop: true
+label: 个案
+mobile: true
+object: case
+permissions: []
+type: object
