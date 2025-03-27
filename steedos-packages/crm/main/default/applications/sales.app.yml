@@ -36,7 +36,7 @@ icon_slds: case
 is_creator: true
 mobile: true
 showSidebar: false
-sort: 30
+sort: 10
 tab_groups: []
 tab_items:
   object_leads:
@@ -53,6 +53,10 @@ tab_items:
     index: 6
   object_campaign:
     index: 7
+  object_events:
+    index: 8
+  object_tasks:
+    index: 9
 tabs:
   - object_leads
   - object_contacts
@@ -61,6 +65,8 @@ tabs:
   - object_product
   - object_price_book
   - object_campaign
+  - object_events
+  - object_tasks
 visible: true
 visibleOnVariables:
   - label: 表单字段
