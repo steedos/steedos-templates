@@ -9,16 +9,22 @@ label: 阶段
 options:
   - label: 初期沟通
     value: Qualification
+    color: '#4a90e2'
   - label: 立项跟踪
     value: Needs_Analysis
+    color: '#4a90e2'
   - label: 呈报方案
     value: Proposal
+    color: '#4a90e2'
   - label: 商务谈判
     value: Negotiation
+    color: '#4a90e2'
   - label: 赢单
     value: Closed_Won
+    color: '#4a90e2'
   - label: 输单
     value: Closed_Lost
+    color: '#4a90e2'
 required: true
 sort_no: 800
 type: select

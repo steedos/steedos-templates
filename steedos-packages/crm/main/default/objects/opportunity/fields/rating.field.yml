@@ -7,10 +7,13 @@ label: 分级
 options:
   - label: 非常重要
     value: Hot
+    color: '#417505'
   - label: 重要
     value: Warm
+    color: '#417505'
   - label: 普通
     value: Cold
+    color: '#417505'
 searchable: true
 sort_no: 350
 sortable: true

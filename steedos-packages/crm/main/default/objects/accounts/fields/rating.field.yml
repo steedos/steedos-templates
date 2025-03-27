@@ -8,10 +8,13 @@ label: 分级
 options:
   - label: 非常重要
     value: Hot
+    color: '#d0021b'
   - label: 重要
     value: Warm
+    color: '#417505'
   - label: 普通
     value: Cold
+    color: '#4a90e2'
 sort_no: 300
 sortable: true
 type: select

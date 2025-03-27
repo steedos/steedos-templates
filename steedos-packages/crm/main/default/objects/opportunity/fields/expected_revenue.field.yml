@@ -6,5 +6,5 @@ group: 隐藏分组
 hidden: true
 inlineHelpText: 基于金额和业务机会赢率计算的收入。
 label: 预测收入
-sort_no: 1400
+sort_no: 1350
 type: formula

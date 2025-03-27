@@ -3,6 +3,6 @@ amis:
   id: 'u:1779d1bc3d36'
 group: 隐藏分组
 label: 完成ROI分析
-sort_no: 1250
+sort_no: 1200
 type: boolean
 visible_on: 'false'

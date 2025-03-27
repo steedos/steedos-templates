@@ -7,7 +7,9 @@ label: 业务机会类型
 options:
   - label: 现有业务
     value: Existing_Business
+    color: '#f5a623'
   - label: 新业务
     value: New_Business
+    color: '#f5a623'
 sort_no: 200
 type: select

@@ -7,6 +7,6 @@ inlineHelpText: 如果业务机会具有产品则为“产品”相关列表中�
 label: 数量
 precision: 18
 scale: 2
-sort_no: 1300
+sort_no: 1250
 type: number
 visible_on: 'false'

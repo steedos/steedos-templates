@@ -8,14 +8,19 @@ label: 预测类别
 options:
   - label: 忽略
     value: Omit
+    color: '#b8e986'
   - label: 销售漏斗
     value: Sales_Funnel
+    color: '#b8e986'
   - label: 最高金额
     value: Maximum_Amount
+    color: '#b8e986'
   - label: 提交
     value: Submit
+    color: '#b8e986'
   - label: 关闭
     value: Close
+    color: '#b8e986'
 sort_no: 900
 type: select
 visible_on: 'true'

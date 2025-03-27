@@ -9,5 +9,5 @@ inlineHelpText: ''
 label: 创建人
 readonly: true
 reference_to: users
-sort_no: 1750
+sort_no: 1700
 type: lookup
