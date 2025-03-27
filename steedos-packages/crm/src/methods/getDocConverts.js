@@ -6,6 +6,7 @@
  * @FilePath: /steedos-ee-gitlab/steedos-packages-pm/crm/src/methods/getDocConverts.js
  * @Description: 
  */
+const _ = require("lodash");
 module.exports = {
     handler(object_name, record) {
         const convertSettings = {

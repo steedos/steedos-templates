@@ -1,9 +1,12 @@
+const _ = require("lodash");
 module.exports = {
     rest: {
         method: 'POST',
         fullPath: '/api/crm/leads/:_id/convert'
     },
     async handler(ctx) {
+        try {
+          
         const params = ctx.params;
         const recordId = params._id;
         const userSession = ctx.meta.user;
@@ -108,6 +111,10 @@ module.exports = {
         await objLeads.updateOne(recordId, docLeadUpdate, userSession);
 
         return { state: 'SUCCESS' }
+        } catch (error) {
+          console.error
+          throw new Error(error)
+        }
     }
 }
 
