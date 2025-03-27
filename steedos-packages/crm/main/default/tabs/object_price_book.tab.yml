@@ -1,0 +1,7 @@
+name: object_price_book
+desktop: true
+label: 价格手册
+mobile: true
+object: price_book
+permissions: []
+type: object
