@@ -1,9 +1,11 @@
 name: company_id
+amis:
+  id: 'u:b5f08ac69b22'
 filterable: false
+group: 采购信息
 hidden: false
 is_name: false
 is_wide: false
-group: 管理信息
 label: 我方单位
 multiple: false
 omit: true
@@ -11,6 +13,7 @@ readonly: false
 reference_to: company
 required: false
 searchable: false
-sort_no: 200
+sort_no: 1550
 sortable: false
 type: lookup
+visible_on: 'false'

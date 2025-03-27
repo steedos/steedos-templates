@@ -5,3 +5,4 @@ sort_no: 120
 type: lookup
 filterable: true
 searchable: true
+hidden: true

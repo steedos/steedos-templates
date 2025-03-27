@@ -1,6 +1,9 @@
 name: product_code
-label: 产品编码
-sort_no: 110
-type: text
+amis:
+  id: 'u:6474a4a71acf'
+group: 通用
+hidden: false
+label: 产品代码
 required: false
-hidden: true
+sort_no: 150
+type: text

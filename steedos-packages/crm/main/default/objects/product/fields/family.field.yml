@@ -1,10 +1,13 @@
 name: family
-hidden: true
+amis:
+  id: 'u:115ec930c988'
+group: 通用
+hidden: false
 label: 产品系列
 options:
   - label: 无
     value: none
 searchable: true
-sort_no: 110
+sort_no: 100
 sortable: true
 type: select

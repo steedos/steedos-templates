@@ -1,16 +1,18 @@
 name: product
 custom: true
 enable_audit: true
+enable_chatter: true
 enable_enhanced_lookup: true
 enable_files: true
 enable_search: true
-enable_chatter: true
-icon: product
-label: 产品
-version: 2
+field_groups:
+  - group_name: 通用
+  - group_name: 采购信息
 form:
-  onValuesChange: !!js/function |
-    function(args){
+  onValuesChange: !<tag:yaml.org,2002:js/function> |-
+    function(args
+    ) {
+
       const material_group = args.values.material_group;
       var options, result;
       result = [];
@@ -25,3 +27,6 @@ form:
         args.form.setFieldsValue({inventory: false});
       }
     }
+icon: product
+label: 产品
+version: 2

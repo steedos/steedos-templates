@@ -1,4 +1,8 @@
 name: manufacturer
+amis:
+  id: 'u:9a0a8127b302'
+group: 采购信息
 label: 制造厂商
-sort_no: 160
+sort_no: 1050
 type: text
+visible_on: 'false'

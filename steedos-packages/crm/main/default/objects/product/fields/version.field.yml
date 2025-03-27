@@ -1,5 +1,8 @@
 name: version
-group: 管理信息
+amis:
+  id: 'u:f59f0a2ae95a'
+group: 采购信息
 label: 版本
-sort_no: 250
+sort_no: 950
 type: text
+visible_on: 'false'

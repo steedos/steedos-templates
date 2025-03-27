@@ -1,5 +1,9 @@
 name: revenue_scheduling_enabled
+amis:
+  id: 'u:819df3c14892'
+group: 采购信息
 hidden: true
 label: 已启用收入计划
-sort_no: 190
+sort_no: 650
 type: boolean
+visible_on: 'false'

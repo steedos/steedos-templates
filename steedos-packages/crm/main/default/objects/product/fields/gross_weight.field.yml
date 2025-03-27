@@ -1,8 +1,11 @@
 name: gross_weight
+amis:
+  id: 'u:acd89f111447'
+group: 采购信息
 hidden: true
-group: 重量信息（KG）
 label: 毛重
 precision: 18
 scale: 2
-sort_no: 380
+sort_no: 1850
 type: number
+visible_on: 'false'

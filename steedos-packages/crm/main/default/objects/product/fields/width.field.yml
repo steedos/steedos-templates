@@ -1,8 +1,11 @@
 name: width
+amis:
+  id: 'u:94c00c58deea'
+group: 采购信息
 hidden: true
-group: 尺寸信息（M）
 label: 宽
 precision: 18
 scale: 2
-sort_no: 360
+sort_no: 1650
 type: number
+visible_on: 'false'

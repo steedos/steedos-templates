@@ -1,5 +1,9 @@
 name: quantity_schedule_type
+amis:
+  id: 'u:3d2c81badc85'
+group: 采购信息
 hidden: true
 label: 数量计划类型
-sort_no: 260
+sort_no: 900
 type: text
+visible_on: 'false'

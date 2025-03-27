@@ -1,5 +1,9 @@
 name: quantity_installment_period
+amis:
+  id: 'u:5832ebe39651'
+group: 采购信息
 hidden: true
 label: 数量分期付款周期
-sort_no: 240
+sort_no: 750
 type: text
+visible_on: 'false'

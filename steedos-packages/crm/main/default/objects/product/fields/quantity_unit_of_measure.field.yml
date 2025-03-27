@@ -1,5 +1,9 @@
 name: quantity_unit_of_measure
+amis:
+  id: 'u:c4adff64000c'
+group: 采购信息
 hidden: true
 label: 数量计量单位
-sort_no: 270
+sort_no: 700
 type: text
+visible_on: 'false'

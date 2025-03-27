@@ -1,5 +1,9 @@
 name: quantity_scheduling_enabled
+amis:
+  id: 'u:d93a9bda79f6'
+group: 采购信息
 hidden: true
 label: 已启用数量计划
-sort_no: 200
+sort_no: 600
 type: boolean
+visible_on: 'false'

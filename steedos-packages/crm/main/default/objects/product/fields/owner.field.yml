@@ -1,8 +1,11 @@
 name: owner
+amis:
+  id: 'u:52cf1dc4786f'
+group: 采购信息
 hidden: false
 index: true
-group: 管理信息
 label: 管理员
 omit: true
-sort_no: 190
+sort_no: 1750
 sortable: true
+visible_on: 'false'

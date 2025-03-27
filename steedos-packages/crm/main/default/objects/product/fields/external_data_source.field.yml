@@ -1,6 +1,10 @@
 name: external_data_source
+amis:
+  id: 'u:aa2b78704273'
+group: 采购信息
 hidden: true
 label: 外部数据源
 reference_to: datasources
-sort_no: 180
+sort_no: 1250
 type: lookup
+visible_on: 'false'

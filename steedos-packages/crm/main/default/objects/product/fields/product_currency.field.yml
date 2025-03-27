@@ -1,6 +1,9 @@
 name: product_currency
+amis:
+  id: 'u:ac23ea578250'
 group: 采购信息
 label: 币种
 reference_to: currency
-sort_no: 270
+sort_no: 1200
 type: lookup
+visible_on: 'false'

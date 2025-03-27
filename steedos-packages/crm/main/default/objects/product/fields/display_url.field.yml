@@ -1,5 +1,9 @@
 name: display_url
+amis:
+  id: 'u:96da7b2762b7'
+group: 采购信息
 hidden: true
 label: 显示URL
-sort_no: 280
+sort_no: 800
 type: url
+visible_on: 'false'

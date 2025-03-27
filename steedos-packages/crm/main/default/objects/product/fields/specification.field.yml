@@ -1,7 +1,11 @@
 name: specification
+amis:
+  id: 'u:9d98feedff97'
+filterable: true
+group: 采购信息
 is_wide: false
 label: 规格型号
-sort_no: 140
-type: text
-filterable: true
 searchable: true
+sort_no: 1900
+type: text
+visible_on: 'false'

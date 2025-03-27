@@ -1,14 +1,17 @@
 name: all
 columns:
-  - name
-  - product_code
-  - material_group
-  - asset_type
-  - specification
-  - amount
-  - separate_accounting
-  - inventory
-  - attributes
+  - field: name
+  - field: family
+  - field: product_code
+  - field: stock_keeping_unit
+  - field: description
+    width: '500'
+    wrap: true
+  - field: is_active
 filter_scope: space
+filters: []
+is_enable: true
 label: 所有产品
-shared: true
+searchable_fields: []
+shared_to: space
+sort: []

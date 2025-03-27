@@ -1,7 +1,10 @@
 name: asset_type
+amis: {}
+group: 采购信息
 label: 产品类型
-reference_to: asset_type
 omit: true
 readonly: true
-sort_no: 130
+reference_to: asset_type
+sort_no: 1950
 type: lookup
+visible_on: 'false'

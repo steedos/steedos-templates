@@ -1,5 +1,8 @@
 name: is_active
+amis:
+  id: 'u:b848a2e948d7'
+defaultValue: true
+group: 通用
 label: 已启用
-defaultValue: true 
-sort_no: 340
-type: toggle
+sort_no: 250
+type: boolean

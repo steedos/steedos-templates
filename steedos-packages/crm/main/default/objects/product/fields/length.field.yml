@@ -1,8 +1,11 @@
 name: length
+amis:
+  id: 'u:42ed22177308'
+group: 采购信息
 hidden: true
-group: 尺寸信息（M）
 label: 长
 precision: 18
 scale: 2
-sort_no: 350
+sort_no: 1700
 type: number
+visible_on: 'false'

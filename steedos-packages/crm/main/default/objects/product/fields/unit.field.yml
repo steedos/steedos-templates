@@ -1,5 +1,9 @@
 name: unit
+amis:
+  id: 'u:0fb292935f57'
+group: 采购信息
 label: 计量单位
 reference_to: measurement_unit
-sort_no: 150
+sort_no: 1150
 type: lookup
+visible_on: 'false'

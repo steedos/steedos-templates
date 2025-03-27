@@ -1,5 +1,11 @@
 name: number_of_quantity_installments
+amis:
+  id: 'u:2fd06eb95e51'
+group: 采购信息
 hidden: true
 label: 数量分期付款期数
-sort_no: 250
+precision: 18
+scale: 2
+sort_no: 2000
 type: number
+visible_on: 'false'

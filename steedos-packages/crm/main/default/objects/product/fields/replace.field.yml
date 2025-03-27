@@ -1,5 +1,8 @@
 name: replace
-group: 管理信息
+amis:
+  id: 'u:ab6e94c5f3b0'
+group: 采购信息
 label: 替代
-sort_no: 240
+sort_no: 1300
 type: text
+visible_on: 'false'

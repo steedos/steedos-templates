@@ -1,8 +1,11 @@
 name: net_weight
+amis:
+  id: 'u:f0ca2011744b'
+group: 采购信息
 hidden: true
-group: 重量信息（KG）
 label: 净重
 precision: 18
 scale: 2
-sort_no: 390
+sort_no: 1800
 type: number
+visible_on: 'false'

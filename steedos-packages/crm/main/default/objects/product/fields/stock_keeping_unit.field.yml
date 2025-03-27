@@ -1,5 +1,8 @@
 name: stock_keeping_unit
-hidden: true
+amis:
+  id: 'u:47cacaf28d3b'
+group: 通用
+hidden: false
 label: 最小存货单位
-sort_no: 160
+sort_no: 200
 type: text

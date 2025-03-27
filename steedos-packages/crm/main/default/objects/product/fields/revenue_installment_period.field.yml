@@ -1,5 +1,9 @@
 name: revenue_installment_period
+amis:
+  id: 'u:d9ddaecb9785'
+group: 采购信息
 hidden: true
 label: 收入分期付款周期
-sort_no: 210
+sort_no: 850
 type: text
+visible_on: 'false'

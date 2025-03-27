@@ -1,4 +1,8 @@
 name: image
+amis:
+  id: 'u:1ac1911fa6bc'
+group: 采购信息
 label: 图片
-sort_no: 180
+sort_no: 1400
 type: image
+visible_on: 'false'

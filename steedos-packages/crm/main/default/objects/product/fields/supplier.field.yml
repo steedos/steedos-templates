@@ -1,5 +1,8 @@
 name: supplier
-group: 管理信息
+amis:
+  id: 'u:2d6d3fe9c7b5'
+group: 采购信息
 label: 供应商
-sort_no: 230
+sort_no: 1450
 type: text
+visible_on: 'false'

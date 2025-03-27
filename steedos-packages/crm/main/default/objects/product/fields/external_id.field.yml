@@ -1,5 +1,9 @@
 name: external_id
+amis:
+  id: 'u:8c9bb9412c21'
+group: 采购信息
 hidden: true
 label: 外部ID
-sort_no: 170
+sort_no: 400
 type: text
+visible_on: 'false'

@@ -1,4 +1,14 @@
 name: recent
+columns:
+  - field: name
+  - field: family
+  - field: product_code
+  - field: stock_keeping_unit
+  - field: description
+    width: '500'
+    wrap: true
+  - field: is_active
 filter_scope: space
 label: 最近查看
 shared: true
+shared_to: space

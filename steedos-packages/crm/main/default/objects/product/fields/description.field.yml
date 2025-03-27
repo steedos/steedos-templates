@@ -1,7 +1,9 @@
 name: description
-group: 其他信息
+amis:
+  id: 'u:bc6c7817fb3e'
+group: 通用
 is_wide: true
-label: 备注
+label: 产品描述
 rows: 3
-sort_no: 500
+sort_no: 300
 type: textarea

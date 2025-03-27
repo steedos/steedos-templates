@@ -1,9 +1,12 @@
 name: name
+amis:
+  id: 'u:ce42151cc192'
+filterable: true
+group: 通用
 index: true
-label: 名称
+label: 产品名称
 required: true
 searchable: true
-sort_no: 100
+sort_no: 50
 sortable: true
 type: text
-filterable: true
