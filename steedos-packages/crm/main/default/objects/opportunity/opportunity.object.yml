@@ -17,7 +17,6 @@ enable_notes: false
 enable_search: true
 enable_share: true
 enable_tasks: true
-extend: opportunity
 field_groups:
   - group_name: 通用
   - group_name: 进展
