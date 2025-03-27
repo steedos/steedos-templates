@@ -1,7 +1,10 @@
 name: internal_comments
-group: 备注信息
+amis:
+  id: 'u:2d305b9a8648'
+group: 描述信息
 is_wide: true
 label: 内部注释
 rows: 3
-sort_no: 230
+sort_no: 1250
 type: textarea
+visible_on: 'false'

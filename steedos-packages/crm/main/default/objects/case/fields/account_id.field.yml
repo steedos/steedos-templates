@@ -1,5 +1,8 @@
 name: account_id
+amis:
+  id: 'u:f80782c386b7'
+group: 联系人信息
 label: 客户
 reference_to: accounts
-sort_no: 150
+sort_no: 1100
 type: master_detail

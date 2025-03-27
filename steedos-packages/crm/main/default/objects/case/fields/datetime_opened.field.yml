@@ -1,5 +1,8 @@
 name: datetime_opened
+amis:
+  id: 'u:4dd0863d353a'
+group: 通用
 hidden: true
 label: 开始日期
-sort_no: 340
+sort_no: 800
 type: datetime

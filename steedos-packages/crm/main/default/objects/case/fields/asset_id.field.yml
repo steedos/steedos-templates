@@ -1,6 +1,9 @@
 name: asset_id
+amis:
+  id: 'u:67c798330e7b'
+group: 通用
 hidden: true
 label: 资产
 reference_to: asset
-sort_no: 280
+sort_no: 500
 type: lookup

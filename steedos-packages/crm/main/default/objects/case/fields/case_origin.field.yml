@@ -1,4 +1,7 @@
 name: case_origin
+amis:
+  id: 'u:0f2d687752fa'
+group: 通用
 label: 个案来源
 options:
   - label: 电子邮件
@@ -9,6 +12,6 @@ options:
     value: Web
 required: true
 searchable: true
-sort_no: 180
+sort_no: 100
 sortable: true
 type: select

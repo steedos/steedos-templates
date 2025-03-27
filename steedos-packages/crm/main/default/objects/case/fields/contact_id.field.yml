@@ -1,5 +1,8 @@
 name: contact_id
+amis:
+  id: 'u:58a0a790f8aa'
+group: 联系人信息
 label: 联系人姓名
 reference_to: contacts
-sort_no: 140
+sort_no: 1050
 type: master_detail

@@ -1,5 +1,8 @@
 name: type
+amis:
+  id: 'u:11d61c779f85'
 filterable: true
+group: 通用
 label: 类型
 options:
   - label: 问题
@@ -9,6 +12,6 @@ options:
   - label: 疑问
     value: Question
 searchable: true
-sort_no: 170
+sort_no: 400
 sortable: true
 type: select

@@ -1,5 +1,8 @@
 name: datetime_closeed
+amis:
+  id: 'u:be5c7c5a1375'
+group: 通用
 hidden: true
 label: 结束日期
-sort_no: 360
+sort_no: 900
 type: datetime

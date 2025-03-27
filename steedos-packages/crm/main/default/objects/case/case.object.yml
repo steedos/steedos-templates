@@ -1,8 +1,14 @@
 name: case
+custom: true
 enable_audit: true
+enable_enhanced_lookup: true
 enable_files: true
 enable_search: true
-enable_enhanced_lookup: true
+field_groups:
+  - group_name: 通用
+  - group_name: 联系人信息
+  - group_name: 描述信息
+  - group_name: Web信息
 icon: case
 label: 个案
 version: 2

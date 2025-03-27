@@ -1,5 +1,8 @@
 name: order_reference_number
+amis:
+  id: 'u:8f76369e47b1'
+group: 通用
 hidden: true
 label: 订单参考编号
-sort_no: 290
+sort_no: 550
 type: text

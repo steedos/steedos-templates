@@ -1,6 +1,9 @@
 name: case_currency
+amis:
+  id: 'u:d89e25447836'
+group: 通用
 hidden: true
 label: 个案币种
 reference_to: currency
-sort_no: 300
+sort_no: 600
 type: lookup

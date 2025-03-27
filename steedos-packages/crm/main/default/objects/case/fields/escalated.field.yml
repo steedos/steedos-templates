@@ -1,5 +1,8 @@
 name: escalated
+amis:
+  id: 'u:9282eb69d2d3'
+group: 通用
 hidden: true
 label: 已升级
-sort_no: 330
+sort_no: 750
 type: boolean

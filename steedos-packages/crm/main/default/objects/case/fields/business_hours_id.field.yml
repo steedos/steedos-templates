@@ -1,6 +1,9 @@
 name: business_hours_id
+amis:
+  id: 'u:37d1e4a1d504'
+group: 通用
 hidden: true
 label: 工作时间
 reference_to: business_hours
-sort_no: 320
+sort_no: 700
 type: lookup

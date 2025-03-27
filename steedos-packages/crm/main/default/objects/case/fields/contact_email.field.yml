@@ -1,5 +1,8 @@
 name: contact_email
+amis:
+  id: 'u:256d95e0b8f1'
+group: 通用
 label: 联系人电子邮件
 readonly: true
-sort_no: 130
+sort_no: 350
 type: email

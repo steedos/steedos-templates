@@ -1,6 +1,8 @@
 name: subject
-group: 备注信息
+amis:
+  id: 'u:8233a0448c0b'
+group: 描述信息
 is_wide: true
 label: 主题
-sort_no: 210
+sort_no: 1150
 type: text

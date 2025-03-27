@@ -1,7 +1,12 @@
 name: owner
+amis:
+  id: 'u:a36dc2379a41'
+group: 通用
 hidden: false
 index: true
 label: 个案所有人
 omit: false
-sort_no: 100
+required: true
+sort_no: 200
 sortable: true
+visible_on: 'true'

@@ -1,4 +1,7 @@
 name: priority
+amis:
+  id: 'u:095821946125'
+group: 通用
 label: 优先级
 options:
   - label: 高
@@ -9,6 +12,6 @@ options:
     value: Low
 required: true
 searchable: true
-sort_no: 200
+sort_no: 150
 sortable: true
 type: select

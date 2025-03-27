@@ -1,5 +1,8 @@
 name: contact_mobile
+amis:
+  id: 'u:4605db30516d'
+group: 通用
 hidden: true
 label: 联系人移动电话
-sort_no: 380
+sort_no: 1000
 type: text

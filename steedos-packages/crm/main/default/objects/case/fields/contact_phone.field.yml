@@ -1,5 +1,8 @@
 name: contact_phone
+amis:
+  id: 'u:3e7e4dfe60a2'
+group: 通用
 label: 联系人电话
 readonly: true
-sort_no: 110
+sort_no: 250
 type: text

@@ -1,6 +1,9 @@
 name: parent_case
+amis:
+  id: 'u:0a156081bb9b'
+group: 通用
 hidden: true
 label: 父级个案
 reference_to: case
-sort_no: 350
+sort_no: 850
 type: lookup

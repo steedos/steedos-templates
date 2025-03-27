@@ -1,5 +1,8 @@
 name: contact_fax
+amis:
+  id: 'u:7487390faff4'
+group: 通用
 hidden: true
 label: 联系人传真
-sort_no: 370
+sort_no: 950
 type: text

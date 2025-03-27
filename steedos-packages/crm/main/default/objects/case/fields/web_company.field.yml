@@ -1,5 +1,8 @@
 name: web_company
+amis:
+  id: 'u:5a7e8fdb6227'
 group: Web信息
 label: Web公司
-sort_no: 250
+sort_no: 1350
 type: url
+visible_on: 'false'

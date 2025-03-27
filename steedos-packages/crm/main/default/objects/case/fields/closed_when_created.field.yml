@@ -1,5 +1,8 @@
 name: closed_when_created
+amis:
+  id: 'u:8a26543e6771'
+group: 通用
 hidden: true
 label: 创建时关闭
-sort_no: 310
+sort_no: 650
 type: boolean
