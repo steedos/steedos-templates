@@ -1,13 +1,14 @@
 {
     "name": "@steedos-labs/crm",
-    "version": "2.6.7",
+    "version": "2.6.9",
     "description": "CRM管理",
     "main": "package.service.js",
     "scripts": {
         "build": "webpack --config webpack.config.js",
         "build:watch": "webpack --config webpack.config.js --watch",
         "login": "npm login --registry=https://registry.npmjs.com",
-        "publish": "npm publish --registry=https://registry.npmjs.com"
+        "publish": "npm publish --registry=https://registry.npmjs.com",
+        "release": "yarn build && npm publish --registry https://registry.npmjs.org && open https://npmmirror.com/sync/@steedos-labs/content-compliance && cnpm sync @steedos-labs/content-compliance"
     },
     "author": "",
     "license": "ISC",
