@@ -1,7 +1,6 @@
 name: recent
 columns:
   - field: name
-  - field: family
   - field: product_code
   - field: stock_keeping_unit
   - field: description

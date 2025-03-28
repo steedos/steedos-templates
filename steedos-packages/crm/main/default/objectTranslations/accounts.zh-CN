@@ -1,0 +1,8 @@
+name: accounts
+label: 客户
+description: 
+fields:
+  name:
+    label: 客户名称
+    help: 
+    description: 
