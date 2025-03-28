@@ -1,0 +1,37 @@
+name: 业务机会-输单
+created_at: 2025-03-27T03:39:02.583Z
+creator_id: 67e38e8527d75e062530f140
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: opportunity
+    filter:
+      - '='
+      - - field
+        - opportunity.stage
+        - null
+      - Closed_Lost
+    aggregation:
+      - - count
+display: scalar
+enable_embedding: false
+entity_id: 67e4c85695075e0624129a3b
+id: 67e4c85695075e0624129a3b
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: opportunity
+updated_at: 2025-03-27T03:39:02.583Z
+visualization_settings: '{"table.cell_column":"count"}'
