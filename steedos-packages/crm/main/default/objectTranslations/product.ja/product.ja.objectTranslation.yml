@@ -1,0 +1,213 @@
+name: product
+label: 产品
+description: 
+fields:
+  amount:
+    label: 价格
+    help: 
+    description: 
+  asset_type:
+    label: 产品类型
+    help: 
+    description: 
+  attributes:
+    label: 属性
+    help: 
+    options:
+      - label: 外购
+        value: outsourcing
+      - label: 自制
+        value: self-made
+      - label: 委外
+        value: out-made
+      - label: 虚拟件
+        value: phantom
+    description: 
+  company_id:
+    label: 我方单位
+    help: 
+    description: 
+  depreciation_range:
+    label: 折旧年限
+    help: 
+    description: 
+  description:
+    label: 产品描述
+    help: 
+    description: 
+  display_url:
+    label: 显示URL
+    help: 
+    description: 
+  external_data_source:
+    label: 外部数据源
+    help: 
+    description: 
+  external_id:
+    label: 外部ID
+    help: 
+    description: 
+  family:
+    label: 产品系列
+    help: 
+    options:
+      - label: 无
+        value: none
+    description: 
+  gross_weight:
+    label: 毛重
+    help: 
+    description: 
+  height:
+    label: 高
+    help: 
+    description: 
+  image:
+    label: 图片
+    help: 
+    description: 
+  inventory:
+    label: 盘点
+    help: 
+    description: 
+  is_active:
+    label: 已启用
+    help: 
+    description: 
+  is_asset:
+    label: 资产
+    help: 
+    description: 
+  length:
+    label: 长
+    help: 
+    description: 
+  manufacturer:
+    label: 制造厂商
+    help: 
+    description: 
+  material_group:
+    label: 产品分组
+    help: 
+    description: 
+  name:
+    label: 产品名称
+    help: 
+    description: 
+  net_weight:
+    label: 净重
+    help: 
+    description: 
+  number_of_quantity_installments:
+    label: 数量分期付款期数
+    help: 
+    description: 
+  number_of_revenue_installments:
+    label: 收入分期付款期数
+    help: 
+    description: 
+  owner:
+    label: 管理员
+    help: 
+    description: 
+  product_code:
+    label: 产品代码
+    help: 
+    description: 
+  product_currency:
+    label: 币种
+    help: 
+    description: 
+  purpose:
+    label: 使用用途
+    help: 
+    options:
+      - label: 允许采购
+        value: purchase
+      - label: 允许销售
+        value: sale
+      - label: 允许库存
+        value: stock
+      - label: 允许生产
+        value: produce
+      - label: 允许委外
+        value: out
+      - label: 允许资产
+        value: asset
+    description: 
+  quantity_installment_period:
+    label: 数量分期付款周期
+    help: 
+    description: 
+  quantity_schedule_type:
+    label: 数量计划类型
+    help: 
+    description: 
+  quantity_scheduling_enabled:
+    label: 已启用数量计划
+    help: 
+    description: 
+  quantity_unit_of_measure:
+    label: 数量计量单位
+    help: 
+    description: 
+  replace:
+    label: 替代
+    help: 
+    description: 
+  revenue_installment_period:
+    label: 收入分期付款周期
+    help: 
+    description: 
+  revenue_schedule_type:
+    label: 收入计划类型
+    help: 
+    description: 
+  revenue_scheduling_enabled:
+    label: 已启用收入计划
+    help: 
+    description: 
+  salvage:
+    label: 残值率
+    help: 
+    description: 
+  separate_accounting:
+    label: 单独核算
+    help: 
+    description: 
+  specification:
+    label: 规格型号
+    help: 
+    description: 
+  stock_keeping_unit:
+    label: 最小存货单位
+    help: 
+    description: 
+  supplier:
+    label: 供应商
+    help: 
+    description: 
+  unit:
+    label: 计量单位
+    help: 
+    description: 
+  version:
+    label: 版本
+    help: 
+    description: 
+  width:
+    label: 宽
+    help: 
+    description: 
+groups:
+  采购信息: 采购信息
+  通用: 通用
+  管理信息: 管理信息
+listviews:
+  all:
+    label: 所有产品
+  recent:
+    label: 最近查看
+actions:
+  addToPriceBook:
+    label: 添加到价格手册

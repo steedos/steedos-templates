@@ -1,0 +1,19 @@
+name: asset_type
+label: 物料类型
+description: 
+fields:
+  code:
+    label: 编码
+    help: 
+    description: 
+  name:
+    label: 名称
+    help: 
+    description: 
+  separate_accounting:
+    label: 单独核算
+    help: 
+    description: 
+listviews:
+  all:
+    label: 所有
