@@ -1,62 +1,62 @@
 name: quote_line_item
-label: 报价行条目
+label: 見積もり行エントリ
 description: 
 fields:
   date:
-    label: 日期
-    help: 产品日期、有效日期或产品的其他日期。
+    label: 日付
+    help: 製品の日付、有効日、または製品に関連するその他の日付。
     description: 
   description:
-    label: 行项目描述
+    label: 行項目の説明
     help: 
     description: 
   discount:
-    label: 折扣
-    help: 您应用到行项目的折扣。您可以使用百分比符号输入数字，也可以不使用百分比符号输入数字。您可以使用最多两个小数位。
+    label: 割引
+    help: 行項目に適用する割引。数字にパーセント記号を使用しても、使用しなくても構いません。最大2桁の小数点を使用できます。
     description: 
   has_schedule:
-    label: 计划
-    help: 行项目是否在业务机会中使用计划。当业务机会产品被复制到报价中时，默认计划不会从业务机会中移转。
+    label: スケジュール
+    help: 行項目がビジネス機会でスケジュールを使用しているかどうか。当ビジネス機会製品が見積もりにコピーされる際に、デフォルトのスケジュールはビジネス機会から移動しません。
     description: 
   line_number:
-    label: 行项目编号
+    label: 行項目番号
     help: 
     description: 
   list_price:
-    label: 定价
+    label: 定価
     help: 
     description: 
   price_book_entry_id:
-    label: 价格手册条目
+    label: 価格帳エントリ
     help: 
     description: 
   product_id:
-    label: 产品
-    help: 价格手册中所列的行项目产品的名称。
+    label: 製品
+    help: 価格帳に掲載されている行項目製品の名称。
     description: 
   quantity:
     label: 数量
-    help: 报价中包含的该行项目产品的套数。值必须大于或等于 1。如果报价与业务机会同步，该字段会从报价行项目更新到业务机会产品。
+    help: 見積もりに含まれるこの行項目製品のセット数。値は1以上である必要があります。見積もりがビジネス機会と同期した場合、このフィールドは見積もり行項目からビジネス機会製品に更新されます。
     description: 
   quote_id:
-    label: 报价名称
+    label: 見積もり名
     help: 
     description: 
   subtotal:
-    label: 小计
-    help: 行项目的销售价格与数量相乘。
+    label: 小計
+    help: 行項目の販売価格と数量を掛け算したもの。
     description: 
   total_price:
-    label: 总价
-    help: 行项目的销售价格和数量相乘再减去折扣。
+    label: 総価格
+    help: 行項目の販売価格と数量を掛け算した後、割引を引いたもの。
     description: 
   unit_price:
-    label: 销售价格
+    label: 販売価格
     help: >-
-      您想使用的产品价格。最初，业务机会或报价产品的销售价格为价格手册中该产品的价目表价格，但您可在此进行更改。如果报价与业务机会同步，该字段会从报价行项目更新到业务机会产品。
+      使用したい製品の価格。最初は、ビジネス機会または見積もり製品の販売価格は、価格帳におけるその製品の価格表価格ですが、ここで変更できます。見積もりがビジネス機会と同期した場合、このフィールドは見積もり行項目からビジネス機会製品に更新されます。
     description: 
 listviews:
   all:
-    label: 所有报价行条目
+    label: すべての見積もり行エントリ
   recent:
-    label: 最近查看
+    label: 最近の表示

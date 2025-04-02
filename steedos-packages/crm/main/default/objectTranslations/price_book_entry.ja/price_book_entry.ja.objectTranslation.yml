@@ -1,42 +1,42 @@
 name: price_book_entry
-label: 价格手册条目
+label: 価格帳エントリ
 description: 
 fields:
   currency:
-    label: 货币
-    help: 此字段仅在启用多个货币时可用。它表示用于价目表条目（产品和标价）的货币。
+    label: 通貨
+    help: このフィールドは、複数通貨が有効になっている場合のみ使用できます。これは、価格帳エントリ（製品とリスト価格）に使用される通貨を示します。
     description: 
   is_active:
-    label: 已启用
-    help: 价格手册条目（产品和列表价格）是否是有效的并可添加到业务机会或报价。
+    label: 有効
+    help: 価格帳エントリ（製品とリスト価格）が有効であり、ビジネス機会や見積もりに追加できるかどうかを示します。
     description: 
   price_book_id:
-    label: 价格手册
-    help: 价格手册包含此项的价格。
+    label: 価格帳
+    help: このエントリの価格が含まれる価格帳。
     description: 
   product_code:
-    label: 产品代码
+    label: 製品コード
     help: 
     description: 
   product_id:
-    label: 产品
+    label: 製品
     help: 
     description: 
   unit_price:
-    label: 价目表价格
-    help: 价格手册内的产品的价格，包括货币。
+    label: 価格帳価格
+    help: 価格帳内の製品の価格（通貨を含む）。
     description: 
   use_standard_price:
-    label: 使用标准价格
-    help: 价格手册条目的价格是否继承至标准价格手册。
+    label: 標準価格を使用
+    help: 価格帳エントリの価格が標準価格帳を継承すべきかどうかを示します。
     description: 
 listviews:
   all:
-    label: 所有价格手册条目
+    label: すべての価格帳エントリ
   recent:
-    label: 最近查看
+    label: 最近の表示
 actions:
   addProduct:
-    label: 添加产品
+    label: 製品を追加
   standard_new:
-    label: 
+    label:

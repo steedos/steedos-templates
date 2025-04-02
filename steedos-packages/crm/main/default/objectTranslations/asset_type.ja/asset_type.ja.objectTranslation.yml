@@ -1,9 +1,9 @@
 name: asset_type
-label: 物料类型
+label: 資産タイプ
 description: 
 fields:
   code:
-    label: 编码
+    label: コード
     help: 
     description: 
   name:
@@ -11,9 +11,9 @@ fields:
     help: 
     description: 
   separate_accounting:
-    label: 单独核算
+    label: 別会計
     help: 
     description: 
 listviews:
   all:
-    label: 所有
+    label: すべて

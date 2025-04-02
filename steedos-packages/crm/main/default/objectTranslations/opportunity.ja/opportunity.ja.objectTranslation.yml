@@ -1,199 +1,198 @@
 name: opportunity
-label: 业务机会
+label: ビジネス機会
 description: 
 fields:
   account:
-    label: 客户
-    help: 业务机会所链接的客户名。您可输入客户名或使用查找图标选择客户。如果您更改的客户有合作伙伴，则将从“合作伙伴”相关列表删除所有合作伙伴。
+    label: 顧客
+    help: ビジネス機会が関連付けられている顧客名。顧客名を入力するか、検索アイコンを使用して顧客を選択します。変更した顧客にパートナーがいる場合、すべてのパートナーは「パートナー」関連リストから削除されます。
     description: 
   agreement_id:
-    label: 主协议
+    label: 主契約
     help: 
     description: 
   amount:
-    label: 预计金额
+    label: 予想金額
     help: >-
-      估计总销售额。如果启用了多种币种，默认情况下，金额以您的个人币种显示。更改业务机会币种选项列表以跟踪另一币种的金额。对于具有产品的业务机会，金额是相关产品的总和。您无法直接编辑金额，除非该业务机会没有产品。要更改包含产品的业务机会的金额，编辑相关产品的销售价格或数量。如果您更改业务机会对应的价格手册，那么所有的产品都从该业务机会的“相关产品”中删除，但是本字段中的值不变。
+      推定売上総額。もし複数通貨が有効化されている場合、デフォルトでは、金額はあなたの個人通貨で表示されます。ビジネス機会の通貨オプションリストを変更して、他の通貨の金額を追跡します。製品を含むビジネス機会の場合、金額は関連する製品の合計です。このビジネス機会に製品がない限り、金額は直接編集できません。製品を含むビジネス機会の金額を変更するには、関連する製品の販売価格または数量を編集します。ビジネス機会に対応する価格帳が変更された場合、すべての製品はこのビジネス機会の「関連製品」から削除されますが、このフィールドの値は変わりません。
     description: 
   budget_confirmed:
-    label: 有预算
+    label: 予算あり
     help: 
     description: 
   campaign_id:
-    label: 主要市场活动源
+    label: 主なマーケティング活動のソース
     help: >-
-      负责产生业务机会的市场活动的名称。对于在潜在客户转换期间创建的业务机会，此字段自动以潜在客户中的市场活动名称填充。如果潜在客户具有多个相关联市场活动，则将具有最新更新的成员状态的市场活动插入业务机会。对于具有多个影响的市场活动的业务机会，单击业务机会详细信息页面上“市场活动影响”相关列表中的主要市场活动旁边的编辑并选择主要市场活动源复选框。该市场活动显示在业务机会上主要市场活动源字段上。
+      ビジネス機会を生成したマーケティング活動の名前。潜在顧客の変換中に作成されたビジネス機会の場合、このフィールドは潜在顧客のマーケティング活動名で自動的に埋められます。潜在顧客が複数の関連したマーケティング活動を持つ場合、最新の更新されたメンバーシップ状態を持つマーケティング活動がビジネス機会に挿入されます。複数の影響を受けたマーケティング活動を持つビジネス機会に対しては、ビジネス機会の詳細ページにある「マーケティング活動の影響」の関連リストで、主要なマーケティング活動の横にある編集ボタンをクリックし、主要なマーケティング活動ソースのチェックボックスを選択します。このマーケティング活動はビジネス機会の主要なマーケティング活動ソースフィールドに表示されます。
     description: 
   company_id:
-    label: 主分部
+    label: 主部門
     help: 
     description: 
   company_ids:
-    label: 所属分部
+    label: 所属部門
     help: 
     description: 
   contacts:
-    label: 联系人
+    label: 連絡先
     help: 
     description: 
   created:
-    label: 创建时间
+    label: 作成日時
     help: 
     description: 
   created_by:
-    label: 创建人
+    label: 作成者
     help: 
     description: 
   description:
-    label: 描述
+    label: 説明
     help: 
     description: 
   discovery_completed:
-    label: 勘察结束
+    label: 調査終了
     help: 
     description: 
   due_date:
-    label: 预计结单日期
+    label: 予定締結日
     help: >-
-      您计划关闭业务机会的日期。您可以输入一个日期，或从您将光标放在字段中时显示的日历中选择一个日期。在指定期限内具有关闭日期的业务机会计入该时期的预测，除非您将其分配到“忽略”类别，或按计划或产品日期预测。当您将未处理业务机会的阶段设为“已结束/赢得客户”，如果最初的日期是在未来，则关闭日期设为协调世界时
-      (UTC) 的当前日期。在一天的某个时间，UTC 可能与您的时区相差一天。如果结束日期是过去业务机会结束的日期，则日期不能更改。
+      ビジネス機会を閉じる予定の日付です。日付を入力するか、フィールドにカーソルを置いたときに表示されるカレンダーから選択できます。指定期間内の終了日を持つビジネス機会は、予測にカウントされます。ただし、「無視」カテゴリに割り当てられたり、計画日や製品日予測に割り当てられた場合は除きます。未処理のビジネス機会のステージを「クローズ/顧客獲得」に設定すると、元の日時が未来の場合は、終了日は協定世界時（UTC）の現在の日付に設定されます。UTCは特定の時間において、あなたのタイムゾーンと1日差が出る場合があります。終了日が過去のビジネス機会が終了する日である場合、日付は変更できません。
     description: 
   expected_revenue:
-    label: 预测收入
-    help: 基于金额和业务机会赢率计算的收入。
+    label: 予測収入
+    help: 金額とビジネス機会の成功率に基づいて算出された収入です。
     description: 
   forecast_category:
-    label: 预测类别
-    help: 在报表、业务机会详细信息和编辑页面、业务机会搜索和业务机会列表视图中显示的预测类别名称。业务机会的设置绑定到其阶段。
+    label: 予測カテゴリ
+    help: レポート、ビジネス機会の詳細、編集ページ、ビジネス機会検索、およびビジネス機会リストビューに表示される予測カテゴリ名。ビジネス機会の設定は、そのステージにバインドされています。
     options:
-      - label: 忽略
+      - label: 無視
         value: Omit
         color: '#b8e986'
-      - label: 销售漏斗
+      - label: セールスファネル
         value: Sales_Funnel
         color: '#b8e986'
-      - label: 最高金额
+      - label: 最大金額
         value: Maximum_Amount
         color: '#b8e986'
-      - label: 提交
+      - label: 提出済み
         value: Submit
         color: '#b8e986'
-      - label: 关闭
+      - label: クローズ
         value: Close
         color: '#b8e986'
     description: 
   instance_state:
-    label: 申请单审批状态
+    label: 申請書の承認状況
     help: 
     options:
-      - label: 草稿
+      - label: 下書き
         value: draft
-      - label: 进行中
+      - label: 進行中
         value: pending
-      - label: 已完成
+      - label: 完了
         value: completed
-      - label: 已核准
+      - label: 承認済み
         value: approved
-      - label: 已驳回
+      - label: 拒否済み
         value: rejected
-      - label: 已取消
+      - label: キャンセル済み
         value: terminated
     description: 
   iq_score:
-    label: 业务机会得分
+    label: ビジネス機会スコア
     help: 
     description: 
   lead_source:
-    label: 潜在客户来源
+    label: 潜在顧客源
     help: 
     options:
-      - label: 广告
+      - label: 広告
         value: Advertisement
-      - label: 客户活动
+      - label: 顧客活動
         value: Customer_Event
-      - label: 员工推荐
+      - label: 従業員推薦
         value: Employee_Referral
-      - label: 百度搜索
+      - label: 百度検索
         value: Baidu_AdWords
-      - label: 其他
+      - label: その他
         value: Other
-      - label: 合作伙伴
+      - label: パートナー
         value: Partner
-      - label: 采购清单
+      - label: 購入リスト
         value: Purchased_List
-      - label: 贸易展览
+      - label: トレードショー
         value: Trade_Show
-      - label: 线上研讨
+      - label: ウェビナー
         value: Webinar
-      - label: 网站
+      - label: ウェブサイト
         value: Website
     description: 
   locked:
-    label: 已锁定
+    label: ロック済み
     help: 
     description: 
   loss_reason:
-    label: 失败原因
+    label: 失敗理由
     help: 
     options:
-      - label: 竞争失败
+      - label: 競争に敗れた
         value: Lost_to_Competitor
-      - label: 没有预算
+      - label: 予算がない
         value: No_Budget_Lost_Funding
-      - label: 没有回应
+      - label: 応答がない
         value: No_Decision_Non-Responsive
-      - label: 价格因素
+      - label: 価格の問題
         value: Price
-      - label: 其他
+      - label: その他
         value: Other
     description: 
   modified:
-    label: 修改时间
+    label: 修正日時
     help: 
     description: 
   modified_by:
-    label: 修改人
+    label: 修正者
     help: 
     description: 
   name:
-    label: 业务机会名
+    label: ビジネス機会名
     help: 
     description: 
   next_step:
-    label: 下一步
-    help: 说明关闭业务机会后下一步的任务。
+    label: 次のステップ
+    help: ビジネス機会を閉じた後のタスクについての説明です。
     description: 
   opportunity_currency:
-    label: 业务机会币种
+    label: ビジネス機会通貨
     help: >-
-      业务机会中所有币种金额字段的默认币种。金额以业务机会币种显示，并会转换为用户的个人币种。仅在启用多种币种时可用。对于具有产品的业务机会，该币种绑定到相关联价格手册的币种。您无法直接编辑此字段，除非您首先删除产品。
+      ビジネス機会におけるすべての通貨金額フィールドのデフォルト通貨。金額はビジネス機会通貨で表示され、ユーザーの個人通貨に変換されます。複数通貨が有効な場合のみ使用可能です。製品を持つビジネス機会の場合、この通貨は関連する価格帳の通貨にバインドされます。このフィールドは、最初に製品を削除しない限り直接編集できません。
     description: 
   owner:
-    label: 我方客户经理
+    label: 当社の営業担当者
     help: 
     description: 
   partner_account:
-    label: 合作伙伴客户
-    help: 表示该业务机会属于某合作伙伴（只读）
+    label: パートナー顧客
+    help: このビジネス機会が特定のパートナーに属していることを示します（読み取り専用）。
     description: 
   price_book_id:
-    label: 价格手册
+    label: 価格帳
     help: 
     description: 
   private:
-    label: 专用
-    help: 业务机会是专用的。只有记录的所有人、层次结构中位于该角色之上的用户和管理员可以查看、编辑或报告专有记录。
+    label: プライベート
+    help: ビジネス機会はプライベートです。このレコードの所有者、階層内でその役割より上にあるユーザー、および管理者のみがプライベートレコードを表示、編集、またはレポートできます。
     description: 
   probability:
-    label: 赢率
+    label: 成功率
     help: >-
-      业务机会将关闭的可能性，以百分比表示。可能性值总是由阶段值的更改而更新，即使在您的页面布局中可能性字段标记为只读。对此字段具有编辑权限的用户可以覆盖该值。
+      ビジネス機会が閉じる可能性をパーセンテージで示します。可能性の値は、ステージの値の変更によって常に更新されます。たとえページレイアウト内で可能性フィールドが読み取り専用とマークされている場合でもです。このフィールドを編集できるユーザーは、その値を上書きできます。
     description: 
   rating:
-    label: 分级
+    label: 評価
     help: 
     options:
-      - label: 非常重要
+      - label: 非常に重要
         value: Hot
         color: '#417505'
       - label: 重要
@@ -204,64 +203,63 @@ fields:
         color: '#417505'
     description: 
   roi_analysis_completed:
-    label: 完成ROI分析
+    label: ROI分析の完了
     help: 
     description: 
   stage:
-    label: 阶段
+    label: ステージ
     help: >-
-      管理员将此选项列表中的值与决定业务机会如何对您的预测进行贡献的“预测类别”值关联。如果原始日期在未来，则当您将未处理业务机会的阶段设为已结束/赢得客户，则关闭日期设为协调世界时
-      (UTC) 的当前日期。在一天的某个时间，UTC 可能与您的时区相差一天。如果结束日期是过去业务机会结束的日期，则日期不能更改。
+      管理者は、このオプションリスト内の値と「予測カテゴリ」値をビジネス機会がいかに予測に貢献するかを決定します。未処理のビジネス機会のステージを「終了/勝利」に設定すると、元の日時が未来の場合、終了日は協定世界時（UTC）の現在の日付に設定されます。特定の時間において、UTCはあなたのタイムゾーンと1日差が出るかもしれません。終了日が過去のビジネス機会が終了する日である場合、この日付は変更できません。
     options:
-      - label: 初期沟通
+      - label: 初期コミュニケーション
         value: Qualification
         color: '#4a90e2'
-      - label: 立项跟踪
+      - label: ニーズ分析
         value: Needs_Analysis
         color: '#4a90e2'
-      - label: 呈报方案
+      - label: 提案
         value: Proposal
         color: '#4a90e2'
-      - label: 商务谈判
+      - label: 商談
         value: Negotiation
         color: '#4a90e2'
-      - label: 赢单
+      - label: 獲得
         value: Closed_Won
         color: '#4a90e2'
-      - label: 输单
+      - label: 失注
         value: Closed_Lost
         color: '#4a90e2'
     description: 
   synced_quoted:
-    label: 同步的报价
-    help: 同步到业务机会的报价。只有一个报价可以同步到业务机会。
+    label: 同期された見積もり
+    help: ビジネス機会に同期される見積もり。ビジネス機会に同期できる見積もりは1つだけです。
     description: 
   total_opportunity_quantity:
     label: 数量
-    help: 如果业务机会具有产品则为“产品”相关列表中所有产品的所有数量字段值的总计。如果业务机会没有产品则为通用字段。
+    help: ビジネス機会が製品を持つ場合は、「製品」関連リスト内のすべての製品の数量フィールドの合計です。ビジネス機会に製品がない場合は、一般フィールドになります。
     description: 
   type:
-    label: 业务机会类型
-    help: 业务机会的类型，例如“现有业务”或“新业务”。
+    label: ビジネス機会の種類
+    help: ビジネス機会の種類、たとえば「既存ビジネス」または「新規ビジネス」。
     options:
-      - label: 现有业务
+      - label: 既存ビジネス
         value: Existing_Business
         color: '#f5a623'
-      - label: 新业务
+      - label: 新規ビジネス
         value: New_Business
         color: '#f5a623'
     description: 
 groups:
-  通用: 通用
-  隐藏分组: 隐藏分组
-  系统信息: 系统信息
-  进展: 进展
+  一般: 一般
+  隠しグループ: 隠しグループ
+  システム情報: システム情報
+  進捗: 進捗
 listviews:
   all:
-    label: 全部业务机会
+    label: すべてのビジネス機会
   lost:
-    label: 已失败的业务机会
+    label: 失注したビジネス機会
   recent:
-    label: 最近查看
+    label: 最近の表示
   won:
-    label: 已成功的业务机会
+    label: 獲得したビジネス機会

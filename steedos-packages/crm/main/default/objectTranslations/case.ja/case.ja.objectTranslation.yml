@@ -1,111 +1,111 @@
 name: case
-label: 个案
+label: ケース
 description: 
 fields:
   account_id:
-    label: 客户
+    label: 顧客
     help: 
     description: 
   asset_id:
-    label: 资产
+    label: 資産
     help: 
     description: 
   business_hours_id:
-    label: 工作时间
+    label: 勤務時間
     help: 
     description: 
   case_currency:
-    label: 个案币种
+    label: ケース通貨
     help: 
     description: 
   case_number:
-    label: 个案编号
+    label: ケース番号
     help: 
     description: 
   case_origin:
-    label: 个案来源
+    label: ケースの起源
     help: 
     options:
-      - label: 电子邮件
+      - label: 電子メール
         value: Email
-      - label: 电话
+      - label: 電話
         value: Phone
-      - label: 网页
+      - label: ウェブ
         value: Web
     description: 
   case_reason:
-    label: 个案原因
+    label: ケースの理由
     help: 
     options:
-      - label: 用户未参加培训
+      - label: ユーザーがトレーニングに参加していない
         value: Not_In_Training
-      - label: 功能复杂
+      - label: 機能が複雑
         value: Complex_Function
-      - label: 已有问题
+      - label: 既に問題あり
         value: Existing_Problem
-      - label: 说明不详
+      - label: 説明が不明
         value: Description_Unknown
-      - label: 新问题
+      - label: 新しい問題
         value: New_Problem
     description: 
   closed_when_created:
-    label: 创建时关闭
+    label: 作成時にクローズ
     help: 
     description: 
   contact_email:
-    label: 联系人电子邮件
+    label: 連絡先電子メール
     help: 
     description: 
   contact_fax:
-    label: 联系人传真
+    label: 連絡先ファックス
     help: 
     description: 
   contact_id:
-    label: 联系人姓名
+    label: 連絡先名
     help: 
     description: 
   contact_mobile:
-    label: 联系人移动电话
+    label: 連絡先携帯電話
     help: 
     description: 
   contact_phone:
-    label: 联系人电话
+    label: 連絡先電話
     help: 
     description: 
   datetime_closeed:
-    label: 结束日期
+    label: 終了日
     help: 
     description: 
   datetime_opened:
-    label: 开始日期
+    label: 開始日
     help: 
     description: 
   description:
-    label: 描述
+    label: 説明
     help: 
     description: 
   escalated:
-    label: 已升级
+    label: エスカレーション済み
     help: 
     description: 
   internal_comments:
-    label: 内部注释
+    label: 内部コメント
     help: 
     description: 
   order_reference_number:
-    label: 订单参考编号
+    label: 注文参照番号
     help: 
     description: 
   owner:
-    label: 个案所有人
+    label: ケース所有者
     help: 
     description: 
   parent_case:
-    label: 父级个案
+    label: 親ケース
     help: 
     description: 
   priority:
-    label: 优先级
+    label: 優先度
     help: 
     options:
       - label: 高
@@ -116,56 +116,56 @@ fields:
         value: Low
     description: 
   status:
-    label: 状态
+    label: ステータス
     help: 
     options:
-      - label: 暂停
+      - label: 保留
         value: On_Hold
-      - label: 升级
+      - label: エスカレーション
         value: Escalated
-      - label: 新建
+      - label: 新規
         value: New
-      - label: 关闭
-        value: close
+      - label: クローズ
+        value: Close
     description: 
   subject:
-    label: 主题
+    label: 件名
     help: 
     description: 
   type:
-    label: 类型
+    label: 種類
     help: 
     options:
-      - label: 问题
+      - label: 問題
         value: Problem
-      - label: 功能需求
+      - label: 機能要求
         value: Feature_Request
-      - label: 疑问
+      - label: 質問
         value: Question
     description: 
   web_company:
-    label: Web公司
+    label: Web会社
     help: 
     description: 
   web_email:
-    label: Web电子邮件
+    label: Web電子メール
     help: 
     description: 
   web_name:
-    label: Web名称
+    label: Web名
     help: 
     description: 
   web_phone:
-    label: Web电话
+    label: Web電話
     help: 
     description: 
 groups:
-  联系人信息: 联系人信息
-  通用: 通用
-  描述信息: 描述信息
-  web信息: Web信息
+  連絡先情報: 連絡先情報
+  一般: 一般
+  説明情報: 説明情報
+  Web情報: Web情報
 listviews:
   all:
-    label: 所有个案
+    label: すべてのケース
   recent:
-    label: 最近查看
+    label: 最近の表示

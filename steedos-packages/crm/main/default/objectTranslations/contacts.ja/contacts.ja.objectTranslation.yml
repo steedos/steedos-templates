@@ -1,161 +1,161 @@
 name: contacts
-label: 联系人
+label: 連絡先
 description: 
 fields:
   account:
-    label: 客户
-    help: 联系人所链接的客户。输入客户名称、从列表中选择客户或创建客户。
+    label: 顧客
+    help: 連絡先が関連付けられている顧客。顧客名を入力するか、リストから顧客を選択するか、顧客を作成します。
     description: 
   assistant:
-    label: 助理
+    label: アシスタント
     help: 
     description: 
   asst_phone:
-    label: 助理电话
+    label: アシスタントの電話
     help: 
     description: 
   birthdate:
-    label: 生日
+    label: 誕生日
     help: 
     description: 
   department:
-    label: 部门
-    help: 关联的业务或组织单元。
+    label: 部門
+    help: 関連している事業または組織ユニット。
     description: 
   description:
-    label: 备注
+    label: 追加情報
     help: 
     description: 
   do_not_call:
-    label: 请勿致电
-    help: 是否想要通过电话联系联系人。
+    label: 電話しない
+    help: 連絡先に電話をかけたいかどうか。
     description: 
   email:
-    label: 邮件
+    label: メール
     help: 
     description: 
   fax:
-    label: 传真
+    label: ファックス
     help: 
     description: 
   fax_opt_out:
-    label: 退出传真列表
-    help: 是否将联系人包含在传真中。
+    label: ファックスリストからオプトアウト
+    help: 連絡先をファックスに含めるかどうか。
     description: 
   has_opted_out_of_email:
-    label: 退出邮件列表
-    help: 是否将联系人包含在群发邮件列表中。
+    label: メールリストからオプトアウト
+    help: 連絡先を一斉メールリストに含めるかどうか。
     description: 
   hoddy:
-    label: 爱好
+    label: 趣味
     help: 
     description: 
   home_phone:
-    label: 家庭电话
+    label: 自宅電話
     help: 
     description: 
   individual:
-    label: 个人
+    label: 個人
     help: 
     description: 
   last_request_date:
-    label: 上次保持联系请求日期
+    label: 最後の接触リクエスト日
     help: 
     description: 
   last_save_date:
-    label: 上次保持联系保存日期
+    label: 最後の接触保存日
     help: 
     description: 
   lead_source:
-    label: 潜在客户来源
-    help: 潜在客户来源，例如，广告、合作伙伴或 Web。
+    label: 見込み客のソース
+    help: 見込み客のソース、例えば、広告、パートナーまたはWeb。
     options:
-      - label: 广告
+      - label: 広告
         value: Advertisement
-      - label: 客户活动
+      - label: 顧客イベント
         value: Customer_Event
-      - label: 员工推荐
+      - label: 従業員推薦
         value: Employee_Referral
-      - label: 百度搜索
+      - label: 百度検索
         value: Baidu_AdWords
-      - label: 其他
+      - label: その他
         value: Other
-      - label: 合作伙伴
+      - label: パートナー
         value: Partner
-      - label: 采购清单
+      - label: 購入リスト
         value: Purchased_List
-      - label: 贸易展览
+      - label: トレードショー
         value: Trade_Show
-      - label: 线上研讨
+      - label: ウェビナー
         value: Webinar
-      - label: 网站
+      - label: ウェブサイト
         value: Website
     description: 
   mailing_address:
-    label: 地址
+    label: 住所
     help: 
     description: 
   mobile:
-    label: 电话
+    label: 電話
     help: 
     description: 
   name:
-    label: 姓名
+    label: 名前
     help: 
     description: 
   other_city:
-    label: 其他地址-城市
+    label: その他の住所 - 市
     help: 
     description: 
   other_phone:
-    label: 其他电话
+    label: その他の電話
     help: 
     description: 
   other_street:
-    label: 其他地址-街道
+    label: その他の住所 - 通り
     help: 
     description: 
   other_zip:
-    label: 其他地址-邮政编码
+    label: その他の住所 - 郵便番号
     help: 
     description: 
   owner:
-    label: 联系人所有人
+    label: 連絡先所有者
     help: 
     description: 
   phone:
-    label: 工作电话
+    label: 仕事の電話
     help: 
     description: 
   reports_to_id:
-    label: 直属上司
-    help: 联系人管理员的姓名。输入联系人名称，或从列表中选择联系人。
+    label: 直属の上司
+    help: 連絡先の管理者の名前。連絡先の名前を入力するか、リストから選択します。
     description: 
   salutation:
-    label: 性别
+    label: 性別
     help: 
     options:
-      - label: 男
+      - label: 男性
         value: Male
-      - label: 女
+      - label: 女性
         value: Female
     description: 
   title:
-    label: 职务
+    label: 職位
     help: 
     description: 
   user:
-    label: 外部用户
+    label: 外部ユーザー
     help: 
     description: 
 groups:
-  通用: 通用
-  联系信息: 联系信息
-  隐藏分组: 隐藏分组
+  一般: 一般
+  連絡先情報: 連絡先情報
+  隠しグループ: 隠しグループ
 listviews:
   all:
-    label: 所有联系人
+    label: すべての連絡先
   mine:
-    label: 我的联系人
+    label: 私の連絡先
   recent:
-    label: 最近查看
+    label: 最近の表示

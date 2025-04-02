@@ -1,46 +1,46 @@
 name: product
-label: 产品
+label: 製品
 description: 
 fields:
   amount:
-    label: 价格
+    label: 価格
     help: 
     description: 
   asset_type:
-    label: 产品类型
+    label: 製品タイプ
     help: 
     description: 
   attributes:
     label: 属性
     help: 
     options:
-      - label: 外购
+      - label: 外注
         value: outsourcing
-      - label: 自制
+      - label: 自社製
         value: self-made
-      - label: 委外
+      - label: 委託製造
         value: out-made
-      - label: 虚拟件
+      - label: バーチャル部品
         value: phantom
     description: 
   company_id:
-    label: 我方单位
+    label: 当社
     help: 
     description: 
   depreciation_range:
-    label: 折旧年限
+    label: 減価償却年数
     help: 
     description: 
   description:
-    label: 产品描述
+    label: 製品説明
     help: 
     description: 
   display_url:
-    label: 显示URL
+    label: 表示URL
     help: 
     description: 
   external_data_source:
-    label: 外部数据源
+    label: 外部データソース
     help: 
     description: 
   external_id:
@@ -48,166 +48,166 @@ fields:
     help: 
     description: 
   family:
-    label: 产品系列
+    label: 製品シリーズ
     help: 
     options:
-      - label: 无
+      - label: 無し
         value: none
     description: 
   gross_weight:
-    label: 毛重
+    label: 総重量
     help: 
     description: 
   height:
-    label: 高
+    label: 高さ
     help: 
     description: 
   image:
-    label: 图片
+    label: 画像
     help: 
     description: 
   inventory:
-    label: 盘点
+    label: 在庫
     help: 
     description: 
   is_active:
-    label: 已启用
+    label: 有効
     help: 
     description: 
   is_asset:
-    label: 资产
+    label: 資産
     help: 
     description: 
   length:
-    label: 长
+    label: 長さ
     help: 
     description: 
   manufacturer:
-    label: 制造厂商
+    label: 製造業者
     help: 
     description: 
   material_group:
-    label: 产品分组
+    label: 製品グループ
     help: 
     description: 
   name:
-    label: 产品名称
+    label: 製品名
     help: 
     description: 
   net_weight:
-    label: 净重
+    label: 正味重量
     help: 
     description: 
   number_of_quantity_installments:
-    label: 数量分期付款期数
+    label: 数量の分割払い回数
     help: 
     description: 
   number_of_revenue_installments:
-    label: 收入分期付款期数
+    label: 収入の分割払い回数
     help: 
     description: 
   owner:
-    label: 管理员
+    label: 管理者
     help: 
     description: 
   product_code:
-    label: 产品代码
+    label: 製品コード
     help: 
     description: 
   product_currency:
-    label: 币种
+    label: 通貨
     help: 
     description: 
   purpose:
-    label: 使用用途
+    label: 使用目的
     help: 
     options:
-      - label: 允许采购
+      - label: 購入を許可
         value: purchase
-      - label: 允许销售
+      - label: 販売を許可
         value: sale
-      - label: 允许库存
+      - label: 在庫を許可
         value: stock
-      - label: 允许生产
+      - label: 製造を許可
         value: produce
-      - label: 允许委外
+      - label: 外注を許可
         value: out
-      - label: 允许资产
+      - label: 資産を許可
         value: asset
     description: 
   quantity_installment_period:
-    label: 数量分期付款周期
+    label: 数量の分割払い期間
     help: 
     description: 
   quantity_schedule_type:
-    label: 数量计划类型
+    label: 数量スケジュールタイプ
     help: 
     description: 
   quantity_scheduling_enabled:
-    label: 已启用数量计划
+    label: 数量スケジュールが有効
     help: 
     description: 
   quantity_unit_of_measure:
-    label: 数量计量单位
+    label: 数量単位
     help: 
     description: 
   replace:
-    label: 替代
+    label: 置換
     help: 
     description: 
   revenue_installment_period:
-    label: 收入分期付款周期
+    label: 収入の分割払い周期
     help: 
     description: 
   revenue_schedule_type:
-    label: 收入计划类型
+    label: 収入スケジュールタイプ
     help: 
     description: 
   revenue_scheduling_enabled:
-    label: 已启用收入计划
+    label: 収入スケジュールが有効
     help: 
     description: 
   salvage:
-    label: 残值率
+    label: 残存価値
     help: 
     description: 
   separate_accounting:
-    label: 单独核算
+    label: 別会計
     help: 
     description: 
   specification:
-    label: 规格型号
+    label: 仕様
     help: 
     description: 
   stock_keeping_unit:
-    label: 最小存货单位
+    label: 最小在庫単位
     help: 
     description: 
   supplier:
-    label: 供应商
+    label: 供給者
     help: 
     description: 
   unit:
-    label: 计量单位
+    label: 単位
     help: 
     description: 
   version:
-    label: 版本
+    label: バージョン
     help: 
     description: 
   width:
-    label: 宽
+    label: 幅
     help: 
     description: 
 groups:
-  采购信息: 采购信息
-  通用: 通用
-  管理信息: 管理信息
+  購買情報: 購買情報
+  一般: 一般
+  管理情報: 管理情報
 listviews:
   all:
-    label: 所有产品
+    label: すべての製品
   recent:
-    label: 最近查看
+    label: 最近の表示
 actions:
   addToPriceBook:
-    label: 添加到价格手册
+    label: 価格帳に追加

@@ -1,124 +1,124 @@
 name: campaign_member
-label: 市场活动成员
+label: マーケティング活動メンバー
 description: 
 fields:
   address:
-    label: 地址
+    label: 住所
     help: 
     description: 
   campaign_id:
-    label: 市场活动
-    help: 潜在客户或联系人所属的市场活动。
+    label: マーケティング活動
+    help: 潜在顧客または連絡先が所属するマーケティング活動。
     description: 
   campaign_member_currency:
-    label: 市场活动成员币种
-    help: 市场活动成员中货币字段的默认币种。仅适用于使用多币种的组织。
+    label: マーケティング活動メンバー通貨
+    help: マーケティング活動メンバーにおける通貨フィールドのデフォルト通貨。複数通貨を使用する組織にのみ適用されます。
     description: 
   campany_or_account:
-    label: 公司(客户)
-    help: 公司（如果市场活动成员基于潜在客户），或客户（如果市场活动成员基于联系人）。
+    label: 会社（顧客）
+    help: マーケティング活動メンバーが潜在顧客に基づく場合は会社、連絡先に基づく場合は顧客。
     description: 
   contact:
-    label: 联系人
+    label: 連絡先
     help: 
     description: 
   description:
-    label: 描述
+    label: 説明
     help: 
     description: 
   do_not_call:
-    label: 请勿致电
-    help: 是否想要通过电话联系联系人。
+    label: 電話しないでください
+    help: 連絡先に電話をかけたいかどうか。
     description: 
   email:
-    label: 电子邮件
+    label: 電子メール
     help: 
     description: 
   fax:
-    label: 传真
+    label: ファックス
     help: 
     description: 
   fax_opt_out:
-    label: 退出传真列表
+    label: ファックスリストからオプトアウト
     help: 
     description: 
   first_responded_date:
-    label: 首次响应日期
-    help: 市场活动成员首次响应的日期。（只读）
+    label: 初めて応答した日
+    help: マーケティング活動メンバーが初めて応答した日。（読み取り専用）
     description: 
   has_opted_out_of_email:
-    label: 退出邮件列表
+    label: メールリストからオプトアウト
     help: 
     description: 
   last_responded:
-    label: 上次响应日期
+    label: 最後の応答日
     help: 
     description: 
   lead:
-    label: 潜在客户
-    help: 潜在客户姓名（如果市场活动成员基于潜在客户）。
+    label: 潜在顧客
+    help: 潜在顧客名（マーケティング活動メンバーが潜在顧客に基づく場合）。
     description: 
   lead_source:
-    label: 潜在客户来源
-    help: 潜在客户来源，例如，广告、合作伙伴或 Web。
+    label: 潜在顧客ソース
+    help: 潜在顧客のソース、例えば大広告、パートナー、または ウェブ。
     options:
-      - label: 广告
+      - label: 広告
         value: Advertisement
-      - label: 客户活动
+      - label: 顧客イベント
         value: Customer_Event
-      - label: 员工推荐
+      - label: 従業員推薦
         value: Employee_Referral
-      - label: 百度搜索
+      - label: 百度検索
         value: Baidu_AdWords
-      - label: 其他
+      - label: その他
         value: Other
-      - label: 合作伙伴
+      - label: パートナー
         value: Partner
-      - label: 采购清单
+      - label: 購入リスト
         value: Purchased_List
-      - label: 贸易展览
+      - label: トレードショー
         value: Trade_Show
-      - label: 线上研讨
+      - label: ウェビナー
         value: Webinar
-      - label: 网站
+      - label: ウェブサイト
         value: Website
     description: 
   mobile:
-    label: 手机
-    help: 潜在客户或联系人的手机号。
+    label: 携帯電話
+    help: 潜在顧客または連絡先の携帯電話番号。
     description: 
   name:
-    label: 姓名
+    label: 名前
     help: 
     description: 
   phone:
-    label: 电话
-    help: 潜在客户或联系人的电话号码。
+    label: 電話
+    help: 潜在顧客または連絡先の電話番号。
     description: 
   responded:
-    label: 已响应
-    help: 表示市场活动成员是否已响应。
+    label: 応答済み
+    help: マーケティング活動メンバーが応答したかどうかを示します。
     description: 
   salutation:
-    label: 性别
+    label: 性別
     help: 
     options:
-      - label: 男
+      - label: 男性
         value: Male
-      - label: 女
+      - label: 女性
         value: Female
     description: 
   status:
-    label: 状态
+    label: ステータス
     help: 
     options:
-      - label: 已发送
+      - label: 送信済み
         value: Sent
-      - label: 已响应
+      - label: 応答済み
         value: Responded
     description: 
 listviews:
   all:
-    label: 所有市场活动成员
+    label: すべてのマーケティング活動メンバー
   recent:
-    label: 最近查看
+    label: 最近の表示

@@ -1,33 +1,33 @@
 name: opportunity_line_item
-label: 业务机会产品
+label: ビジネス機会製品
 description: 
 fields:
   description:
-    label: 行描述
+    label: 行の説明
     help: 
     description: 
   discount:
-    label: 折扣（%）
-    help: 产品的百分比折扣。
+    label: 割引（%）
+    help: 製品のパーセント割引。
     description: 
   list_price:
-    label: 价目表价格
-    help: 价格手册中的产品价格（包含币种）。只读。
+    label: 価格表価格
+    help: 価格帳における製品の価格（通貨を含む）。読み取り専用。
     description: 
   number:
-    label: 序号
+    label: 番号
     help: 
     description: 
   opportunity_id:
-    label: 业务机会名
+    label: ビジネス機会名
     help: 
     description: 
   product_code:
-    label: 产品代码
+    label: 製品コード
     help: 
     description: 
   product_id:
-    label: 产品
+    label: 製品
     help: 
     description: 
   quantity:
@@ -35,28 +35,28 @@ fields:
     help: 
     description: 
   service_date:
-    label: 日期
-    help: 某个业务机会产品的关闭日期。
+    label: 日付
+    help: 特定のビジネス機会製品の終了日。
     description: 
   subtotal:
-    label: 小计
-    help: 标准和折扣价格之间的差值。业务机会币种与用户币种不同时转换后的币种金额。
+    label: 小計
+    help: 標準価格と割引価格の間の差額。ビジネス機会通貨とユーザー通貨が異なる場合は変換後の金額。
     description: 
   total_price:
-    label: 总价
-    help: 业务机会产品所有产品金额的总计。
+    label: 総価格
+    help: ビジネス機会製品すべての金額の合計。
     description: 
   unit_price:
-    label: 销售价格
-    help: 业务机会产品中产品的价格。对于没有相关计划的业务机会产品，销售价格可以编辑。当计划与业务机会产品相关时，销售价格变为只读。
+    label: 売上価格
+    help: ビジネス機会製品内の製品の価格。関連計画がないビジネス機会製品の場合、売上価格は編集可能です。計画がビジネス機会製品に関連していると、売上価格は読み取り専用になります。
     description: 
 listviews:
   all:
-    label: 全部业务机会产品
+    label: すべてのビジネス機会製品
 actions:
   addProduct:
-    label: 添加产品
+    label: 製品を追加
   selectPriceBook:
-    label: 选择价格手册
+    label: 価格帳を選択
   standard_new:
-    label: 
+    label:

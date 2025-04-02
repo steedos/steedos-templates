@@ -1,6 +1,6 @@
 {
     "name": "@steedos-labs/crm",
-    "version": "2.6.14",
+    "version": "2.6.16",
     "description": "CRM管理",
     "main": "package.service.js",
     "scripts": {
