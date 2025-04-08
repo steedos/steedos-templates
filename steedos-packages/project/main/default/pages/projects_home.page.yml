@@ -1,9 +1,0 @@
-name: projects_home
-__filename: >-
-  /workspace/steedos-templates/steedos-packages/project/main/default/pages/projects_home.page.yml
-is_active: true
-label: 计划首页
-pageAssignments: []
-render_engine: amis
-type: app
-widgets: []

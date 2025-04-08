@@ -14,18 +14,16 @@ tab_groups:
     default_open: true
   - group_name: 进度管理
     default_open: true
-  - group_name: 待删除
-    default_open: true
 tab_items:
   project_kanban:
     index: 1
-  object_project_program:
-    group: 项目管理
-    index: 2
   object_project:
     group: 项目管理
-    index: 3
+    index: 2
   object_project_milestone:
+    group: 项目管理
+    index: 3
+  object_project_program:
     group: 项目管理
     index: 4
   object_project_task:
@@ -44,14 +42,6 @@ tab_items:
   object_project_log:
     group: 进度管理
     index: 9
-  projects_home:
-    group: 待删除
-    _id: 0c8fb357-4bcc-464f-b5c7-052fc5559a50
-    index: 10
-  project_kanban_old:
-    group: 待删除
-    _id: 9076614d-7144-49e5-b515-d36e893f1adf
-    index: 11
 tabs:
   - project_kanban
   - object_project_program
@@ -62,6 +52,4 @@ tabs:
   - object_project_expense
   - object_project_issue
   - object_project_log
-  - projects_home
-  - project_kanban_old
 visible: true
