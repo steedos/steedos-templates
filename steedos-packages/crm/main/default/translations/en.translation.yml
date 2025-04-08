@@ -4,7 +4,7 @@ CustomApplications:
     description: 自动化市场营销
   sales:
     name: CRM
-    description: 顧客や潜在顧客、ビジネスチャンスなどを通じて販売プロセスを管理する。
+    description: 通过客户、潜在客户、业务机会等管理销售流程。
     groups: {}
   service:
     name: 服务
@@ -18,6 +18,3 @@ CustomTabs:
   object_product: object_product
   object_price_book: object_price_book
   object_campaign: object_campaign
-  object_events: object_events
-  object_tasks: object_tasks
-  crm_kanban: crm_kanban
