@@ -1,0 +1,13 @@
+name: project_task_details
+is_active: true
+label: 项目任务详情页
+locked: false
+object_name: project_task
+pageAssignments:
+  - type: orgDefault
+    page: project_task_details
+    desktop: true
+    mobile: true
+render_engine: amis
+type: record
+widgets: []

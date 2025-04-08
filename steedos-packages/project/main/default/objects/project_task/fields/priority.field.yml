@@ -1,5 +1,4 @@
 name: priority
-defaultValue: normal
 filterable: false
 hidden: false
 index: false

@@ -12,36 +12,34 @@ sort: 20
 tab_groups:
   - group_name: 项目管理
     default_open: true
-  - group_name: 进度管理
-    default_open: true
 tab_items:
   project_kanban:
     index: 1
-  object_project:
-    group: 项目管理
-    index: 2
-  object_project_milestone:
-    group: 项目管理
-    index: 3
   object_project_program:
     group: 项目管理
-    index: 4
+    index: 2
+  object_project:
+    group: 项目管理
+    index: 3
+  # object_project_milestone:
+  #   group: 项目管理
+  #   index: 4
   object_project_task:
-    group: 进度管理
+    group: 项目管理
     index: 5
   object_project_time:
-    group: 进度管理
+    group: 项目管理
     index: 6
   object_project_expense:
-    group: 进度管理
+    group: 项目管理
     _id: 10bad81c-8260-4f2a-a4c3-41da968b8eb1
     index: 7
   object_project_issue:
-    group: 进度管理
+    group: 项目管理
     index: 8
-  object_project_log:
-    group: 进度管理
-    index: 9
+  # object_project_log:
+  #   group: 项目管理
+  #   index: 9
 tabs:
   - project_kanban
   - object_project_program

@@ -6,12 +6,28 @@
             "label": "标题面板",
             "objectApiName": "${objectName}",
             "recordId": "${recordId}",
+            "showBackButton": "${!_inDrawer}",
             "id": "u:adf84b3b53b5"
         },
         {
             "type": "tabs",
-            "className": "sm:mt-3 bg-white sm:shadow sm:rounded sm:border border-slate-300 p-4",
+            "className": "steedos-record-tabs bg-white p-4 sm:m-4 sm:shadow sm:rounded",
             "tabs": [
+                {
+                    "title": "项目",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "project_program",
+                            "recordId": "${recordId}",
+                            "id": "u:f522406d5b72",
+                            "relatedObjectApiName": "project"
+                        }
+                    ],
+                    "id": "u:500428af96c9"
+                },
                 {
                     "title": "详细",
                     "className": "px-0 py-4",
@@ -26,37 +42,6 @@
                         }
                     ],
                     "id": "u:5d4e7e3f6ecc"
-                },
-                {
-                    "title": "相关",
-                    "className": "px-0 pt-4",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "project_program",
-                            "recordId": "${recordId}",
-                            "id": "u:f522406d5b72",
-                            "relatedObjectApiName": "project"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "project_program",
-                            "recordId": "${recordId}",
-                            "id": "u:f522406d5b72",
-                            "relatedObjectApiName": "bidding"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "project_program",
-                            "recordId": "${recordId}",
-                            "id": "u:f522406d5b72",
-                            "relatedObjectApiName": "cms_files"
-                        }
-                    ],
-                    "id": "u:500428af96c9"
                 }
             ],
             "id": "u:9ce4fef67eb1"
@@ -72,5 +57,10 @@
     "name": "page_project_program_record_detail",
     "objectApiName": "${objectName}",
     "bodyClassName": "",
-    "className": "object-detail-page"
+    "className": "object-detail-page steedos-record-content overflow-y-auto p-0 m-0 flex-1 h-full bg-gray-100",
+    "asideResizor": false,
+    "editorState": "default",
+    "pullRefresh": {
+        "disabled": true
+    }
 }

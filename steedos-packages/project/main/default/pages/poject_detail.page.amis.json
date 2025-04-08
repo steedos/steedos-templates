@@ -11,33 +11,11 @@
         },
         {
             "type": "tabs",
-            "className": "steedos-record-tabs bg-white p-4 sm:m-2 sm:border sm:rounded",
+            "className": "steedos-record-tabs bg-white p-4 sm:m-4 sm:shadow sm:rounded",
             "tabs": [
                 {
-                    "title": "项目详情",
-                    "className": "px-0 py-4",
-                    "body": [
-                        {
-                            "type": "steedos-object-form",
-                            "label": "对象表单",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "appId": "${appId}",
-                            "id": "u:d096b44a9c08"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:5356b4ed63e3",
-                            "relatedObjectApiName": "cms_files"
-                        }
-                    ],
-                    "id": "u:5d4e7e3f6ecc"
-                },
-                {
                     "title": "任务执行",
+                    "className": "px-0 pt-4",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
@@ -75,7 +53,23 @@
                     "id": "u:31376b29e918"
                 },
                 {
+                    "title": "项目详情",
+                    "className": "px-0 py-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-form",
+                            "label": "对象表单",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "appId": "${appId}",
+                            "id": "u:d096b44a9c08"
+                        }
+                    ],
+                    "id": "u:5d4e7e3f6ecc"
+                },
+                {
                     "title": "其他信息",
+                    "className": "px-0 pt-4",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
@@ -103,6 +97,21 @@
                         }
                     ],
                     "id": "u:050e582e45d8"
+                },
+                {
+                    "title": "附件",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:5356b4ed63e3",
+                            "relatedObjectApiName": "cms_files"
+                        }
+                    ],
+                    "id": "u:5d4e7e3f6ecc1"
                 }
             ],
             "id": "u:d3fc0b6f0589"

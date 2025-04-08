@@ -4,6 +4,9 @@ columns:
   - field: assignees
     width: '100'
     wrap: false
+  - field: collaborator
+    width: '100'
+    wrap: false
   - field: priority
     width: '80'
     wrap: false
