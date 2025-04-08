@@ -8,9 +8,10 @@ label: 项目
 omit: false
 readonly: false
 reference_to: project
-required: true
+required: false
 searchable: false
 sort_no: 102
 sortable: true
 type: master_detail
 write_requires_master_read: true
+defaultValue: "${_master.record.project || ''}"

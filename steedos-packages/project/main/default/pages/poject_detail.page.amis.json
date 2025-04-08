@@ -14,17 +14,9 @@
             "className": "steedos-record-tabs bg-white p-4 sm:m-4 sm:shadow sm:rounded",
             "tabs": [
                 {
-                    "title": "任务执行",
+                    "title": "任务",
                     "className": "px-0 pt-4",
                     "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:d8d7d53630b6",
-                            "relatedObjectApiName": "project_milestone"
-                        },
                         {
                             "type": "steedos-object-related-listview",
                             "label": "相关表",
@@ -32,75 +24,87 @@
                             "recordId": "${recordId}",
                             "id": "u:75b0165b2bdf",
                             "relatedObjectApiName": "project_task"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:26c55604a444",
-                            "relatedObjectApiName": "project_time"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:52644d292f76",
-                            "relatedObjectApiName": "project_expense"
                         }
                     ],
                     "id": "u:31376b29e918"
                 },
                 {
+                    "title": "里程碑",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:3d6cf5d6b65f",
+                            "relatedObjectApiName": "project_milestone"
+                        }
+                    ],
+                    "id": "u:e482ebb84724"
+                },
+                {
+                    "title": "用时",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:b397835c24a2",
+                            "relatedObjectApiName": "project_time"
+                        }
+                    ],
+                    "id": "u:5d8d07f1e427"
+                },
+                {
+                    "title": "费用",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:23d27d0d9ea4",
+                            "relatedObjectApiName": "project_expense"
+                        }
+                    ],
+                    "id": "u:e677dc470207"
+                },
+                {
+                    "title": "问题",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:a0c58dc94f41",
+                            "relatedObjectApiName": "project_issue"
+                        }
+                    ],
+                    "className": "px-0 pt-4",
+                    "id": "u:050e582e45d8"
+                },
+                {
                     "title": "项目详情",
-                    "className": "px-0 py-4",
                     "body": [
                         {
                             "type": "steedos-object-form",
                             "label": "对象表单",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
-                            "appId": "${appId}",
-                            "id": "u:d096b44a9c08"
+                            "id": "u:d096b44a9c08",
+                            "appId": "${appId}"
                         }
                     ],
+                    "className": "px-0 py-4",
                     "id": "u:5d4e7e3f6ecc"
                 },
                 {
-                    "title": "其他信息",
-                    "className": "px-0 pt-4",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:e9065d141882",
-                            "relatedObjectApiName": "project_issue"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:3bc97e5d6fbc",
-                            "relatedObjectApiName": "project_log"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:226dbd412f12",
-                            "relatedObjectApiName": "audit_records"
-                        }
-                    ],
-                    "id": "u:050e582e45d8"
-                },
-                {
                     "title": "附件",
-                    "className": "px-0 pt-4",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
@@ -111,10 +115,22 @@
                             "relatedObjectApiName": "cms_files"
                         }
                     ],
+                    "className": "px-0 pt-4",
                     "id": "u:5d4e7e3f6ecc1"
                 }
             ],
             "id": "u:d3fc0b6f0589"
+        },
+        {
+            "type": "rooms-provider",
+            "baseUrl": "${context.rootUrl}",
+            "body": [
+                {
+                    "type": "rooms-comments",
+                    "className": "flex flex-col m-3 gap-3",
+                    "roomId": "objects:${objectName}:{recordId}"
+                }
+            ]
         }
     ],
     "regions": [

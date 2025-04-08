@@ -17,4 +17,4 @@ version: 2
 icon: task
 is_enable: true
 is_system: true
-label: 项目任务
+label: 任务

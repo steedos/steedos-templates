@@ -29,36 +29,63 @@
                     "id": "u:5d4e7e3f6ecc"
                 },
                 {
-                    "title": "相关",
+                    "title": "用时",
                     "className": "px-0 pt-4",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-lists",
-                            "label": "相关列表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "appId": "${appId}",
-                            "id": "u:af0aa9e0b989"
-                        }
-                    ],
-                    "id": "u:8076ae7565d2"
-                },
-                {
-                    "title": "子任务",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
                             "label": "相关表",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
-                            "id": "u:80d04c4f02b2",
+                            "id": "u:38486c52587f",
+                            "relatedObjectApiName": "project_time"
+                        }
+                    ],
+                    "id": "u:8076ae7565d2"
+                },
+                {
+                    "title": "子任务",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:63425c54115d",
                             "relatedObjectApiName": "project_task"
                         }
                     ],
                     "id": "u:510b2db765c9"
+                },
+                {
+                    "title": "附件",
+                    "className": "px-0 pt-4",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:0e39f867dc6c",
+                            "relatedObjectApiName": "cms_files"
+                        }
+                    ],
+                    "id": "u:388a8774de9b"
                 }
             ],
             "id": "u:14b502d26dc1"
+        },
+        {
+            "type": "rooms-provider",
+            "baseUrl": "${context.rootUrl}",
+            "body": [
+                {
+                    "type": "rooms-comments",
+                    "className": "flex flex-col m-3 gap-3",
+                    "roomId": "objects:${objectName}:{recordId}"
+                }
+            ]
         }
     ],
     "regions": [

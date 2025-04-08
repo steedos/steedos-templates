@@ -2,7 +2,7 @@ name: name
 filterable: false
 hidden: false
 index: true
-is_name: false
+is_name: true
 is_wide: false
 label: 里程碑名
 omit: false

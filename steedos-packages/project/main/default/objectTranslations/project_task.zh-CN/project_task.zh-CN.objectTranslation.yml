@@ -1,5 +1,5 @@
 name: project_task
-label: 项目任务
+label: 任务
 description: 
 fields:
   assignees:

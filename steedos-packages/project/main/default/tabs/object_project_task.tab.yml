@@ -1,6 +1,6 @@
 name: object_project_task
 desktop: true
-label: 项目任务
+label: 任务
 mobile: true
 object: project_task
 permissions: []

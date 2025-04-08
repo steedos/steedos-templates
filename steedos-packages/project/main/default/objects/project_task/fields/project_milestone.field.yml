@@ -28,3 +28,4 @@ searchable: false
 sort_no: 112
 sortable: true
 type: lookup
+defaultValue: "${_master.record.project_milestone || ''}"
