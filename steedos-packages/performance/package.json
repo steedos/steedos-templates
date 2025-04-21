@@ -1,6 +1,6 @@
 {
   "name": "@steedos-labs/performance",
-  "version": "2.6.2",
+  "version": "2.7.0",
   "description": "绩效管理",
   "main": "package.service.js",
   "scripts": {

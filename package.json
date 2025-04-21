@@ -22,7 +22,10 @@
     "steedos-cli": "^2.7.17"
   },
   "devDependencies": {
-    "lerna": "^5.4.0"
+    "lerna": "^5.4.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
   },
   "resolutions": {
     "mingo": "6.1.2"

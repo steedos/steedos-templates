@@ -1,6 +1,6 @@
 {
     "name": "@steedos-labs/contract",
-    "version": "2.6.2",
+    "version": "2.7.0",
     "description": "合同管理",
     "main": "package.service.js",
     "scripts": {
@@ -11,9 +11,6 @@
        
     },
     "devDependencies": {
-        "webpack": "^5.88.2",
-        "webpack-cli": "^5.1.4",
-        "webpack-node-externals": "^3.0.0"
     },
     "license": "MIT",
     "publishConfig": {
