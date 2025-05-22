@@ -29,34 +29,19 @@
                     "id": "u:5d4e7e3f6ecc"
                 },
                 {
-                    "title": "用时",
-                    "className": "px-0 pt-4",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:38486c52587f",
-                            "relatedObjectApiName": "project_time"
-                        }
-                    ],
-                    "id": "u:8076ae7565d2"
-                },
-                {
                     "title": "子任务",
-                    "className": "px-0 pt-4",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
+                            "id": "u:63425c54115d",
                             "label": "相关表",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
-                            "id": "u:63425c54115d",
                             "relatedObjectApiName": "project_task"
                         }
                     ],
-                    "id": "u:510b2db765c9"
+                    "id": "u:510b2db765c9",
+                    "className": "px-0 pt-4"
                 },
                 {
                     "title": "附件",
@@ -83,9 +68,11 @@
                 {
                     "type": "rooms-comments",
                     "className": "flex flex-col m-3 gap-3",
-                    "roomId": "objects:${objectName}:{recordId}"
+                    "roomId": "objects:${objectName}:{$recordId}",
+                    "id": "u:38ab555ede44"
                 }
-            ]
+            ],
+            "id": "u:c95ec025f86d"
         }
     ],
     "regions": [

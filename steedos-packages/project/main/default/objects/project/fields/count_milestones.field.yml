@@ -1,8 +1,13 @@
 name: count_milestones
+amis: {}
 data_type: number
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: true
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 里程碑总数
@@ -12,9 +17,9 @@ readonly: false
 required: false
 scale: 1
 searchable: false
-sort_no: 250
+sort_no: 800
 sortable: false
+summary_filters: []
 summary_object: project_milestone
 summary_type: count
 type: summary
-summary_filters: []

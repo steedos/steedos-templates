@@ -7,3 +7,4 @@ modifyCompanyRecords: false
 permission_set_id: user
 viewAllRecords: true
 viewCompanyRecords: false
+field_permissions: []

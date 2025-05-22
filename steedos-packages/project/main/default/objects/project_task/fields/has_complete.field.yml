@@ -1,8 +1,13 @@
 name: has_complete
+amis:
+  id: 'u:4c19ccf70b4c'
+description: ''
+enable_thousands: true
 filterable: true
 group: 完成情况
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 已完成
@@ -10,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 118
+sort_no: 850
 sortable: true
 type: boolean

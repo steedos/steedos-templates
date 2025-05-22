@@ -1,14 +1,20 @@
 name: completed_date
+amis:
+  id: 'u:0fa849a7b042'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
-label: 实际完成
+label: 实际完成日期
 omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 140
+sort_no: 600
 sortable: true
 type: date

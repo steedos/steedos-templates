@@ -1,11 +1,15 @@
 name: project_expense_balance
+amis: {}
 data_type: currency
+description: ''
+enable_thousands: true
 filterable: false
 formula: project_expense_budget-project_expense
 formula_blank_value: zeroes
 group: 预算与执行
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 剩余费用(元)
@@ -15,6 +19,7 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 170
+sort_no: 1550
 sortable: false
 type: formula
+visible_on: '0'

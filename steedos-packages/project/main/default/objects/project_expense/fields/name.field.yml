@@ -13,4 +13,4 @@ searchable: true
 sort_no: 100
 sortable: false
 type: autonumber
-visible_on: "{{global.mode ==='read' ? true : false}}"
+visible_on: '{{global.mode ===''read'' ? true : false}}'

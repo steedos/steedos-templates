@@ -21,5 +21,6 @@ filter_scope: space
 label: 最近查看
 scrolling_mode: standard
 shared: true
+shared_to: space
 show_count: false
 type: grid

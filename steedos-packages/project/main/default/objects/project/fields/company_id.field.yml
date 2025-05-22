@@ -1,0 +1,13 @@
+name: company_id
+amis:
+  id: 'u:7fa929ff6a90'
+description: ''
+group: 基本信息
+index: true
+inlineHelpText: ''
+label: 我方单位
+reference_to: company
+sort_no: 1050
+sortable: true
+type: lookup
+visible_on: '{{false}}'

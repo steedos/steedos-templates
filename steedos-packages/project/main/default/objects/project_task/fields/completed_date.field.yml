@@ -1,8 +1,13 @@
 name: completed_date
+amis:
+  id: 'u:b0836ad9184f'
+description: ''
+enable_thousands: true
 filterable: false
 group: 完成情况
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 实际完成日期
@@ -10,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 180
+sort_no: 950
 sortable: true
 type: date

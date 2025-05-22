@@ -6,8 +6,8 @@ columns:
   - field: due_date
   - field: completed_date
   - field: collaborator
-  - field: project_milestone
   - field: project
+  - field: project_milestone
   - field: created
 crud_mode: table
 filter_scope: space
@@ -29,7 +29,7 @@ searchable_fields:
   - field: assignees
   - field: project_milestone
   - field: completed_date
-shared: true
+shared_to: space
 show_count: true
 sort:
   - field_name: completed_date

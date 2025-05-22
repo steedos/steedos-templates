@@ -1,7 +1,13 @@
 name: closed
+amis:
+  id: 'u:d29e717abc5b'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 已关闭
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 240
+sort_no: 650
 sortable: false
 type: boolean

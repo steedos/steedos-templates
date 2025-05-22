@@ -1,15 +1,21 @@
 name: description
+amis:
+  id: 'u:d6e08c9e6e28'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: true
-label: 备注
+label: 简述
 omit: false
 readonly: false
 required: false
 rows: 2
 searchable: false
-sort_no: 160
+sort_no: 650
 sortable: false
 type: textarea

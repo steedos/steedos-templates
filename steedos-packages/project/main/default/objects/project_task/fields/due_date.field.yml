@@ -1,7 +1,13 @@
 name: due_date
+amis:
+  id: 'u:95f6dd3ccfcd'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 到期日期
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 120
+sort_no: 400
 sortable: true
 type: date

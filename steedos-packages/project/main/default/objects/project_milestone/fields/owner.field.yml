@@ -1,7 +1,12 @@
 name: owner
+amis: {}
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 hidden: true
 index: true
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 所有者
@@ -10,5 +15,6 @@ omit: false
 readonly: true
 required: false
 searchable: false
-sort_no: 115
+sort_no: 400
 sortable: true
+visible_on: '{{false}}'

@@ -13,8 +13,13 @@ enable_search: false
 enable_share: false
 enable_tasks: false
 enable_workflow: false
-version: 2
+extend: project_task
+field_groups:
+  - group_name: 基本信息
+  - group_name: 完成情况
+  - group_name: 系统信息
 icon: task
 is_enable: true
 is_system: true
 label: 任务
+version: 2

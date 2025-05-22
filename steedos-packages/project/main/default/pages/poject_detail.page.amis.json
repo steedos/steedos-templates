@@ -44,52 +44,8 @@
                     "id": "u:e482ebb84724"
                 },
                 {
-                    "title": "用时",
-                    "className": "px-0 pt-4",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:b397835c24a2",
-                            "relatedObjectApiName": "project_time"
-                        }
-                    ],
-                    "id": "u:5d8d07f1e427"
-                },
-                {
-                    "title": "费用",
-                    "className": "px-0 pt-4",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:23d27d0d9ea4",
-                            "relatedObjectApiName": "project_expense"
-                        }
-                    ],
-                    "id": "u:e677dc470207"
-                },
-                {
-                    "title": "问题",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:a0c58dc94f41",
-                            "relatedObjectApiName": "project_issue"
-                        }
-                    ],
-                    "className": "px-0 pt-4",
-                    "id": "u:050e582e45d8"
-                },
-                {
                     "title": "项目详情",
+                    "className": "px-0 py-4",
                     "body": [
                         {
                             "type": "steedos-object-form",
@@ -100,11 +56,11 @@
                             "appId": "${appId}"
                         }
                     ],
-                    "className": "px-0 py-4",
                     "id": "u:5d4e7e3f6ecc"
                 },
                 {
                     "title": "附件",
+                    "className": "px-0 pt-4",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
@@ -115,7 +71,6 @@
                             "relatedObjectApiName": "cms_files"
                         }
                     ],
-                    "className": "px-0 pt-4",
                     "id": "u:5d4e7e3f6ecc1"
                 }
             ],
@@ -128,9 +83,11 @@
                 {
                     "type": "rooms-comments",
                     "className": "flex flex-col m-3 gap-3",
-                    "roomId": "objects:${objectName}:{recordId}"
+                    "roomId": "objects:${objectName}:{$recordId}",
+                    "id": "u:0f32dd3bc7ac"
                 }
-            ]
+            ],
+            "id": "u:c5a6c241eb64"
         }
     ],
     "regions": [

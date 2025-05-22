@@ -1,17 +1,25 @@
 name: assignees
+amis:
+  id: 'u:6431c77c711f'
 defaultValue: ''
+description: ''
+enable_thousands: true
 filterable: true
+filters: []
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
-label: 处理人
+label: 分派给
 multiple: false
 omit: false
 readonly: false
 reference_to: users
+reference_to_field: ''
 required: false
 searchable: true
-sort_no: 109
+sort_no: 250
 sortable: true
 type: lookup

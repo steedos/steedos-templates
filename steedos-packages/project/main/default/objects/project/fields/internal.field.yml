@@ -1,7 +1,13 @@
 name: internal
+amis:
+  id: 'u:df29b5944b1a'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 内部项目
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 245
+sort_no: 750
 sortable: false
 type: boolean

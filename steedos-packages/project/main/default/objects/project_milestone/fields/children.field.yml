@@ -1,7 +1,13 @@
 name: children
+amis:
+  id: 'u:61ff74867c1d'
+description: ''
+enable_thousands: true
+group: 通用
+inlineHelpText: ''
 label: 子里程碑
-reference_to: project_milestone
-sort_no: 180
-type: lookup
 multiple: true
+reference_to: project_milestone
+sort_no: 700
+type: lookup
 visible_on: '{{false}}'

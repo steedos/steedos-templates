@@ -13,9 +13,6 @@ columns:
   - field: has_complete
     width: '80'
     wrap: false
-  - field: progress
-    width: '80'
-    wrap: false
   - field: project
     wrap: false
   - field: start_date
@@ -27,6 +24,7 @@ columns:
   - field: completed_date
     width: '140'
     wrap: false
+  - field: state
 crud_mode: table
 filter_fields:
   - name
@@ -55,7 +53,7 @@ searchable_fields:
   - field: start_date
   - field: due_date
   - field: priority
-shared: true
+shared_to: space
 show_count: false
 sort:
   - field_name: due_date

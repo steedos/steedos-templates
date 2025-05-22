@@ -3,6 +3,7 @@ custom: true
 enable_api: true
 enable_audit: false
 enable_chatter: false
+enable_enhanced_lookup: true
 enable_events: false
 enable_files: true
 enable_inline_edit: true
@@ -11,11 +12,14 @@ enable_notes: false
 enable_search: true
 enable_share: false
 enable_tasks: false
-enable_workflow: false
 enable_tree: true
-enable_enhanced_lookup: true
-version: 2
+enable_workflow: false
+extend: project_milestone
+field_groups:
+  - group_name: 通用
+  - group_name: 系统信息
 icon: entity_milestone
 is_enable: true
+is_system: true
 label: 里程碑
-
+version: 2

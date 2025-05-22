@@ -1,9 +1,15 @@
 name: project_code
+amis:
+  id: 'u:d39b4e32313a'
+description: ''
+enable_thousands: true
 filterable: true
 formula: 'XM-{YYYY}-{0000}'
 generated: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 项目编号
@@ -11,6 +17,6 @@ omit: false
 readonly: true
 required: false
 searchable: false
-sort_no: 246
+sort_no: 400
 sortable: false
 type: autonumber

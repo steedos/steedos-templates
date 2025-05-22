@@ -1,4 +1,6 @@
 name: project_task_details
+__filename: >-
+  /workspace/steedos-templates/steedos-packages/project/main/default/pages/project_task_details.page.yml
 is_active: true
 label: 项目任务详情页
 locked: false

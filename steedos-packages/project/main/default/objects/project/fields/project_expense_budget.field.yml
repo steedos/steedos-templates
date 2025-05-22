@@ -1,8 +1,13 @@
 name: project_expense_budget
+amis:
+  id: 'u:d6d415253a71'
+description: ''
+enable_thousands: true
 filterable: false
 group: 预算与执行
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 预计费用(元)
@@ -12,6 +17,7 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 150
+sort_no: 1350
 sortable: false
 type: currency
+visible_on: '0'

@@ -1,7 +1,13 @@
 name: deadline
+amis:
+  id: 'u:677fbaf1a117'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 截止日期
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 140
+sort_no: 550
 sortable: true
 type: date

@@ -10,6 +10,6 @@ readonly: false
 reference_to: project
 required: true
 searchable: false
-sort_no: 130
+sort_no: 210
 sortable: true
 type: master_detail

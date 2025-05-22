@@ -1,7 +1,13 @@
 name: kickoff
+amis:
+  id: 'u:6f1b195837d3'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 启动日期
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 136
+sort_no: 500
 sortable: false
 type: date

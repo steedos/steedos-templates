@@ -11,6 +11,6 @@ readonly: false
 reference_to: project_task
 required: false
 searchable: false
-sort_no: 130
+sort_no: 220
 sortable: true
 type: lookup

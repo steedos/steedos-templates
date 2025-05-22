@@ -1,5 +1,10 @@
 name: parent
+amis:
+  id: 'u:a23a56431a5d'
+description: ''
+enable_thousands: true
 filterable: true
+group: 通用
 hidden: true
 index: false
 inlineHelpText: 上级里程碑
@@ -11,6 +16,6 @@ readonly: false
 reference_to: project_milestone
 required: false
 searchable: false
-sort_no: 108
+sort_no: 250
 sortable: true
 type: lookup

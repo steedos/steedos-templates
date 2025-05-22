@@ -1,7 +1,13 @@
 name: progress
+amis:
+  id: 'u:c8f21762daa7'
+description: ''
+enable_thousands: true
 group: 完成情况
+inlineHelpText: ''
 label: 进度
-type: percent
 precision: 18
 scale: 2
-sort_no: 130
+sort_no: 900
+type: percent
+visible_on: '0'

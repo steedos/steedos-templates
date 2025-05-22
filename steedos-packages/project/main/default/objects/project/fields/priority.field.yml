@@ -1,0 +1,18 @@
+name: priority
+amis:
+  id: 'u:1ab2a8347e3d'
+filters: []
+group: 基本信息
+label: 优先级
+options:
+  - label: 高
+    value: 高
+    color: '#c11d25'
+  - label: 中
+    value: 中
+    color: '#f9e29d'
+  - label: 低
+    value: 低
+    color: '#49d181'
+sort_no: 450
+type: select

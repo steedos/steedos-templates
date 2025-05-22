@@ -1,19 +1,16 @@
 name: project_milestone
+amis:
+  id: 'u:357cb0ef7f51'
+defaultValue: '${_master.record.project_milestone || ''''}'
 depend_on:
   - project
+enable_thousands: true
 filterable: true
-filtersFunction: !<tag:yaml.org,2002:js/function> |-
-  function(filters,values
-  ) {
-     
-    if(values == undefined){
-      return [];
-    }else{
-      return [["project","=",values.project]]
-    }
-
-  }
-group: 其他
+filters:
+  - - completed
+    - '='
+    - false
+group: 基本信息
 hidden: false
 index: false
 is_name: false
@@ -25,7 +22,6 @@ readonly: false
 reference_to: project_milestone
 required: false
 searchable: false
-sort_no: 112
+sort_no: 450
 sortable: true
 type: lookup
-defaultValue: "${_master.record.project_milestone || ''}"

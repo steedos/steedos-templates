@@ -10,7 +10,7 @@ omit: false
 readonly: true
 required: false
 searchable: true
-sort_no: 100
+sort_no: 10009
 sortable: false
 type: autonumber
-visible_on: "{{global.mode ==='read' ? true : false}}"
+visible_on: '{{global.mode ===''read'' ? true : false}}'

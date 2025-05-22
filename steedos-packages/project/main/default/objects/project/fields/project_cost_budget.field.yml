@@ -1,8 +1,13 @@
 name: project_cost_budget
+amis:
+  id: 'u:b3610f5dda33'
+description: ''
+enable_thousands: true
 filterable: false
 group: 预算与执行
 hidden: true
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 预算成本总额(元)
@@ -12,6 +17,7 @@ readonly: false
 required: false
 scale: 0
 searchable: false
-sort_no: 175
+sort_no: 1600
 sortable: false
 type: number
+visible_on: '0'

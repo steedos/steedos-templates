@@ -3,6 +3,7 @@ custom: true
 enable_api: true
 enable_audit: true
 enable_chatter: false
+enable_enhanced_lookup: true
 enable_events: false
 enable_files: true
 enable_inline_edit: true
@@ -12,14 +13,12 @@ enable_search: false
 enable_share: false
 enable_tasks: false
 enable_workflow: true
-enable_enhanced_lookup: true
-version: 2
-icon: operating_hours
-is_enable: true
-label: 用时
+extend: project_time
 form:
-  initialValues: !!js/function |
-    function(values){
+  initialValues: !<tag:yaml.org,2002:js/function> |-
+    function(values
+    ) {
+
       if(Session.get("record_id")){
         if (Session.get("object_name") == "project_task"){
           var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"), 'project');
@@ -33,3 +32,8 @@ form:
         } 
       }
     }
+icon: operating_hours
+is_enable: true
+is_system: true
+label: 用时
+version: 2

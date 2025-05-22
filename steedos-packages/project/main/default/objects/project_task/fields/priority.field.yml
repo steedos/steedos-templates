@@ -1,7 +1,13 @@
 name: priority
+amis:
+  id: 'u:efe1ac0debe2'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 优先级

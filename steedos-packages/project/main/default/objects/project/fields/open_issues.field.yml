@@ -1,9 +1,13 @@
 name: open_issues
+amis: {}
 data_type: number
+description: ''
+enable_thousands: true
 filterable: false
 group: 任务与问题
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 待解决问题
@@ -13,12 +17,12 @@ readonly: false
 required: false
 scale: 0
 searchable: false
-sort_no: 190
+sort_no: 1250
 sortable: true
+summary_filters:
+  - field: status
+    operation: <>
+    value: Closed
 summary_object: project_issue
 summary_type: count
 type: summary
-summary_filters:
-  - field: status
-    operation: '<>'
-    value: Closed

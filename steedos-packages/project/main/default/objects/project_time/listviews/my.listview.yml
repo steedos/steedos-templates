@@ -17,13 +17,10 @@ columns:
     wrap: false
   - field: description
     wrap: false
-filter_fields:
-  - incurred_date
-  - hours
-  - project_task
 filter_scope: mine
 label: 我的
 scrolling_mode: standard
 shared: true
+shared_to: space
 show_count: false
 type: grid

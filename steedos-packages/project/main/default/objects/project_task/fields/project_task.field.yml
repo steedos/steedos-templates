@@ -1,7 +1,13 @@
 name: project_task
+amis:
+  id: 'u:65ae213552dd'
+description: ''
+enable_thousands: true
 filterable: true
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 父任务
@@ -10,6 +16,6 @@ readonly: false
 reference_to: project_task
 required: false
 searchable: false
-sort_no: 102
+sort_no: 150
 sortable: true
 type: lookup

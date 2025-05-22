@@ -1,7 +1,13 @@
 name: start_date
+amis:
+  id: 'u:14359188bd43'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 开始日期
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 115
+sort_no: 350
 sortable: true
 type: date

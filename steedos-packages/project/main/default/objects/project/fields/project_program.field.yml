@@ -1,7 +1,17 @@
 name: project_program
+amis:
+  id: 'u:3401d3154bd4'
+description: ''
+enable_thousands: true
 filterable: true
+filters:
+  - - enable
+    - '='
+    - true
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 项目集
@@ -11,6 +21,6 @@ readonly: false
 reference_to: project_program
 required: false
 searchable: false
-sort_no: 245
+sort_no: 700
 sortable: false
 type: master_detail

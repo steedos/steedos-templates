@@ -1,7 +1,13 @@
 name: name
+amis:
+  id: 'u:d10184d61996'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 hidden: false
 index: true
+inlineHelpText: ''
 is_name: true
 is_wide: false
 label: 里程碑名
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: true
 searchable: true
-sort_no: 100
+sort_no: 50
 sortable: false
 type: text

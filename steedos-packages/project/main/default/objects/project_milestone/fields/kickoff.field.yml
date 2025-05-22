@@ -1,14 +1,20 @@
 name: kickoff
+amis:
+  id: 'u:c5add52bb65a'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
-label: 计划开始
+label: 启动日期
 omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 109
+sort_no: 300
 sortable: false
 type: date

@@ -1,0 +1,13 @@
+name: owner
+amis:
+  id: 'u:0a40f05bd558'
+description: ''
+group: 基本信息
+hidden: true
+index: true
+inlineHelpText: ''
+label: 所有者
+omit: true
+sort_no: 500
+sortable: true
+visible_on: '{{false}}'

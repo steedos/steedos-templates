@@ -1,9 +1,15 @@
 name: state
+amis:
+  id: 'u:51805aaf8764'
 defaultValue: ''
+description: ''
+enable_thousands: true
 filterable: false
-group: 其他
+filters: []
+group: 完成情况
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 状态
@@ -21,6 +27,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 105
+sort_no: 800
 sortable: true
 type: select

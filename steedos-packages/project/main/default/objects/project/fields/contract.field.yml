@@ -1,7 +1,13 @@
 name: contract
+amis:
+  id: 'u:3d78bba9b450'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: true
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 合同
@@ -11,6 +17,6 @@ readonly: false
 reference_to: contracts
 required: false
 searchable: false
-sort_no: 120
+sort_no: 350
 sortable: false
 type: lookup

@@ -1,7 +1,13 @@
 name: others
+amis:
+  id: 'u:69d7fbf97c81'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 项目组成员
@@ -12,6 +18,6 @@ reference_to: space_users
 reference_to_field: user
 required: false
 searchable: false
-sort_no: 115
+sort_no: 250
 sortable: false
 type: lookup

@@ -1,7 +1,13 @@
 name: project_type
+amis:
+  id: 'u:c4f7d5364322'
+description: ''
+enable_thousands: true
 filterable: true
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 项目类型
@@ -21,6 +27,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 110
+sort_no: 100
 sortable: true
 type: select

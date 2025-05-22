@@ -9,6 +9,6 @@ omit: true
 readonly: true
 required: false
 searchable: false
-sort_no: 180
+sort_no: 240
 sortable: false
 type: date

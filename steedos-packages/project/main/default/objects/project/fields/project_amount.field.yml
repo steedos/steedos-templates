@@ -1,7 +1,13 @@
 name: project_amount
+amis:
+  id: 'u:893adcb02d60'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: true
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 项目金额
@@ -11,6 +17,6 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 116
+sort_no: 300
 sortable: false
 type: currency

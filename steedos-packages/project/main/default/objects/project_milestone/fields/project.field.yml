@@ -1,5 +1,10 @@
 name: project
+amis:
+  id: 'u:970466628a88'
+description: ''
+enable_thousands: true
 filterable: true
+group: 通用
 hidden: false
 index: false
 inlineHelpText: 所属项目
@@ -11,7 +16,7 @@ readonly: false
 reference_to: project
 required: true
 searchable: false
-sort_no: 102
+sort_no: 150
 sortable: true
 type: master_detail
 write_requires_master_read: false

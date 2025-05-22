@@ -1,0 +1,12 @@
+name: modified
+amis:
+  id: 'u:c5cc1cb2547c'
+description: ''
+group: 系统信息
+index: true
+inlineHelpText: ''
+label: 修改时间
+readonly: true
+sort_no: 1100
+sortable: true
+type: datetime

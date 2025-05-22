@@ -1,7 +1,13 @@
 name: name
+amis:
+  id: 'u:b0fa56f5b742'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: true
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 任务名称
@@ -9,6 +15,6 @@ omit: false
 readonly: false
 required: true
 searchable: true
-sort_no: 100
+sort_no: 50
 sortable: true
 type: text

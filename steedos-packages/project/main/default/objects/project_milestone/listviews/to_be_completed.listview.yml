@@ -5,12 +5,6 @@ columns:
   - field: head_spaceuser
     width: '100'
     wrap: false
-  - field: has_collection
-    width: '80'
-    wrap: false
-  - field: progress
-    width: '80'
-    wrap: false
   - field: project
     wrap: false
   - field: kickoff
@@ -22,21 +16,22 @@ columns:
   - field: completed_date
     width: '140'
     wrap: false
-filter_fields:
-  - name
-  - project
-  - deadline
-  - completed
+crud_mode: table
 filter_scope: space
 filters:
   - - has_complete
     - '!='
     - true
+from_code_id: project_milestone.to_be_completed
+is_enable: true
 label: 待完成的里程碑
+mobile_columns: []
 scrolling_mode: standard
-shared: true
+searchable_fields: []
+shared_to: space
 show_count: false
 sort:
   - field_name: deadline
     order: asc
+sort_no: 100
 type: grid

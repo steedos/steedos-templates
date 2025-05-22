@@ -1,8 +1,15 @@
 name: collaborator
+amis:
+  id: 'u:6a68fae22771'
 defaultValue: ''
+description: ''
+enable_thousands: true
 filterable: true
+filters: []
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 协作人
@@ -10,8 +17,9 @@ multiple: true
 omit: false
 readonly: false
 reference_to: users
+reference_to_field: ''
 required: false
 searchable: true
-sort_no: 110
+sort_no: 300
 sortable: true
 type: lookup

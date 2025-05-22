@@ -1,9 +1,13 @@
 name: project_expense
+amis: {}
 data_type: currency
+description: ''
+enable_thousands: true
 filterable: false
 group: 预算与执行
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 累计费用(元)
@@ -13,10 +17,11 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 160
+sort_no: 1450
 sortable: false
 summary_field: amount
+summary_filters: []
 summary_object: project_expense
 summary_type: sum
 type: summary
-summary_filters: []
+visible_on: '0'

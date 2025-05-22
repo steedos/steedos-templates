@@ -5,28 +5,19 @@ columns:
   - field: start_date
   - field: due_date
   - field: priority
-  - field: progress
   - field: state
   - field: collaborator
-  - field: project_milestone
   - field: project
   - field: created
 crud_mode: table
-filter_fields:
-  - name
-  - project
-  - assignees
-  - due_date
-  - priority
-  - state
-  - completed
 filter_scope: space
 filters:
   - - has_complete
     - '!='
     - true
+from_code_id: project_task.todo
 is_enable: true
-label: 进行中任务
+label: 待完成任务
 mobile_columns:
   - field: name
   - field: assignees
@@ -44,10 +35,10 @@ searchable_fields:
   - field: start_date
   - field: due_date
   - field: priority
-shared: true
+shared_to: space
 show_count: true
 sort:
-  - field_name: created
-    order: desc
-sort_no: 20
+  - field_name: due_date
+    order: asc
+sort_no: 10
 type: grid

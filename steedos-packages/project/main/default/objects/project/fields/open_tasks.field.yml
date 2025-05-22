@@ -1,9 +1,13 @@
 name: open_tasks
+amis: {}
 data_type: number
+description: ''
+enable_thousands: true
 filterable: false
 group: 任务与问题
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 待完成任务
@@ -13,12 +17,12 @@ readonly: false
 required: false
 scale: 0
 searchable: false
-sort_no: 185
+sort_no: 1200
 sortable: true
+summary_filters:
+  - field: state
+    operation: <>
+    value: completed
 summary_object: project_task
 summary_type: count
 type: summary
-summary_filters: 
-  - field: state
-    operation: '<>'
-    value: completed

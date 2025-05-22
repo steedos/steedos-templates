@@ -1,11 +1,17 @@
 name: head
+amis:
+  id: 'u:3ee73655a122'
 defaultValue: '{userId}'
+description: ''
+enable_thousands: true
 filterable: true
+group: 通用
 hidden: true
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
-label: 责任人（user）
+label: 责任人
 multiple: false
 omit: true
 readonly: false
@@ -13,6 +19,6 @@ reference_to: space_users
 reference_to_field: user
 required: false
 searchable: true
-sort_no: 102
+sort_no: 100
 sortable: false
 type: lookup

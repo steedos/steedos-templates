@@ -1,7 +1,14 @@
 name: project
+amis:
+  id: 'u:e39d47436aa7'
+defaultValue: '${_master.record.project || ''''}'
+description: ''
+enable_thousands: true
 filterable: true
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 项目
@@ -10,8 +17,7 @@ readonly: false
 reference_to: project
 required: false
 searchable: false
-sort_no: 102
+sort_no: 100
 sortable: true
 type: master_detail
 write_requires_master_read: true
-defaultValue: "${_master.record.project || ''}"

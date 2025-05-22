@@ -50,6 +50,7 @@ searchable_fields:
   - field: deadline
   - field: others
 shared: true
+shared_to: space
 sort:
   - field_name: created
     order: desc

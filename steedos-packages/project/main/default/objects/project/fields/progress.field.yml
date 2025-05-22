@@ -1,6 +1,13 @@
 name: progress
+amis:
+  id: 'u:261d74e2206e'
+description: ''
+enable_thousands: true
+group: 基本信息
+inlineHelpText: ''
 label: 项目进度
-type: percent
 precision: 18
 scale: 2
-sort_no: 142
+sort_no: 600
+type: percent
+visible_on: '0'

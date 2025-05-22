@@ -1,15 +1,21 @@
 name: description
+amis:
+  id: 'u:90990ba2239f'
+description: ''
+enable_thousands: true
 filterable: false
+group: 基本信息
 hidden: false
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: true
-label: 备注
+label: 项目目标
 omit: false
 readonly: false
 required: false
 rows: 2
 searchable: false
-sort_no: 600
+sort_no: 900
 sortable: false
 type: textarea
