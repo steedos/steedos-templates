@@ -11,6 +11,8 @@ module.exports = {
 
     transporter: process.env.TRANSPORTER,
 
+	serializer: process.env.SERIALIZER || "JSON",
+
 	// Called after broker started.
 	started(broker) {
 	},

@@ -29,7 +29,8 @@ module.exports = {
         $package: {
             name: project.name,
             path: path.join(__dirname, ".."),
-            isPackage: true
+            isPackage: true,
+            isUnmanaged: true
         }
     },
 
