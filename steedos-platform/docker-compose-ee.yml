@@ -14,7 +14,3 @@ services:
       - .env.local
     volumes:
       - "./steedos-storage:/steedos-storage"
-      - "/workspace/steedos-templates/node_modules/@steedos/odata-v4-parser/lib/parser.js:/app/node_modules/@steedos/odata-v4-parser/lib/parser.js"
-      - "/workspace/steedos-templates/node_modules/@steedos/objectql/lib/driver/mongo.js:/app/node_modules/@steedos/objectql/lib/driver/mongo.js"
-      - "/workspace/steedos-templates/node_modules/@steedos/objectql/lib/types/object.js:/app/node_modules/@steedos/objectql/lib/types/object.js"
-      - "/workspace/steedos-templates/node_modules/@steedos/objectql/lib/types/shareRule.js:/app/node_modules/@steedos/objectql/lib/types/shareRule.js"
