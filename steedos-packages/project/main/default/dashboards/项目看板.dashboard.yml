@@ -1,0 +1,110 @@
+name: 项目看板
+archived: 'false'
+auto_apply_filters: 'true'
+enable_embedding: 'false'
+entity_id: 6732fad0fbc55e0622c92f2e
+id: 6732fad0fbc55e0622c92f2e
+parameters: []
+show_in_getting_started: 'false'
+cards:
+  - card_id: 673301d3fbc55e0622c92f39
+    col: 0
+    entity_id: 682a9a6f5db17b06237eeab0
+    id: 682a9a6f5db17b06237eeab0
+    parameter_mappings: []
+    row: 7
+    series: []
+    size_x: 18
+    size_y: 5
+    visualization_settings: '{}'
+  - card_id: 6732e4b7fbc55e0622c92f0c
+    col: 0
+    entity_id: 6732fb19fbc55e0622c92f2f
+    id: 6732fb19fbc55e0622c92f2f
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6732ecdefbc55e0622c92f11
+    col: 3
+    entity_id: 6732fb19fbc55e0622c92f30
+    id: 6732fb19fbc55e0622c92f30
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6732f5e2fbc55e0622c92f26
+    col: 12
+    entity_id: 6732fb19fbc55e0622c92f31
+    id: 6732fb19fbc55e0622c92f31
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6732f660fbc55e0622c92f27
+    col: 9
+    entity_id: 6732fb19fbc55e0622c92f32
+    id: 6732fb19fbc55e0622c92f32
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6560091af084ab05cc5731de
+    col: 12
+    entity_id: 673328a9fbc55e0622c92f40
+    id: 673328a9fbc55e0622c92f40
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: >-
+      "{\"pivot_table.column_split\":{\"rows\":[null],\"columns\":[],\"values\":[[\"aggregation\",1]]},\"pie.percent_visibility\":\"inside\"}"
+  - card_id: 656009fff084ab05cc5731e0
+    col: 6
+    entity_id: 682beb6da08d44062463c8b8
+    id: 682beb6da08d44062463c8b8
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: '{}'
+  - card_id: 682be8cfa08d44062463c8b3
+    col: 0
+    entity_id: 682bebc4a08d44062463c8b9
+    id: 682bebc4a08d44062463c8b9
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: '"{}"'
+  - card_id: 682ea12781886f06240fb787
+    col: 6
+    entity_id: 682ea21281886f06240fb78a
+    id: 682ea21281886f06240fb78a
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '"{}"'
+  - card_id: 682ea6ee81886f06240fb78b
+    col: 15
+    entity_id: 682ea6fb81886f06240fb78c
+    id: 682ea6fb81886f06240fb78c
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'

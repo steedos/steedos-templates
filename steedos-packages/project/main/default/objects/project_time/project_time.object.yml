@@ -13,7 +13,6 @@ enable_search: false
 enable_share: false
 enable_tasks: false
 enable_workflow: true
-extend: project_time
 form:
   initialValues: !<tag:yaml.org,2002:js/function> |-
     function(values

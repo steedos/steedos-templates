@@ -13,7 +13,6 @@ enable_search: false
 enable_share: false
 enable_tasks: false
 enable_workflow: false
-extend: project_task
 field_groups:
   - group_name: 基本信息
   - group_name: 完成情况

@@ -14,7 +14,6 @@ enable_share: false
 enable_tasks: false
 enable_tree: true
 enable_workflow: false
-extend: project_milestone
 field_groups:
   - group_name: 通用
   - group_name: 系统信息

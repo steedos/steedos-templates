@@ -1,0 +1,46 @@
+name: 逾期项目数
+created_at: 2025-05-22T03:59:35.141Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: project
+    filter:
+      - and
+      - - time-interval
+        - - field
+          - project.deadline
+          - null
+        - -130000
+        - day
+      - - '='
+        - - field
+          - project.status
+          - null
+        - to_be_signed
+        - approving
+        - working
+    aggregation:
+      - - count
+  type: query
+  database: 1
+display: scalar
+enable_embedding: false
+entity_id: 682ea12781886f06240fb787
+id: 682ea12781886f06240fb787
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: project
+updated_at: 2025-05-22T03:59:35.141Z
+visualization_settings: '{}'

@@ -2,21 +2,19 @@ name: cash_flow_type
 amis:
   id: 'u:02262766fe0f'
 data_type: text
-description: ''
 enable_thousands: true
 filterable: false
 filters: []
 group: 合同信息
 hidden: false
 index: false
-inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 资金类型
 multiple: false
 omit: false
 options:
-  - label: 回款
+  - label: 收款
     value: receive
     color: 49d181
   - label: 付款
@@ -24,10 +22,10 @@ options:
     color: E99695
   - label: 无
     value: none
-    color: E99695
+    color: '#f8e71c'
 readonly: false
 required: true
 searchable: false
-sort_no: 200
+sort_no: 250
 sortable: false
 type: select

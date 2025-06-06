@@ -17,7 +17,7 @@ amis_schema: |-
                               "args": {
                                   "options": {},
                                   "api": {
-                                      "url": "/service/api/@steedos-labs/project/projects_ee/project_task",
+                                      "url": "/service/api/@steedos-labs/template-project/projects_ee/project_task",
                                       "method": "get",
                                       "requestAdaptor": "",
                                       "adaptor": "",

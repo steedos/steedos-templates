@@ -1,0 +1,43 @@
+name: 逾期任务数
+created_at: 2025-05-22T04:24:14.891Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: project_task
+    filter:
+      - and
+      - - '='
+        - - field
+          - project_task.has_complete
+          - null
+        - false
+      - - time-interval
+        - - field
+          - project_task.due_date
+          - null
+        - -300000
+        - day
+    aggregation:
+      - - count
+  type: query
+  database: 1
+display: scalar
+entity_id: 682ea6ee81886f06240fb78b
+id: 682ea6ee81886f06240fb78b
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: project_task
+updated_at: 2025-05-22T04:24:14.891Z
+visualization_settings: '{}'

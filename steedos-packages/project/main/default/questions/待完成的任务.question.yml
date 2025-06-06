@@ -3,8 +3,6 @@ created_at: 2024-11-12T07:20:51.249Z
 creator_id: 672dc9a8f42f46069f5443c6
 database_id: 1
 dataset_query:
-  database: 1
-  type: query
   query:
     source-table: project_task
     filter:
@@ -23,13 +21,10 @@ dataset_query:
         - project_task.name
         - null
       - - field
-        - project_task.completed_date
-        - null
-      - - field
         - project_task.project
         - null
       - - field
-        - project_task.state
+        - project_task.priority
         - null
       - - field
         - project_task.assignees
@@ -38,14 +33,10 @@ dataset_query:
         - project_task.start_date
         - null
       - - field
-        - project_task.priority
+        - project_task.state
         - null
-      - - field
-        - project_task.has_complete
-        - null
-      - - field
-        - project_task.progress
-        - null
+  type: query
+  database: 1
 display: table
 enable_embedding: false
 entity_id: 673301d3fbc55e0622c92f39
@@ -115,15 +106,15 @@ result_metadata:
     visibility_type: normal
     table_id: project_task
     remapped_to: external_project
-  - id: project_task.state
-    name: state
-    display_name: 状态
+  - id: project_task.priority
+    name: priority
+    display_name: 优先级
     base_type: type/Text
     effective_type: type/Text
     semantic_type: null
     field_ref:
       - field
-      - project_task.state
+      - project_task.priority
       - null
     source: fields
     visibility_type: normal
@@ -155,54 +146,15 @@ result_metadata:
     source: fields
     visibility_type: normal
     table_id: project_task
-  - id: project_task.has_complete
-    name: has_complete
-    display_name: 已完成
-    base_type: type/Boolean
-    effective_type: type/Boolean
-    semantic_type: type/Source
-    field_ref:
-      - field
-      - project_task.has_complete
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: project_task
-  - id: project_task.progress
-    name: progress
-    display_name: 进度
-    base_type: type/Float
-    effective_type: type/Float
-    semantic_type: null
-    field_ref:
-      - field
-      - project_task.progress
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: project_task
-  - id: project_task.completed_date
-    name: completed_date
-    display_name: 实际完成日期
-    base_type: type/Date
-    effective_type: type/Date
-    semantic_type: null
-    field_ref:
-      - field
-      - project_task.completed_date
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: project_task
-  - id: project_task.priority
-    name: priority
-    display_name: 优先级
+  - id: project_task.state
+    name: state
+    display_name: 状态
     base_type: type/Text
     effective_type: type/Text
     semantic_type: null
     field_ref:
       - field
-      - project_task.priority
+      - project_task.state
       - null
     source: fields
     visibility_type: normal
@@ -228,7 +180,7 @@ result_metadata:
     display_name: 项目
   - description: null
     semantic_type: type/Name
-    table_id: space_users
+    table_id: users
     coercion_strategy: null
     name: external_assignees
     settings: null
@@ -237,15 +189,15 @@ result_metadata:
     fk_field_id: assignees
     field_ref:
       - field
-      - space_users.name
+      - users.name
       - source-field: project_task.assignees
     effective_type: type/Text
     nfc_path: null
     parent_id: null
-    id: space_users.name
+    id: users.name
     visibility_type: normal
     display_name: 分派给
 table_id: project_task
 updated_at: 2024-11-12T07:20:51.249Z
 visualization_settings: >-
-  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","project_task.name",null],"enabled":true},{"name":"completed_date","fieldRef":["field","project_task.completed_date",null],"enabled":true},{"name":"project","fieldRef":["field","project_task.project",null],"enabled":true},{"name":"state","fieldRef":["field","project_task.state",null],"enabled":true},{"name":"assignees","fieldRef":["field","project_task.assignees",null],"enabled":true},{"name":"start_date","fieldRef":["field","project_task.start_date",null],"enabled":true},{"name":"priority","fieldRef":["field","project_task.priority",null],"enabled":true},{"name":"has_complete","fieldRef":["field","project_task.has_complete",null],"enabled":true},{"name":"due_date","fieldRef":["field","project_task.due_date",null],"enabled":false},{"name":"progress","fieldRef":["field","project_task.progress",null],"enabled":true}],"table.pivot_column":"state","table.cell_column":"priority","column_settings":{"[\"name\",\"progress\"]":{"number_style":"percent"},"[\"name\",\"has_complete\"]":{"view_as":null}}}
+  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","project_task.name",null],"enabled":true},{"name":"project","fieldRef":["field","project_task.project",null],"enabled":true},{"name":"priority","fieldRef":["field","project_task.priority",null],"enabled":true},{"name":"assignees","fieldRef":["field","project_task.assignees",null],"enabled":true},{"name":"start_date","fieldRef":["field","project_task.start_date",null],"enabled":true},{"name":"state","fieldRef":["field","project_task.state",null],"enabled":true}],"table.pivot_column":"state","table.cell_column":"priority","column_settings":{"[\"name\",\"progress\"]":{"number_style":"percent"},"[\"name\",\"has_complete\"]":{"view_as":null}}}

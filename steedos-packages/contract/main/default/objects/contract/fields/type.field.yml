@@ -2,19 +2,32 @@ name: type
 amis:
   id: 'u:afd8bf0b6549'
 data_type: text
-description: ''
 enable_thousands: true
+filters: []
 group: 合同信息
 hidden: false
-inlineHelpText: ''
 label: 合同类型
 options:
-  - label: 标准合同
-    value: standard
-  - label: 非标准合同
-    value: non-standard
-  - label: 虚拟合同
-    value: virtual
+  - label: 采购合同
+    value: pocurement_contract
+  - label: 销售合同
+    value: sales_contract
+  - label: 服务合同
+    value: service_contract
+  - label: 工程合同
+    value: engineering_contract
+  - label: 劳动合同
+    value: employment_contract
+  - label: 技术合同
+    value: technology_contract
+  - label: 咨询合同
+    value: consulting_contract
+  - label: 租赁合同
+    value: lease_contract
+  - label: 经销/代理合同
+    value: agency_contract
+  - label: 保密协议
+    value: nda
 required: false
-sort_no: 450
+sort_no: 500
 type: select

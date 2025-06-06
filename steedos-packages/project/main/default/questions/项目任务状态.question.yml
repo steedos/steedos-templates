@@ -1,0 +1,56 @@
+name: 项目任务状态
+created_at: 2025-05-20T02:28:31.764Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: project_task
+    filter:
+      - '='
+      - - field
+        - project_task.has_complete
+        - null
+      - false
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - project_task.state
+        - null
+  type: query
+  database: 1
+display: pie
+enable_embedding: false
+entity_id: 682be8cfa08d44062463c8b3
+id: 682be8cfa08d44062463c8b3
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: state
+    name: state
+    unit: null
+    display_name: 状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: project_task
+    field_ref:
+      - field
+      - project_task.state
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: project_task
+updated_at: 2025-05-20T02:28:31.764Z
+visualization_settings: >-
+  {"pivot_table.column_split":{"rows":[["field","project_task.state",null]],"columns":[],"values":[["aggregation",0]]},"graph.dimensions":["state"],"graph.metrics":["count"],"pie.percent_visibility":"inside","pie.show_total":true,"pie.show_legend":true}
