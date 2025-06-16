@@ -8,7 +8,7 @@
             "$date": "2022-04-17T00:00:00Z"
         },
         "priority": "high",
-        "state": "not_started",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -35,7 +35,7 @@
             "$date": "2022-04-16T00:00:00Z"
         },
         "priority": "normal",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -62,7 +62,7 @@
             "$date": "2022-04-15T00:00:00Z"
         },
         "priority": "high",
-        "state": "in_progress",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -89,7 +89,7 @@
             "$date": "2021-11-24T00:00:00Z"
         },
         "priority": "normal",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -116,7 +116,7 @@
             "$date": "2022-04-30T00:00:00Z"
         },
         "priority": "normal",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -145,7 +145,7 @@
             "$date": "2022-04-30T00:00:00Z"
         },
         "priority": "normal",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -172,7 +172,7 @@
             "$date": "2022-06-15T00:00:00Z"
         },
         "priority": "normal",
-        "state": "not_started",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -199,7 +199,7 @@
             "$date": "2022-05-20T00:00:00Z"
         },
         "priority": "low",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -226,7 +226,7 @@
             "$date": "2022-05-18T00:00:00Z"
         },
         "priority": "normal",
-        "state": "not_started",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -253,7 +253,7 @@
             "$date": "2022-06-08T00:00:00Z"
         },
         "priority": "normal",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -283,7 +283,7 @@
             "$date": "2022-04-15T00:00:00Z"
         },
         "priority": "low",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -310,7 +310,7 @@
             "$date": "2022-05-30T00:00:00Z"
         },
         "priority": "low",
-        "state": "not_started",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -337,7 +337,7 @@
             "$date": "2022-07-31T00:00:00Z"
         },
         "priority": "low",
-        "state": "not_started",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
         "created": {
@@ -362,7 +362,7 @@
         "name": "灯光组合效果设计",
         "priority": "normal",
         "project": "${space_id}_62620e5787e5c50032d9bd39",
-        "state": "completed",
+        "state": "normal",
         "space": "FCLaRczEXGKAjwvnn",
         "created": {
             "$date": "2022-09-07T05:48:47.321Z"
