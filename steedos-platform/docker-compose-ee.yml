@@ -6,6 +6,7 @@ services:
     image: steedos/steedos-enterprise:3.0.0-beta.51
     ports:
       - "5100:80"    # Steedos
+      - "6379:6379"    # Redis
     env_file:
       - .env
       - .env.local
