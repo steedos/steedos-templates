@@ -8,7 +8,7 @@ enable_enhanced_lookup: true
 enable_events: false
 enable_files: true
 enable_inline_edit: true
-enable_instances: true
+enable_instances: false
 enable_notes: false
 enable_search: false
 enable_share: false

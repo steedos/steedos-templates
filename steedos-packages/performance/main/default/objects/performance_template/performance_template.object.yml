@@ -2,8 +2,8 @@ name: performance_template
 custom: true
 enable_api: true
 enable_inline_edit: true
-enable_instances: true
-enable_workflow: true
+enable_instances: false
+enable_workflow: false
 icon: template
 is_enable: true
 label: 考核模版

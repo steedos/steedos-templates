@@ -13,7 +13,7 @@ enable_notes: false
 enable_split: false
 enable_tasks: false
 enable_tree: false
-enable_workflow: true
+enable_workflow: false
 field_groups:
   - group_name: 通用
 icon: javascript_button

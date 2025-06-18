@@ -19,7 +19,7 @@ enable_search: true
 enable_share: true
 enable_tasks: true
 enable_trash: true
-enable_workflow: true
+enable_workflow: false
 field_groups:
   - group_name: 合同信息
   - group_name: 发票款项情况

@@ -1,5 +1,5 @@
 name: accounts
 extend: accounts
-enable_instances: true
-enable_workflow: true
+enable_instances: false
+enable_workflow: false
 enable_enhanced_lookup: true
