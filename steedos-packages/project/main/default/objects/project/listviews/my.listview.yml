@@ -43,11 +43,10 @@ searchable_fields:
   - field: kickoff
   - field: deadline
   - field: others
-shared: true
 shared_to: space
 show_count: false
 sort:
-  - field_name: created
+  - field_name: deadline
     order: desc
-sort_no: 100
+sort_no: 90
 type: grid
