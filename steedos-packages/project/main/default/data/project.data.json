@@ -7,27 +7,18 @@
         "project_manager": "${space_owner_id}",
         "status": "working",
         "deadline": {
-            "$date": "2022-06-15T00:00:00Z"
+            "$date": "2025-05-15T00:00:00Z"
         },
-        "space": "FCLaRczEXGKAjwvnn",
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T06:34:14.237Z"
-        },
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
+            "${space_id}"
         ],
         "pencent_milestones": null,
-        "count_milestones": 2,
-        "count_milestones_ok": 1,
+        "count_milestones": 4,
+        "count_milestones_ok": 2,
         "open_issues": 6,
-        "open_tasks": 1,
+        "open_tasks": 2,
         "workload_days": 12,
         "account": "${space_id}_rp6f28g9xszJRGjwN",
         "business_pay": 0,
@@ -48,42 +39,37 @@
             "${space_owner_id}"
         ],
         "business_cost_budget": 5000,
-        "daily_cost_budget": 5000, 
-        "progress" : 0.35,
-        "project_labor_budget": 50, 
-        "project_expense" : 1000, 
-        "project_expense_balance" : 9000, 
-        "project_expense_budget" : 10000
+        "daily_cost_budget": 5000,
+        "progress": 0.35,
+        "project_labor_budget": 50,
+        "project_expense": 1000,
+        "project_expense_balance": 9000,
+        "project_expense_budget": 10000,
+        "kickoff": {
+            "$date": "2025-02-11T00:00:00Z"
+        },
+        "priority": "高"
     },
     {
         "_id": "${space_id}_62620e5787e5c50032d9bd39",
         "name": "  超能城市广场灯光设计及施工项目",
-        "project_type": "other",
+        "project_type": "engineering",
         "project_code": "XM-2021-0002",
         "project_manager": "${space_owner_id}",
         "status": "accepted",
         "deadline": {
-            "$date": "2022-05-05T00:00:00Z"
+            "$date": "2025-03-31T00:00:00Z"
         },
-        "space": "FCLaRczEXGKAjwvnn",
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T06:47:55.65Z"
-        },
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
+            "${space_id}"
         ],
         "pencent_milestones": null,
-        "count_milestones": 2,
-        "count_milestones_ok": 2,
+        "count_milestones": 3,
+        "count_milestones_ok": 3,
         "open_issues": 1,
-        "open_tasks": 0,
+        "open_tasks": 6,
         "workload_days": 16,
         "project_program": "${space_id}_6260ebd432cc250032e1a917",
         "account": "${space_id}_o2sunJ3vuz3uSKN4z",
@@ -92,7 +78,7 @@
         "project_labor": 2,
         "project_labor_balance": 18,
         "kickoff": {
-            "$date": "2021-04-30T00:00:00Z"
+            "$date": "2024-06-01T00:00:00Z"
         },
         "contracts_waiting_income": 0,
         "contracts_waiting_pay": 500000,
@@ -110,21 +96,22 @@
         "business_cost_budget": 5000,
         "daily_cost_budget": 5000,
         "project_cost_budget": 580000,
-        "project_labor_budget": 20, 
-        "progress" : 1, 
-        "project_expense_balance" : 20000, 
-        "project_expense_budget" : 20000
+        "project_labor_budget": 20,
+        "progress": 1,
+        "project_expense_balance": 20000,
+        "project_expense_budget": 20000,
+        "priority": "低"
     },
     {
         "_id": "${space_id}_62fefd49f63a8f27ae6a025f",
         "account": "${space_id}_ZkwHr3jeZQFMKAwQ2",
         "closed": false,
         "deadline": {
-            "$date": "2022-10-31T00:00:00Z"
+            "$date": "2025-08-29T00:00:00Z"
         },
         "internal": false,
         "kickoff": {
-            "$date": "2022-08-19T00:00:00Z"
+            "$date": "2024-03-01T00:00:00Z"
         },
         "name": "剑牌防辐射服合作生产项目",
         "project_cost_budget": 900000,
@@ -133,25 +120,16 @@
         "project_program": "${space_id}_63184a0574519003c9545ba5",
         "project_type": "develop",
         "status": "working",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T07:36:47.555Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
+            "${space_id}"
         ],
         "project_code": "XM-2021-0003",
         "business_pay": 0,
         "daily_pay": 0,
         "project_labor": 4,
-        "project_labor_balance": -2,
+        "project_labor_balance": 16,
         "business_pay_sum": 0,
         "business_sum": 0,
         "contracts_all_income": 1280000,
@@ -162,22 +140,23 @@
         "contracts_received_invoice": 0,
         "contracts_waiting_income": 500000,
         "contracts_waiting_pay": 450000,
-        "count_milestones": 2,
-        "count_milestones_ok": 1,
+        "count_milestones": 0,
+        "count_milestones_ok": 0,
         "daily_pay_sum": 0,
         "daily_sum": 0,
         "open_issues": 0,
-        "open_tasks": 3,
+        "open_tasks": 4,
         "workload_days": 32,
         "business_cost_budget": 0,
         "daily_cost_budget": 0,
         "others": [
             "${space_owner_id}"
-        ], 
-        "progress" : 0.75, 
-        "project_expense" : 100000, 
-        "project_expense_balance" : 200000, 
-        "project_expense_budget" : 300000
+        ],
+        "progress": 0.75,
+        "project_expense": 100000,
+        "project_expense_balance": 200000,
+        "project_expense_budget": 300000,
+        "priority": "中"
     },
     {
         "_id": "${space_id}_630486ce9cc40f03d6e7cb60",
@@ -189,26 +168,17 @@
         "project_labor_budget": 20,
         "project_manager": "${space_owner_id}",
         "project_type": "engineering",
-        "status": "working",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T07:43:57.104Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "status": "approving",
+        "space": "${space_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
+            "${space_id}"
         ],
         "project_code": "XM-2021-0004",
         "business_pay": 0,
         "daily_pay": 0,
         "project_labor": 1.5,
-        "project_labor_balance": 1.9999985E+06,
+        "project_labor_balance": 18.5,
         "business_pay_sum": 0,
         "business_sum": 0,
         "contracts_all_income": 6000000,
@@ -224,23 +194,60 @@
         "daily_pay_sum": 0,
         "daily_sum": 0,
         "open_issues": 4,
-        "open_tasks": 2,
+        "open_tasks": 3,
         "workload_days": 12,
         "deadline": {
-            "$date": "2022-12-31T00:00:00Z"
+            "$date": "2025-12-17T00:00:00Z"
         },
         "account": "${space_id}_ua7esWTyhgNaspC94",
         "business_cost_budget": 1000,
         "kickoff": {
-            "$date": "2022-08-01T00:00:00Z"
+            "$date": "2024-07-06T00:00:00Z"
         },
         "others": [
             "${space_owner_id}"
         ],
-        "project_program": "${space_id}_6260eb8832cc250032e1a915", 
-        "progress" : 0.65, 
-        "project_expense" : 65000, 
-        "project_expense_balance" : 55000, 
-        "project_expense_budget" : 120000
+        "project_program": "${space_id}_6508fe7907eabd14ee3c47de",
+        "progress": 0.65,
+        "project_expense": 65000,
+        "project_expense_balance": 55000,
+        "project_expense_budget": 120000,
+        "priority": "中"
+    },
+    {
+        "_id": "68539059af47f90624429ec2",
+        "status": "working",
+        "project_manager": "${space_owner_id}",
+        "closed": false,
+        "internal": false,
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "name": "314地块竣工验收项目",
+        "project_type": "engineering",
+        "priority": "高",
+        "kickoff": {
+            "$date": "2025-04-01T00:00:00Z"
+        },
+        "deadline": {
+            "$date": "2025-11-30T00:00:00Z"
+        },
+        "space": "${space_id}",
+        "project_labor": 0,
+        "project_labor_balance": 0,
+        "project_expense_balance": 0,
+        "project_code": "XM-2025-0001",
+        "count_milestones": 4,
+        "count_milestones_ok": 0,
+        "open_issues": 0,
+        "open_tasks": 6,
+        "project_expense": 0,
+        "workload_days": 0,
+        "description": "1#已完成验收，本项目为2#及总体验收",
+        "others": [
+            "${space_owner_id}"
+        ]
     }
 ]

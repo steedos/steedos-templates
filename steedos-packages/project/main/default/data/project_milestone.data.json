@@ -3,157 +3,106 @@
         "_id": "${space_id}_62623aa687e5c50032d9bdad",
         "completed": true,
         "completed_date": {
-            "$date": "2022-03-30T00:00:00Z"
+            "$date": "2025-02-11T00:00:00Z"
         },
         "deadline": {
-            "$date": "2022-03-31T00:00:00Z"
+            "$date": "2025-02-11T00:00:00Z"
         },
         "has_collection": false,
         "head": "${space_owner_id}",
         "head_spaceuser": "${space_owner_id}",
         "kickoff": {
-            "$date": "2021-12-01T00:00:00Z"
+            "$date": "2025-02-11T00:00:00Z"
         },
-        "name": "开发",
+        "name": "项目启动大会",
         "project": "${space_id}_62620e4d87e5c50032d9bd25",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
-        ], 
-        "progress" : 1
+            "${space_id}"
+        ],
+        "progress": 1
     },
     {
         "_id": "${space_id}_62623ad787e5c50032d9bdae",
         "completed": false,
         "deadline": {
-            "$date": "2022-04-30T00:00:00Z"
+            "$date": "2024-07-08T00:00:00Z"
         },
         "has_collection": true,
         "head": "${space_owner_id}",
         "head_spaceuser": "${space_owner_id}",
         "kickoff": {
-            "$date": "2022-04-01T00:00:00Z"
+            "$date": "2024-07-08T00:00:00Z"
         },
         "name": "分批次运煤时间确定",
         "project": "${space_id}_630486ce9cc40f03d6e7cb60",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T08:03:41.362Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
-        ], 
-        "progress" : 0.65
+            "${space_id}"
+        ],
+        "progress": 0.65
     },
     {
         "_id": "${space_id}_62623aff87e5c50032d9bdaf",
-        "completed": false,
+        "completed": true,
         "deadline": {
-            "$date": "2022-06-30T00:00:00Z"
+            "$date": "2025-03-15T00:00:00Z"
         },
         "has_collection": true,
         "head": "${space_owner_id}",
         "head_spaceuser": "${space_owner_id}",
         "kickoff": {
-            "$date": "2022-05-01T00:00:00Z"
+            "$date": "2025-03-14T00:00:00Z"
         },
-        "name": "试运行",
+        "name": "基础验收",
         "project": "${space_id}_62620e4d87e5c50032d9bd25",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
-        ], 
-        "progress" : 0.15
-    },
-    {
-        "_id": "${space_id}_62623b5e87e5c50032d9bdb4",
-        "completed": false,
-        "deadline": {
-            "$date": "2023-05-31T00:00:00Z"
-        },
-        "has_collection": true,
-        "head": "${space_owner_id}",
-        "head_spaceuser": "${space_owner_id}",
-        "kickoff": {
-            "$date": "2022-06-01T00:00:00Z"
-        },
-        "name": "维保",
-        "project": "${space_id}_62fefd49f63a8f27ae6a025f",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
-        "company_ids": [
-            "z86R5s8DCv7wQydKo"
-        ], 
-        "progress" : 0.3
+            "${space_id}"
+        ],
+        "progress": 0.15,
+        "completed_date": {
+            "$date": "2025-04-01T00:00:00Z"
+        }
     },
     {
         "_id": "${space_id}_62b283b90aa493003e532996",
         "completed": true,
         "completed_date": {
-            "$date": "2021-10-18T00:00:00Z"
+            "$date": "2025-02-27T00:00:00Z"
         },
         "deadline": {
-            "$date": "2021-10-31T00:00:00Z"
+            "$date": "2025-02-28T00:00:00Z"
         },
         "has_collection": false,
         "head": "${space_owner_id}",
         "head_spaceuser": "${space_owner_id}",
         "kickoff": {
-            "$date": "2021-09-27T00:00:00Z"
+            "$date": "2024-06-10T00:00:00Z"
         },
         "name": "项目实施",
         "project": "${space_id}_62620e5787e5c50032d9bd39",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
-        ], 
-        "progress" : 1
+            "${space_id}"
+        ],
+        "progress": 1
     },
     {
         "_id": "${space_id}_62b2862b0aa493003e532999",
@@ -162,63 +111,202 @@
             "$date": "2021-09-28T00:00:00Z"
         },
         "deadline": {
-            "$date": "2021-09-30T00:00:00Z"
+            "$date": "2024-06-04T00:00:00Z"
         },
         "has_collection": false,
         "head": "${space_owner_id}",
         "head_spaceuser": "${space_owner_id}",
         "kickoff": {
-            "$date": "2021-09-01T00:00:00Z"
+            "$date": "2024-06-03T00:00:00Z"
         },
         "name": "项目启动",
         "project": "${space_id}_62620e5787e5c50032d9bd39",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "modified": {
-            "$date": "2022-09-07T05:48:47.321Z"
-        },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
-        ], 
-        "progress" : 1
+            "${space_id}"
+        ],
+        "progress": 1
     },
     {
-        "_id": "${space_id}_62b286d40aa493003e53299e",
-        "completed": true,
-        "completed_date": {
-            "$date": "2022-01-20T00:00:00Z"
-        },
-        "deadline": {
-            "$date": "2022-01-31T00:00:00Z"
-        },
+        "_id": "682e94d181886f06240fb775",
         "has_collection": false,
-        "head": "${space_owner_id}",
+        "completed": true,
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "project": "${space_id}_62620e5787e5c50032d9bd39",
+        "name": "项目验收",
         "head_spaceuser": "${space_owner_id}",
         "kickoff": {
-            "$date": "2021-12-01T00:00:00Z"
+            "$date": "2025-03-03T00:00:00Z"
         },
-        "name": "项目验收",
-        "project": "${space_id}_62fefd49f63a8f27ae6a025f",
-        "space": "FCLaRczEXGKAjwvnn",
-        "created": {
-            "$date": "2022-09-07T05:48:47.321Z"
+        "deadline": {
+            "$date": "2025-03-28T00:00:00Z"
         },
-        "modified": {
-            "$date": "2022-09-07T05:48:47.321Z"
+        "completed_date": {
+            "$date": "2025-03-27T00:00:00Z"
         },
-        "owner": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "created_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "modified_by": "72f002e2-18e3-4ae5-bd63-b60832c94e83",
-        "company_id": "z86R5s8DCv7wQydKo",
+        "displayAs": null,
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "head": "${space_owner_id}"
+    },
+    {
+        "_id": "68538d41af47f90624429ead",
+        "has_collection": false,
+        "completed": false,
+        "locked": false,
+        "company_id": "${space_id}",
         "company_ids": [
-            "z86R5s8DCv7wQydKo"
-        ], 
-        "progress" : 1
+            "${space_id}"
+        ],
+        "project": "${space_id}_62620e4d87e5c50032d9bd25",
+        "name": "主体结构验收",
+        "head_spaceuser": "${space_owner_id}",
+        "kickoff": {
+            "$date": "2025-04-07T00:00:00Z"
+        },
+        "deadline": {
+            "$date": "2025-04-08T00:00:00Z"
+        },
+        "displayAs": null,
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "head": "${space_owner_id}"
+    },
+    {
+        "_id": "68538d90af47f90624429eb2",
+        "has_collection": false,
+        "completed": false,
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "project": "${space_id}_62620e4d87e5c50032d9bd25",
+        "name": "竣工验收",
+        "head_spaceuser": "${space_owner_id}",
+        "kickoff": {
+            "$date": "2025-05-10T00:00:00Z"
+        },
+        "deadline": {
+            "$date": "2025-05-10T00:00:00Z"
+        },
+        "displayAs": null,
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "head": "${space_owner_id}"
+    },
+    {
+        "_id": "685391a2af47f90624429ec5",
+        "has_collection": false,
+        "completed": false,
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "project": "68539059af47f90624429ec2",
+        "name": "取得2#竣工备案证",
+        "kickoff": {
+            "$date": "2025-06-21T00:00:00Z"
+        },
+        "deadline": {
+            "$date": "2025-06-23T00:00:00Z"
+        },
+        "head_spaceuser": "${space_owner_id}",
+        "displayAs": null,
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "head": "${space_owner_id}"
+    },
+    {
+        "_id": "685391e4af47f90624429ec8",
+        "has_collection": false,
+        "completed": false,
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "project": "68539059af47f90624429ec2",
+        "name": "取得2#交付证",
+        "kickoff": {
+            "$date": "2025-07-26T00:00:00Z"
+        },
+        "deadline": {
+            "$date": "2025-07-28T00:00:00Z"
+        },
+        "displayAs": null,
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "head": "${space_owner_id}",
+        "head_spaceuser": "${space_owner_id}"
+    },
+    {
+        "_id": "68539201af47f90624429ecb",
+        "has_collection": false,
+        "completed": false,
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "project": "68539059af47f90624429ec2",
+        "name": "综合验收取得竣工备案证",
+        "kickoff": {
+            "$date": "2025-09-27T00:00:00Z"
+        },
+        "deadline": {
+            "$date": "2025-09-29T00:00:00Z"
+        },
+        "displayAs": null,
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "head": "${space_owner_id}",
+        "head_spaceuser": "${space_owner_id}"
+    },
+    {
+        "_id": "68539239af47f90624429ece",
+        "has_collection": false,
+        "completed": false,
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "project": "68539059af47f90624429ec2",
+        "name": "取得总体交付证",
+        "kickoff": {
+            "$date": "2025-10-30T00:00:00Z"
+        },
+        "deadline": {
+            "$date": "2025-10-31T00:00:00Z"
+        },
+        "head_spaceuser": "${space_owner_id}",
+        "displayAs": null,
+        "space": "${space_id}",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "head": "${space_owner_id}"
     }
 ]
