@@ -1,5 +1,5 @@
-name: 合同执行情况
-created_at: 2025-06-18T08:32:52.182Z
+name: 合同签订状态
+created_at: 2025-06-20T06:18:38.758Z
 creator_id: 6822afc28fe08f06245c47d0
 database_id: 1
 dataset_query:
@@ -11,19 +11,19 @@ dataset_query:
       - - count
     breakout:
       - - field
-        - contract.implementation
+        - contract.signing_status
         - null
-display: pie
-entity_id: 685279b4581b330623d82692
-id: 685279b4581b330623d82692
+display: bar
+entity_id: 6854fd3eb77d890624986274
+id: 6854fd3eb77d890624986274
 parameter_mappings: []
 parameters: []
 query_type: query
 result_metadata:
-  - id: implementation
-    name: implementation
+  - id: signing_status
+    name: signing_status
     unit: null
-    display_name: 执行情况
+    display_name: 签订状态
     base_type: type/Text
     effective_type: type/Text
     semantic_type: null
@@ -32,7 +32,7 @@ result_metadata:
     table_id: contract
     field_ref:
       - field
-      - contract.implementation
+      - contract.signing_status
       - null
   - base_type: type/BigInteger
     display_name: 计数
@@ -44,5 +44,5 @@ result_metadata:
     semantic_type: type/Quantity
     source: aggregation
 table_id: contract
-updated_at: 2025-06-18T08:32:52.182Z
-visualization_settings: '{}'
+updated_at: 2025-06-20T06:18:38.758Z
+visualization_settings: '{"graph.dimensions":["signing_status"],"graph.metrics":["count"]}'

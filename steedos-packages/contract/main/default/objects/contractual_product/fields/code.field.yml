@@ -1,0 +1,7 @@
+name: code
+amis:
+  id: 'u:590486654dee'
+group: 通用
+label: 产品编码
+sort_no: 100
+type: text

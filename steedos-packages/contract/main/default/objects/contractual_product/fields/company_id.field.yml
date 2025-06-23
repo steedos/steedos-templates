@@ -1,13 +1,14 @@
 name: company_id
 amis:
-  id: 'u:19af34fd3884'
+  id: 'u:dc206caa7525'
 description: ''
-group: 合同信息
+enable_thousands: true
+group: 系统信息
 index: true
 inlineHelpText: ''
 label: 主分部
 reference_to: company
-sort_no: 550
+sort_no: 750
 sortable: true
 type: lookup
 visible_on: '{{false}}'

@@ -1,14 +1,23 @@
-name: 付款合同总金额
-created_at: 2024-11-13T09:11:35.138Z
-creator_id: 67346cab0ada3506a3207b6e
+name: 本月新增付款合同金额
+created_at: 2025-06-18T09:08:48.803Z
+creator_id: 6822afc28fe08f06245c47d0
 database_id: 1
 dataset_query:
-  database: 1
-  type: query
   query:
     source-table: contract
+    aggregation:
+      - - sum
+        - - field
+          - contract.amount
+          - null
     filter:
       - and
+      - - time-interval
+        - - field
+          - contract.signing_date
+          - null
+        - current
+        - month
       - - '='
         - - field
           - contract.cash_flow_type
@@ -20,15 +29,12 @@ dataset_query:
           - null
         - signed
         - archived
-    aggregation:
-      - - sum
-        - - field
-          - contract.amount
-          - null
+  type: query
+  database: 1
 display: scalar
 enable_embedding: false
-entity_id: 67346d470ada3506a3207b74
-id: 67346d470ada3506a3207b74
+entity_id: 68528220581b330623d82699
+id: 68528220581b330623d82699
 parameter_mappings: []
 parameters: []
 query_type: query
@@ -43,5 +49,5 @@ result_metadata:
     semantic_type: null
     source: aggregation
 table_id: contract
-updated_at: 2024-11-13T09:11:35.138Z
-visualization_settings: '{}'
+updated_at: 2025-06-18T09:08:48.803Z
+visualization_settings: '{"table.cell_column":"sum"}'

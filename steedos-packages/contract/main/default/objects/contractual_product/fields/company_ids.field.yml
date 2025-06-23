@@ -1,15 +1,16 @@
 name: company_ids
 amis:
-  id: 'u:8b92db4a0878'
+  id: 'u:9c44bbab986b'
 description: ''
-group: 合同信息
+enable_thousands: true
+group: 系统信息
 hidden: false
 index: true
 inlineHelpText: ''
 label: 所属分部
 multiple: true
 reference_to: company
-sort_no: 600
+sort_no: 800
 sortable: true
 type: lookup
 visible_on: '{{false}}'

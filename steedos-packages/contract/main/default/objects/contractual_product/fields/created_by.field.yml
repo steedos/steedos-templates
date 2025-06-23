@@ -1,9 +1,9 @@
-name: modified_by
+name: created_by
 amis: {}
 disabled: true
-group: 合同信息
-label: 修改人
+group: 系统信息
+label: 创建人
 readonly: true
 reference_to: users
-sort_no: 850
+sort_no: 500
 type: lookup

@@ -1,7 +1,8 @@
 name: nick_name
 amis:
   id: 'u:dac8f1f35cc0'
-group: 通用
+filters: []
+group: 合同信息
 label: 联系人
 sort_no: 150
 type: text

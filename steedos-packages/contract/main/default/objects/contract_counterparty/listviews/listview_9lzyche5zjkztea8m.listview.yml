@@ -1,17 +1,21 @@
-name: all
+name: listview_9lzyche5zjkztea8m
 columns:
   - field: name
-  - field: type
   - field: nick_name
   - field: phone
   - field: tax_id
   - field: status
 crud_mode: table
+enable_amis_schema: false
 filter_scope: space
-filters: []
+filters:
+  - - type
+    - '='
+    - suppilier
 from_code_id: contract_counterparty.all
 is_enable: true
-label: 所有
+label: 供应商
+locked: false
 mobile_columns:
   - field: type
   - field: name
@@ -27,6 +31,7 @@ searchable_fields:
   - field: account
   - field: tax_id
 shared_to: space
+show_count: false
 sort:
   - field_name: created
     order: desc

@@ -1,12 +1,15 @@
 name: type
 amis:
   id: 'u:b8217de3bcd5'
-group: 通用
+filters: []
+group: 合同信息
 label: 相对方类型
 options:
   - label: 客户
     value: customer
+    color: '#f8e71c'
   - label: 供应商
     value: suppilier
-sort_no: 50
+    color: '#aee2f2'
+sort_no: 300
 type: select

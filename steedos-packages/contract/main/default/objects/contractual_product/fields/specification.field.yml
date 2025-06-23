@@ -1,0 +1,7 @@
+name: specification
+amis:
+  id: 'u:82672e2a5f24'
+group: 通用
+label: 规格型号
+sort_no: 150
+type: text

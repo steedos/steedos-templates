@@ -1,5 +1,5 @@
-name: 合同执行情况
-created_at: 2025-06-18T08:32:52.182Z
+name: 合同执行状态分布
+created_at: 2025-06-20T06:20:38.038Z
 creator_id: 6822afc28fe08f06245c47d0
 database_id: 1
 dataset_query:
@@ -14,8 +14,8 @@ dataset_query:
         - contract.implementation
         - null
 display: pie
-entity_id: 685279b4581b330623d82692
-id: 685279b4581b330623d82692
+entity_id: 6854fdb6b77d890624986276
+id: 6854fdb6b77d890624986276
 parameter_mappings: []
 parameters: []
 query_type: query
@@ -44,5 +44,5 @@ result_metadata:
     semantic_type: type/Quantity
     source: aggregation
 table_id: contract
-updated_at: 2025-06-18T08:32:52.182Z
+updated_at: 2025-06-20T06:20:38.038Z
 visualization_settings: '{}'

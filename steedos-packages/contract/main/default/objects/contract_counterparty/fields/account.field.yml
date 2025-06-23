@@ -1,7 +1,7 @@
 name: account
 amis:
   id: 'u:a7f13929d090'
-group: 通用
+group: 合同信息
 label: 银行账号
-sort_no: 300
+sort_no: 400
 type: text

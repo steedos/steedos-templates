@@ -1,10 +1,10 @@
 name: modified
 amis:
-  id: 'u:5b1555cea206'
+  id: 'u:2627e544d5df'
 disabled: true
-group: 合同信息
+group: 系统信息
 label: 修改时间
 readonly: true
-sort_no: 800
+sort_no: 550
 sortable: true
 type: datetime
