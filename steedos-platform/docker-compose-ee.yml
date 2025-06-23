@@ -3,7 +3,7 @@ version: "3.9"
 services:
 
   steedos:
-    image: steedos/steedos-enterprise:3.0.0-beta.51
+    image: steedos/steedos-enterprise:3.0.0-beta.57
     ports:
       - "5100:80"    # Steedos
       - "6379:6379"    # Redis
