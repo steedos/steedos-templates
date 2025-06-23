@@ -4,130 +4,106 @@ auto_apply_filters: 'true'
 enable_embedding: 'false'
 entity_id: 67346d1c0ada3506a3207b72
 id: 67346d1c0ada3506a3207b72
-parameters:
-  - name: 签约日期
-    slug: '%E7%AD%BE%E7%BA%A6%E6%97%B6%E9%97%B4%E7%AD%9B%E9%80%89'
-    id: b5d48911
-    type: date/all-options
-    sectionId: date
+parameters: []
 show_in_getting_started: 'false'
 cards:
+  - card_id: 6852682e78d86e062463a741
+    col: 6
+    entity_id: 6852685578d86e062463a742
+    id: 6852685578d86e062463a742
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '"{}"'
   - card_id: 67346d110ada3506a3207b71
     col: 0
     entity_id: 67346d230ada3506a3207b73
     id: 67346d230ada3506a3207b73
-    parameter_mappings:
-      - parameter_id: b5d48911
-        card_id: 67346d110ada3506a3207b71
-        target:
-          - dimension
-          - - field
-            - contract.signing_date
-            - null
+    parameter_mappings: []
     row: 0
     series: []
-    size_x: 5
+    size_x: 3
     size_y: 3
     visualization_settings: '{}'
   - card_id: 67346d470ada3506a3207b74
-    col: 5
+    col: 3
     entity_id: 67346d530ada3506a3207b75
     id: 67346d530ada3506a3207b75
-    parameter_mappings:
-      - parameter_id: b5d48911
-        card_id: 67346d470ada3506a3207b74
-        target:
-          - dimension
-          - - field
-            - contract.signing_date
-            - null
+    parameter_mappings: []
     row: 0
     series: []
-    size_x: 5
+    size_x: 3
     size_y: 3
-    visualization_settings: '{}'
-  - card_id: 67346da30ada3506a3207b76
-    col: 10
-    entity_id: 67346dae0ada3506a3207b77
-    id: 67346dae0ada3506a3207b77
-    parameter_mappings:
-      - parameter_id: b5d48911
-        card_id: 67346da30ada3506a3207b76
-        target:
-          - dimension
-          - - field
-            - contract.signing_date
-            - null
-    row: 0
-    series: []
-    size_x: 4
-    size_y: 3
-    visualization_settings: '{}'
-  - card_id: 67346dd40ada3506a3207b78
-    col: 14
-    entity_id: 67346dda0ada3506a3207b79
-    id: 67346dda0ada3506a3207b79
-    parameter_mappings:
-      - parameter_id: b5d48911
-        card_id: 67346dd40ada3506a3207b78
-        target:
-          - dimension
-          - - field
-            - contract.signing_date
-            - null
-    row: 0
-    series: []
-    size_x: 4
-    size_y: 3
-    visualization_settings: '{}'
-  - card_id: 67346e500ada3506a3207b7a
-    col: 0
-    entity_id: 67346e5c0ada3506a3207b7b
-    id: 67346e5c0ada3506a3207b7b
-    parameter_mappings:
-      - parameter_id: b5d48911
-        card_id: 67346e500ada3506a3207b7a
-        target:
-          - dimension
-          - - field
-            - contract.signing_date
-            - null
-    row: 3
-    series: []
-    size_x: 12
-    size_y: 5
-    visualization_settings: '{}'
-  - card_id: 67346eab0ada3506a3207b7c
-    col: 12
-    entity_id: 67346eb40ada3506a3207b7d
-    id: 67346eb40ada3506a3207b7d
-    parameter_mappings:
-      - parameter_id: b5d48911
-        card_id: 67346eab0ada3506a3207b7c
-        target:
-          - dimension
-          - - field
-            - contract.signing_date
-            - null
-    row: 3
-    series: []
-    size_x: 6
-    size_y: 5
     visualization_settings: '{}'
   - card_id: 67346f110ada3506a3207b7e
     col: 0
     entity_id: 67346f200ada3506a3207b7f
     id: 67346f200ada3506a3207b7f
-    parameter_mappings:
-      - parameter_id: b5d48911
-        card_id: 67346f110ada3506a3207b7e
-        target:
-          - dimension
-          - - field
-            - contract.signing_date
-            - null
+    parameter_mappings: []
     row: 8
     series: []
     size_x: 18
     size_y: 5
     visualization_settings: '{}'
+  - card_id: 6852782f581b330623d82690
+    col: 0
+    entity_id: 685278c1581b330623d82691
+    id: 685278c1581b330623d82691
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 8
+    size_y: 5
+    visualization_settings: '"{}"'
+  - card_id: 68527f23581b330623d82695
+    col: 9
+    entity_id: 68527f49581b330623d82696
+    id: 68527f49581b330623d82696
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '"{}"'
+  - card_id: 6852801d581b330623d82697
+    col: 12
+    entity_id: 68528054581b330623d82698
+    id: 68528054581b330623d82698
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '"{}"'
+  - card_id: 68528220581b330623d82699
+    col: 15
+    entity_id: 68528231581b330623d8269a
+    id: 68528231581b330623d8269a
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6854fd3eb77d890624986274
+    col: 8
+    entity_id: 6854fd6db77d890624986275
+    id: 6854fd6db77d890624986275
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 5
+    size_y: 5
+    visualization_settings: '"{}"'
+  - card_id: 6854fdb6b77d890624986276
+    col: 13
+    entity_id: 6854fdd2b77d890624986277
+    id: 6854fdd2b77d890624986277
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 5
+    size_y: 5
+    visualization_settings: '"{}"'

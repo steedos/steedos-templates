@@ -1,0 +1,44 @@
+name: 本月到期收款合同数量
+created_at: 2025-06-18T07:46:27.814Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: contract
+    aggregation:
+      - - count
+    filter:
+      - and
+      - - time-interval
+        - - field
+          - contract.end_date
+          - null
+        - current
+        - month
+      - - '='
+        - - field
+          - contract.cash_flow_type
+          - null
+        - receive
+  type: query
+  database: 1
+display: scalar
+enable_embedding: false
+entity_id: 68526ed378d86e062463a745
+id: 68526ed378d86e062463a745
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: contract
+updated_at: 2025-06-18T07:46:27.814Z
+visualization_settings: '{"table.cell_column":"count"}'

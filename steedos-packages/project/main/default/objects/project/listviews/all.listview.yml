@@ -17,9 +17,6 @@ columns:
   - field: open_tasks
     width: '100'
     wrap: false
-  - field: open_issues
-    width: '100'
-    wrap: false
   - field: created
     wrap: false
 crud_mode: table

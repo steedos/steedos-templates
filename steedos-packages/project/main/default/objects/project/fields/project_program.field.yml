@@ -24,3 +24,4 @@ searchable: false
 sort_no: 700
 sortable: false
 type: master_detail
+visible_on: '0'
