@@ -1,0 +1,12 @@
+name: mailing_address
+amis:
+  id: 'u:023ad2f6331f'
+description: ''
+enable_thousands: true
+group: 联系信息
+inlineHelpText: ''
+is_wide: true
+label: 地址
+rows: 3
+sort_no: 750
+type: textarea

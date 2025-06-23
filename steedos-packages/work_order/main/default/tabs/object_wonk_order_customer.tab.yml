@@ -1,0 +1,8 @@
+name: object_wonk_order_customer
+desktop: true
+icon: customers
+label: 客户
+mobile: true
+object: work_order_customer
+permissions: []
+type: object

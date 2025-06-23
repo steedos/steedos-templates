@@ -1,0 +1,7 @@
+name: email
+amis:
+  id: 'u:845aa2e13b77'
+group: 工单信息
+label: 电子邮件
+sort_no: 300
+type: email

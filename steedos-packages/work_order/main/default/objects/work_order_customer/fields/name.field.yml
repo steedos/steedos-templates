@@ -1,0 +1,13 @@
+name: name
+amis:
+  id: 'u:e1a0b1b9714d'
+description: 请填写营业执照名称
+filterable: true
+filters: []
+group: 通用
+index: true
+label: 公司主体
+required: true
+searchable: true
+sort_no: 100
+type: text

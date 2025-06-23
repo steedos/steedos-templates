@@ -1,0 +1,9 @@
+name: fi1bl4
+amis:
+  id: 'u:9ea504544203'
+group: 客户评价
+is_wide: true
+label: 客户评价
+rows: 3
+sort_no: 850
+type: textarea

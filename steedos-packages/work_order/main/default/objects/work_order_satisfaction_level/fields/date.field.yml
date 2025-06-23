@@ -1,0 +1,7 @@
+name: date
+amis:
+  id: 'u:666c04a934de'
+group: 回访信息
+label: 回访时间
+sort_no: 200
+type: date

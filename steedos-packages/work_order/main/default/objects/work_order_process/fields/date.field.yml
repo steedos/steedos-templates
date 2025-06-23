@@ -1,0 +1,7 @@
+name: date
+amis:
+  id: 'u:93414c5a09f3'
+group: 处理信息
+label: 完成日期
+sort_no: 100
+type: date

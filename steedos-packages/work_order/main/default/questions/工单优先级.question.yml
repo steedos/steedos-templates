@@ -1,0 +1,48 @@
+name: 工单优先级
+created_at: 2025-06-19T09:04:35.930Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: work_order
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - work_order.priority
+        - null
+  type: query
+  database: 1
+display: pie
+entity_id: 6853d2a302730606241f2db6
+id: 6853d2a302730606241f2db6
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: priority
+    name: priority
+    unit: null
+    display_name: 优先级
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: work_order
+    field_ref:
+      - field
+      - work_order.priority
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: work_order
+updated_at: 2025-06-19T09:04:35.930Z
+visualization_settings: '{}'

@@ -1,0 +1,12 @@
+name: contacts
+amis:
+  id: 'u:92e7b4cb2a7d'
+auto_fill_mapping:
+  - from: mobile
+    to: tel
+filters: []
+group: 回访信息
+label: 联系人
+reference_to: work_order_contacts
+sort_no: 100
+type: lookup

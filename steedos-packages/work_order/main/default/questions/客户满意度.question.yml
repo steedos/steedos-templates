@@ -1,0 +1,34 @@
+name: 客户满意度
+created_at: 2025-06-19T09:12:26.743Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: work_order_satisfaction_level
+    aggregation:
+      - - avg
+        - - field
+          - work_order_satisfaction_level.score
+          - null
+  type: query
+  database: 1
+display: scalar
+enable_embedding: false
+entity_id: 6853d47a02730606241f2dbd
+id: 6853d47a02730606241f2dbd
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/Integer
+    display_name: 满意度打分平均值
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: avg
+    semantic_type: null
+    source: aggregation
+table_id: work_order_satisfaction_level
+updated_at: 2025-06-19T09:12:26.743Z
+visualization_settings: '{}'

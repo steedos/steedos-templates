@@ -1,0 +1,12 @@
+name: name
+amis:
+  id: 'u:0e8108ed53ae'
+filterable: true
+group: 回访信息
+index: true
+label: 客户名称
+reference_to: work_order_customer
+required: true
+searchable: true
+sort_no: 50
+type: lookup

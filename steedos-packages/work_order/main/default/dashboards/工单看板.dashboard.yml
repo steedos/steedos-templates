@@ -1,0 +1,109 @@
+name: 工单看板
+archived: 'false'
+auto_apply_filters: 'true'
+enable_embedding: 'false'
+entity_id: 6853cdde02730606241f2dae
+id: 6853cdde02730606241f2dae
+parameters: []
+show_in_getting_started: 'false'
+cards:
+  - card_id: 6853ce3e02730606241f2db0
+    col: 4
+    entity_id: 6853ce4602730606241f2db1
+    id: 6853ce4602730606241f2db1
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 4
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6853ce7502730606241f2db2
+    col: 8
+    entity_id: 6853ce7d02730606241f2db3
+    id: 6853ce7d02730606241f2db3
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 4
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6853cfc402730606241f2db4
+    col: 12
+    entity_id: 6853cfcc02730606241f2db5
+    id: 6853cfcc02730606241f2db5
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '{}'
+  - card_id: 6853d2a302730606241f2db6
+    col: 6
+    entity_id: 6853d2b602730606241f2db7
+    id: 6853d2b602730606241f2db7
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: '{}'
+  - card_id: 6853cdfd02730606241f2daf
+    col: 0
+    entity_id: 6853d2db02730606241f2db8
+    id: 6853d2db02730606241f2db8
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 4
+    size_y: 3
+    visualization_settings: '"{}"'
+  - card_id: 6853d34202730606241f2db9
+    col: 0
+    entity_id: 6853d41302730606241f2dbc
+    id: 6853d41302730606241f2dbc
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: '"{}"'
+  - card_id: 6853d64502730606241f2dbf
+    col: 0
+    entity_id: 6853d66702730606241f2dc0
+    id: 6853d66702730606241f2dc0
+    parameter_mappings: []
+    row: 7
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: '{}'
+  - card_id: 6853d47a02730606241f2dbd
+    col: 15
+    entity_id: 6853d6d402730606241f2dc2
+    id: 6853d6d402730606241f2dc2
+    parameter_mappings: []
+    row: 0
+    series: []
+    size_x: 3
+    size_y: 3
+    visualization_settings: '"{}"'
+  - card_id: 6853d9c502730606241f2dc5
+    col: 6
+    entity_id: 6853d9e902730606241f2dc6
+    id: 6853d9e902730606241f2dc6
+    parameter_mappings: []
+    row: 7
+    series: []
+    size_x: 6
+    size_y: 4
+    visualization_settings: '"{}"'
+  - card_id: 68550503b77d890624986278
+    col: 12
+    entity_id: 6855051db77d890624986279
+    id: 6855051db77d890624986279
+    parameter_mappings: []
+    row: 3
+    series: []
+    size_x: 6
+    size_y: 8
+    visualization_settings: '"{}"'

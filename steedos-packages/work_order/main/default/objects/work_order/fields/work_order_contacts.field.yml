@@ -1,0 +1,27 @@
+name: work_order_contacts
+amis:
+  id: 'u:2df5087d4a59'
+auto_fill_mapping:
+  - from: mobile
+    to: mobile
+  - from: email
+    to: email
+create: true
+depend_on:
+  - work_order_customer
+enable_enhanced_lookup: true
+filters: []
+filtersFunction: !<tag:yaml.org,2002:js/function> |-
+  function(filters, values) {
+    const work_order_customer = values.work_order_customer;
+    const record = Steedos.authRequest('/api/v1/work_order_contacts' + `?filters=[["account", "=", "${work_order_customer}"]]&fields=["_id"]`, { type: "GET", async: false, });
+    if (record && record.data) {
+      const ids = record.data.items.map(item => item._id);
+      return ['_id', 'in', ids]
+    }
+  }
+group: 工单信息
+label: 联系人
+reference_to: work_order_contacts
+sort_no: 200
+type: lookup

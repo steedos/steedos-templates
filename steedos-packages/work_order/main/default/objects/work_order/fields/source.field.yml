@@ -1,0 +1,18 @@
+name: source
+amis:
+  id: 'u:6159da749b20'
+group: 工单信息
+label: 接入渠道
+options:
+  - label: 电话
+    value: tel
+  - label: 微信
+    value: wechat
+  - label: web网站
+    value: web
+  - label: APP
+    value: app
+  - label: 其他
+    value: other
+sort_no: 450
+type: select

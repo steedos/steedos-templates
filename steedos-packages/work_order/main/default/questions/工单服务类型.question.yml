@@ -1,0 +1,48 @@
+name: 工单服务类型
+created_at: 2025-06-19T09:20:05.879Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: work_order_service
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - work_order_service.name
+        - null
+display: pie
+entity_id: 6853d64502730606241f2dbf
+id: 6853d64502730606241f2dbf
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: name
+    name: name
+    unit: null
+    display_name: 选择服务
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: work_order_service
+    field_ref:
+      - field
+      - work_order_service.name
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: work_order_service
+updated_at: 2025-06-19T09:20:05.879Z
+visualization_settings: '{}'

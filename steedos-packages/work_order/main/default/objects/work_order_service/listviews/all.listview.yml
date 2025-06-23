@@ -1,0 +1,16 @@
+name: all
+columns:
+  - field: name
+  - field: work_order_product
+  - field: content
+  - field: work_order
+crud_mode: table
+filter_scope: space
+filters: []
+is_enable: true
+label: 所有
+searchable_fields: []
+shared_to: space
+sort:
+  - field_name: created
+    order: desc

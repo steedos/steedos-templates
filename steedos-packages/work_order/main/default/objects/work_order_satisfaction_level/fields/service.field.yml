@@ -1,0 +1,25 @@
+name: service
+amis:
+  id: 'u:4fffc50702a2'
+  type: checkboxes
+data_type: text
+filters: []
+group: 回访内容
+is_wide: false
+label: 提供的服务
+multiple: true
+options:
+  - label: 售前咨询
+    value: consult
+  - label: 安装服务
+    value: install
+  - label: 维修服务
+    value: maintenance
+  - label: 维保服务
+    value: after_sales
+  - label: 客户投诉
+    value: complaint
+  - label: 上门服务
+    value: call_out
+sort_no: 250
+type: select

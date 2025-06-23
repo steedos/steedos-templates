@@ -1,0 +1,15 @@
+name: salutation
+amis:
+  id: 'u:ddca9656e9f5'
+description: ''
+enable_thousands: true
+group: 通用
+inlineHelpText: ''
+label: 性别
+options:
+  - label: 男
+    value: Male
+  - label: 女
+    value: Female
+sort_no: 200
+type: select

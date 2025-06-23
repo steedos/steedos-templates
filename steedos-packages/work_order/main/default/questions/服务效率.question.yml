@@ -1,0 +1,48 @@
+name: 服务效率
+created_at: 2025-06-19T09:23:28.699Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: work_order_satisfaction_level
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - work_order_satisfaction_level.attitude
+        - null
+display: table
+entity_id: 6853d71002730606241f2dc3
+id: 6853d71002730606241f2dc3
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: attitude
+    name: attitude
+    unit: null
+    display_name: 服务效率
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: work_order_satisfaction_level
+    field_ref:
+      - field
+      - work_order_satisfaction_level.attitude
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: work_order_satisfaction_level
+updated_at: 2025-06-19T09:23:28.699Z
+visualization_settings: '{"table.pivot_column":"attitude","table.cell_column":"count"}'

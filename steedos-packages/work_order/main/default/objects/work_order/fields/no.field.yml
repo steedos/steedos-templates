@@ -1,0 +1,26 @@
+name: 'no'
+amis:
+  id: 'u:9a1d02215a13'
+create: true
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: true
+formula: 'GD_{YY}{MM}{DD}-{000}'
+generated: false
+group: 工单信息
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 工单编号
+multiple: false
+primary: false
+readonly: false
+searchable: true
+show_as_qr: false
+sort_no: 100
+sortable: true
+static: false
+type: autonumber
+unique: false
+write_requires_master_read: false

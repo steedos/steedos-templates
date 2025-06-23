@@ -1,0 +1,7 @@
+name: ffdnlx
+amis:
+  id: 'u:77bdeec08233'
+group: 处理结果
+label: 完成时间
+sort_no: 700
+type: time

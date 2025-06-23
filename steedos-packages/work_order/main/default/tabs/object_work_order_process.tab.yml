@@ -1,0 +1,8 @@
+name: object_work_order_process
+desktop: true
+icon: bot_training
+label: 工单处理信息
+mobile: true
+object: work_order_process
+permissions: []
+type: object

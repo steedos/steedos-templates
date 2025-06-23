@@ -1,0 +1,7 @@
+name: mobile
+amis:
+  id: 'u:3e3879bd4165'
+group: 工单信息
+label: 联系电话
+sort_no: 250
+type: text

@@ -1,0 +1,15 @@
+name: name
+amis:
+  id: 'u:1c26c21cf977'
+description: ''
+enable_thousands: true
+filterable: true
+group: 通用
+index: true
+inlineHelpText: ''
+label: 姓名
+required: true
+searchable: true
+sort_no: 50
+sortable: true
+type: text

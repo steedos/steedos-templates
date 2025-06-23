@@ -1,0 +1,9 @@
+name: experience
+amis:
+  id: 'u:a690eabcbbc4'
+group: 处理信息
+is_wide: true
+label: 经验累积
+rows: 2
+sort_no: 300
+type: textarea

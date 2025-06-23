@@ -1,0 +1,8 @@
+name: work_order
+amis:
+  id: 'u:5c0b3e312bda'
+group: 处理信息
+label: 服务工单
+reference_to: work_order
+sort_no: 350
+type: master_detail

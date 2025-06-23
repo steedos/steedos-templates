@@ -1,0 +1,10 @@
+name: email
+amis:
+  id: 'u:424e6a2d2c94'
+description: ''
+enable_thousands: true
+group: 联系信息
+inlineHelpText: ''
+label: 邮件
+sort_no: 650
+type: email

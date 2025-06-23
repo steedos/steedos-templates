@@ -1,0 +1,18 @@
+name: priority
+amis:
+  id: 'u:9506edcfd4d5'
+data_type: text
+group: 工单信息
+label: 优先级
+options:
+  - label: 高
+    value: high
+    color: '#c11d25'
+  - label: 中
+    value: normal
+    color: '#f9e29d'
+  - label: 低
+    value: low
+    color: '#49d181'
+sort_no: 400
+type: select

@@ -1,0 +1,19 @@
+name: type
+amis:
+  id: 'u:f3de2465b882'
+group: 工单信息
+label: 关联服务
+options:
+  - label: 售前咨询
+    value: consult
+  - label: 产品功能
+    value: FUNCTION
+  - label: 产品缺陷
+    value: bug
+  - label: 售后服务
+    value: after_sales
+  - label: 投诉建议
+    value: complaint
+sort_no: 600
+type: select
+visible_on: '0'

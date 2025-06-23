@@ -1,0 +1,12 @@
+name: owner
+amis:
+  id: 'u:985345a70135'
+description: ''
+enable_thousands: true
+group: 工单信息
+index: true
+inlineHelpText: ''
+label: 分配给
+sort_no: 550
+sortable: true
+visible_on: ''

@@ -1,0 +1,9 @@
+name: fbmh19
+amis:
+  id: 'u:f7a55238b1dc'
+group: 处理信息
+label: 服务时长/h
+precision: 18
+scale: 2
+sort_no: 150
+type: number

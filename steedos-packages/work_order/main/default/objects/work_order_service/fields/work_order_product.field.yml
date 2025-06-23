@@ -1,0 +1,27 @@
+name: work_order_product
+amis:
+  id: 'u:9d0e6bb6743f'
+create: true
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: false
+filters: []
+generated: false
+group: 通用
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 产品名称
+multiple: false
+primary: false
+readonly: false
+reference_to: work_order_product
+required: false
+searchable: false
+show_as_qr: false
+sort_no: 100
+static: false
+type: lookup
+unique: false
+write_requires_master_read: false
