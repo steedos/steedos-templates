@@ -1,0 +1,661 @@
+name: 收款合同金额趋势（元）
+created_at: 2025-06-18T08:26:23.539Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    breakout:
+      - - field
+        - contract.start_date
+        - temporal-unit: month
+    filter:
+      - '='
+      - - field
+        - contract.cash_flow_type
+        - null
+      - receive
+display: area
+enable_embedding: false
+entity_id: 6852782f581b330623d82690
+id: 6852782f581b330623d82690
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - description: null
+    database_type: java.lang.String
+    semantic_type: type/PK
+    table_id: contract
+    coercion_strategy: null
+    name: _id
+    fingerprint_version: 0
+    has_field_values: search
+    settings: null
+    caveats: null
+    fk_target_field_id: null
+    dimensions: []
+    dimension_options: []
+    updated_at: '2023-08-04T05:39:33.039939'
+    custom_position: 0
+    effective_type: type/Text
+    active: true
+    nfc_path: null
+    parent_id: null
+    id: contract._id
+    last_analyzed: null
+    database_is_auto_increment: false
+    position: 0
+    visibility_type: normal
+    default_dimension_option: null
+    target: null
+    preview_display: true
+    display_name: ID
+    database_position: 0
+    database_required: false
+    fingerprint: null
+    created_at: '2023-08-04T05:39:33.039939'
+    base_type: type/Text
+    points_of_interest: null
+  - id: contract.name
+    name: name
+    display_name: 合同名称
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.name
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.no
+    name: 'no'
+    display_name: 合同编号
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.no
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.our_company
+    name: our_company
+    display_name: 我方公司
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.our_company
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_our_company
+  - id: contract.contract_counterparty
+    name: contract_counterparty
+    display_name: 合同相对方
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.contract_counterparty
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_contract_counterparty
+  - id: contract.cash_flow_type
+    name: cash_flow_type
+    display_name: 资金类型
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.cash_flow_type
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.amount
+    name: amount
+    display_name: 合同金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - contract.amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.signing_status
+    name: signing_status
+    display_name: 签订状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.signing_status
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.implementation
+    name: implementation
+    display_name: 执行情况
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.implementation
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.start_date
+    name: start_date
+    display_name: 生效日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.start_date
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.end_date
+    name: end_date
+    display_name: 有效期至
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.end_date
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.dep
+    name: dep
+    display_name: 合同归属部门
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.dep
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_dep
+  - id: contract.owner
+    name: owner
+    display_name: 合同负责人
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.owner
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_owner
+  - id: contract.type
+    name: type
+    display_name: 合同类型
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.type
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.signing_date
+    name: signing_date
+    display_name: 签约日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.signing_date
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.signing_method
+    name: signing_method
+    display_name: 签约方式
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.signing_method
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.cooperate
+    name: cooperate
+    display_name: 合同协作人
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.cooperate
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_cooperate
+  - id: contract.receive_amount
+    name: receive_amount
+    display_name: 已回款金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - contract.receive_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.need_receive_amount
+    name: need_receive_amount
+    display_name: 待回款金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Score
+    field_ref:
+      - field
+      - contract.need_receive_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.pay_amount
+    name: pay_amount
+    display_name: 已付款金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - contract.pay_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.need_pay_amount
+    name: need_pay_amount
+    display_name: 待付款金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Score
+    field_ref:
+      - field
+      - contract.need_pay_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.invoice_amount
+    name: invoice_amount
+    display_name: 已开票金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - contract.invoice_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.need_invoice_amount
+    name: need_invoice_amount
+    display_name: 待开票金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Score
+    field_ref:
+      - field
+      - contract.need_invoice_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.ticket_received_amount
+    name: ticket_received_amount
+    display_name: 已收票金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Float
+    field_ref:
+      - field
+      - contract.ticket_received_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.need_ticket_received_amount
+    name: need_ticket_received_amount
+    display_name: 待收票金额
+    base_type: type/Float
+    effective_type: type/Float
+    semantic_type: type/Score
+    field_ref:
+      - field
+      - contract.need_ticket_received_amount
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.created
+    name: created
+    display_name: 创建时间
+    base_type: type/DateTime
+    effective_type: type/DateTime
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.created
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.created_by
+    name: created_by
+    display_name: 创建人
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.created_by
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_created_by
+  - id: contract.modified
+    name: modified
+    display_name: 修改时间
+    base_type: type/DateTime
+    effective_type: type/DateTime
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.modified
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.modified_by
+    name: modified_by
+    display_name: 修改人
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.modified_by
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_modified_by
+  - id: contract.company_ids
+    name: company_ids
+    display_name: 所属分部
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.company_ids
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_company_ids
+  - id: contract.instance_state
+    name: instance_state
+    display_name: 申请单审批状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.instance_state
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - id: contract.company_id
+    name: company_id
+    display_name: 我方公司
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    field_ref:
+      - field
+      - contract.company_id
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+    remapped_to: external_company_id
+  - id: contract.locked
+    name: locked
+    display_name: 已锁定
+    base_type: type/Boolean
+    effective_type: type/Boolean
+    semantic_type: type/Source
+    field_ref:
+      - field
+      - contract.locked
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
+  - description: null
+    semantic_type: type/Name
+    table_id: contract_org_info
+    coercion_strategy: null
+    name: external_our_company
+    settings: null
+    source: fields
+    remapped_from: our_company
+    fk_field_id: our_company
+    field_ref:
+      - field
+      - contract_org_info.name
+      - source-field: contract.our_company
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: contract_org_info.name
+    visibility_type: normal
+    display_name: 我方公司
+  - description: null
+    semantic_type: type/Name
+    table_id: contract_counterparty
+    coercion_strategy: null
+    name: external_contract_counterparty
+    settings: null
+    source: fields
+    remapped_from: contract_counterparty
+    fk_field_id: contract_counterparty
+    field_ref:
+      - field
+      - contract_counterparty.name
+      - source-field: contract.contract_counterparty
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: contract_counterparty.name
+    visibility_type: normal
+    display_name: 合同相对方
+  - description: null
+    semantic_type: type/Name
+    table_id: organizations
+    coercion_strategy: null
+    name: external_dep
+    settings: null
+    source: fields
+    remapped_from: dep
+    fk_field_id: dep
+    field_ref:
+      - field
+      - organizations.name
+      - source-field: contract.dep
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: organizations.name
+    visibility_type: normal
+    display_name: 合同归属部门
+  - description: null
+    semantic_type: type/Name
+    table_id: users
+    coercion_strategy: null
+    name: external_owner
+    settings: null
+    source: fields
+    remapped_from: owner
+    fk_field_id: owner
+    field_ref:
+      - field
+      - users.name
+      - source-field: contract.owner
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: users.name
+    visibility_type: normal
+    display_name: 合同负责人
+  - description: null
+    semantic_type: type/Name
+    table_id: space_users
+    coercion_strategy: null
+    name: external_cooperate
+    settings: null
+    source: fields
+    remapped_from: cooperate
+    fk_field_id: cooperate
+    field_ref:
+      - field
+      - space_users.name
+      - source-field: contract.cooperate
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: space_users.name
+    visibility_type: normal
+    display_name: 合同协作人
+  - description: null
+    semantic_type: type/Name
+    table_id: space_users
+    coercion_strategy: null
+    name: external_created_by
+    settings: null
+    source: fields
+    remapped_from: created_by
+    fk_field_id: created_by
+    field_ref:
+      - field
+      - space_users.name
+      - source-field: contract.created_by
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: space_users.name
+    visibility_type: normal
+    display_name: 创建人
+  - description: null
+    semantic_type: type/Name
+    table_id: space_users
+    coercion_strategy: null
+    name: external_modified_by
+    settings: null
+    source: fields
+    remapped_from: modified_by
+    fk_field_id: modified_by
+    field_ref:
+      - field
+      - space_users.name
+      - source-field: contract.modified_by
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: space_users.name
+    visibility_type: normal
+    display_name: 修改人
+  - description: null
+    semantic_type: type/Name
+    table_id: company
+    coercion_strategy: null
+    name: external_company_ids
+    settings: null
+    source: fields
+    remapped_from: company_ids
+    fk_field_id: company_ids
+    field_ref:
+      - field
+      - company.name
+      - source-field: contract.company_ids
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: company.name
+    visibility_type: normal
+    display_name: 所属分部
+  - description: null
+    semantic_type: type/Name
+    table_id: company
+    coercion_strategy: null
+    name: external_company_id
+    settings: null
+    source: fields
+    remapped_from: company_id
+    fk_field_id: company_id
+    field_ref:
+      - field
+      - company.name
+      - source-field: contract.company_id
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: company.name
+    visibility_type: normal
+    display_name: 我方公司
+table_id: contract
+updated_at: 2025-06-18T08:26:23.539Z
+visualization_settings: >-
+  {"graph.dimensions":["start_date"],"graph.metrics":["amount"],"graph.series_order_dimension":null,"graph.series_order":null}
