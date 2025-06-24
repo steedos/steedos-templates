@@ -1,14 +1,15 @@
 name: contract
 compactLayouts:
-  - contract_counterparty
+  - 'no'
   - cash_flow_type
   - amount
+  - signing_status
   - implementation
-  - type
+  - owner
 custom: true
 enable_api: true
 enable_audit: true
-enable_chatter: false
+enable_chatter: true
 enable_enhanced_lookup: true
 enable_events: false
 enable_files: true
@@ -17,9 +18,11 @@ enable_instances: false
 enable_notes: false
 enable_search: true
 enable_share: true
+enable_split: false
 enable_tasks: true
 enable_trash: true
 enable_workflow: true
+extend: contract
 field_groups:
   - group_name: 合同信息
   - group_name: 发票款项情况
@@ -27,5 +30,6 @@ field_groups:
     collapsed: true
 icon: care_request_reviewer
 is_enable: true
+is_system: true
 label: 合同
 version: 2

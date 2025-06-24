@@ -17,6 +17,6 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 350
+sort_no: 300
 sortable: true
 type: number

@@ -1,9 +1,8 @@
-name: all
+name: listview_ezskftwygxqzrkrbn
 columns:
   - field: 'no'
   - field: name
   - field: contract_counterparty
-  - field: implementation
   - field: cash_flow_type
   - field: amount
   - field: start_date
@@ -11,15 +10,19 @@ columns:
   - field: type
   - field: owner
 crud_mode: table
+enable_amis_schema: false
 filter_scope: space
-filters: []
+filters:
+  - - implementation
+    - '='
+    - execute
 from_code_id: contract.all
 is_enable: true
-label: 所有合同
+label: 执行中合同
+locked: false
 mobile_columns:
   - field: 'no'
   - field: name
-  - field: implementation
   - field: cash_flow_type
   - field: contract_counterparty
   - field: amount

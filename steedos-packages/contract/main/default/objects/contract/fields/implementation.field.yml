@@ -2,34 +2,44 @@ name: implementation
 amis:
   id: 'u:81c634abb45e'
 data_type: text
-description: ''
+defaultValue: unexecuted
 enable_thousands: true
+filterable: true
 filters: []
 group: 合同信息
-inlineHelpText: >-
-  执行中：没有超过有效期，正常执行中；已终止：未超过有效期，因各种原因停止执行；已变更：未超过有效期，因各种原因变更了条款，通过新的合同继续执行；已完结：已经超过有效期，合同终止；已续签：已经超过有效期，续签了新的合同。
+inlineHelpText: |-
+  执行中：没有超过有效期，正常执行中；</br>
+  已终止：未超过有效期，因各种原因停止执行；</br>
+  已变更：未超过有效期，因各种原因变更了条款，通过新的合同继续执行；</br>
+  已完结：已经超过有效期，合同终止；</br>
+  已续签：已经超过有效期，续签了新的合同。
 is_wide: false
 label: 执行情况
 options:
   - label: 执行中
-    value: v1
-    color: '#f5a623'
+    value: execute
+    color: '#68b80c'
     description: 正常执行中
   - label: 已终止
-    value: v2
+    value: stop
     description: 因各种原因停止执行
     color: '#d0021b'
   - label: 已变更
-    value: v3
+    value: change
     description: 因各种原因变更了条款，通过新的合同继续执行
-    color: '#9b9b9b'
+    color: '#f8e71c'
   - label: 已完结
-    value: v4
+    value: end
     color: '#4a90e2'
     description: 合同终止
   - label: 已续签
-    value: v5
+    value: renewal
     description: 续签了新的合同
     color: '#8b572a'
+  - label: 未执行
+    color: '#9b9b9b'
+    description: 合同尚未开始执行
+    value: unexecuted
+searchable: true
 sort_no: 400
 type: select

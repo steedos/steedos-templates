@@ -1,0 +1,41 @@
+name: signing_status
+amis:
+  id: 'u:7f25b2866c74'
+create: true
+data_type: text
+defaultValue: draft
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: true
+filters: []
+generated: false
+group: 合同信息
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 签订状态
+multiple: false
+options:
+  - label: 草拟中
+    value: draft
+    color: '#e9b5d4'
+  - label: 待签订
+    value: pending
+    color: '#f8e71c'
+  - label: 已签订
+    value: signed
+    color: '#68b80c'
+  - label: 已归档
+    value: archived
+    color: '#4a90e2'
+primary: false
+readonly: false
+required: false
+searchable: true
+show_as_qr: false
+sort_no: 350
+static: false
+type: select
+unique: false
+write_requires_master_read: false

@@ -1,24 +1,26 @@
-name: all
+name: listview_4bqqwcosdgjztchc9
 columns:
-  - field: 'no'
   - field: name
+  - field: 'no'
   - field: contract_counterparty
-  - field: implementation
-  - field: cash_flow_type
   - field: amount
-  - field: start_date
-  - field: end_date
   - field: type
+  - field: dep
   - field: owner
 crud_mode: table
+enable_amis_schema: false
 filter_scope: space
-filters: []
+filters:
+  - - signing_status
+    - '='
+    - pending
 from_code_id: contract.all
 is_enable: true
-label: 所有合同
+label: 待签订合同
+locked: false
 mobile_columns:
-  - field: 'no'
   - field: name
+  - field: 'no'
   - field: implementation
   - field: cash_flow_type
   - field: contract_counterparty
@@ -39,5 +41,5 @@ sort:
     order: desc
   - field_name: end_date
     order: desc
-sort_no: 100
+sort_no: 200
 type: grid
