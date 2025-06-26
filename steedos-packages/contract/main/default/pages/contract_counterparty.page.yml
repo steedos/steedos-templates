@@ -1,0 +1,13 @@
+name: contract_counterparty
+is_active: true
+label: 客户供应商详情页
+locked: false
+object_name: contract_counterparty
+pageAssignments:
+  - type: orgDefault
+    page: contract_counterparty
+    desktop: true
+    mobile: true
+render_engine: amis
+type: record
+widgets: []

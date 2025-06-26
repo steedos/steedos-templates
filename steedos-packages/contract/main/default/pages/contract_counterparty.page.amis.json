@@ -7,14 +7,14 @@
             "objectApiName": "${objectName}",
             "recordId": "${recordId}",
             "showBackButton": "${!_inDrawer}",
-            "id": "u:7ef34bf985a2"
+            "id": "u:b53e7ca6b521"
         },
         {
             "type": "tabs",
-            "className": "steedos-record-tabs bg-white p-4 sm:m-2 sm:border sm:rounded",
+            "className": "steedos-record-tabs bg-white p-4 sm:m-4 sm:shadow sm:rounded",
             "tabs": [
                 {
-                    "title": "合同信息",
+                    "title": "客商信息",
                     "className": "px-0 py-4",
                     "body": [
                         {
@@ -23,92 +23,64 @@
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
                             "appId": "${appId}",
-                            "id": "u:87611528435f",
-                            "mode": "read",
-                            "className": "mb-4",
-                            "enableInitApi": false,
-                            "enableTabs": false,
-                            "tabsMode": ""
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:7c0ba0973fe9",
-                            "relatedObjectApiName": "contractual_product"
+                            "id": "u:21c500dbeb02"
                         }
                     ],
                     "id": "u:5d4e7e3f6ecc"
                 },
                 {
-                    "title": "合同附件",
+                    "title": "合同",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
                             "label": "相关表",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
-                            "id": "u:61ef53b32f1d",
-                            "relatedObjectApiName": "cms_files"
+                            "id": "u:5fe10d4bedaf",
+                            "relatedObjectApiName": "contract"
                         }
                     ],
-                    "id": "u:8c411543e199",
-                    "className": "p-r-none p-l-none"
+                    "id": "u:eea31b0b4920"
                 },
                 {
-                    "title": "合同任务",
+                    "title": "任务",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
-                            "id": "u:9dec02a83442",
                             "label": "相关表",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
+                            "id": "u:a335a6319307",
                             "relatedObjectApiName": "tasks"
                         }
                     ],
-                    "id": "u:873dd49cd17a",
-                    "className": "p-r-none p-l-none"
+                    "id": "u:1b25f0813b5f",
+                    "className": "px-0 pt-4"
                 },
                 {
-                    "title": "修改历史",
+                    "title": "附件",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
-                            "id": "u:63fdd008f3ca",
                             "label": "相关表",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
-                            "relatedObjectApiName": "audit_records"
+                            "id": "u:6bde2ea34c22",
+                            "relatedObjectApiName": "cms_files"
                         }
                     ],
-                    "id": "u:bcf797049514",
-                    "className": "p-r-none p-l-none"
+                    "id": "u:470c3e30fc06"
                 }
             ],
-            "id": "u:9e2bf1f77e38"
-        },
-        {
-            "type": "rooms-provider",
-            "baseUrl": "${context.rootUrl}",
-            "body": [
-                {
-                    "type": "rooms-comments",
-                    "className": "flex flex-col m-3 gap-3",
-                    "roomId": "objects:${objectName}:{$recordId}",
-                    "id": "u:0f32dd3bc7ac"
-                }
-            ],
-            "id": "u:c5a6c241eb64"
+            "id": "u:0b207066c28e"
         }
     ],
     "regions": [
         "body"
     ],
     "data": {},
-    "id": "page_contract_record_detail",
-    "name": "page_contract_record_detail",
+    "id": "page_contract_counterparty_record_detail",
+    "name": "page_contract_counterparty_record_detail",
     "objectApiName": "${objectName}",
     "bodyClassName": "",
     "className": "object-detail-page steedos-record-content overflow-y-auto p-0 m-0 flex-1 h-full bg-gray-100",

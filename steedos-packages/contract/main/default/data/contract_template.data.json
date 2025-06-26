@@ -21,7 +21,7 @@
         "status": "enable"
     },
     {
-        "_id": "68525cf678d86e062463a73b",
+        "_id": "${space_id}_68525cf678d86e062463a73b",
         "owner": "${space_owner_id}",
         "locked": false,
         "company_id": "${space_id}",
