@@ -1,48 +1,152 @@
 [
-  {
-    "_id": "${space_id}_6732ca4bc1e74506a3383f79",
-    "company_id": "6732c9cac1e74506a3383f78",
-    "company_ids": [
-      "6732c9cac1e74506a3383f78"
-    ],
-    "locked": false,
-    "type": "customer",
-    "name": "风向股份有限公司",
-    "nick_name": "张一飞",
-    "phone": "021-87654321",
-    "household": "工商银行上海分行",
-    "account": "9876543210987654321",
-    "tax_id": "987654321098765",
-    "space": "6732c9cac1e74506a3383f78",
-    "created": {
-      "$date": "2024-11-12T03:23:55.310Z"},
-    "modified": {
-      "$date": "2024-11-12T03:26:54.436Z"},
-    "owner": "6732c9c5c1e74506a3383f76",
-    "created_by": "6732c9c5c1e74506a3383f76",
-    "modified_by": "6732c9c5c1e74506a3383f76"
-  },
-  {
-    "_id": "${space_id}_6732cad3c1e74506a3383f7a",
-    "company_id": "6732c9cac1e74506a3383f78",
-    "company_ids": [
-      "6732c9cac1e74506a3383f78"
-    ],
-    "locked": false,
-    "type": "suppilier",
-    "name": "天成软件开发有限公司",
-    "account": "5678901234567890123",
-    "tax_id": "567890123456789",
-    "household": "建设银行广州分行",
-    "nick_name": "张丽",
-    "phone": "020-23456789",
-    "space": "6732c9cac1e74506a3383f78",
-    "created": {
-      "$date": "2024-11-12T03:26:11.308Z"},
-    "modified": {
-      "$date": "2024-11-12T03:26:11.308Z"},
-    "owner": "6732c9c5c1e74506a3383f76",
-    "created_by": "6732c9c5c1e74506a3383f76",
-    "modified_by": "6732c9c5c1e74506a3383f76"
-  }
+    {
+        "_id": "${space_id}_6732ca4bc1e74506a3383f79",
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "locked": false,
+        "type": "customer",
+        "name": "风向股份有限公司",
+        "nick_name": "张一飞",
+        "phone": "021-87654321",
+        "household": "工商银行上海分行",
+        "account": "9876543210987654321",
+        "tax_id": "987654321098765",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-05-13T02:35:25.699Z"
+        },
+        "modified": {
+            "$date": "2025-05-26T05:32:03.365Z"
+        },
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "status": "enable"
+    },
+    {
+        "_id": "${space_id}_6732cad3c1e74506a3383f7a",
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "locked": false,
+        "type": "suppilier",
+        "name": "天成软件开发有限公司",
+        "account": "5678901234567890123",
+        "tax_id": "567890123456789",
+        "household": "建设银行广州分行",
+        "nick_name": "张丽",
+        "phone": "020-23456789",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-05-13T02:35:25.699Z"
+        },
+        "modified": {
+            "$date": "2025-05-26T08:02:54.182Z"
+        },
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "status": "enable"
+    },
+    {
+        "_id": "684fd8a1c5288b06246950c3",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "name": "上海然景电子商务有限公司",
+        "status": "enable",
+        "tax_id": "91310124MA1GTH261R",
+        "type": "suppilier",
+        "nick_name": "王璕",
+        "phone": "13687364908",
+        "household": "浙江民泰商业银行股份有限公司",
+        "account": "583403714801125",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-16T08:41:05.036Z"
+        },
+        "modified": {
+            "$date": "2025-06-16T08:41:05.036Z"
+        },
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "6852248b78d86e062463a71e",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "name": "尚灵环保科技有限公司",
+        "status": "enable",
+        "nick_name": "吴明",
+        "phone": "13784763908",
+        "tax_id": "91310117429737690G",
+        "type": "suppilier",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T02:29:31.138Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T02:29:31.138Z"
+        },
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "68524f1178d86e062463a722",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "name": "众和天源商贸有限公司",
+        "status": "enable",
+        "nick_name": "张艳芳",
+        "phone": "13689647301",
+        "tax_id": "91346382578457764A",
+        "type": "customer",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T05:30:57.07Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T05:30:57.07Z"
+        },
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "68528921e47a070624c18139",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "name": "嘉佳电脑办公设备营销中心",
+        "status": "enable",
+        "nick_name": "林斌",
+        "phone": "13495736489",
+        "tax_id": "92460364MA5T3TEL9U",
+        "type": "suppilier",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T09:38:41.866Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T09:38:41.866Z"
+        },
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    }
 ]
