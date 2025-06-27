@@ -1,0 +1,51 @@
+[
+    {
+        "_id": "${space_id}_68493743a377910624b13803",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "name": "华炎魔方--合同管理",
+        "displayAs": null,
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853a4d4af47f90624429ef8",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "name": "华炎魔方--项目管理",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853a4fbaf47f90624429ef9",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "name": "华炎魔方--员工管理",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853a511af47f90624429efa",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "name": "华炎魔方--绩效考核",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853a52caf47f90624429efb",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "name": "华炎魔方--报表上报",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853a5f5af47f90624429f00",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "name": "华炎魔方--综合管理系统",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    }
+]
