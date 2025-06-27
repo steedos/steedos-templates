@@ -88,7 +88,7 @@
         "company_ids": [
             "${space_id}"
         ],
-        "contract": ${space_id}_"68524f6c78d86e062463a723",
+        "contract": "${space_id}_68524f6c78d86e062463a723",
         "name": "项目管理费用",
         "code": "FW-003",
         "quantity": 42,
