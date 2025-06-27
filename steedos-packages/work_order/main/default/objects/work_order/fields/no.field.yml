@@ -5,7 +5,8 @@ create: true
 enable_enhanced_lookup: true
 enable_thousands: true
 filterable: true
-formula: 'GD_{YY}{MM}{DD}-{000}'
+filters: []
+formula: 'GD-{YY}{MM}{DD}-{000}'
 generated: false
 group: 工单信息
 hidden: false
