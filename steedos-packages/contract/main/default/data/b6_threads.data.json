@@ -1,0 +1,47 @@
+[
+
+    {
+        "_id": "${space_id}_th_wcglBsxaGtk60AFItUsEl",
+        "createdAt": "2025-05-29T09:06:54.279Z",
+        "updatedAt": "2025-05-29T09:06:59.970Z",
+        "id": "${space_id}_th_wcglBsxaGtk60AFItUsEl",
+        "resolved": false,
+        "metadata": {},
+        "type": "thread",
+        "roomId": "objects:contract:{${space_id}_6732ce7ac1e74506a3383f97}",
+        "userId": "${space_owner_id}",
+        "participantIds": [
+            "${space_owner_id}"
+        ]
+    },
+
+    {
+        "_id": "${space_id}_th_p6iggeiPmVR-TqLPx7_s3",
+        "createdAt": "2025-06-18T06:23:34.897Z",
+        "updatedAt": "2025-06-18T06:24:03.017Z",
+        "id": "${space_id}_th_p6iggeiPmVR-TqLPx7_s3",
+        "resolved": false,
+        "metadata": {},
+        "type": "thread",
+        "roomId": "objects:contract:{${space_id}_68524f6c78d86e062463a723}",
+        "userId": "${space_owner_id}",
+        "participantIds": [
+            "${space_owner_id}"
+        ]
+    },
+    {
+        "_id": "${space_id}_th_UlFZR2b6qE6LdK2NVPsc_",
+        "createdAt": "2025-06-18T09:35:27.540Z",
+        "updatedAt": "2025-06-18T09:35:27.546Z",
+        "id": "${space_id}_th_UlFZR2b6qE6LdK2NVPsc_",
+        "resolved": false,
+        "metadata": {},
+        "type": "thread",
+        "roomId": "objects:contract:{${space_id}_6732ce7ac1e74506a3383f97}",
+        "userId": "${space_owner_id}",
+        "participantIds": [
+            "${space_owner_id}"
+        ]
+    }
+
+]
