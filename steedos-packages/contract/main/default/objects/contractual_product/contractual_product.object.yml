@@ -21,6 +21,6 @@ field_groups:
   - group_name: 系统信息
 icon: brand
 is_enable: true
-label: 合同产品明细
+label: 合同产品
 locked: false
 version: 2

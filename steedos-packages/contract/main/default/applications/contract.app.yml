@@ -60,6 +60,8 @@ tab_items:
   object_contract_counterparty:
     group: 相关信息
     index: 5
+  object_contractual_product:
+    group: 相关信息
 tabs:
   - contract_kanban
   - object_contract

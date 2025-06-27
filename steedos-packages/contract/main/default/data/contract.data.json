@@ -43,7 +43,7 @@
         "type": "technology_contract",
         "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
         "signing_status": "signed",
-        "dep": "dykpNtwmMvpHdGCN3"
+        "dep": "${space_id}_dykpNtwmMvpHdGCN3"
     },
     {
         "_id": "${space_id}_6732ce7ac1e74506a3383f97",
@@ -151,7 +151,7 @@
         "contract_counterparty": "${space_id}_6852248b78d86e062463a71e",
         "cash_flow_type": "pay",
         "amount": 15600,
-        "dep": "dykpNtwmMvpHdGCN3",
+        "dep": "${space_id}_dykpNtwmMvpHdGCN3",
         "type": "service_contract",
         "space": "${space_id}",
         "created": {
