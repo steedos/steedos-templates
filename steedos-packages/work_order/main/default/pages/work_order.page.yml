@@ -1,0 +1,13 @@
+name: work_order
+is_active: true
+label: 客服工单详情页
+locked: false
+object_name: work_order
+pageAssignments:
+  - type: orgDefault
+    page: work_order
+    desktop: true
+    mobile: true
+render_engine: amis
+type: record
+widgets: []

@@ -1,0 +1,174 @@
+{
+    "type": "steedos-record-service",
+    "body": [
+        {
+            "type": "steedos-record-detail-header",
+            "label": "标题面板",
+            "objectApiName": "${objectName}",
+            "recordId": "${recordId}",
+            "showBackButton": "${!_inDrawer}",
+            "id": "u:dfb075d0ea92"
+        },
+        {
+            "type": "grid",
+            "columns": [
+                {
+                    "body": [
+                        {
+                            "type": "tabs",
+                            "className": "steedos-record-tabs bg-white p-4 sm:m-4 sm:shadow sm:rounded m-r-none m-t-none",
+                            "tabs": [
+                                {
+                                    "title": "工单信息",
+                                    "className": "px-0 py-4",
+                                    "body": [
+                                        {
+                                            "type": "grid",
+                                            "columns": [
+                                                {
+                                                    "body": [],
+                                                    "id": "u:53b7bb58697a"
+                                                },
+                                                {
+                                                    "body": [],
+                                                    "id": "u:3ee3486d0715"
+                                                }
+                                            ],
+                                            "id": "u:63ca7591dca5"
+                                        },
+                                        {
+                                            "type": "steedos-object-form",
+                                            "label": "对象表单",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "appId": "${appId}",
+                                            "id": "u:a25b6c6dc5e3"
+                                        },
+                                        {
+                                            "type": "steedos-object-related-listview",
+                                            "label": "相关表",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "id": "u:ed6811e3f0cc",
+                                            "relatedObjectApiName": "work_order_service"
+                                        },
+                                        {
+                                            "type": "steedos-object-related-listview",
+                                            "label": "相关表",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "id": "u:aab9acf345c7",
+                                            "relatedObjectApiName": "work_order_process"
+                                        },
+                                        {
+                                            "type": "steedos-object-related-listview",
+                                            "label": "相关表",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "id": "u:08fcef215c37",
+                                            "relatedObjectApiName": "evaluate"
+                                        }
+                                    ],
+                                    "id": "u:5d4e7e3f6ecc"
+                                },
+                                {
+                                    "title": "工单任务",
+                                    "body": [
+                                        {
+                                            "type": "steedos-object-related-listview",
+                                            "id": "u:66f25a561ae9",
+                                            "label": "相关表",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "relatedObjectApiName": "tasks"
+                                        }
+                                    ],
+                                    "id": "u:b5d478edd8d0",
+                                    "className": "px-0 pt-4"
+                                },
+                                {
+                                    "title": "工单附件",
+                                    "body": [
+                                        {
+                                            "type": "steedos-object-related-listview",
+                                            "label": "相关表",
+                                            "objectApiName": "${objectName}",
+                                            "recordId": "${recordId}",
+                                            "id": "u:baae80dfd1d2",
+                                            "relatedObjectApiName": "cms_files"
+                                        }
+                                    ],
+                                    "id": "u:799b00713714"
+                                }
+                            ],
+                            "id": "u:921c68f6877d"
+                        }
+                    ],
+                    "id": "u:0c204941acb0",
+                    "style": {
+                        "width": "789.3333129882812px"
+                    },
+                    "editorState": "default",
+                    "md": 8
+                },
+                {
+                    "title": "工单讨论",
+                    "body": [
+                        {
+                            "type": "rooms-provider",
+                            "baseUrl": "${context.rootUrl}",
+                            "body": [
+                                {
+                                    "type": "rooms-comments",
+                                    "className": "flex flex-col  gap-3 mr-4",
+                                    "roomId": "objects:${objectName}:{$recordId}",
+                                    "id": "u:74f0b036abcf"
+                                }
+                            ],
+                            "id": "u:b2f7397a9693"
+                        }
+                    ],
+                    "id": "u:d9ea43dc4417",
+                    "editorState": "default",
+                    "md": "",
+                    "valign": "top",
+                    "themeCss": {
+                        "baseControlClassName": {
+                            "padding-and-margin:default": {
+                                "marginTop": "0rem",
+                                "marginRight": "1rem",
+                                "marginBottom": "0rem",
+                                "marginLeft": "0rem",
+                                "paddingTop": "0px",
+                                "paddingRight": "1rem",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "border:default": {
+                                "top-border-style": "solid",
+                                "left-border-style": "solid",
+                                "right-border-style": "solid",
+                                "bottom-border-style": "solid"
+                            }
+                        }
+                    }
+                }
+            ],
+            "id": "u:ceb722b22db4"
+        }
+    ],
+    "regions": [
+        "body"
+    ],
+    "data": {},
+    "id": "page_work_order_record_detail",
+    "name": "page_work_order_record_detail",
+    "objectApiName": "${objectName}",
+    "bodyClassName": "",
+    "className": "object-detail-page steedos-record-content overflow-y-auto p-0 m-0 flex-1 h-full bg-gray-100",
+    "asideResizor": false,
+    "editorState": "default",
+    "pullRefresh": {
+        "disabled": true
+    }
+}
