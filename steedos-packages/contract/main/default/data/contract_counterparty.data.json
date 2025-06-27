@@ -52,7 +52,7 @@
         "status": "enable"
     },
     {
-        "_id": "684fd8a1c5288b06246950c3",
+        "_id": "${space_id}_684fd8a1c5288b06246950c3",
         "locked": false,
         "company_id": "${space_id}",
         "company_ids": [
@@ -78,7 +78,7 @@
         "modified_by": "${space_owner_id}"
     },
     {
-        "_id": "6852248b78d86e062463a71e",
+        "_id": "${space_id}_6852248b78d86e062463a71e",
         "locked": false,
         "company_id": "${space_id}",
         "company_ids": [
@@ -102,7 +102,7 @@
         "modified_by": "${space_owner_id}"
     },
     {
-        "_id": "68524f1178d86e062463a722",
+        "_id": "${space_id}_68524f1178d86e062463a722",
         "locked": false,
         "company_id": "${space_id}",
         "company_ids": [
@@ -126,7 +126,7 @@
         "modified_by": "${space_owner_id}"
     },
     {
-        "_id": "68528921e47a070624c18139",
+        "_id": "${space_id}_68528921e47a070624c18139",
         "locked": false,
         "company_id": "${space_id}",
         "company_ids": [

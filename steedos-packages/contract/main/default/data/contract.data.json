@@ -103,7 +103,7 @@
         "locked": false,
         "name": "2025年第一季度办公用品，打印纸费用",
         "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
-        "contract_counterparty": "684fd8a1c5288b06246950c3",
+        "contract_counterparty": "${space_id}_684fd8a1c5288b06246950c3",
         "cash_flow_type": "pay",
         "amount": 9575,
         "start_date": {
@@ -137,7 +137,7 @@
         "ticket_received_amount": 0
     },
     {
-        "_id": "6852315d78d86e062463a71f",
+        "_id": "${space_id}_6852315d78d86e062463a71f",
         "signing_status": "pending",
         "implementation": "unexecuted",
         "owner": "${space_owner_id}",
@@ -148,7 +148,7 @@
         "locked": false,
         "name": "弱电系统维护服务合同",
         "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
-        "contract_counterparty": "6852248b78d86e062463a71e",
+        "contract_counterparty": "${space_id}_6852248b78d86e062463a71e",
         "cash_flow_type": "pay",
         "amount": 15600,
         "dep": "dykpNtwmMvpHdGCN3",
@@ -173,7 +173,7 @@
         "ticket_received_amount": 0
     },
     {
-        "_id": "68524f6c78d86e062463a723",
+        "_id": "${space_id}_68524f6c78d86e062463a723",
         "signing_status": "signed",
         "implementation": "execute",
         "owner": "${space_owner_id}",
@@ -184,7 +184,7 @@
         "locked": false,
         "name": "业财一体化1.0项目开发、实施合同",
         "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
-        "contract_counterparty": "68524f1178d86e062463a722",
+        "contract_counterparty": "${space_id}_68524f1178d86e062463a722",
         "cash_flow_type": "receive",
         "amount": 1580000,
         "dep": "${space_id}_6jJafbSSHxnCuvhEM",
@@ -218,7 +218,7 @@
         }
     },
     {
-        "_id": "68528988e47a070624c1813a",
+        "_id": "${space_id}_68528988e47a070624c1813a",
         "signing_status": "signed",
         "implementation": "execute",
         "owner": "${space_owner_id}",
@@ -229,7 +229,7 @@
         "locked": false,
         "name": "采购计算机网络设备TP5620路由器",
         "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
-        "contract_counterparty": "68528921e47a070624c18139",
+        "contract_counterparty": "${space_id}_68528921e47a070624c18139",
         "cash_flow_type": "pay",
         "amount": 165,
         "start_date": {
