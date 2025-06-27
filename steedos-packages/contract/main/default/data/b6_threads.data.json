@@ -1,5 +1,6 @@
 [
 
+
     {
         "_id": "${space_id}_th_wcglBsxaGtk60AFItUsEl",
         "createdAt": "2025-05-29T09:06:54.279Z",
@@ -43,5 +44,4 @@
             "${space_owner_id}"
         ]
     }
-
 ]

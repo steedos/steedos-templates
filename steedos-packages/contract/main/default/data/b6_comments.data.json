@@ -74,30 +74,5 @@
             ]
         },
         "space": "${space_id}"
-    },
-    {
-        "_id": "${space_id}_cm_tiEOVGFtZqFTqVu__DI5U",
-        "createdAt": "2025-06-19T03:51:46.744Z",
-        "id": "${space_id}_cm_tiEOVGFtZqFTqVu__DI5U",
-        "reactions": [],
-        "roomId": "objects:project:{${space_id}_62620e4d87e5c50032d9bd25}",
-        "threadId": "${space_id}_th_vEtifQZrdkuQ1H_MW5AWc",
-        "userId": "${space_owner_id}",
-        "type": "comment",
-        "attachmentIds": [],
-        "body": {
-            "version": 1,
-            "content": [
-                {
-                    "type": "paragraph",
-                    "children": [
-                        {
-                            "text": "项目进度滞后，严重偏离计划"
-                        }
-                    ]
-                }
-            ]
-        },
-        "space": "${space_id}"
     }
 ]
