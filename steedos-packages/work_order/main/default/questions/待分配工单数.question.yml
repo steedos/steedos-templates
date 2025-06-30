@@ -1,0 +1,36 @@
+name: 待分配工单数
+created_at: 2025-06-19T08:45:50.112Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: work_order
+    aggregation:
+      - - count
+    filter:
+      - '='
+      - - field
+        - work_order.state
+        - null
+      - new
+display: scalar
+entity_id: 6853ce3e02730606241f2db0
+id: 6853ce3e02730606241f2db0
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: work_order
+updated_at: 2025-06-19T08:45:50.112Z
+visualization_settings: '{}'
