@@ -2,7 +2,7 @@ name: all
 columns:
   - field: name
   - field: date
-  - field: fbmh19
+  - field: time
   - field: scheme
   - field: staff
 crud_mode: table
