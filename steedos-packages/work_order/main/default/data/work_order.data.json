@@ -3,7 +3,6 @@
         "_id": "${space_id}_6836dbf0f9d05c062486149b",
         "locked": false,
         "owner": "${space_owner_id}",
-
         "name": "合同管理系统功能咨询",
         "work_order_customer": "${space_id}_68343e4d4085100624d418f7",
         "mobile": "021-87654321",
