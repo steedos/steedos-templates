@@ -1,0 +1,13 @@
+name: response
+amis:
+  id: 'u:086bdedf9531'
+data_type: text
+group: 通用
+label: 响应是否及时
+options:
+  - label: 是
+    value: 'yes'
+  - label: 否
+    value: 'no'
+sort_no: 150
+type: select

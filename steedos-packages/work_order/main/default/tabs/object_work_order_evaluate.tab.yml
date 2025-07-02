@@ -1,0 +1,8 @@
+name: object_work_order_evaluate
+desktop: true
+icon: avatar
+label: 工单客户评价
+mobile: true
+object: work_order_evaluate
+permissions: []
+type: object

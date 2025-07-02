@@ -1,0 +1,12 @@
+name: work_order_customer
+amis:
+  id: 'u:364401dcdf68'
+filterable: true
+group: 通用
+index: true
+label: 客户名称
+reference_to: work_order_customer
+required: true
+searchable: true
+sort_no: 50
+type: lookup

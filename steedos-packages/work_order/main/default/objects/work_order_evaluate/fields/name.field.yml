@@ -1,0 +1,10 @@
+name: name
+amis:
+  id: 'u:4bac98d73e47'
+group: 通用
+is_name: true
+label: 客户评分
+precision: 18
+scale: 2
+sort_no: 100
+type: number

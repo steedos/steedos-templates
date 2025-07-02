@@ -1,0 +1,12 @@
+name: locked
+amis:
+  id: 'u:bbdfc96a9bfa'
+description: ''
+enable_thousands: true
+group: 通用
+hidden: false
+inlineHelpText: ''
+label: 已锁定
+sort_no: 400
+type: boolean
+visible_on: '{{false}}'

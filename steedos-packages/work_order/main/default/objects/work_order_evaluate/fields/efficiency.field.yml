@@ -1,0 +1,12 @@
+name: efficiency
+amis:
+  id: 'u:ed17a00a4ebd'
+group: 通用
+label: 处理是否高效
+options:
+  - label: 是
+    value: 'yes'
+  - label: 否
+    value: 'no'
+sort_no: 200
+type: select
