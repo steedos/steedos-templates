@@ -7,7 +7,7 @@
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:work_order:{6836dbf0f9d05c062486149b}",
+        "roomId": "objects:work_order:{${space_id}_6836dbf0f9d05c062486149b}",
         "userId": "${space_owner_id}",
         "participantIds": [
             "${space_id}_${space_owner_id}"
@@ -21,7 +21,7 @@
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:work_order:{6836dbf0f9d05c062486149b}",
+        "roomId": "objects:work_order:{${space_id}_6836dbf0f9d05c062486149b}",
         "userId": "${space_owner_id}",
         "participantIds": [
             "${space_id}_${space_owner_id}"
