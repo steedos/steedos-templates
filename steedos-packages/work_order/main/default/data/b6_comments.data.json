@@ -1,0 +1,79 @@
+[
+
+    {
+        "_id": "${space_id}_cm_KQocdZbB7kj_AQqtS5EuJ",
+        "createdAt": "2025-06-09T02:32:42.907Z",
+        "id": "${space_id}_cm_KQocdZbB7kj_AQqtS5EuJ",
+        "reactions": [],
+        "roomId": "objects:work_order:{6836dbf0f9d05c062486149b}",
+        "threadId": "${space_id}_th_PzJxl7NsjpxDQulUmSzjP",
+        "userId": "${space_owner_id}",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "此工单比较紧急需优先处理"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "${space_id}"
+    },
+    {
+        "_id": "${space_id}_cm_-BIMSxt8M95sqm5bz6S82",
+        "createdAt": "2025-06-09T02:33:06.788Z",
+        "id": "${space_id}_cm_-BIMSxt8M95sqm5bz6S82",
+        "reactions": [],
+        "roomId": "objects:work_order:{6836dbf0f9d05c062486149b}",
+        "threadId": "${space_id}_th_PzJxl7NsjpxDQulUmSzjP",
+        "userId": "${space_owner_id}",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "已安排售前跟进"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "${space_id}"
+    },
+    {
+        "_id": "${space_id}_cm_r-pz2U7zeUoczcRD0ExaE",
+        "createdAt": "2025-06-09T02:33:57.969Z",
+        "id": "${space_id}_cm_r-pz2U7zeUoczcRD0ExaE",
+        "reactions": [],
+        "roomId": "objects:work_order:{6836dbf0f9d05c062486149b}",
+        "threadId": "${space_id}_th_uTFVx6Mxil9xTg0-6vtgZ",
+        "userId": "${space_owner_id}",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "已和客户沟通，形成需求文档，后期需技术部门评估"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "${space_id}",
+        "updatedAt": "2025-06-09T02:34:10.403Z"
+    }
+]
