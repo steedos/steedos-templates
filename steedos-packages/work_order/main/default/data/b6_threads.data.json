@@ -1,5 +1,4 @@
 [
-
     {
         "_id": "${space_id}_th_PzJxl7NsjpxDQulUmSzjP",
         "createdAt": "2025-06-09T02:32:42.903Z",
@@ -11,7 +10,7 @@
         "roomId": "objects:work_order:{6836dbf0f9d05c062486149b}",
         "userId": "${space_owner_id}",
         "participantIds": [
-            "${space_owner_id}"
+            "${space_id}_${space_owner_id}"
         ]
     },
     {
@@ -25,8 +24,7 @@
         "roomId": "objects:work_order:{6836dbf0f9d05c062486149b}",
         "userId": "${space_owner_id}",
         "participantIds": [
-            "${space_owner_id}"
+            "${space_id}_${space_owner_id}"
         ]
     }
-
 ]
