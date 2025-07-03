@@ -1,5 +1,5 @@
 {
-    "name": "@steedos-labs/contract",
+    "name": "@steedos-labs/template-contract",
     "version": "2.7.0",
     "description": "合同管理",
     "main": "package.service.js",
