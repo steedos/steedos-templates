@@ -1,0 +1,204 @@
+[
+    {
+        "_id": "cm_VwRlAn3i3gMQnbsR8QvP2",
+        "createdAt": "2025-05-16T10:18:33.782Z",
+        "id": "cm_VwRlAn3i3gMQnbsR8QvP2",
+        "reactions": [],
+        "roomId": "objects:project:{recordId}",
+        "threadId": "th_pQl0FPoyWLI9Yes60oG3F",
+        "userId": "6822afc28fe08f06245c47d0",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "工程涉及的防水材料目前缺货，需关注现有库存"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2",
+        "updatedAt": "2025-05-16T10:24:56.177Z"
+    },
+    {
+        "_id": "cm_Ai7klt6hBXEEUzKS1M8qw",
+        "createdAt": "2025-05-16T10:27:26.545Z",
+        "id": "cm_Ai7klt6hBXEEUzKS1M8qw",
+        "reactions": [],
+        "roomId": "objects:project:{recordId}",
+        "threadId": "th_pQl0FPoyWLI9Yes60oG3F",
+        "userId": "6826eef6b1356d0623f38475",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "已联系供应商"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2"
+    },
+    {
+        "_id": "cm_e4E67WlwpywXKjHYA_R4L",
+        "createdAt": "2025-05-21T03:28:51.109Z",
+        "id": "cm_e4E67WlwpywXKjHYA_R4L",
+        "reactions": [],
+        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262137087e5c50032d9bd5b}",
+        "threadId": "th_zp8VTgBIY7HCCdljDyYyi",
+        "userId": "6822afc28fe08f06245c47d0",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "工程材料清单尚未提供"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2"
+    },
+    {
+        "_id": "cm__g0IVVBAiSghhE3i-v3nL",
+        "createdAt": "2025-05-21T04:25:12.078Z",
+        "id": "cm__g0IVVBAiSghhE3i-v3nL",
+        "reactions": [],
+        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262136087e5c50032d9bd3d}",
+        "threadId": "th_q5mWFTW4qAM035q8VuxqO",
+        "userId": "6822afc28fe08f06245c47d0",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "施工难度较大，需做好充分准备"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2"
+    },
+    {
+        "_id": "cm_Kkbf1eLcfkzsuV9dFqG51",
+        "createdAt": "2025-05-21T04:25:30.757Z",
+        "id": "cm_Kkbf1eLcfkzsuV9dFqG51",
+        "reactions": [],
+        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262136087e5c50032d9bd3d}",
+        "threadId": "th_YV8oqys9O7r8BsF04s-3i",
+        "userId": "6822afc28fe08f06245c47d0",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "需尽快排施工计划"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2"
+    },
+    {
+        "_id": "cm_K1px5rGnroQ3k6X3zt74H",
+        "createdAt": "2025-05-22T04:26:23.163Z",
+        "id": "cm_K1px5rGnroQ3k6X3zt74H",
+        "reactions": [],
+        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e5787e5c50032d9bd39}",
+        "threadId": "th_lWXIm-xstlobgicNv5eXo",
+        "userId": "6822afc28fe08f06245c47d0",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "此项目周期较短，需合理配置人员"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2"
+    },
+    {
+        "_id": "cm_mqk5qpBjPj6O1S10no30i",
+        "createdAt": "2025-05-22T04:26:55.565Z",
+        "id": "cm_mqk5qpBjPj6O1S10no30i",
+        "reactions": [],
+        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e5787e5c50032d9bd39}",
+        "threadId": "th_lWXIm-xstlobgicNv5eXo",
+        "userId": "6822afc28fe08f06245c47d0",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "目前项目协作人手不够"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2"
+    },
+   
+    {
+        "_id": "cm_tiEOVGFtZqFTqVu__DI5U",
+        "createdAt": "2025-06-19T03:51:46.744Z",
+        "id": "cm_tiEOVGFtZqFTqVu__DI5U",
+        "reactions": [],
+        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e4d87e5c50032d9bd25}",
+        "threadId": "th_vEtifQZrdkuQ1H_MW5AWc",
+        "userId": "6822afc28fe08f06245c47d0",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "项目进度滞后，严重偏离计划"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "6822afed8fe08f06245c47d2"
+    }
+]
