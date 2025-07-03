@@ -32,7 +32,7 @@
         "reactions": [],
         "roomId": "objects:project:{${space_id}_recordId}",
         "threadId": "${space_id}_th_pQl0FPoyWLI9Yes60oG3F",
-        "userId": "6826eef6b1356d0623f38475",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {

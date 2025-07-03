@@ -10,8 +10,7 @@
         "roomId": "objects:project:{${space_id}_recordId}",
         "userId": "${space_owner_id}",
         "participantIds": [
-            "${space_owner_id}",
-            "6826eef6b1356d0623f38475"
+            "${space_owner_id}"
         ]
     },
     {
