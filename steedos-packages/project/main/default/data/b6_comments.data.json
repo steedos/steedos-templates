@@ -1,12 +1,12 @@
 [
     {
-        "_id": "cm_VwRlAn3i3gMQnbsR8QvP2",
+        "_id": "${space_id}_cm_VwRlAn3i3gMQnbsR8QvP2",
         "createdAt": "2025-05-16T10:18:33.782Z",
-        "id": "cm_VwRlAn3i3gMQnbsR8QvP2",
+        "id": "${space_id}_cm_VwRlAn3i3gMQnbsR8QvP2",
         "reactions": [],
-        "roomId": "objects:project:{recordId}",
-        "threadId": "th_pQl0FPoyWLI9Yes60oG3F",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_recordId}",
+        "threadId": "${space_id}_th_pQl0FPoyWLI9Yes60oG3F",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {
@@ -22,16 +22,16 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2",
+        "space": "${space_id}",
         "updatedAt": "2025-05-16T10:24:56.177Z"
     },
     {
-        "_id": "cm_Ai7klt6hBXEEUzKS1M8qw",
+        "_id": "${space_id}_cm_Ai7klt6hBXEEUzKS1M8qw",
         "createdAt": "2025-05-16T10:27:26.545Z",
-        "id": "cm_Ai7klt6hBXEEUzKS1M8qw",
+        "id": "${space_id}_cm_Ai7klt6hBXEEUzKS1M8qw",
         "reactions": [],
-        "roomId": "objects:project:{recordId}",
-        "threadId": "th_pQl0FPoyWLI9Yes60oG3F",
+        "roomId": "objects:project:{${space_id}_recordId}",
+        "threadId": "${space_id}_th_pQl0FPoyWLI9Yes60oG3F",
         "userId": "6826eef6b1356d0623f38475",
         "type": "comment",
         "attachmentIds": [],
@@ -48,16 +48,16 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2"
+        "space": "${space_id}"
     },
     {
-        "_id": "cm_e4E67WlwpywXKjHYA_R4L",
+        "_id": "${space_id}_cm_e4E67WlwpywXKjHYA_R4L",
         "createdAt": "2025-05-21T03:28:51.109Z",
-        "id": "cm_e4E67WlwpywXKjHYA_R4L",
+        "id": "${space_id}_cm_e4E67WlwpywXKjHYA_R4L",
         "reactions": [],
-        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262137087e5c50032d9bd5b}",
-        "threadId": "th_zp8VTgBIY7HCCdljDyYyi",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project_task:{${space_id}_6262137087e5c50032d9bd5b}",
+        "threadId": "${space_id}_th_zp8VTgBIY7HCCdljDyYyi",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {
@@ -73,16 +73,16 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2"
+        "space": "${space_id}"
     },
     {
-        "_id": "cm__g0IVVBAiSghhE3i-v3nL",
+        "_id": "${space_id}_cm__g0IVVBAiSghhE3i-v3nL",
         "createdAt": "2025-05-21T04:25:12.078Z",
-        "id": "cm__g0IVVBAiSghhE3i-v3nL",
+        "id": "${space_id}_cm__g0IVVBAiSghhE3i-v3nL",
         "reactions": [],
-        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262136087e5c50032d9bd3d}",
-        "threadId": "th_q5mWFTW4qAM035q8VuxqO",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project_task:{${space_id}_6262136087e5c50032d9bd3d}",
+        "threadId": "${space_id}_th_q5mWFTW4qAM035q8VuxqO",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {
@@ -98,16 +98,16 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2"
+        "space": "${space_id}"
     },
     {
-        "_id": "cm_Kkbf1eLcfkzsuV9dFqG51",
+        "_id": "${space_id}_cm_Kkbf1eLcfkzsuV9dFqG51",
         "createdAt": "2025-05-21T04:25:30.757Z",
-        "id": "cm_Kkbf1eLcfkzsuV9dFqG51",
+        "id": "${space_id}_cm_Kkbf1eLcfkzsuV9dFqG51",
         "reactions": [],
-        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262136087e5c50032d9bd3d}",
-        "threadId": "th_YV8oqys9O7r8BsF04s-3i",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project_task:{${space_id}_6262136087e5c50032d9bd3d}",
+        "threadId": "${space_id}_th_YV8oqys9O7r8BsF04s-3i",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {
@@ -123,16 +123,16 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2"
+        "space": "${space_id}"
     },
     {
-        "_id": "cm_K1px5rGnroQ3k6X3zt74H",
+        "_id": "${space_id}_cm_K1px5rGnroQ3k6X3zt74H",
         "createdAt": "2025-05-22T04:26:23.163Z",
-        "id": "cm_K1px5rGnroQ3k6X3zt74H",
+        "id": "${space_id}_cm_K1px5rGnroQ3k6X3zt74H",
         "reactions": [],
-        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e5787e5c50032d9bd39}",
-        "threadId": "th_lWXIm-xstlobgicNv5eXo",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_62620e5787e5c50032d9bd39}",
+        "threadId": "${space_id}_th_lWXIm-xstlobgicNv5eXo",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {
@@ -148,16 +148,16 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2"
+        "space": "${space_id}"
     },
     {
-        "_id": "cm_mqk5qpBjPj6O1S10no30i",
+        "_id": "${space_id}_cm_mqk5qpBjPj6O1S10no30i",
         "createdAt": "2025-05-22T04:26:55.565Z",
-        "id": "cm_mqk5qpBjPj6O1S10no30i",
+        "id": "${space_id}_cm_mqk5qpBjPj6O1S10no30i",
         "reactions": [],
-        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e5787e5c50032d9bd39}",
-        "threadId": "th_lWXIm-xstlobgicNv5eXo",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_62620e5787e5c50032d9bd39}",
+        "threadId": "${space_id}_th_lWXIm-xstlobgicNv5eXo",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {
@@ -173,17 +173,17 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2"
+        "space": "${space_id}"
     },
    
     {
-        "_id": "cm_tiEOVGFtZqFTqVu__DI5U",
+        "_id": "${space_id}_cm_tiEOVGFtZqFTqVu__DI5U",
         "createdAt": "2025-06-19T03:51:46.744Z",
-        "id": "cm_tiEOVGFtZqFTqVu__DI5U",
+        "id": "${space_id}_cm_tiEOVGFtZqFTqVu__DI5U",
         "reactions": [],
-        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e4d87e5c50032d9bd25}",
-        "threadId": "th_vEtifQZrdkuQ1H_MW5AWc",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_62620e4d87e5c50032d9bd25}",
+        "threadId": "${space_id}_th_vEtifQZrdkuQ1H_MW5AWc",
+        "userId": "${space_owner_id}",
         "type": "comment",
         "attachmentIds": [],
         "body": {
@@ -199,6 +199,6 @@
                 }
             ]
         },
-        "space": "6822afed8fe08f06245c47d2"
+        "space": "${space_id}"
     }
 ]

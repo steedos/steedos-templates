@@ -1,102 +1,102 @@
 [
     {
-        "_id": "th_pQl0FPoyWLI9Yes60oG3F",
+        "_id": "${space_id}_th_pQl0FPoyWLI9Yes60oG3F",
         "createdAt": "2025-05-16T10:18:33.774Z",
         "updatedAt": "2025-05-16T10:27:26.549Z",
-        "id": "th_pQl0FPoyWLI9Yes60oG3F",
+        "id": "${space_id}_th_pQl0FPoyWLI9Yes60oG3F",
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:project:{recordId}",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_recordId}",
+        "userId": "${space_owner_id}",
         "participantIds": [
-            "6822afc28fe08f06245c47d0",
+            "${space_owner_id}",
             "6826eef6b1356d0623f38475"
         ]
     },
     {
-        "_id": "th_zp8VTgBIY7HCCdljDyYyi",
+        "_id": "${space_id}_th_zp8VTgBIY7HCCdljDyYyi",
         "createdAt": "2025-05-21T03:28:51.108Z",
         "updatedAt": "2025-05-21T03:28:51.112Z",
-        "id": "th_zp8VTgBIY7HCCdljDyYyi",
+        "id": "${space_id}_th_zp8VTgBIY7HCCdljDyYyi",
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262137087e5c50032d9bd5b}",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project_task:{${space_id}_6262137087e5c50032d9bd5b}",
+        "userId": "${space_owner_id}",
         "participantIds": [
-            "6822afc28fe08f06245c47d0"
+            "${space_owner_id}"
         ]
     },
     {
-        "_id": "th_q5mWFTW4qAM035q8VuxqO",
+        "_id": "${space_id}_th_q5mWFTW4qAM035q8VuxqO",
         "createdAt": "2025-05-21T04:25:12.077Z",
         "updatedAt": "2025-05-21T04:25:12.080Z",
-        "id": "th_q5mWFTW4qAM035q8VuxqO",
+        "id": "${space_id}_th_q5mWFTW4qAM035q8VuxqO",
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262136087e5c50032d9bd3d}",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project_task:{${space_id}_6262136087e5c50032d9bd3d}",
+        "userId": "${space_owner_id}",
         "participantIds": [
-            "6822afc28fe08f06245c47d0"
+            "${space_owner_id}"
         ]
     },
     {
-        "_id": "th_YV8oqys9O7r8BsF04s-3i",
+        "_id": "${space_id}_th_YV8oqys9O7r8BsF04s-3i",
         "createdAt": "2025-05-21T04:25:30.757Z",
         "updatedAt": "2025-05-21T04:25:30.759Z",
-        "id": "th_YV8oqys9O7r8BsF04s-3i",
+        "id": "${space_id}_th_YV8oqys9O7r8BsF04s-3i",
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:project_task:{6822afed8fe08f06245c47d2_6262136087e5c50032d9bd3d}",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project_task:{${space_id}_6262136087e5c50032d9bd3d}",
+        "userId": "${space_owner_id}",
         "participantIds": [
-            "6822afc28fe08f06245c47d0"
+            "${space_owner_id}"
         ]
     },
     {
-        "_id": "th_lWXIm-xstlobgicNv5eXo",
+        "_id": "${space_id}_th_lWXIm-xstlobgicNv5eXo",
         "createdAt": "2025-05-22T04:26:23.162Z",
         "updatedAt": "2025-05-22T04:26:55.567Z",
-        "id": "th_lWXIm-xstlobgicNv5eXo",
+        "id": "${space_id}_th_lWXIm-xstlobgicNv5eXo",
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e5787e5c50032d9bd39}",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_62620e5787e5c50032d9bd39}",
+        "userId": "${space_owner_id}",
         "participantIds": [
-            "6822afc28fe08f06245c47d0"
+            "${space_owner_id}"
         ]
     },
 
     {
-        "_id": "th_vEtifQZrdkuQ1H_MW5AWc",
+        "_id": "${space_id}_th_vEtifQZrdkuQ1H_MW5AWc",
         "createdAt": "2025-06-19T03:51:46.742Z",
         "updatedAt": "2025-06-19T03:51:46.748Z",
-        "id": "th_vEtifQZrdkuQ1H_MW5AWc",
+        "id": "${space_id}_th_vEtifQZrdkuQ1H_MW5AWc",
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e4d87e5c50032d9bd25}",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_62620e4d87e5c50032d9bd25}",
+        "userId": "${space_owner_id}",
         "participantIds": [
-            "6822afc28fe08f06245c47d0"
+            "${space_owner_id}"
         ]
     },
     {
-        "_id": "th_ixORGrZ3EvNQhDAlTJ1tr",
+        "_id": "${space_id}_th_ixORGrZ3EvNQhDAlTJ1tr",
         "createdAt": "2025-06-19T03:53:59.880Z",
         "updatedAt": "2025-06-19T03:54:05.606Z",
-        "id": "th_ixORGrZ3EvNQhDAlTJ1tr",
+        "id": "${space_id}_th_ixORGrZ3EvNQhDAlTJ1tr",
         "resolved": false,
         "metadata": {},
         "type": "thread",
-        "roomId": "objects:project:{6822afed8fe08f06245c47d2_62620e4d87e5c50032d9bd25}",
-        "userId": "6822afc28fe08f06245c47d0",
+        "roomId": "objects:project:{${space_id}_62620e4d87e5c50032d9bd25}",
+        "userId": "${space_owner_id}",
         "participantIds": [
-            "6822afc28fe08f06245c47d0"
+            "${space_owner_id}"
         ]
     }
 ]
