@@ -12,7 +12,6 @@
         "code": "CP-001",
         "quantity": 1,
         "unit_price": 100000,
-        "fpbuez": "${space_id}_62610e0732cc250032e1a996",
         "displayAs": null,
         "space": "${space_id}",
         "created": {
@@ -23,7 +22,6 @@
         },
         "created_by": "${space_owner_id}",
         "modified_by": "${space_owner_id}",
-        "f3alzm": "1*98000",
         "price": 100000
     },
     {
@@ -39,7 +37,6 @@
         "code": "FW-001",
         "quantity": 300,
         "unit_price": 2500,
-        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
         "displayAs": null,
         "space": "${space_id}",
         "created": {
@@ -50,7 +47,6 @@
         },
         "created_by": "${space_owner_id}",
         "modified_by": "${space_owner_id}",
-        "f3alzm": "300*2500",
         "price": 750000
     },
     {
@@ -66,7 +62,6 @@
         "code": "FW-002",
         "quantity": 250,
         "unit_price": 2500,
-        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
         "displayAs": null,
         "space": "${space_id}",
         "created": {
@@ -77,7 +72,6 @@
         },
         "created_by": "${space_owner_id}",
         "modified_by": "${space_owner_id}",
-        "f3alzm": "250*2500",
         "price": 625000
     },
     {
@@ -93,7 +87,6 @@
         "code": "FW-003",
         "quantity": 42,
         "unit_price": 2500,
-        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
         "displayAs": null,
         "space": "${space_id}",
         "created": {
@@ -119,7 +112,6 @@
         "code": "FW-004",
         "quantity": 12,
         "unit_price": 1300,
-        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
         "displayAs": null,
         "space": "${space_id}",
         "created": {
@@ -145,7 +137,6 @@
         "code": "CP-010",
         "quantity": 5,
         "unit_price": 19600,
-        "fpbuez": "${space_id}_62610e0732cc250032e1a996",
         "displayAs": null,
         "space": "${space_id}",
         "created": {
@@ -171,7 +162,6 @@
         "code": "CP-012",
         "quantity": 1,
         "unit_price": 165,
-        "fpbuez": "${space_id}_62610e0c32cc250032e1a9a4",
         "displayAs": null,
         "space": "${space_id}",
         "created": {

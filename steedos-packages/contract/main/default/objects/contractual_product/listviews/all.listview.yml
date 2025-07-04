@@ -5,7 +5,6 @@ columns:
   - field: quantity
   - field: unit_price
   - field: price
-  - field: fpbuez
 crud_mode: table
 filter_scope: space
 filters: []
