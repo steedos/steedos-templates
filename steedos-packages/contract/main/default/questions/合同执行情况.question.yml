@@ -3,8 +3,15 @@ created_at: 2024-11-13T09:19:13.736Z
 creator_id: 67346cab0ada3506a3207b6e
 database_id: 1
 dataset_query:
+  database: 1
+  type: query
   query:
     source-table: contract
+    order-by:
+      - - desc
+        - - field
+          - contract.signing_date
+          - null
     fields:
       - - field
         - contract.name
@@ -22,23 +29,20 @@ dataset_query:
         - contract.amount
         - null
       - - field
-        - contract.implementation
+        - contract.signing_status
         - null
       - - field
-        - contract.type
+        - contract.implementation
         - null
       - - field
         - contract.owner
         - null
       - - field
-        - contract.need_receive_amount
+        - contract.signing_date
         - null
-      - - field
-        - contract.need_pay_amount
-        - null
-  type: query
-  database: 1
+    limit: 5
 display: table
+enable_embedding: false
 entity_id: 67346f110ada3506a3207b7e
 id: 67346f110ada3506a3207b7e
 parameter_mappings: []
@@ -145,6 +149,19 @@ result_metadata:
     source: fields
     visibility_type: normal
     table_id: contract
+  - id: contract.signing_status
+    name: signing_status
+    display_name: 签订状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    field_ref:
+      - field
+      - contract.signing_status
+      - null
+    source: fields
+    visibility_type: normal
+    table_id: contract
   - id: contract.implementation
     name: implementation
     display_name: 执行情况
@@ -154,19 +171,6 @@ result_metadata:
     field_ref:
       - field
       - contract.implementation
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: contract
-  - id: contract.type
-    name: type
-    display_name: 合同类型
-    base_type: type/Text
-    effective_type: type/Text
-    semantic_type: null
-    field_ref:
-      - field
-      - contract.type
       - null
     source: fields
     visibility_type: normal
@@ -185,28 +189,15 @@ result_metadata:
     visibility_type: normal
     table_id: contract
     remapped_to: external_owner
-  - id: contract.need_receive_amount
-    name: need_receive_amount
-    display_name: 待回款金额
-    base_type: type/Float
-    effective_type: type/Float
-    semantic_type: type/Score
+  - id: contract.signing_date
+    name: signing_date
+    display_name: 签约日期
+    base_type: type/Date
+    effective_type: type/Date
+    semantic_type: null
     field_ref:
       - field
-      - contract.need_receive_amount
-      - null
-    source: fields
-    visibility_type: normal
-    table_id: contract
-  - id: contract.need_pay_amount
-    name: need_pay_amount
-    display_name: 待付款金额
-    base_type: type/Float
-    effective_type: type/Float
-    semantic_type: type/Score
-    field_ref:
-      - field
-      - contract.need_pay_amount
+      - contract.signing_date
       - null
     source: fields
     visibility_type: normal
@@ -252,4 +243,4 @@ result_metadata:
 table_id: contract
 updated_at: 2024-11-13T09:19:13.736Z
 visualization_settings: >-
-  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","contract.name",null],"enabled":true},{"name":"no","fieldRef":["field","contract.no",null],"enabled":true},{"name":"contract_counterparty","fieldRef":["field","contract.contract_counterparty",null],"enabled":true},{"name":"cash_flow_type","fieldRef":["field","contract.cash_flow_type",null],"enabled":true},{"name":"amount","fieldRef":["field","contract.amount",null],"enabled":true},{"name":"implementation","fieldRef":["field","contract.implementation",null],"enabled":true},{"name":"type","fieldRef":["field","contract.type",null],"enabled":true},{"name":"owner","fieldRef":["field","contract.owner",null],"enabled":true},{"name":"need_receive_amount","fieldRef":["field","contract.need_receive_amount",null],"enabled":true},{"name":"need_pay_amount","fieldRef":["field","contract.need_pay_amount",null],"enabled":true}],"table.pivot_column":"type","table.cell_column":"amount"}
+  {"table.columns":[{"name":"_id","enabled":false},{"name":"name","fieldRef":["field","contract.name",null],"enabled":true},{"name":"no","fieldRef":["field","contract.no",null],"enabled":true},{"name":"contract_counterparty","fieldRef":["field","contract.contract_counterparty",null],"enabled":true},{"name":"cash_flow_type","fieldRef":["field","contract.cash_flow_type",null],"enabled":true},{"name":"amount","fieldRef":["field","contract.amount",null],"enabled":true},{"name":"signing_status","fieldRef":["field","contract.signing_status",null],"enabled":true},{"name":"implementation","fieldRef":["field","contract.implementation",null],"enabled":true},{"name":"owner","fieldRef":["field","contract.owner",null],"enabled":true},{"name":"signing_date","fieldRef":["field","contract.signing_date",null],"enabled":true}],"table.pivot_column":"type","table.cell_column":"amount","column_settings":{"[\"name\",\"signing_date\"]":{"date_style":"YYYY/M/D","date_separator":"-"}},"table.column_formatting":[{"columns":["cash_flow_type"],"type":"single","operator":"=","value":"收款","color":"#88BF4D","highlight_row":true}]}

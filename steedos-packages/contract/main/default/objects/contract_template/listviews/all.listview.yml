@@ -1,14 +1,17 @@
 name: all
 columns:
   - field: name
+  - field: type
+  - field: status
   - field: template
   - field: description
+  - field: created_by
 crud_mode: table
 filter_scope: space
 filters: []
 from_code_id: contract_template.all
 is_enable: true
-label: 所有
+label: 所有模版
 mobile_columns:
   - field: name
   - field: template

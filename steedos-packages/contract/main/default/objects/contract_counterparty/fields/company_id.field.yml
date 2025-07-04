@@ -2,7 +2,7 @@ name: company_id
 amis:
   id: 'u:19af34fd3884'
 description: ''
-group: 通用
+group: 合同信息
 index: true
 inlineHelpText: ''
 label: 主分部

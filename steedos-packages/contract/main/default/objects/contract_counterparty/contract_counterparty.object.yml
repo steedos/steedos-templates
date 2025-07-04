@@ -14,9 +14,9 @@ enable_tasks: true
 enable_tree: false
 enable_workflow: false
 field_groups:
-  - group_name: 通用
+  - group_name: 合同信息
 icon: location
 is_enable: true
 is_system: true
-label: 客户及供应商
+label: 合同相对方
 version: 2

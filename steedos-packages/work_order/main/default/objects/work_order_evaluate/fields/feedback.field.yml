@@ -1,0 +1,9 @@
+name: feedback
+amis:
+  id: 'u:f444baf158bb'
+group: 通用
+is_wide: true
+label: 反馈及建议
+rows: 2
+sort_no: 300
+type: textarea

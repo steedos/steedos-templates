@@ -1,0 +1,14 @@
+name: company_id
+amis:
+  id: 'u:8ad4444d9417'
+description: ''
+enable_thousands: true
+group: 系统信息
+index: true
+inlineHelpText: ''
+label: 主分部
+reference_to: company
+sort_no: 650
+sortable: true
+type: lookup
+visible_on: '{{false}}'

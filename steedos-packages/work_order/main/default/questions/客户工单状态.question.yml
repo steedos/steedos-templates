@@ -1,0 +1,86 @@
+name: 客户工单状态
+created_at: 2025-06-20T06:51:47.711Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: work_order
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - work_order.work_order_customer
+        - null
+      - - field
+        - work_order.state
+        - null
+display: row
+entity_id: 68550503b77d890624986278
+id: 68550503b77d890624986278
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: work_order_customer
+    name: work_order_customer
+    unit: null
+    display_name: 所属客户
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    source: breakout
+    visibility_type: normal
+    table_id: work_order
+    field_ref:
+      - field
+      - work_order.work_order_customer
+      - null
+    remapped_to: external_work_order_customer
+  - id: state
+    name: state
+    unit: null
+    display_name: 工单状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: work_order
+    field_ref:
+      - field
+      - work_order.state
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+  - description: null
+    semantic_type: type/Name
+    table_id: work_order_customer
+    coercion_strategy: null
+    name: external_work_order_customer
+    settings: null
+    source: fields
+    remapped_from: work_order_customer
+    fk_field_id: work_order_customer
+    field_ref:
+      - field
+      - work_order_customer.name
+      - source-field: work_order.work_order_customer
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: work_order_customer.name
+    visibility_type: normal
+    display_name: 所属客户
+table_id: work_order
+updated_at: 2025-06-20T06:51:47.711Z
+visualization_settings: >-
+  {"pivot_table.column_split":{"rows":[["field","evaluate.efficiency",null]],"columns":[["field","evaluate.response",null]],"values":[["aggregation",0]]},"graph.show_goal":true,"series_settings":{"count":{"display":"line"}},"graph.dimensions":["work_order_customer","state"],"graph.metrics":["count"]}

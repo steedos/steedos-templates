@@ -1,0 +1,26 @@
+name: name
+amis:
+  id: 'u:e07feda4a313'
+data_type: text
+filterable: true
+filters: []
+group: 通用
+index: true
+label: 选择服务
+options:
+  - label: 售前咨询
+    value: consult
+  - label: 安装服务
+    value: install
+  - label: 维修服务
+    value: maintenance
+  - label: 维保服务
+    value: after_sales
+  - label: 产品缺陷
+    value: bug
+  - label: 投诉建议
+    value: complaint
+required: true
+searchable: true
+sort_no: 50
+type: select

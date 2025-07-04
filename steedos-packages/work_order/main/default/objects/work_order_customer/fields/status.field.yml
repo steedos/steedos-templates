@@ -1,0 +1,36 @@
+name: status
+amis:
+  id: 'u:a75a7cc0e949'
+create: true
+data_type: text
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: false
+generated: false
+group: 通用
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 启用状态
+multiple: false
+options:
+  - label: 未启用
+    value: not_enabled
+    color: '#cfd3d7'
+  - label: 已启用
+    value: enable
+    color: '#49d181'
+  - label: 停用
+    value: disabled
+    color: '#deb887'
+primary: false
+readonly: false
+required: false
+searchable: false
+show_as_qr: false
+sort_no: 150
+static: false
+type: select
+unique: false
+write_requires_master_read: false

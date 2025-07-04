@@ -1,0 +1,12 @@
+name: price
+amis: {}
+data_type: currency
+filters: []
+formula: quantity*unit_price
+formula_blank_value: zeroes
+group: 通用
+label: 价格
+precision: 18
+scale: 2
+sort_no: 300
+type: formula

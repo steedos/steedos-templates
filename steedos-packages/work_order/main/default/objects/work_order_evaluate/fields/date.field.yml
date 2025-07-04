@@ -1,0 +1,7 @@
+name: date
+amis:
+  id: 'u:4947923b7e41'
+group: 通用
+label: 评价时间
+sort_no: 250
+type: date

@@ -1,0 +1,9 @@
+name: solution
+amis:
+  id: 'u:4ecd922875db'
+group: 处理结果
+is_wide: true
+label: 解决方案
+rows: 3
+sort_no: 750
+type: textarea

@@ -1,0 +1,27 @@
+name: our_company
+amis:
+  id: 'u:bf31bbbe35fa'
+create: false
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: false
+filters: []
+generated: false
+group: 合同信息
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 我方公司
+multiple: false
+primary: false
+readonly: false
+reference_to: contract_org_info
+required: false
+searchable: false
+show_as_qr: false
+sort_no: 150
+static: false
+type: lookup
+unique: false
+write_requires_master_read: false

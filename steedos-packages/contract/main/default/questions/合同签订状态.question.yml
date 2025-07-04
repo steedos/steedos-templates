@@ -1,0 +1,48 @@
+name: 合同签订状态
+created_at: 2025-06-20T06:18:38.758Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - contract.signing_status
+        - null
+display: bar
+entity_id: 6854fd3eb77d890624986274
+id: 6854fd3eb77d890624986274
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: signing_status
+    name: signing_status
+    unit: null
+    display_name: 签订状态
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: contract
+    field_ref:
+      - field
+      - contract.signing_status
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: contract
+updated_at: 2025-06-20T06:18:38.758Z
+visualization_settings: '{"graph.dimensions":["signing_status"],"graph.metrics":["count"]}'

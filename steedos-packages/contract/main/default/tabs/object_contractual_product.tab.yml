@@ -1,0 +1,8 @@
+name: object_contractual_product
+desktop: true
+icon: brand
+label: 合同产品
+mobile: true
+object: contractual_product
+permissions: []
+type: object

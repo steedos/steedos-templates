@@ -14,7 +14,7 @@
             "className": "steedos-record-tabs bg-white p-4 sm:m-2 sm:border sm:rounded",
             "tabs": [
                 {
-                    "title": "详细",
+                    "title": "合同信息",
                     "className": "px-0 py-4",
                     "body": [
                         {
@@ -29,6 +29,14 @@
                             "enableInitApi": false,
                             "enableTabs": false,
                             "tabsMode": ""
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:7c0ba0973fe9",
+                            "relatedObjectApiName": "contractual_product"
                         }
                     ],
                     "id": "u:5d4e7e3f6ecc"
@@ -45,155 +53,54 @@
                             "relatedObjectApiName": "cms_files"
                         }
                     ],
-                    "id": "u:8c411543e199"
+                    "id": "u:8c411543e199",
+                    "className": "p-r-none p-l-none"
                 },
                 {
-                    "title": "回款/付款",
-                    "body": [
-                        {
-                            "type": "panel",
-                            "title": "款项情况",
-                            "body": [
-                                {
-                                    "type": "steedos-object-form",
-                                    "label": "对象表单",
-                                    "objectApiName": "${objectName}",
-                                    "recordId": "${recordId}",
-                                    "mode": "read",
-                                    "enableInitApi": false,
-                                    "className": "",
-                                    "id": "u:ff1e2a90b737",
-                                    "fields": [
-                                        "receive_amount",
-                                        "need_receive_amount",
-                                        "pay_amount",
-                                        "need_pay_amount"
-                                    ]
-                                }
-                            ],
-                            "id": "u:a33fae3c3fc7",
-                            "affixFooter": false,
-                            "headerClassName": "",
-                            "className": "Panel--default"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:6a027d10cdc5",
-                            "relatedObjectApiName": "contract_return_payment_plan"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:bd3e83c1f451",
-                            "relatedObjectApiName": "contract_return",
-                            "visibleOn": "cash_flow_type != 'pay'"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:f7dbb9c457a3",
-                            "relatedObjectApiName": "contract_payment",
-                            "visibleOn": "cash_flow_type != 'receive'"
-                        }
-                    ],
-                    "id": "u:d26a43f18096"
-                },
-                {
-                    "title": "发票记录",
-                    "body": [
-                        {
-                            "type": "panel",
-                            "title": "发票情况",
-                            "body": [
-                                {
-                                    "type": "steedos-object-form",
-                                    "label": "对象表单",
-                                    "objectApiName": "${objectName}",
-                                    "recordId": "${recordId}",
-                                    "mode": "read",
-                                    "enableInitApi": false,
-                                    "className": "",
-                                    "id": "u:019399d24b07",
-                                    "fields": [
-                                        "invoice_amount",
-                                        "need_invoice_amount",
-                                        "ticket_received_amount",
-                                        "need_ticket_received_amount"
-                                    ]
-                                }
-                            ],
-                            "id": "u:3a892617f797",
-                            "affixFooter": false,
-                            "headerClassName": "",
-                            "hidden": false,
-                            "actions": []
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:d0ed2a6e7620",
-                            "relatedObjectApiName": "contract_invoice_plan"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:dcd685b4e854",
-                            "relatedObjectApiName": "contract_invoicing",
-                            "visibleOn": "cash_flow_type != 'pay'"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:ae1b2950be7c",
-                            "relatedObjectApiName": "contract_invoice",
-                            "visibleOn": "cash_flow_type != 'receive'"
-                        }
-                    ],
-                    "id": "u:00adf991c735"
-                },
-                {
-                    "title": "跟进记录",
+                    "title": "合同任务",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
                             "id": "u:9dec02a83442",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
                             "relatedObjectApiName": "tasks"
                         }
                     ],
-                    "id": "u:873dd49cd17a"
+                    "id": "u:873dd49cd17a",
+                    "className": "p-r-none p-l-none"
                 },
                 {
-                    "title": "审计日志",
+                    "title": "修改历史",
                     "body": [
                         {
                             "type": "steedos-object-related-listview",
+                            "id": "u:63fdd008f3ca",
                             "label": "相关表",
                             "objectApiName": "${objectName}",
                             "recordId": "${recordId}",
-                            "id": "u:63fdd008f3ca",
                             "relatedObjectApiName": "audit_records"
                         }
                     ],
-                    "id": "u:bcf797049514"
+                    "id": "u:bcf797049514",
+                    "className": "p-r-none p-l-none"
                 }
             ],
             "id": "u:9e2bf1f77e38"
+        },
+        {
+            "type": "rooms-provider",
+            "baseUrl": "${context.rootUrl}",
+            "body": [
+                {
+                    "type": "rooms-comments",
+                    "className": "flex flex-col m-3 gap-3",
+                    "roomId": "objects:${objectName}:{$recordId}",
+                    "id": "u:0f32dd3bc7ac"
+                }
+            ],
+            "id": "u:c5a6c241eb64"
         }
     ],
     "regions": [

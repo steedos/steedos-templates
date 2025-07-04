@@ -1,0 +1,27 @@
+name: dep
+amis:
+  id: 'u:57b87fa79486'
+create: true
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: true
+filters: []
+generated: false
+group: 合同信息
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同归属部门
+multiple: false
+primary: false
+readonly: false
+reference_to: organizations
+required: false
+searchable: true
+show_as_qr: false
+sort_no: 550
+static: false
+type: lookup
+unique: false
+write_requires_master_read: false

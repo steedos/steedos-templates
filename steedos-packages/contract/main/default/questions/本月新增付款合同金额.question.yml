@@ -1,0 +1,53 @@
+name: 本月新增付款合同金额
+created_at: 2025-06-18T09:08:48.803Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: contract
+    aggregation:
+      - - sum
+        - - field
+          - contract.amount
+          - null
+    filter:
+      - and
+      - - time-interval
+        - - field
+          - contract.signing_date
+          - null
+        - current
+        - month
+      - - '='
+        - - field
+          - contract.cash_flow_type
+          - null
+        - pay
+      - - '='
+        - - field
+          - contract.signing_status
+          - null
+        - signed
+        - archived
+  type: query
+  database: 1
+display: scalar
+enable_embedding: false
+entity_id: 68528220581b330623d82699
+id: 68528220581b330623d82699
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/Integer
+    display_name: 合同金额合计
+    effective_type: type/Integer
+    field_ref:
+      - aggregation
+      - 0
+    name: sum
+    semantic_type: null
+    source: aggregation
+table_id: contract
+updated_at: 2025-06-18T09:08:48.803Z
+visualization_settings: '{"table.cell_column":"sum"}'

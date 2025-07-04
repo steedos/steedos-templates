@@ -1,0 +1,16 @@
+name: owner
+amis:
+  id: 'u:ae59acd45a29'
+description: ''
+enable_thousands: true
+filters: []
+group: 通用
+hidden: false
+index: true
+inlineHelpText: ''
+label: 客户经理
+omit: false
+required: true
+sort_no: 100
+sortable: true
+visible_on: 'true'

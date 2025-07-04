@@ -1,0 +1,7 @@
+name: tel
+amis:
+  id: 'u:d4e28ee0e256'
+group: 回访信息
+label: 联系电话
+sort_no: 150
+type: text

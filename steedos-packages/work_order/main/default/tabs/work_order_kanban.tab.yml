@@ -1,0 +1,11 @@
+name: work_order_kanban
+analytics_dashboard: 6853cdde02730606241f2dae
+desktop: true
+icon: kanban
+is_use_iframe: true
+label: 工单看板
+mobile: true
+permissions: []
+type: url
+url: >-
+  /analytics/embed/dashboard/6853cdde02730606241f2dae%23titled=false&bordered=false

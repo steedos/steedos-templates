@@ -1,0 +1,9 @@
+name: staff
+amis:
+  id: 'u:50e0a243f195'
+filters: []
+group: 处理信息
+is_name: true
+label: 服务人员
+sort_no: 200
+type: text

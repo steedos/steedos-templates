@@ -1,0 +1,10 @@
+name: problem_description
+amis:
+  id: 'u:ff0724374d3b'
+group: 工单信息
+is_wide: true
+label: 问题描述
+rows: 3
+sort_no: 350
+type: textarea
+visible_on: '0'

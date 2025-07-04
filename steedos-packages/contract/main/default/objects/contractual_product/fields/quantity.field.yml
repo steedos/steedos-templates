@@ -1,0 +1,9 @@
+name: quantity
+amis:
+  id: 'u:1c273540c1dd'
+group: 通用
+label: 数量
+precision: 18
+scale: 0
+sort_no: 200
+type: number

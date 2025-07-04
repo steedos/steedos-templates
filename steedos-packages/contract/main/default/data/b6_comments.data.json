@@ -1,0 +1,78 @@
+[
+
+    {
+        "_id": "${space_id}_cm_2KVrjaIdbPmmFmi9XcdFE",
+        "createdAt": "2025-06-18T06:23:34.899Z",
+        "id": "${space_id}_cm_2KVrjaIdbPmmFmi9XcdFE",
+        "reactions": [],
+        "roomId": "objects:contract:{${space_id}_68524f6c78d86e062463a723}",
+        "threadId": "${space_id}_th_p6iggeiPmVR-TqLPx7_s3",
+        "userId": "${space_owner_id}",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "客户对项目管理费用有异议，需售前跟进"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "${space_id}"
+    },
+    {
+        "_id": "${space_id}_cm_r832vE1B2nrdvwXaT58Dh",
+        "createdAt": "2025-06-18T06:24:03.016Z",
+        "id": "${space_id}_cm_r832vE1B2nrdvwXaT58Dh",
+        "reactions": [],
+        "roomId": "objects:contract:{${space_id}_68524f6c78d86e062463a723}",
+        "threadId": "${space_id}_th_p6iggeiPmVR-TqLPx7_s3",
+        "userId": "${space_owner_id}",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "已请项目部出具具体费用构成"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "${space_id}"
+    },
+    {
+        "_id": "${space_id}_cm_9qg8XzfP70NJkisRanopZ",
+        "createdAt": "2025-06-18T09:35:27.542Z",
+        "id": "${space_id}_cm_9qg8XzfP70NJkisRanopZ",
+        "reactions": [],
+        "roomId": "objects:contract:{${space_id}_6732ce7ac1e74506a3383f97}",
+        "threadId": "${space_id}_th_UlFZR2b6qE6LdK2NVPsc_",
+        "userId": "${space_owner_id}",
+        "type": "comment",
+        "attachmentIds": [],
+        "body": {
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "2台服务器验收未通过，需信息部跟进"
+                        }
+                    ]
+                }
+            ]
+        },
+        "space": "${space_id}"
+    }
+]

@@ -1,0 +1,8 @@
+name: object_work_order_satisfaction_level
+desktop: true
+icon: action_list_component
+label: 服务满意度
+mobile: true
+object: work_order_satisfaction_level
+permissions: []
+type: object

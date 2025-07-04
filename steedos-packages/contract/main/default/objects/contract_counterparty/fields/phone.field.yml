@@ -1,7 +1,8 @@
 name: phone
 amis:
   id: 'u:946f84034666'
-group: 通用
+filters: []
+group: 合同信息
 label: 联系电话
 sort_no: 200
 type: text

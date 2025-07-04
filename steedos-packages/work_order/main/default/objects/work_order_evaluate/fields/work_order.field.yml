@@ -1,0 +1,12 @@
+name: work_order
+amis:
+  id: 'u:07517cf5e6f5'
+auto_fill_mapping:
+  - from: work_order_customer
+    to: work_order_customer
+filters: []
+group: 通用
+label: 服务订单
+reference_to: work_order
+sort_no: 350
+type: master_detail

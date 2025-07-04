@@ -1,0 +1,50 @@
+name: 工单数量趋势
+created_at: 2025-06-19T09:35:01.075Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: work_order
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - work_order.created
+        - temporal-unit: month
+display: bar
+enable_embedding: false
+entity_id: 6853d9c502730606241f2dc5
+id: 6853d9c502730606241f2dc5
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: created
+    name: created
+    unit: month
+    display_name: 创建时间
+    base_type: type/Instant
+    effective_type: type/Instant
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: work_order
+    field_ref:
+      - field
+      - work_order.created
+      - temporal-unit: month
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: work_order
+updated_at: 2025-06-19T09:35:01.075Z
+visualization_settings: >-
+  {"graph.metrics":["count"],"graph.dimensions":["created"],"series_settings":{"count":{"color":"#A7D07C"}}}

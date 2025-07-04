@@ -2,9 +2,9 @@ name: created
 amis:
   id: 'u:7577df36bf2b'
 disabled: true
-group: 通用
+group: 合同信息
 label: 创建时间
 readonly: true
-sort_no: 750
+sort_no: 700
 sortable: true
 type: datetime

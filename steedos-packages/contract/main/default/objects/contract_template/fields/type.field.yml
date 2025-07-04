@@ -1,0 +1,45 @@
+name: type
+create: true
+data_type: text
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: false
+filters: []
+generated: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 模版类别
+multiple: false
+options:
+  - label: 采购合同模版
+    value: pocurement_contract
+  - label: 销售合同模版
+    value: sales_contract
+  - label: 服务合同模版
+    value: service_contract
+  - label: 工程合同模版
+    value: engineering_contract
+  - label: 劳动合同模版
+    value: employment_contract
+  - label: 技术合同模版
+    value: technology_contract
+  - label: 咨询合同模版
+    value: consulting_contract
+  - label: 租赁合同模版
+    value: lease_contract
+  - label: 经销/代理合同模版
+    value: agency_contract
+  - label: 保密协议模版
+    value: nda
+primary: false
+readonly: false
+required: false
+searchable: false
+show_as_qr: false
+sort_no: 100
+static: false
+type: select
+unique: false
+write_requires_master_read: false

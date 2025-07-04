@@ -1,88 +1,265 @@
 [
     {
-      "_id": "${space_id}_6732cc2dc1e74506a3383f7c",
-      "company_id": "6732c9cac1e74506a3383f78",
-      "company_ids": [
-        "6732c9cac1e74506a3383f78"
-      ],
-      "locked": false,
-      "owner": "6732c9c5c1e74506a3383f76",
-      "name": "企业管理系统开发服务合同",
-      "contract_counterparty": "${space_id}_6732ca4bc1e74506a3383f79",
-      "cash_flow_type": "receive",
-      "start_date":{
-        "$date": "2024-05-01T00:00:00.000Z"
+        "_id": "${space_id}_6732cc2dc1e74506a3383f7c",
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "locked": false,
+        "owner": "${space_owner_id}",
+        "name": "企业管理系统开发服务合同",
+        "contract_counterparty": "${space_id}_6732cad3c1e74506a3383f7a",
+        "cash_flow_type": "receive",
+        "start_date": {
+            "$date": "2024-05-01T00:00:00Z"
         },
-      "end_date":{
-        "$date":  "2024-11-30T00:00:00.000Z"
+        "end_date": {
+            "$date": "2025-06-21T00:00:00Z"
         },
-      "signing_method": "electronic",
-      "implementation": "v1",
-      "amount": 500000,
-      "signing_date": {
-        "$date":  "2024-05-09T00:00:00.000Z"
+        "signing_method": "electronic",
+        "implementation": "end",
+        "amount": 500000,
+        "signing_date": {
+            "$date": "2024-05-09T00:00:00Z"
         },
-      "space": "6732c9cac1e74506a3383f78",
-      "created": {
-        "$date":  "2024-11-12T03:31:57.894Z"
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-05-13T02:35:25.699Z"
         },
-      "modified": {
-        "$date":  "2024-11-12T03:39:04.269Z"
+        "modified": {
+            "$date": "2025-06-18T07:53:14.679Z"
         },
-      "created_by": "6732c9c5c1e74506a3383f76",
-      "modified_by": "6732c9c5c1e74506a3383f76",
-      "need_invoice_amount": "150000",
-      "need_pay_amount": "0",
-      "need_receive_amount": "150000",
-      "need_ticket_received_amount": "0",
-      "no": "HT_241112-001\n\n",
-      "invoice_amount": 350000,
-      "pay_amount": 0,
-      "receive_amount": 350000,
-      "ticket_received_amount": 0,
-      "type": "standard"
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "need_invoice_amount": 150000,
+        "need_pay_amount": 500000,
+        "need_receive_amount": 150000,
+        "need_ticket_received_amount": 500000,
+        "no": "HT_241112-001\n\n",
+        "invoice_amount": 350000,
+        "pay_amount": 0,
+        "receive_amount": 350000,
+        "ticket_received_amount": 0,
+        "type": "technology_contract",
+        "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
+        "signing_status": "signed",
+        "dep": "${space_id}_dykpNtwmMvpHdGCN3"
     },
     {
-      "_id": "${space_id}_6732ce7ac1e74506a3383f97",
-      "company_id": "6732c9cac1e74506a3383f78",
-      "company_ids": [
-        "6732c9cac1e74506a3383f78"
-      ],
-      "locked": false,
-      "owner": "6732c9c5c1e74506a3383f76",
-      "name": "数据中心服务器采购合同",
-      "contract_counterparty": "${space_id}_6732cad3c1e74506a3383f7a",
-      "cash_flow_type": "pay",
-      "start_date": {
-        "$date": "2024-11-01T00:00:00.000Z"
+        "_id": "${space_id}_6732ce7ac1e74506a3383f97",
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "locked": false,
+        "owner": "${space_owner_id}",
+        "name": "数据中心服务器采购合同",
+        "contract_counterparty": "${space_id}_6732ca4bc1e74506a3383f79",
+        "cash_flow_type": "pay",
+        "start_date": {
+            "$date": "2024-11-01T00:00:00Z"
         },
-      "amount": 98000,
-      "implementation": "v4",
-      "signing_date": {
-        "$date": "2024-11-06T00:00:00.000Z"
+        "amount": 98000,
+        "implementation": "execute",
+        "signing_date": {
+            "$date": "2024-11-06T00:00:00Z"
         },
-      "signing_method": "face",
-      "space": "6732c9cac1e74506a3383f78",
-      "created": {
-        "$date": "2024-11-12T03:41:46.922Z"
+        "signing_method": "face",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-05-13T02:35:25.699Z"
         },
-      "modified": {
-        "$date": "2024-11-13T03:22:42.366Z"
+        "modified": {
+            "$date": "2025-06-11T02:52:28.762Z"
         },
-      "created_by": "6732c9c5c1e74506a3383f76",
-      "modified_by": "6732c9c5c1e74506a3383f76",
-      "need_invoice_amount": "0",
-      "need_pay_amount": "49000",
-      "need_receive_amount": "0",
-      "need_ticket_received_amount": "49000",
-      "no": "HT_241112-002\n\n",
-      "invoice_amount": 0,
-      "pay_amount": 49000,
-      "receive_amount": 0,
-      "ticket_received_amount": 49000,
-      "end_date": {
-        "$date": "2025-10-31T00:00:00.000Z"
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "need_invoice_amount": 98000,
+        "need_pay_amount": 49000,
+        "need_receive_amount": 98000,
+        "need_ticket_received_amount": 49000,
+        "no": "HT_241112-002\n\n",
+        "invoice_amount": 0,
+        "pay_amount": 49000,
+        "receive_amount": 0,
+        "ticket_received_amount": 49000,
+        "end_date": {
+            "$date": "2025-05-27T00:00:00Z"
         },
-      "type": "standard"
+        "type": "pocurement_contract",
+        "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
+        "signing_status": "signed",
+        "dep": "${space_id}_fwozpNYKxP86maExN"
+    },
+    {
+        "_id": "${space_id}_684fd933c5288b06246950c4",
+        "signing_status": "signed",
+        "implementation": "end",
+        "owner": "${space_owner_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "company_id": "${space_id}",
+        "locked": false,
+        "name": "2025年第一季度办公用品，打印纸费用",
+        "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
+        "contract_counterparty": "${space_id}_684fd8a1c5288b06246950c3",
+        "cash_flow_type": "pay",
+        "amount": 9575,
+        "start_date": {
+            "$date": "2025-04-08T00:00:00Z"
+        },
+        "end_date": {
+            "$date": "2025-06-30T00:00:00Z"
+        },
+        "dep": "${space_id}_aQZRY5qEzZN9GuSku",
+        "type": "pocurement_contract",
+        "signing_date": {
+            "$date": "2025-05-07T00:00:00Z"
+        },
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-16T08:43:31.04Z"
+        },
+        "modified": {
+            "$date": "2025-06-16T08:44:01.634Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "need_receive_amount": 9575,
+        "need_invoice_amount": 9575,
+        "need_ticket_received_amount": 9575,
+        "need_pay_amount": 9575,
+        "no": "HT_250616-001\n\n",
+        "invoice_amount": 0,
+        "pay_amount": 0,
+        "receive_amount": 0,
+        "ticket_received_amount": 0
+    },
+    {
+        "_id": "${space_id}_6852315d78d86e062463a71f",
+        "signing_status": "pending",
+        "implementation": "unexecuted",
+        "owner": "${space_owner_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "company_id": "${space_id}",
+        "locked": false,
+        "name": "弱电系统维护服务合同",
+        "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
+        "contract_counterparty": "${space_id}_6852248b78d86e062463a71e",
+        "cash_flow_type": "pay",
+        "amount": 15600,
+        "dep": "${space_id}_dykpNtwmMvpHdGCN3",
+        "type": "service_contract",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T03:24:13.057Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T09:52:40.428Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "need_ticket_received_amount": 15600,
+        "need_pay_amount": 15600,
+        "need_invoice_amount": 15600,
+        "need_receive_amount": 15600,
+        "no": "HT_250618-002\n\n",
+        "invoice_amount": 0,
+        "pay_amount": 0,
+        "receive_amount": 0,
+        "ticket_received_amount": 0
+    },
+    {
+        "_id": "${space_id}_68524f6c78d86e062463a723",
+        "signing_status": "signed",
+        "implementation": "execute",
+        "owner": "${space_owner_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "company_id": "${space_id}",
+        "locked": false,
+        "name": "业财一体化1.0项目开发、实施合同",
+        "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
+        "contract_counterparty": "${space_id}_68524f1178d86e062463a722",
+        "cash_flow_type": "receive",
+        "amount": 1580000,
+        "dep": "${space_id}_6jJafbSSHxnCuvhEM",
+        "type": "sales_contract",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T05:32:28.162Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T07:19:26.556Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "need_ticket_received_amount": 1580000,
+        "need_pay_amount": 1580000,
+        "need_invoice_amount": 1580000,
+        "need_receive_amount": 1580000,
+        "no": "HT_250618-003\n\n",
+        "invoice_amount": 0,
+        "pay_amount": 0,
+        "receive_amount": 0,
+        "ticket_received_amount": 0,
+        "end_date": {
+            "$date": "2025-12-31T00:00:00Z"
+        },
+        "start_date": {
+            "$date": "2025-06-01T00:00:00Z"
+        },
+        "signing_date": {
+            "$date": "2025-06-01T00:00:00Z"
+        }
+    },
+    {
+        "_id": "${space_id}_68528988e47a070624c1813a",
+        "signing_status": "signed",
+        "implementation": "execute",
+        "owner": "${space_owner_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "company_id": "${space_id}",
+        "locked": false,
+        "name": "采购计算机网络设备TP5620路由器",
+        "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
+        "contract_counterparty": "${space_id}_68528921e47a070624c18139",
+        "cash_flow_type": "pay",
+        "amount": 165,
+        "start_date": {
+            "$date": "2025-06-18T00:00:00Z"
+        },
+        "end_date": {
+            "$date": "2025-06-30T00:00:00Z"
+        },
+        "dep": "${space_id}_F4LNEu9GrKcgPEWGD",
+        "signing_date": {
+            "$date": "2025-06-03T00:00:00Z"
+        },
+        "type": "pocurement_contract",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T09:40:24.196Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T09:41:19.875Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "need_receive_amount": 165,
+        "need_invoice_amount": 165,
+        "need_ticket_received_amount": 165,
+        "need_pay_amount": 165,
+        "no": "HT_250618-004\n\n",
+        "invoice_amount": 0,
+        "pay_amount": 0,
+        "receive_amount": 0,
+        "ticket_received_amount": 0
     }
-  ]
+]

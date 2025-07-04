@@ -1,0 +1,32 @@
+name: listview_7jjextpxtk94hwn6c
+columns:
+  - field: name
+  - field: type
+  - field: template
+  - field: description
+  - field: created_by
+crud_mode: table
+enable_amis_schema: false
+filter_scope: space
+filters:
+  - - status
+    - '='
+    - enable
+from_code_id: contract_template.all
+is_enable: true
+label: 启用中模版
+locked: false
+mobile_columns:
+  - field: name
+  - field: template
+scrolling_mode: standard
+searchable_fields:
+  - field: name
+  - field: description
+shared_to: space
+show_count: false
+sort:
+  - field_name: created
+    order: desc
+sort_no: 90
+type: grid

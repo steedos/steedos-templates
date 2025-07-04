@@ -1,0 +1,50 @@
+name: 本月新增付款合同数量
+created_at: 2025-06-18T09:00:13.315Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  query:
+    source-table: contract
+    aggregation:
+      - - count
+    filter:
+      - and
+      - - time-interval
+        - - field
+          - contract.signing_date
+          - null
+        - current
+        - month
+      - - '='
+        - - field
+          - contract.cash_flow_type
+          - null
+        - pay
+      - - '='
+        - - field
+          - contract.signing_status
+          - null
+        - signed
+        - archived
+  type: query
+  database: 1
+display: scalar
+enable_embedding: false
+entity_id: 6852801d581b330623d82697
+id: 6852801d581b330623d82697
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: contract
+updated_at: 2025-06-18T09:00:13.315Z
+visualization_settings: '{"table.cell_column":"count"}'

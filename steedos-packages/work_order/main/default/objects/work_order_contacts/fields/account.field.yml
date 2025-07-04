@@ -1,0 +1,14 @@
+name: account
+amis:
+  id: 'u:7ecc5842e217'
+description: ''
+enable_thousands: true
+filterable: true
+group: 通用
+inlineHelpText: 联系人所链接的客户。输入客户名称、从列表中选择客户或创建客户。
+label: 客户
+reference_to: work_order_customer
+required: true
+sort_no: 150
+sortable: true
+type: master_detail

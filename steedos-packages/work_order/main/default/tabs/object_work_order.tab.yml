@@ -1,0 +1,8 @@
+name: object_work_order
+desktop: true
+icon: asset_action_source
+label: 客服工单
+mobile: true
+object: work_order
+permissions: []
+type: object

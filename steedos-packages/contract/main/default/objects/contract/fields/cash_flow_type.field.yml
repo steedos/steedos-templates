@@ -16,7 +16,7 @@ omit: false
 options:
   - label: 收款
     value: receive
-    color: 49d181
+    color: '#68b80c'
   - label: 付款
     value: pay
     color: E99695

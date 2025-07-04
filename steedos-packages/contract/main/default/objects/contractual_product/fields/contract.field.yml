@@ -1,0 +1,8 @@
+name: contract
+amis:
+  id: 'u:d14f02767360'
+group: 通用
+label: 合同
+reference_to: contract
+sort_no: 400
+type: master_detail

@@ -1,0 +1,27 @@
+name: content
+amis:
+  id: 'u:44a06fde5d1e'
+create: true
+enable_enhanced_lookup: true
+enable_thousands: true
+filterable: false
+generated: false
+group: 通用
+hidden: false
+index: false
+is_name: false
+is_wide: true
+label: 服务内容及要求
+multiple: false
+primary: false
+readonly: false
+required: false
+rows: 2
+searchable: false
+show_as_qr: false
+sort_no: 150
+sortable: true
+static: false
+type: textarea
+unique: false
+write_requires_master_read: false

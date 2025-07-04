@@ -1,0 +1,9 @@
+name: notes
+amis:
+  id: 'u:8b51acb50480'
+group: 工单信息
+is_wide: true
+label: 备注
+rows: 3
+sort_no: 650
+type: textarea

@@ -1,0 +1,23 @@
+name: state
+amis:
+  id: 'u:777dc4942a59'
+group: 工单信息
+label: 工单状态
+options:
+  - label: 待分配
+    value: new
+    description: 工单刚刚创建，尚未开始处理
+  - label: 处理中
+    value: in_progress
+    description: 工单正在被客服人员或团队处理
+  - label: 已解决
+    value: resolved
+    description: 工单的问题已得到解决，但尚未得到客户的确认
+  - label: 已关闭
+    value: closed
+    description: 工单处理完成，并且已经得到客户的确认或工单不再需要进一步追踪
+  - label: 已取消
+    value: cancelled
+    description: 工单被取消，可能是因为误报或客户撤回请求
+sort_no: 500
+type: select

@@ -1,0 +1,10 @@
+name: mobile
+amis:
+  id: 'u:0d75a4ab2b69'
+description: ''
+enable_thousands: true
+group: 联系信息
+inlineHelpText: ''
+label: 电话
+sort_no: 600
+type: text

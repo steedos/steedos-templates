@@ -1,0 +1,13 @@
+name: work_order_customer
+is_active: true
+label: 工单客户详情页
+locked: false
+object_name: work_order_customer
+pageAssignments:
+  - type: orgDefault
+    page: work_order_customer
+    desktop: true
+    mobile: true
+render_engine: amis
+type: record
+widgets: []

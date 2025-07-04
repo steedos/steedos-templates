@@ -1,0 +1,48 @@
+name: 合同执行状态分布
+created_at: 2025-06-20T06:20:38.038Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: contract
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - contract.implementation
+        - null
+display: pie
+entity_id: 6854fdb6b77d890624986276
+id: 6854fdb6b77d890624986276
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: implementation
+    name: implementation
+    unit: null
+    display_name: 执行情况
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: null
+    source: breakout
+    visibility_type: normal
+    table_id: contract
+    field_ref:
+      - field
+      - contract.implementation
+      - null
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: contract
+updated_at: 2025-06-20T06:20:38.038Z
+visualization_settings: '{}'

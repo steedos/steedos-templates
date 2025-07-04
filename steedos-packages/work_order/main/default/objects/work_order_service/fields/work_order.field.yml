@@ -1,0 +1,8 @@
+name: work_order
+amis:
+  id: 'u:a63796607c80'
+group: 通用
+label: 服务工单
+reference_to: work_order
+sort_no: 200
+type: master_detail

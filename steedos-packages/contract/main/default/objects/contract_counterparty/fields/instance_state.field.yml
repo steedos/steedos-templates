@@ -2,7 +2,7 @@ name: instance_state
 amis:
   id: 'u:30ee958c5f65'
 description: ''
-group: 通用
+group: 合同信息
 inlineHelpText: ''
 label: 申请单审批状态
 options:

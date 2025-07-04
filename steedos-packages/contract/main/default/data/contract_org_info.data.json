@@ -1,22 +1,24 @@
 [
-  {
-    "_id": "${space_id}_6732cb36c1e74506a3383f7b",
-    "company_id": "6732c9cac1e74506a3383f78",
-    "company_ids": [
-      "6732c9cac1e74506a3383f78"
-    ],
-    "locked": false,
-    "owner": "6732c9c5c1e74506a3383f76",
-    "name": "华信科技有限公司",
-    "tax_id": "123456789012345",
-    "bank": "中国银行北京分行",
-    "account": "1234567890123456789",
-    "space": "6732c9cac1e74506a3383f78",
-    "created": {
-      "$date": "2024-11-12T03:27:50.337Z"},
-    "modified": {
-      "$date": "2024-11-12T03:27:50.337Z"},
-    "created_by": "6732c9c5c1e74506a3383f76",
-    "modified_by": "6732c9c5c1e74506a3383f76"
-  }
+    {
+        "_id": "${space_id}_6732cb36c1e74506a3383f7b",
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "locked": false,
+        "owner": "${space_owner_id}",
+        "name": "华信科技有限公司",
+        "tax_id": "123456789012345",
+        "bank": "中国银行北京分行",
+        "account": "1234567890123456789",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-05-13T02:35:25.699Z"
+        },
+        "modified": {
+            "$date": "2025-05-13T02:35:25.699Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    }
 ]

@@ -1,0 +1,14 @@
+name: created
+amis:
+  id: 'u:d2d8d816bfa0'
+description: ''
+disabled: true
+enable_thousands: true
+group: 系统信息
+index: true
+inlineHelpText: ''
+label: 创建时间
+readonly: true
+sort_no: 800
+sortable: true
+type: datetime

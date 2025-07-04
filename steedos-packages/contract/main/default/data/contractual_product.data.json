@@ -1,0 +1,187 @@
+[
+    {
+        "_id": "${space_id}_6852576378d86e062463a734",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "contract": "${space_id}_68524f6c78d86e062463a723",
+        "name": "低代码开发平台",
+        "code": "CP-001",
+        "quantity": 1,
+        "unit_price": 100000,
+        "fpbuez": "${space_id}_62610e0732cc250032e1a996",
+        "displayAs": null,
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T06:06:27.792Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T06:18:51.896Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "f3alzm": "1*98000",
+        "price": 100000
+    },
+    {
+        "_id": "${space_id}_685257bb78d86e062463a735",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "contract": "${space_id}_68524f6c78d86e062463a723",
+        "name": "项目开发费用",
+        "code": "FW-001",
+        "quantity": 300,
+        "unit_price": 2500,
+        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
+        "displayAs": null,
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T06:07:55.99Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T06:14:56.447Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "f3alzm": "300*2500",
+        "price": 750000
+    },
+    {
+        "_id": "${space_id}_685257f478d86e062463a736",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "contract": "${space_id}_68524f6c78d86e062463a723",
+        "name": "项目实施费用",
+        "code": "FW-002",
+        "quantity": 250,
+        "unit_price": 2500,
+        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
+        "displayAs": null,
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T06:08:52.712Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T06:14:46.243Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "f3alzm": "250*2500",
+        "price": 625000
+    },
+    {
+        "_id": "${space_id}_6852598378d86e062463a738",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "contract": "${space_id}_68524f6c78d86e062463a723",
+        "name": "项目管理费用",
+        "code": "FW-003",
+        "quantity": 42,
+        "unit_price": 2500,
+        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
+        "displayAs": null,
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T06:15:31.982Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T06:18:20.168Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "price": 105000
+    },
+    {
+        "_id": "${space_id}_68525ad778d86e062463a739",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "contract": "${space_id}_6852315d78d86e062463a71f",
+        "name": "弱点维护",
+        "code": "FW-004",
+        "quantity": 12,
+        "unit_price": 1300,
+        "fpbuez": "${space_id}_62610e0732cc250032e1a998",
+        "displayAs": null,
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T06:21:11.833Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T06:21:11.833Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "price": 15600
+    },
+    {
+        "_id": "${space_id}_68525b1d78d86e062463a73a",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "contract": "${space_id}_6732ce7ac1e74506a3383f97",
+        "name": "服务器",
+        "code": "CP-010",
+        "quantity": 5,
+        "unit_price": 19600,
+        "fpbuez": "${space_id}_62610e0732cc250032e1a996",
+        "displayAs": null,
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T06:22:21.265Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T06:22:21.265Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "price": 98000
+    },
+    {
+        "_id": "${space_id}_68528a11e47a070624c1813e",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "contract": "${space_id}_68528988e47a070624c1813a",
+        "name": "TP5620路由器",
+        "code": "CP-012",
+        "quantity": 1,
+        "unit_price": 165,
+        "fpbuez": "${space_id}_62610e0c32cc250032e1a9a4",
+        "displayAs": null,
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T09:42:41.597Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T09:42:41.597Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "price": 165
+    }
+]

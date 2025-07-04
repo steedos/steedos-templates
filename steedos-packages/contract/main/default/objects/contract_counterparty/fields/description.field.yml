@@ -1,5 +1,9 @@
 name: description
-label: 备注
-type: textarea
-sort_no: 999
+amis:
+  id: 'u:edb778d64c70'
+group: 合同信息
 is_wide: true
+label: 备注
+rows: 3
+sort_no: 900
+type: textarea

@@ -31,7 +31,6 @@ defaultValueVariables:
             value: 'global[''user''][''spaceUserId'']'
           - label: 是否是工作区管理员
             value: 'global[''user''][''is_space_admin'']'
-description: 查看合同看板，管理合同及其收付款，发起和处理合同相关流程。
 icon_slds: customer_portal_users
 is_creator: true
 is_new_window: false
@@ -41,70 +40,33 @@ mobile: true
 showSidebar: true
 sort: 25
 tab_groups:
-  - group_name: 合同台账
+  - group_name: 合同信息
     default_open: true
-    id: 合同台账
-  - group_name: 合同款项
+  - group_name: 相关信息
     default_open: true
-    id: 合同款项
-  - group_name: 合同发票
-    default_open: true
-    id: 合同发票
-  - group_name: 公司信息
-    default_open: true
-    id: 公司信息
 tab_items:
   contract_kanban:
-    group: ''
+    group: 合同信息
     index: 1
-  contract_framework_description:
-    index: 2
   object_contract:
-    group: 合同台账
-    index: 3
+    group: 合同信息
+    index: 2
   contract_tasks:
-    group: 合同台账
-    index: 4
+    group: 合同信息
+    index: 3
   object_contract_template:
-    group: 合同台账
-    index: 5
-  object_contract_return_payment_plan:
-    group: 合同款项
-    index: 6
-  object_contract_return:
-    group: 合同款项
-    index: 7
-  object_contract_payment:
-    group: 合同款项
-    index: 8
-  object_contract_invoice_plan:
-    group: 合同发票
-    index: 9
-  object_contract_invoicing:
-    group: 合同发票
-    index: 10
-  object_contract_invoice:
-    group: 合同发票
-    index: 11
-  object_contract_org_info:
-    group: 公司信息
-    index: 12
+    group: 相关信息
+    index: 4
   object_contract_counterparty:
-    group: 公司信息
-    index: 13
+    group: 相关信息
+    index: 5
+  object_contractual_product:
+    group: 相关信息
 tabs:
   - contract_kanban
-  - contract_framework_description
   - object_contract
   - contract_tasks
   - object_contract_template
-  - object_contract_return_payment_plan
-  - object_contract_return
-  - object_contract_payment
-  - object_contract_invoice_plan
-  - object_contract_invoicing
-  - object_contract_invoice
-  - object_contract_org_info
   - object_contract_counterparty
 visible: true
 visibleOnVariables:

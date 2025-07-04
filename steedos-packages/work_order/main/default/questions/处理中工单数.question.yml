@@ -1,0 +1,36 @@
+name: 处理中工单数
+created_at: 2025-06-19T08:46:45.220Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: work_order
+    aggregation:
+      - - count
+    filter:
+      - '='
+      - - field
+        - work_order.state
+        - null
+      - in_progress
+display: scalar
+entity_id: 6853ce7502730606241f2db2
+id: 6853ce7502730606241f2db2
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+table_id: work_order
+updated_at: 2025-06-19T08:46:45.220Z
+visualization_settings: '{}'

@@ -1,7 +1,8 @@
 name: tax_id
 amis:
   id: 'u:a368afd8efb2'
-group: 通用
-label: 税号
-sort_no: 350
+filters: []
+group: 合同信息
+label: 统一社会信用代码
+sort_no: 250
 type: text

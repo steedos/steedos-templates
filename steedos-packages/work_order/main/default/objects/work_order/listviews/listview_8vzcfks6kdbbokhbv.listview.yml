@@ -1,0 +1,37 @@
+name: listview_8vzcfks6kdbbokhbv
+columns:
+  - field: 'no'
+  - field: name
+  - field: created
+  - field: work_order_customer
+  - field: work_order_contacts
+  - field: mobile
+  - field: priority
+crud_mode: table
+enable_amis_schema: false
+filter_scope: space
+filters:
+  - - state
+    - '='
+    - in_progress
+  - and
+  - - priority
+    - '='
+    - high
+is_enable: true
+label: 优先处理工单
+locked: false
+mobile_columns:
+  - field: name
+  - field: work_order_customer
+  - field: work_order_contacts
+  - field: state
+scrolling_mode: standard
+searchable_fields: []
+shared_to: space
+show_count: false
+sort:
+  - field_name: created
+    order: desc
+sort_no: 10
+type: grid

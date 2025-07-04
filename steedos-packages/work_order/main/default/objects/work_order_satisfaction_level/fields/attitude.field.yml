@@ -1,0 +1,14 @@
+name: attitude
+amis:
+  id: 'u:90accf13a79f'
+  type: button-group-select
+data_type: text
+group: 回访内容
+label: 服务效率
+options:
+  - label: 满意
+    value: satisfied
+  - label: 不满意
+    value: dissatisfied
+sort_no: 300
+type: select

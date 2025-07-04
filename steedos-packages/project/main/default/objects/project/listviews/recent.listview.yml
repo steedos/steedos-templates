@@ -1,0 +1,47 @@
+name: recent
+columns:
+  - field: name
+    wrap: false
+  - field: project_code
+  - field: project_manager
+    width: '100'
+    wrap: false
+  - field: priority
+  - field: status
+    width: '100'
+    wrap: false
+  - field: deadline
+    width: '150'
+    wrap: false
+  - field: created
+    wrap: false
+filter_fields:
+  - internal
+  - contract
+  - status
+  - project_manager
+  - deadline
+filter_scope: space
+filters: []
+is_enable: true
+label: 最近查看
+mobile_columns:
+  - field: name
+  - field: project_type
+  - field: status
+  - field: project_manager
+scrolling_mode: standard
+searchable_fields:
+  - field: name
+  - field: project_code
+  - field: project_type
+  - field: status
+  - field: project_manager
+  - field: kickoff
+  - field: deadline
+  - field: others
+shared_to: space
+sort:
+  - field_name: created
+    order: desc
+type: grid

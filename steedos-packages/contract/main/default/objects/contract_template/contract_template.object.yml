@@ -4,10 +4,10 @@ enable_api: true
 enable_dataloader: true
 enable_enhanced_lookup: true
 enable_events: false
-enable_files: false
+enable_files: true
 enable_inline_edit: true
 enable_instances: false
-enable_notes: false
+enable_notes: true
 enable_share: false
 enable_split: false
 enable_tasks: false
@@ -19,5 +19,5 @@ field_groups:
 icon: contract_line_item
 is_enable: true
 is_system: true
-label: 模版库
+label: 合同模版库
 version: 2

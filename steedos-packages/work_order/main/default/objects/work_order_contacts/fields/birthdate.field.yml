@@ -1,0 +1,10 @@
+name: birthdate
+amis:
+  id: 'u:1cd60d9bda54'
+description: ''
+enable_thousands: true
+group: 联系信息
+inlineHelpText: ''
+label: 生日
+sort_no: 700
+type: date

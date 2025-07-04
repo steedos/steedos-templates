@@ -1,0 +1,15 @@
+name: work_order_customer
+amis:
+  id: 'u:94e247f85d32'
+create: true
+filterable: true
+filters:
+  - - status
+    - '='
+    - enable
+group: 工单信息
+label: 所属客户
+reference_to: work_order_customer
+searchable: true
+sort_no: 150
+type: lookup

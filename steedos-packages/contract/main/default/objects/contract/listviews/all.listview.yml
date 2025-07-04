@@ -1,15 +1,13 @@
 name: all
 columns:
-  - field: name
   - field: 'no'
+  - field: name
   - field: contract_counterparty
   - field: implementation
   - field: cash_flow_type
   - field: amount
   - field: start_date
   - field: end_date
-  - field: need_receive_amount
-  - field: need_pay_amount
   - field: type
   - field: owner
 crud_mode: table
@@ -19,8 +17,8 @@ from_code_id: contract.all
 is_enable: true
 label: 所有合同
 mobile_columns:
-  - field: name
   - field: 'no'
+  - field: name
   - field: implementation
   - field: cash_flow_type
   - field: contract_counterparty

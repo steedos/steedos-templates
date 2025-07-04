@@ -1,13 +1,13 @@
 [
   {
     "_id": "${space_id}_Rta98QDNz3eLdbYrn",
-    "state": "not_started",
+    "state": "completed",
     "priority": "normal",
-    "owner": "6732c9c5c1e74506a3383f76",
+    "owner": "${space_owner_id}",
     "locked": false,
-    "company_id": "6732c9cac1e74506a3383f78",
+    "company_id": "${space_id}",
     "company_ids": [
-      "6732c9cac1e74506a3383f78"
+      "${space_id}"
     ],
     "related_to": {
       "o": "contract_counterparty",
@@ -17,17 +17,30 @@
     },
     "name": "新合同立项跟进",
     "due_date": {
-        "$date":  "2024-11-20T00:00:00.000Z"}
+      "$date": "2024-11-20T00:00:00Z"
+    },
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-05-13T02:35:25.699Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified": {
+      "$date": "2025-06-18T08:46:35.68Z"
+    },
+    "modified_by": "${space_owner_id}",
+    "assignees": [
+      "${space_owner_id}"
+    ]
   },
   {
     "_id": "${space_id}_e7deKKERrhYhG3bPQ",
-    "state": "not_started",
+    "state": "completed",
     "priority": "normal",
-    "owner": "6732c9c5c1e74506a3383f76",
+    "owner": "${space_owner_id}",
     "locked": false,
-    "company_id": "6732c9cac1e74506a3383f78",
+    "company_id": "${space_id}",
     "company_ids": [
-      "6732c9cac1e74506a3383f78"
+      "${space_id}"
     ],
     "related_to": {
       "o": "contract",
@@ -37,6 +50,257 @@
     },
     "name": "合同催款",
     "due_date": {
-        "$date":  "2024-11-07T00:00:00.000Z"}
+      "$date": "2024-11-07T00:00:00Z"
+    },
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-05-13T02:35:25.699Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified": {
+      "$date": "2025-06-18T08:46:56.622Z"
+    },
+    "modified_by": "${space_owner_id}",
+    "assignees": [
+      "${space_owner_id}"
+    ]
+  },
+  {
+    "_id": "${space_id}_d6gJsDAWhqjE5EGDH",
+    "assignees": [
+      "${space_owner_id}"
+    ],
+    "state": "in_progress",
+    "priority": "normal",
+    "owner": "${space_owner_id}",
+    "locked": false,
+    "company_id": "${space_id}",
+    "company_ids": [
+      "${space_id}"
+    ],
+    "related_to": {
+      "o": "contract",
+      "ids": [
+        "${space_id}_6732ce7ac1e74506a3383f97"
+      ]
+    },
+    "name": "验收材料准备",
+    "due_date": {
+      "$date": "2025-05-27T00:00:00Z"
+    },
+    "displayAs": null,
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-05-23T08:03:35.25Z"
+    },
+    "modified": {
+      "$date": "2025-05-26T03:07:52.504Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified_by": "${space_owner_id}"
+  },
+  {
+    "_id": "${space_id}_EsMgrAJNsctjpwkRL",
+    "assignees": [
+      "${space_owner_id}"
+    ],
+    "state": "in_progress",
+    "priority": "low",
+    "owner": "${space_owner_id}",
+    "locked": false,
+    "company_id": "${space_id}",
+    "company_ids": [
+      "${space_id}"
+    ],
+    "related_to": {
+      "o": "contract",
+      "ids": [
+        "${space_id}_6732ce7ac1e74506a3383f97"
+      ]
+    },
+    "name": "采购款部分支付",
+    "due_date": {
+      "$date": "2025-05-27T00:00:00Z"
+    },
+    "displayAs": null,
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-05-26T03:08:29.288Z"
+    },
+    "modified": {
+      "$date": "2025-06-18T09:33:57.095Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified_by": "${space_owner_id}"
+  },
+  {
+    "_id": "${space_id}_qoEa66ui7krFhHML5",
+    "assignees": [
+      "${space_owner_id}"
+    ],
+    "state": "in_progress",
+    "priority": "high",
+    "owner": "${space_owner_id}",
+    "locked": false,
+    "company_id": "${space_id}",
+    "company_ids": [
+      "${space_id}"
+    ],
+    "related_to": {
+      "o": "contract",
+      "ids": [
+        "${space_id}_68524f6c78d86e062463a723"
+      ]
+    },
+    "name": "合同签署跟进",
+    "due_date": {
+      "$date": "2025-06-30T00:00:00Z"
+    },
+    "displayAs": null,
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-06-18T06:24:35.732Z"
+    },
+    "modified": {
+      "$date": "2025-06-18T06:24:35.732Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified_by": "${space_owner_id}"
+  },
+  {
+    "_id": "${space_id}_ocbtky4WxhwBdorek",
+    "assignees": [
+      "${space_owner_id}"
+    ],
+    "state": "waiting",
+    "priority": "normal",
+    "owner": "${space_owner_id}",
+    "locked": false,
+    "company_id": "${space_id}",
+    "company_ids": [
+      "${space_id}"
+    ],
+    "related_to": {
+      "o": "contract",
+      "ids": [
+        "${space_id}_6852315d78d86e062463a71f"
+      ]
+    },
+    "name": "需对每次服务进行记录和确认",
+    "due_date": {
+      "$date": "2025-12-31T00:00:00Z"
+    },
+    "displayAs": null,
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-06-18T06:26:05.71Z"
+    },
+    "modified": {
+      "$date": "2025-06-18T08:46:48.588Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified_by": "${space_owner_id}"
+  },
+  {
+    "_id": "${space_id}_KECYveouBWx9t6zxG",
+    "assignees": [
+      "${space_owner_id}"
+    ],
+    "state": "in_progress",
+    "priority": "normal",
+    "owner": "${space_owner_id}",
+    "locked": false,
+    "company_id": "${space_id}",
+    "company_ids": [
+      "${space_id}"
+    ],
+    "related_to": {
+      "o": "contract",
+      "ids": [
+        "${space_id}_6852315d78d86e062463a71f"
+      ]
+    },
+    "name": "合同付款-每3个月进行一次付款",
+    "due_date": {
+      "$date": "2025-06-30T00:00:00Z"
+    },
+    "displayAs": null,
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-06-18T06:26:44.774Z"
+    },
+    "modified": {
+      "$date": "2025-06-18T06:26:44.774Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified_by": "${space_owner_id}"
+  },
+  {
+    "_id": "${space_id}_pYnCM9yn43J3uZ7NQ",
+    "assignees": [
+      "${space_owner_id}"
+    ],
+    "state": "completed",
+    "priority": "low",
+    "owner": "${space_owner_id}",
+    "locked": false,
+    "company_id": "${space_id}",
+    "company_ids": [
+      "${space_id}"
+    ],
+    "related_to": {
+      "o": "contract",
+      "ids": [
+        "${space_id}_684fd933c5288b06246950c4"
+      ]
+    },
+    "name": "请行政部核对合同采购产品的数量",
+    "due_date": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "displayAs": null,
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-06-18T06:28:26.494Z"
+    },
+    "modified": {
+      "$date": "2025-06-18T06:28:26.494Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified_by": "${space_owner_id}"
+  },
+  {
+    "_id": "${space_id}_hqMhtaYuBQXLartJX",
+    "assignees": [
+      "${space_owner_id}"
+    ],
+    "state": "in_progress",
+    "priority": "high",
+    "owner": "${space_owner_id}",
+    "locked": false,
+    "company_id": "${space_id}",
+    "company_ids": [
+      "${space_id}"
+    ],
+    "related_to": {
+      "o": "contract",
+      "ids": [
+        "${space_id}_6732ce7ac1e74506a3383f97"
+      ]
+    },
+    "name": "服务器验收未通过，与供应商沟通",
+    "due_date": {
+      "$date": "2025-06-30T00:00:00Z"
+    },
+    "displayAs": null,
+    "space": "${space_id}",
+    "created": {
+      "$date": "2025-06-18T09:36:04.586Z"
+    },
+    "modified": {
+      "$date": "2025-06-18T09:36:27.467Z"
+    },
+    "created_by": "${space_owner_id}",
+    "modified_by": "${space_owner_id}"
   }
 ]

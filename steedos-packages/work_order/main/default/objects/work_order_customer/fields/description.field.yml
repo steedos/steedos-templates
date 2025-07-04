@@ -1,0 +1,9 @@
+name: description
+amis:
+  id: 'u:edb778d64c70'
+group: 通用
+is_wide: true
+label: 备注
+rows: 3
+sort_no: 800
+type: textarea

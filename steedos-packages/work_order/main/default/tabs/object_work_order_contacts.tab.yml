@@ -1,0 +1,8 @@
+name: object_work_order_contacts
+desktop: true
+icon: client
+label: 工单联系人
+mobile: true
+object: work_order_contacts
+permissions: []
+type: object

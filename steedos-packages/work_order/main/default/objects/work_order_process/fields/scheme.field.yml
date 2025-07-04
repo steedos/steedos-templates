@@ -1,0 +1,9 @@
+name: scheme
+amis:
+  id: 'u:b582737f80c0'
+group: 处理信息
+is_wide: true
+label: 解决方案
+rows: 2
+sort_no: 250
+type: textarea

@@ -1,0 +1,8 @@
+name: object_work_order_product
+desktop: true
+icon: procedure_detail
+label: 产品
+mobile: true
+object: work_order_product
+permissions: []
+type: object

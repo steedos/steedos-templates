@@ -1,0 +1,10 @@
+name: modified
+amis:
+  id: 'u:caecf5a50977'
+disabled: true
+group: 通用
+label: 修改时间
+readonly: true
+sort_no: 600
+sortable: true
+type: datetime

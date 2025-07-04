@@ -1,0 +1,8 @@
+name: object_work_order_service
+desktop: true
+icon: action_list_component
+label: 服务项目明细
+mobile: true
+object: work_order_service
+permissions: []
+type: object

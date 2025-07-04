@@ -1,0 +1,25 @@
+name: instance_state
+amis:
+  id: 'u:f819bce2041d'
+description: ''
+enable_thousands: true
+group: 通用
+inlineHelpText: ''
+label: Instance State
+options:
+  - label: Draft
+    value: draft
+  - label: Pending
+    value: pending
+  - label: Completed
+    value: completed
+  - label: Approved
+    value: approved
+  - label: Rejected
+    value: rejected
+  - label: Terminated
+    value: terminated
+readonly: true
+sort_no: 550
+type: select
+visible_on: '{{false}}'

@@ -1,0 +1,45 @@
+name: listview_4bqqwcosdgjztchc9
+columns:
+  - field: name
+  - field: 'no'
+  - field: contract_counterparty
+  - field: amount
+  - field: type
+  - field: dep
+  - field: owner
+crud_mode: table
+enable_amis_schema: false
+filter_scope: space
+filters:
+  - - signing_status
+    - '='
+    - pending
+from_code_id: contract.all
+is_enable: true
+label: 待签订合同
+locked: false
+mobile_columns:
+  - field: name
+  - field: 'no'
+  - field: implementation
+  - field: cash_flow_type
+  - field: contract_counterparty
+  - field: amount
+scrolling_mode: standard
+searchable_fields:
+  - field: name
+  - field: 'no'
+  - field: contract_counterparty
+  - field: cash_flow_type
+  - field: implementation
+  - field: type
+  - field: owner
+shared_to: space
+show_count: false
+sort:
+  - field_name: created
+    order: desc
+  - field_name: end_date
+    order: desc
+sort_no: 200
+type: grid

@@ -1,0 +1,70 @@
+name: 工单涉及产品
+created_at: 2025-06-19T09:09:13.437Z
+creator_id: 6822afc28fe08f06245c47d0
+database_id: 1
+dataset_query:
+  database: 1
+  type: query
+  query:
+    source-table: work_order_service
+    aggregation:
+      - - count
+    breakout:
+      - - field
+        - work_order_service.work_order_product
+        - null
+display: table
+enable_embedding: false
+entity_id: 6853d3b902730606241f2dba
+id: 6853d3b902730606241f2dba
+parameter_mappings: []
+parameters: []
+query_type: query
+result_metadata:
+  - id: work_order_product
+    name: work_order_product
+    unit: null
+    display_name: 产品名称
+    base_type: type/Text
+    effective_type: type/Text
+    semantic_type: type/FK
+    source: breakout
+    visibility_type: normal
+    table_id: work_order_service
+    field_ref:
+      - field
+      - work_order_service.work_order_product
+      - null
+    remapped_to: external_work_order_product
+  - base_type: type/BigInteger
+    display_name: 计数
+    effective_type: type/BigInteger
+    field_ref:
+      - aggregation
+      - 0
+    name: count
+    semantic_type: type/Quantity
+    source: aggregation
+  - description: null
+    semantic_type: type/Name
+    table_id: work_order_product
+    coercion_strategy: null
+    name: external_work_order_product
+    settings: null
+    source: fields
+    remapped_from: work_order_product
+    fk_field_id: work_order_product
+    field_ref:
+      - field
+      - work_order_product.name
+      - source-field: work_order_service.work_order_product
+    effective_type: type/Text
+    nfc_path: null
+    parent_id: null
+    id: work_order_product.name
+    visibility_type: normal
+    display_name: 产品名称
+table_id: work_order_service
+updated_at: 2025-06-19T09:09:13.437Z
+visualization_settings: >-
+  {"graph.dimensions":["work_order_product"],"graph.metrics":["count"],"table.pivot_column":"work_order_product","table.cell_column":"count"}

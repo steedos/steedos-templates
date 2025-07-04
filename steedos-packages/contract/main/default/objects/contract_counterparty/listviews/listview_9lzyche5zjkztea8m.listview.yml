@@ -1,0 +1,39 @@
+name: listview_9lzyche5zjkztea8m
+columns:
+  - field: name
+  - field: nick_name
+  - field: phone
+  - field: tax_id
+  - field: status
+crud_mode: table
+enable_amis_schema: false
+filter_scope: space
+filters:
+  - - type
+    - '='
+    - suppilier
+from_code_id: contract_counterparty.all
+is_enable: true
+label: 供应商
+locked: false
+mobile_columns:
+  - field: type
+  - field: name
+  - field: nick_name
+  - field: phone
+scrolling_mode: standard
+searchable_fields:
+  - field: name
+  - field: type
+  - field: nick_name
+  - field: phone
+  - field: household
+  - field: account
+  - field: tax_id
+shared_to: space
+show_count: false
+sort:
+  - field_name: created
+    order: desc
+sort_no: 100
+type: grid

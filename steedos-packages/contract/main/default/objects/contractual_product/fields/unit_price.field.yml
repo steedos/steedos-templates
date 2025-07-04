@@ -1,0 +1,9 @@
+name: unit_price
+amis:
+  id: 'u:64590c981248'
+group: 通用
+label: 单价/元
+precision: 18
+scale: 2
+sort_no: 250
+type: number

@@ -1,5 +1,5 @@
-name: 待回款总金额
-created_at: 2024-11-13T09:13:07.710Z
+name: 收款合同总金额
+created_at: 2024-11-13T09:10:41.318Z
 creator_id: 67346cab0ada3506a3207b6e
 database_id: 1
 dataset_query:
@@ -16,17 +16,18 @@ dataset_query:
     aggregation:
       - - sum
         - - field
-          - contract.need_receive_amount
+          - contract.amount
           - null
 display: scalar
-entity_id: 67346da30ada3506a3207b76
-id: 67346da30ada3506a3207b76
+enable_embedding: false
+entity_id: 67346d110ada3506a3207b71
+id: 67346d110ada3506a3207b71
 parameter_mappings: []
 parameters: []
 query_type: query
 result_metadata:
   - base_type: type/Integer
-    display_name: 待回款金额合计
+    display_name: 合同金额合计
     effective_type: type/Integer
     field_ref:
       - aggregation
@@ -35,5 +36,5 @@ result_metadata:
     semantic_type: null
     source: aggregation
 table_id: contract
-updated_at: 2024-11-13T09:13:07.710Z
+updated_at: 2024-11-13T09:10:41.318Z
 visualization_settings: '{}'

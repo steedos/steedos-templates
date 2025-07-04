@@ -1,21 +1,44 @@
 [
-  {
-    "_id": "${space_id}_6734477c1a4da50622cc74d7",
-    "owner": "6732c9c5c1e74506a3383f76",
-    "locked": false,
-    "company_id": "6732c9cac1e74506a3383f78",
-    "company_ids": [
-      "6732c9cac1e74506a3383f78"
-    ],
-    "name": "标准合同模版",
-    "space": "6732c9cac1e74506a3383f78",
-    "created": {
-      "$date": "2024-11-13T06:30:20.165Z"
-      },
-    "modified": {
-      "$date": "2024-11-13T06:30:20.165Z"
-      },
-    "created_by": "6732c9c5c1e74506a3383f76",
-    "modified_by": "6732c9c5c1e74506a3383f76"
-  }
+    {
+        "_id": "${space_id}_6734477c1a4da50622cc74d7",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "name": "硬件采购合同模版",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-05-13T02:35:25.699Z"
+        },
+        "modified": {
+            "$date": "2025-06-06T02:20:55.727Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "type": "pocurement_contract",
+        "status": "enable"
+    },
+    {
+        "_id": "${space_id}_68525cf678d86e062463a73b",
+        "owner": "${space_owner_id}",
+        "locked": false,
+        "company_id": "${space_id}",
+        "company_ids": [
+            "${space_id}"
+        ],
+        "name": "标准产品销售合同模版",
+        "type": "sales_contract",
+        "space": "${space_id}",
+        "created": {
+            "$date": "2025-06-18T06:30:14.002Z"
+        },
+        "modified": {
+            "$date": "2025-06-18T06:30:21.76Z"
+        },
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}",
+        "status": "enable"
+    }
 ]

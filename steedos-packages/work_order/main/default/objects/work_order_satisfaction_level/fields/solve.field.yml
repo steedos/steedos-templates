@@ -1,0 +1,14 @@
+name: solve
+amis:
+  id: 'u:77263511a92b'
+  type: button-group-select
+filters: []
+group: 回访内容
+label: 是否解决问题
+options:
+  - label: 是
+    value: 'yes'
+  - label: 否
+    value: 'no'
+sort_no: 350
+type: select

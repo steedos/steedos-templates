@@ -8,17 +8,25 @@ dataset_query:
   query:
     source-table: contract
     filter:
-      - '='
-      - - field
-        - contract.cash_flow_type
-        - null
-      - pay
+      - and
+      - - '='
+        - - field
+          - contract.cash_flow_type
+          - null
+        - pay
+      - - '='
+        - - field
+          - contract.signing_status
+          - null
+        - signed
+        - archived
     aggregation:
       - - sum
         - - field
           - contract.amount
           - null
 display: scalar
+enable_embedding: false
 entity_id: 67346d470ada3506a3207b74
 id: 67346d470ada3506a3207b74
 parameter_mappings: []

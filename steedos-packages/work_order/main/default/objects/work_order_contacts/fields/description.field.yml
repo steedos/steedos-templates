@@ -1,0 +1,12 @@
+name: description
+amis:
+  id: 'u:5dab62f4d3ea'
+description: ''
+enable_thousands: true
+group: 通用
+inlineHelpText: ''
+is_wide: true
+label: 备注
+rows: 3
+sort_no: 350
+type: textarea

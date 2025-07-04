@@ -1,0 +1,60 @@
+[
+    {
+        "_id": "${space_id}_68343e4d4085100624d418f7",
+        "locked": false,
+        "type": "customer",
+        "name": "风向股份有限公司",
+        "status": "enable",
+        "tax_id": "987654321098765",
+        "household": "工商银行上海分行",
+        "account": "021-87654321",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853733daf47f90624429ea0",
+        "locked": false,
+        "name": "众和天源商贸有限公司",
+        "status": "enable",
+        "tax_id": "91346382578457764A",
+        "type": "customer",
+        "space": "6822afed8fe08f06245c47d2",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_685373c5af47f90624429ea2",
+        "locked": false,
+        "name": "未来之星机电设备有限公司",
+        "status": "enable",
+        "tax_id": "91320382862526673W",
+        "type": "customer",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853a591af47f90624429efc",
+        "locked": false,
+        "name": "龙源水资源股份有限公司",
+        "status": "enable",
+        "tax_id": "913101193624446H5W",
+        "type": "customer",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    },
+    {
+        "_id": "${space_id}_6853a5d8af47f90624429efe",
+        "locked": false,
+        "name": "鹏之舞文化传播有限公司",
+        "status": "enable",
+        "tax_id": "913248254027106269",
+        "type": "customer",
+        "owner": "${space_owner_id}",
+        "created_by": "${space_owner_id}",
+        "modified_by": "${space_owner_id}"
+    }
+]

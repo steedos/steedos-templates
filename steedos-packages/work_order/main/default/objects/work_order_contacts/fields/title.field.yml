@@ -1,0 +1,11 @@
+name: title
+amis:
+  id: 'u:538576cb76db'
+description: ''
+enable_thousands: true
+group: 通用
+inlineHelpText: ''
+label: 职务
+sort_no: 300
+sortable: true
+type: text
