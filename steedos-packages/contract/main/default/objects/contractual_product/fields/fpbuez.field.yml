@@ -1,8 +1,0 @@
-name: fpbuez
-amis:
-  id: 'u:73a195d13c60'
-group: 通用
-label: 税率
-reference_to: tax_rates
-sort_no: 350
-type: lookup

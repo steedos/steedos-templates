@@ -43,7 +43,7 @@
         "type": "technology_contract",
         "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
         "signing_status": "signed",
-        "dep": "${space_id}_dykpNtwmMvpHdGCN3"
+        "dep": "${space_id}"
     },
     {
         "_id": "${space_id}_6732ce7ac1e74506a3383f97",
@@ -89,7 +89,7 @@
         "type": "pocurement_contract",
         "our_company": "${space_id}_6732cb36c1e74506a3383f7b",
         "signing_status": "signed",
-        "dep": "${space_id}_fwozpNYKxP86maExN"
+        "dep": "${space_id}"
     },
     {
         "_id": "${space_id}_684fd933c5288b06246950c4",
@@ -112,7 +112,7 @@
         "end_date": {
             "$date": "2025-06-30T00:00:00Z"
         },
-        "dep": "${space_id}_aQZRY5qEzZN9GuSku",
+        "dep": "${space_id}",
         "type": "pocurement_contract",
         "signing_date": {
             "$date": "2025-05-07T00:00:00Z"
@@ -151,7 +151,7 @@
         "contract_counterparty": "${space_id}_6852248b78d86e062463a71e",
         "cash_flow_type": "pay",
         "amount": 15600,
-        "dep": "${space_id}_dykpNtwmMvpHdGCN3",
+        "dep": "${space_id}",
         "type": "service_contract",
         "space": "${space_id}",
         "created": {
@@ -187,7 +187,7 @@
         "contract_counterparty": "${space_id}_68524f1178d86e062463a722",
         "cash_flow_type": "receive",
         "amount": 1580000,
-        "dep": "${space_id}_6jJafbSSHxnCuvhEM",
+        "dep": "${space_id}",
         "type": "sales_contract",
         "space": "${space_id}",
         "created": {
@@ -238,7 +238,7 @@
         "end_date": {
             "$date": "2025-06-30T00:00:00Z"
         },
-        "dep": "${space_id}_F4LNEu9GrKcgPEWGD",
+        "dep": "${space_id}",
         "signing_date": {
             "$date": "2025-06-03T00:00:00Z"
         },
