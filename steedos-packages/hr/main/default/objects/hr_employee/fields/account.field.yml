@@ -1,7 +1,9 @@
 name: account
+amis:
+  id: 'u:96def30b8763'
 filterable: true
 generated: false
-group: 其他信息
+group: 基本信息
 index: false
 is_name: false
 is_wide: false
@@ -10,6 +12,6 @@ multiple: false
 primary: false
 reference_to: users
 required: false
-sort_no: 999
+sort_no: 700
 sortable: false
 type: lookup

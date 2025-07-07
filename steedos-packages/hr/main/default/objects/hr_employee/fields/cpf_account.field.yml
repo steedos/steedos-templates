@@ -1,5 +1,7 @@
 name: cpf_account
-group: 其他信息
+amis:
+  id: 'u:380223af8a27'
+group: 账户信息
 label: 公积金账号
-sort_no: 390
+sort_no: 1300
 type: text

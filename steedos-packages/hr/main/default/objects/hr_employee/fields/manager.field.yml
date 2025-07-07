@@ -1,7 +1,9 @@
 name: manager
+amis:
+  id: 'u:de81207bfb7a'
 filterable: false
 generated: false
-group: 在职信息
+group: 用工信息
 index: false
 is_name: false
 is_wide: false
@@ -10,6 +12,6 @@ multiple: false
 primary: false
 reference_to: users
 required: false
-sort_no: 180
+sort_no: 950
 sortable: false
 type: lookup

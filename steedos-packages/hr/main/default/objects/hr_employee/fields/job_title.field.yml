@@ -1,13 +1,15 @@
 name: job_title
+amis:
+  id: 'u:3fa9b83e9f8f'
 filterable: true
 generated: false
-group: 在职信息
+group: 员工档案
 index: false
 is_name: false
 is_wide: false
-label: 职位
+label: 岗位
 primary: false
-required: true
-sort_no: 190
+required: false
+sort_no: 300
 sortable: false
 type: text

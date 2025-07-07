@@ -1,5 +1,7 @@
 name: social_security_account
-group: 其他信息
+amis:
+  id: 'u:090bea08c2db'
+group: 账户信息
 label: 社保账号
-sort_no: 380
+sort_no: 1250
 type: text

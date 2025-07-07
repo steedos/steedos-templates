@@ -1,22 +1,30 @@
 name: status
+amis:
+  id: 'u:1b77ad1ef835'
 data_type: text
+filterable: true
 generated: false
-group: 在职信息
+group: 用工信息
 index: false
 is_name: false
 is_wide: false
 label: 员工状态
-filterable: true
 multiple: false
 options:
-  - label: 试用
-    value: trail
   - label: 正式
-    value: in
+    value: trail
+    color: '#7ed321'
+  - label: 待转正
+    value: trail
+    color: '#f8e71c'
   - label: 离职
     value: out
+    color: '#f5a623'
+  - label: 其他
+    value: other
+    color: '#d0d0d0'
 primary: false
 required: false
-sort_no: 155
+sort_no: 800
 sortable: false
 type: select

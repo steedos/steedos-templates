@@ -1,0 +1,7 @@
+name: bankid
+amis:
+  id: 'u:4a975391555a'
+group: 账户信息
+label: 银行卡号
+sort_no: 1400
+type: text

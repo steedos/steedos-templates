@@ -1,5 +1,4 @@
 name: hr_employee
-label: 花名册
 custom: true
 enable_api: true
 enable_audit: false
@@ -7,6 +6,7 @@ enable_chatter: false
 enable_enhanced_lookup: true
 enable_events: false
 enable_files: true
+enable_form_tabs: true
 enable_inline_edit: true
 enable_instances: false
 enable_notes: false
@@ -15,6 +15,13 @@ enable_share: false
 enable_tasks: false
 enable_tree: false
 enable_workflow: false
+field_groups:
+  - group_name: 员工档案
+  - group_name: 基本信息
+  - group_name: 用工信息
+  - group_name: 账户信息
+  - group_name: 系统信息
 icon: answer_public
 is_enable: true
+label: 花名册
 version: 2

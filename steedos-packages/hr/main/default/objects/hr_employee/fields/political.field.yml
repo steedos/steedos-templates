@@ -1,6 +1,8 @@
 name: political
+amis:
+  id: 'u:fd2096fc0faa'
 data_type: text
-group: 其他信息
+group: 基本信息
 label: 政治面貌
 options:
   - label: 团员
@@ -11,5 +13,5 @@ options:
     value: masses
   - label: 其他
     value: others
-sort_no: 350
+sort_no: 550
 type: select

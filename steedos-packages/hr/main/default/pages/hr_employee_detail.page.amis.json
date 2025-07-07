@@ -28,28 +28,6 @@
                     "id": "u:5d4e7e3f6ecc"
                 },
                 {
-                    "title": "工作/教育经历",
-                    "body": [
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:90feb066b7bb",
-                            "relatedObjectApiName": "hr_employer_experience"
-                        },
-                        {
-                            "type": "steedos-object-related-listview",
-                            "label": "相关表",
-                            "objectApiName": "${objectName}",
-                            "recordId": "${recordId}",
-                            "id": "u:e197e658a890",
-                            "relatedObjectApiName": "hr_employer_education"
-                        }
-                    ],
-                    "id": "u:9611cd676720"
-                },
-                {
                     "title": "人事合同",
                     "body": [
                         {
@@ -94,6 +72,28 @@
                     "id": "u:4ba864823da0"
                 },
                 {
+                    "title": "工作/教育经历",
+                    "body": [
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:90feb066b7bb",
+                            "relatedObjectApiName": "hr_employer_experience"
+                        },
+                        {
+                            "type": "steedos-object-related-listview",
+                            "label": "相关表",
+                            "objectApiName": "${objectName}",
+                            "recordId": "${recordId}",
+                            "id": "u:e197e658a890",
+                            "relatedObjectApiName": "hr_employer_education"
+                        }
+                    ],
+                    "id": "u:9611cd676720"
+                },
+                {
                     "title": "相关附件",
                     "body": [
                         {
@@ -114,9 +114,7 @@
     "regions": [
         "body"
     ],
-    "data": {
-        "context": {}
-    },
+    "data": {},
     "id": "page_hr_employee_record_detail",
     "name": "page_hr_employee_record_detail",
     "objectApiName": "${objectName}",

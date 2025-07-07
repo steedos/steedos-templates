@@ -1,6 +1,8 @@
 name: number
-group: 在职信息
-label: 工号
-sort_no: 110
-type: text
+amis:
+  id: 'u:826fb7f9a022'
 filterable: true
+group: 员工档案
+label: 工号
+sort_no: 100
+type: text

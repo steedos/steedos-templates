@@ -1,5 +1,7 @@
 name: first_participation
-group: 其他信息
+amis:
+  id: 'u:673782155c21'
+group: 用工信息
 label: 首次参加工作时间
-sort_no: 360
+sort_no: 1050
 type: date

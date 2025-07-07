@@ -1,12 +1,15 @@
 name: phone
+amis:
+  id: 'u:842a35057b11'
 filterable: false
 generated: false
+group: 员工档案
 index: false
 is_name: false
 is_wide: false
 label: 手机号码
 primary: false
-required: true
-sort_no: 140
+required: false
+sort_no: 150
 sortable: false
 type: text
