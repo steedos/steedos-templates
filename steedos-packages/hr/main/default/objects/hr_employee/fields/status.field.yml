@@ -12,7 +12,7 @@ label: 员工状态
 multiple: false
 options:
   - label: 正式
-    value: trail
+    value: in
     color: '#7ed321'
   - label: 待转正
     value: trail
