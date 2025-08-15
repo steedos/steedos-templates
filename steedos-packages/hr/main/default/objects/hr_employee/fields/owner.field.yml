@@ -6,6 +6,6 @@ group: 系统信息
 index: true
 inlineHelpText: ''
 label: 所有者
-sort_no: 1700
+sort_no: 1800
 sortable: true
 visible_on: '{{false}}'

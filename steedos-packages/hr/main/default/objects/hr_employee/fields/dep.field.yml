@@ -5,5 +5,5 @@ amis:
   editorState: default
 group: 员工档案
 label: 部门
-sort_no: 250
+sort_no: 300
 type: text

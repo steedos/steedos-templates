@@ -4,5 +4,5 @@ amis:
 filterable: true
 group: 员工档案
 label: 工号
-sort_no: 100
+sort_no: 150
 type: text

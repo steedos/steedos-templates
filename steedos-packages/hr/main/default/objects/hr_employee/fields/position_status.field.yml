@@ -23,6 +23,6 @@ options:
     value: others
 primary: false
 required: true
-sort_no: 850
+sort_no: 900
 sortable: false
 type: select

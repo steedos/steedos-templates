@@ -3,5 +3,5 @@ amis:
   id: 'u:090bea08c2db'
 group: 账户信息
 label: 社保账号
-sort_no: 1250
+sort_no: 1350
 type: text

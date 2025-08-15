@@ -3,5 +3,5 @@ amis:
   id: 'u:336c9377614b'
 group: 用工信息
 label: 转正日期
-sort_no: 1150
+sort_no: 1200
 type: date

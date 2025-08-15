@@ -13,5 +13,5 @@ options:
     value: divorce
   - label: 其他
     value: other
-sort_no: 600
+sort_no: 650
 type: select

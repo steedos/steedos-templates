@@ -12,6 +12,6 @@ multiple: false
 primary: false
 reference_to: users
 required: false
-sort_no: 700
+sort_no: 750
 sortable: false
 type: lookup

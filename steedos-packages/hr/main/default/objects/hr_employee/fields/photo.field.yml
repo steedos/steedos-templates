@@ -1,0 +1,7 @@
+name: photo
+amis:
+  id: 'u:140f98d2b425'
+group: 员工档案
+label: 员工照片
+sort_no: 100
+type: image

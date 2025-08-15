@@ -3,5 +3,5 @@ amis:
   id: 'u:10f0bb34f9fb'
 group: 用工信息
 label: 离职日期
-sort_no: 1200
+sort_no: 1250
 type: date

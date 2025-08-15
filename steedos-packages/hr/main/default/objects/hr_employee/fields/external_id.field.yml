@@ -1,0 +1,10 @@
+name: external_id
+amis:
+  id: 'u:8cbffde20640'
+description: ''
+group: 通用
+inlineHelpText: ''
+label: 外部ID
+sort_no: 1300
+type: text
+visible_on: '{{false}}'

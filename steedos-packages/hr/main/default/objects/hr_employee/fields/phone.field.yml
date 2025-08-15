@@ -10,6 +10,6 @@ is_wide: false
 label: 手机号码
 primary: false
 required: false
-sort_no: 150
+sort_no: 200
 sortable: false
 type: text

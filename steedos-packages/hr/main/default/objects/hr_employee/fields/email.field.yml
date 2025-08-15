@@ -10,6 +10,6 @@ is_wide: false
 label: 邮箱
 primary: false
 required: false
-sort_no: 200
+sort_no: 250
 sortable: false
 type: email
