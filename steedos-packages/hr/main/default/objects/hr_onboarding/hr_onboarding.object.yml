@@ -16,5 +16,5 @@ enable_tree: false
 enable_workflow: false
 icon: answer_public
 is_enable: true
-version: 2
 label: 入职
+version: 2

@@ -17,6 +17,7 @@ mobile_columns: []
 scrolling_mode: standard
 searchable_fields: []
 shared: true
+shared_to: space
 sort: []
 sort_no: 100
 type: grid

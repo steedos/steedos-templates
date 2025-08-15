@@ -1,6 +1,6 @@
 name: number
+filterable: true
 group: 在职信息
 label: 工号
-sort_no: 110
+sort_no: 410
 type: text
-filterable: true

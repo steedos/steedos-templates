@@ -13,6 +13,6 @@ options:
     value: female
 primary: false
 required: true
-sort_no: 110
+sort_no: 400
 sortable: false
 type: select
