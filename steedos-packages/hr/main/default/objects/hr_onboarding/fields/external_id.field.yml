@@ -1,0 +1,10 @@
+name: external_id
+amis:
+  id: 'u:46a0726509ec'
+description: ''
+group: 系统信息
+inlineHelpText: ''
+label: 外部ID
+sort_no: 1650
+type: text
+visible_on: '{{false}}'

@@ -14,7 +14,7 @@ module.exports = {
     handler: async function (ctx) {
         const doc = ctx.params.doc;
         const userSession = await ctx.broker.call('@steedos/service-accounts.getUserSession', {userId: doc.owner, spaceId: doc.space});
-        console.log("审批状态",doc.instance_state)
+        console.log("审批状态:",doc.instance_state)
         await this.createHrEmployee(doc,userSession);
 
     }

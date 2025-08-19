@@ -1,7 +1,9 @@
 name: department
+amis:
+  id: 'u:74781e3c64de'
 filterable: true
 generated: false
-group: 在职信息
+group: 用工信息
 index: false
 is_name: false
 is_wide: false
@@ -10,6 +12,6 @@ multiple: false
 primary: false
 reference_to: organizations
 required: true
-sort_no: 170
+sort_no: 900
 sortable: false
 type: lookup

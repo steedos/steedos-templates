@@ -1,6 +1,8 @@
 name: marrige
+amis:
+  id: 'u:fa7b8f52c4e4'
 data_type: text
-group: 其他信息
+group: 基本信息
 label: 婚姻状况
 options:
   - label: 已婚
@@ -11,5 +13,5 @@ options:
     value: divorce
   - label: 其他
     value: other
-sort_no: 340
+sort_no: 450
 type: select

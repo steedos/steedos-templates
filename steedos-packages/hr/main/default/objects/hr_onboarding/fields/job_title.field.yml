@@ -1,13 +1,15 @@
 name: job_title
+amis:
+  id: 'u:38e2675e0464'
 filterable: true
 generated: false
-group: 在职信息
+group: 用工信息
 index: false
 is_name: false
 is_wide: false
 label: 职位
 primary: false
-required: true
-sort_no: 190
+required: false
+sort_no: 1000
 sortable: false
 type: text

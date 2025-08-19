@@ -1,6 +1,9 @@
 name: gender
+amis:
+  id: 'u:2a5d2e141e37'
 filterable: false
 generated: false
+group: 员工档案
 index: false
 is_name: false
 is_wide: false
@@ -13,6 +16,6 @@ options:
     value: female
 primary: false
 required: true
-sort_no: 400
+sort_no: 250
 sortable: false
 type: select

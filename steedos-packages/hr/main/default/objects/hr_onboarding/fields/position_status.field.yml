@@ -1,8 +1,10 @@
 name: position_status
+amis:
+  id: 'u:83034bb11945'
 data_type: text
 filterable: true
 generated: false
-group: 在职信息
+group: 用工信息
 index: false
 is_name: false
 is_wide: false
@@ -16,7 +18,7 @@ options:
   - label: 其他
     value: others
 primary: false
-required: true
-sort_no: 156
+required: false
+sort_no: 800
 sortable: false
 type: select

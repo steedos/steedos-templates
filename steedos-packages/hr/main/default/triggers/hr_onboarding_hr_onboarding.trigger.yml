@@ -10,8 +10,6 @@ handler: >-
 
   const spaceId = doc.space;
 
-  if (previousDoc.instance_state != "approved" && doc.instance_state ==
-  "approved") {
       console.log("审批已通过");
   const updateAttendanceDailyOfWorking = await ctx.broker.call(
       '@steedos-labs/hr.hr_onboarding',
@@ -24,5 +22,3 @@ handler: >-
           }
       }
   );
-
-  }

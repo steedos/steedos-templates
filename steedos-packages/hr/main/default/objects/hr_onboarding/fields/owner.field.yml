@@ -1,0 +1,11 @@
+name: owner
+amis:
+  id: 'u:3c1266c33be6'
+description: ''
+group: 系统信息
+index: true
+inlineHelpText: ''
+label: 所有者
+sort_no: 1550
+sortable: true
+visible_on: '{{false}}'

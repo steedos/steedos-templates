@@ -1,0 +1,11 @@
+name: locked
+amis:
+  id: 'u:cf15d808046e'
+description: ''
+group: 系统信息
+hidden: false
+inlineHelpText: ''
+label: 已锁定
+sort_no: 1600
+type: boolean
+visible_on: '{{false}}'

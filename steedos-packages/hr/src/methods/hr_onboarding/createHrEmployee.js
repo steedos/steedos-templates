@@ -12,7 +12,7 @@ const moment = require('moment');
 module.exports = {
 
     handler: async function (doc, userSession) {
-        console.log("===========doc", doc)
+        console.log("=========xxx==doc", doc)
 
         // 调用添加人员graphql
         const insertUser = `mutation{record: space_users__insert(doc: {
@@ -25,16 +25,16 @@ module.exports = {
             zoom:"normal",
             owner:"${doc.owner}",
             locked:false,
-            email:"${doc.email}",
+            email:"${doc.email || ""}",
             organizations:["${doc.department}"],
             profile:"user",
-            mobile:"${doc.phone}",
+            mobile:"${doc.phone || ""}",
             password:"123456"
             
         })
             {_id}
           }`
-        console.log("======>", insertUser)
+        console.log("======xxxxxxx>", insertUser)
         const spaceUsers = await this.broker.call('api.graphql', {
             query: insertUser
         },
@@ -45,6 +45,7 @@ module.exports = {
                 }
             }
         );
+        console.log("222xxx>", spaceUsers)
         let spaceUserId = spaceUsers.data.record._id
         const spaceUsersObj = this.getObject('space_users');
         const spaceDoc = await spaceUsersObj.findOne(spaceUserId);
@@ -88,6 +89,8 @@ module.exports = {
             "address": doc.address, //现居住地址
             "social_security_account": doc.social_security_account, //社保账号
             "cpf_account": doc.cpf_account, //公积金账号
+            "photo": doc.photo, //员工照片
+            "position_status": doc.position_status, //聘用形式
             "owner": spaceDoc.user,
             "space": doc.space,
             "account": spaceDoc.user

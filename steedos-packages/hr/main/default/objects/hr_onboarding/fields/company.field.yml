@@ -1,7 +1,9 @@
 name: company
+amis:
+  id: 'u:220d127f1a31'
 filterable: true
 generated: false
-group: 在职信息
+group: 用工信息
 index: false
 is_name: false
 is_wide: false
@@ -9,7 +11,7 @@ label: 所属公司
 multiple: false
 primary: false
 reference_to: company
-required: true
-sort_no: 160
+required: false
+sort_no: 850
 sortable: false
 type: lookup
