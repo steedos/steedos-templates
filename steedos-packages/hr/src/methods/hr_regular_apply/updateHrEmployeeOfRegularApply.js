@@ -18,7 +18,7 @@ module.exports = {
                 objectName: 'hr_employee',
                 doc: {
                     "status":"in",
-                    "actual_date":doc.actual_date
+                    "regularization_date":doc.actual_date
                 },
                 id: doc.staff
             },

@@ -15,7 +15,7 @@ module.exports = {
         console.log("=========xxx==doc", doc)
 
         // 调用添加人员graphql
-        const insertUser = `mutation{record: space_users__insert(doc: {
+       /**  const insertUser = `mutation{record: space_users__insert(doc: {
             email_notification:false,
             locale:"zh-cn",
             name:"${doc.name}",
@@ -49,6 +49,7 @@ module.exports = {
         let spaceUserId = spaceUsers.data.record._id
         const spaceUsersObj = this.getObject('space_users');
         const spaceDoc = await spaceUsersObj.findOne(spaceUserId);
+        */
 
         const joinedDate = moment(doc.date).utcOffset(8);
         const trialPeriod = doc.trial_period ? doc.trial_period : 0
@@ -73,11 +74,10 @@ module.exports = {
             "phone": doc.phone, //手机号
             "email": doc.email, //邮箱
             "status": status, //员工状态
-            "position_status": doc.position_status, //员工类型
-            "company": doc.company, //所属公司
-            "department": doc.department, //所属部门
+            "position_status": doc.position_status, //聘用形式
+            "dep": doc.dep, //部门
             "manager": doc.manager, //上级领导
-            "job_title": doc.job_title, //职位
+            "job_title": doc.job_title, //岗位
             "date": doc.date, //入职日期
             "venue": doc.venue, //办公地点
             "trial_period": doc.trial_period, //试用期（月）
@@ -90,10 +90,13 @@ module.exports = {
             "social_security_account": doc.social_security_account, //社保账号
             "cpf_account": doc.cpf_account, //公积金账号
             "photo": doc.photo, //员工照片
-            "position_status": doc.position_status, //聘用形式
-            "owner": spaceDoc.user,
+            "emergency_contact_name": doc.emergency_contact_name, //紧急联系人姓名
+            "emergency_contact_relationship": doc.emergency_contact_relationship, //紧急联系人关系
+            "emergency_contact_phone": doc.emergency_contact_phone, //紧急联系人电话
+            "company": doc.company, //所属公司
+            //"owner": spaceDoc.user,
             "space": doc.space,
-            "account": spaceDoc.user
+            //"account": spaceDoc.user
         }
         await this.broker.call(
             'objectql.insert',

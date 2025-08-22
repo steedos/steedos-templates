@@ -14,18 +14,5 @@ type: master_detail
 write_requires_master_read: false
 filtersFunction:  |-
   function(filters,values) {
-    return [["account","=","{userId}"],["status","=","trail"]];
+    return [["status","=","trail"]];
   }
-amis:
-  autoFill:
-    fillMapping:
-      "start": "${date}"
-      "department": "${department}"
-      "company": "${company}"
-    api:
-      url: "${context.rootUrl}/graphql"
-      method: post
-      headers: 
-        Authorization: "Bearer ${context.tenantId},${context.authToken}"
-      data:
-        query: "{rows:hr_employee(filters: [[\"_id\", \"=\", \"${staff}\"]], top: 1){date, company,department}}"
