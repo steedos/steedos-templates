@@ -1,0 +1,21 @@
+name: recent
+columns:
+  - _id: 015ba33c-eb65-473f-9aa1-a3527b8991cb
+    field: name
+  - field: product_id
+    _id: 60a7d668-4175-4265-9065-487b515f47e2
+  - _id: 5869a797-ee04-467e-ad96-e3a6bb6371c7
+    field: amount_demand
+  - _id: c7a3f4ef-e0c6-424d-9d63-bd97732b41bd
+    field: amount_received
+  - _id: bdbfe81a-7a94-41a9-82ca-62555caf2036
+    field: unit
+  - _id: 1a6c3751-30e4-432f-b3c0-3211cdcbbfef
+    field: purchase_order_line
+  - _id: 6a801a30-b984-418e-9eec-45e0631fa7d4
+    field: stock_picking_id
+filter_scope: space
+filters: []
+label: 最近查看
+shared: true
+sort_no: 100

@@ -1,0 +1,5 @@
+name: stock_picking_item_id
+label: 入库明细项
+reference_to: purchase_stock_picking_item
+sort_no: 180
+type: master_detail

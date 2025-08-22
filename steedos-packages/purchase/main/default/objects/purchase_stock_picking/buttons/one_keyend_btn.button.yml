@@ -1,0 +1,5 @@
+name: one_keyend_btn
+is_enable: true
+label: 一键入库
+'on': record_only
+type: script

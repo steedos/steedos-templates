@@ -1,0 +1,13 @@
+name: acceptance_method
+defaultValue: quantity
+label: 验收方式
+options:
+  - label: 数量验收
+    value: quantity
+  - label: 金额验收
+    value: amount
+  - label: 比例验收
+    value: proportion
+searchable: true
+sort_no: 160
+type: select

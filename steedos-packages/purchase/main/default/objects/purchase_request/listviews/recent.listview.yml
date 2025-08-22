@@ -1,0 +1,21 @@
+name: recent
+columns:
+  - field: name
+    wrap: false
+  - field: document_type
+    wrap: false
+  - field: application_sector
+    wrap: false
+  - field: created_by
+    wrap: false
+  - field: date
+    wrap: false
+  - field: acceptance_method
+    wrap: false
+filter_scope: space
+filters: []
+label: 最近查看数据
+scrolling_mode: standard
+shared: true
+sort_no: 100
+type: grid

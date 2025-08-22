@@ -1,0 +1,8 @@
+name: material
+is_name: false
+label: 物料
+reference_to: product
+required: true
+searchable: true
+sort_no: 140
+type: lookup

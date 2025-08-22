@@ -1,0 +1,14 @@
+name: status
+defaultValue: create
+hidden: false
+label: 单据状态
+omit: false
+options:
+  - label: 创建
+    value: create
+  - label: 已审核
+    value: audited
+readonly: false
+searchable: true
+sort_no: 140
+type: select

@@ -1,0 +1,21 @@
+name: all
+columns:
+  - _id: bb369d24-89f7-43b8-bedf-269b8e4ba174
+    field: name
+  - _id: fe9e507e-4118-4ceb-b735-e2293109164f
+    field: product_id
+  - _id: 7cd91b22-c625-43d5-abc5-2c312979edf0
+    field: amount_demand
+  - _id: 5f476de6-6934-4336-b530-204a299078c5
+    field: amount_received
+  - _id: d214b89e-04fa-4975-915e-8f72d01a3628
+    field: unit
+  - _id: 313d6f23-0ce4-486d-a152-789b722904a4
+    field: purchase_order_line
+  - _id: a77d9b0d-c1fa-4965-9486-7340fadfa4df
+    field: stock_picking_id
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

@@ -1,0 +1,19 @@
+name: recent
+columns:
+  - field: name
+    _id: 57d38cfb-1e6a-41ee-85d7-b2d630e33875
+  - _id: d177ad85-36ed-46b4-a6bf-e15fd19ede16
+    field: partner
+  - _id: 184cab24-a24d-4b54-8a24-10e67a7552e2
+    field: state
+  - _id: 684ff201-ac92-4cc2-a29d-9f108bc63436
+    field: warehouse_id
+  - _id: 69924d0f-5273-4f03-bf89-bff9f6ef3332
+    field: location_id
+  - _id: 8fd2480e-9ec0-4fa9-ab6c-642daea34516
+    field: purchase_order_id
+filter_scope: space
+filters: []
+label: 最近查看
+shared: true
+sort_no: 100

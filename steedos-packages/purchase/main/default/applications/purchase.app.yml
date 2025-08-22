@@ -1,0 +1,25 @@
+name: 采购
+code: purchase
+description: 通过采购订单，管理整个采购流程。
+icon_slds: lead_list
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: true
+mobile_objects:
+  - purchase_request
+  - purchase_order
+  - purchase_stock_picking
+  - purchase_stock_delivery
+oauth2_enabled: false
+oauth2_logout_enabled: false
+objects:
+  - purchase_request
+  - purchase_order
+  - purchase_stock_picking
+  - purchase_stock_delivery
+saml_enabled: false
+saml_logout_enabled: false
+sort: 60
+visible: true

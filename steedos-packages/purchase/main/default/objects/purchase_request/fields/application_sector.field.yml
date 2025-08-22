@@ -1,0 +1,7 @@
+name: application_sector
+label: 申请部门
+reference_to: organizations
+searchable: true
+sort_no: 130
+sortable: true
+type: lookup

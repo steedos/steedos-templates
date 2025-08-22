@@ -1,0 +1,7 @@
+name: date
+defaultValue: '{now}'
+label: 申请日期
+required: true
+searchable: true
+sort_no: 150
+type: date

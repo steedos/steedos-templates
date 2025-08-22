@@ -1,0 +1,5 @@
+name: location_id
+label: 库位
+reference_to: stock_location
+sort_no: 140
+type: lookup

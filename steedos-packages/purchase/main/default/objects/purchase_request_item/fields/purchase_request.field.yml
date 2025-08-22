@@ -1,0 +1,6 @@
+name: purchase_request
+label: 采购申请单
+reference_to: purchase_request
+searchable: true
+sort_no: 120
+type: master_detail

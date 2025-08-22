@@ -1,0 +1,5 @@
+name: product
+label: 物料
+reference_to: product
+sort_no: 110
+type: lookup

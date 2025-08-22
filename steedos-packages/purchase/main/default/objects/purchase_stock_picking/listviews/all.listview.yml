@@ -1,0 +1,19 @@
+name: all
+columns:
+  - field: name
+    _id: 2531d2e5-a2f8-4cbc-b2ca-6b9d6fabf163
+  - _id: 89c63243-1f35-46f5-b9e5-33eee7ef9cb5
+    field: partner
+  - _id: 47a77e7a-d4cb-49d6-a75d-b13092d667aa
+    field: state
+  - _id: 0cb2cfc6-58a9-42cf-be90-1e0dfa04cf05
+    field: warehouse_id
+  - _id: 00e2dd0f-9397-4a1a-a133-e73030726c9b
+    field: location_id
+  - _id: 48b6d2c2-9836-4dbf-bbf0-df290a070e63
+    field: purchase_order_id
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

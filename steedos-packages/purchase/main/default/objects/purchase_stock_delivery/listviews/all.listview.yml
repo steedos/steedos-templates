@@ -1,0 +1,18 @@
+name: all
+columns:
+  - field: name
+  - field: product_id
+  - field: batch_number
+  - field: amount_demand
+  - field: amount_received
+  - field: unit
+  - field: warehouse
+  - field: location
+  - field: date_stock
+  - field: stock_picking_item_id
+filter_scope: space
+filters: []
+label: 所有库存明细
+shared: true
+show_count: false
+sort_no: 100

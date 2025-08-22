@@ -1,0 +1,20 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: material
+    wrap: false
+  - field: amount
+    wrap: false
+  - field: created_by
+    wrap: false
+  - field: purchase_request
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有采购申请项
+scrolling_mode: standard
+shared: true
+show_count: false
+sort_no: 100
+type: grid

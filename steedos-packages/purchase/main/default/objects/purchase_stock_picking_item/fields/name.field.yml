@@ -1,0 +1,12 @@
+name: name
+data_type: text
+formula: product_id.product_code
+formula_blank_value: zeroes
+index: true
+is_name: true
+label: 物料编码
+readonly: false
+required: true
+searchable: false
+sort_no: 100
+type: formula

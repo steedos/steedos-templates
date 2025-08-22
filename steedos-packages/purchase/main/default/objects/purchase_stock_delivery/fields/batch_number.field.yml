@@ -1,0 +1,5 @@
+name: batch_number
+formula: '{YYYY}{MM}{DD}{00}'
+label: 批号
+sort_no: 110
+type: autonumber

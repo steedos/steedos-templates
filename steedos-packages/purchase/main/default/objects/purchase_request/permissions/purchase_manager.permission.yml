@@ -1,0 +1,58 @@
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: true
+modifyCompanyRecords: false
+permission_set_id: purchase_manager
+viewAllRecords: true
+viewCompanyRecords: false
+field_permissions:
+  - field: acceptance_method
+    readable: true
+    editable: true
+  - field: application_sector
+    readable: true
+    editable: true
+  - field: date
+    readable: true
+    editable: true
+  - field: document_type
+    readable: true
+    editable: true
+  - field: name
+    readable: true
+    editable: false
+  - field: owner
+    readable: false
+    editable: false
+  - field: remark
+    readable: true
+    editable: true
+  - field: status
+    readable: true
+    editable: false
+  - field: created
+    readable: true
+    editable: false
+  - field: created_by
+    readable: true
+    editable: false
+  - field: modified
+    readable: true
+    editable: false
+  - field: modified_by
+    readable: true
+    editable: false
+  - field: locked
+    readable: false
+    editable: false
+  - field: company_id
+    readable: false
+    editable: false
+  - field: company_ids
+    readable: false
+    editable: false
+  - field: instance_state
+    readable: false
+    editable: false

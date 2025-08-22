@@ -1,0 +1,5 @@
+name: add_stock_deliver_btn
+is_enable: true
+label: 添加入库交货明细
+'on': list_item
+type: script

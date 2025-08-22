@@ -1,0 +1,5 @@
+name: purchase_order_id
+label: 相关采购订单
+reference_to: purchase_order
+sort_no: 150
+type: lookup

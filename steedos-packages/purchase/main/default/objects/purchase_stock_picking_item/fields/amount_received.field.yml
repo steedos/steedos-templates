@@ -1,0 +1,10 @@
+name: amount_received
+data_type: number
+label: 完成数量
+precision: 18
+scale: 2
+sort_no: 130
+summary_field: amount_received
+summary_object: purchase_stock_delivery
+summary_type: sum
+type: summary

@@ -1,0 +1,7 @@
+name: amount_received
+label: 完成数量
+precision: 18
+required: true
+scale: 2
+sort_no: 130
+type: number

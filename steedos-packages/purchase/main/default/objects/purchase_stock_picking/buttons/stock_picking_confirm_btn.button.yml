@@ -1,0 +1,5 @@
+name: stock_picking_confirm_btn
+is_enable: true
+label: 确认入库
+'on': record_only
+type: script

@@ -1,0 +1,18 @@
+{
+    "name": "@steedos-labs/purchase",
+    "version": "3.0.0-beta.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@steedos-labs/master": "2.2.9-beta.4"
+    },
+    "gitHead": "f19acd58f91306840e665320b772a9db962a7cf0"
+}

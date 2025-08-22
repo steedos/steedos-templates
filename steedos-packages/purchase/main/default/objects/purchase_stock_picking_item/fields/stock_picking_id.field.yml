@@ -1,0 +1,5 @@
+name: stock_picking_id
+label: 入库单
+reference_to: purchase_stock_picking
+sort_no: 160
+type: master_detail

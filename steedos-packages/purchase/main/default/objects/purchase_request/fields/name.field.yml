@@ -1,0 +1,11 @@
+name: name
+formula: 'PR{YYYY}{MM}{000}'
+index: true
+is_name: true
+label: 单据编号
+omit: false
+required: true
+searchable: true
+sort_no: 180
+sortable: true
+type: autonumber

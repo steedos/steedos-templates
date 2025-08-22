@@ -1,0 +1,5 @@
+name: partner
+label: 供应商
+reference_to: accounts
+sort_no: 110
+type: lookup

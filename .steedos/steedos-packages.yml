@@ -1,0 +1,54 @@
+'@steedos-labs/template-contract':
+  enable: true
+  version: 3.0.1
+  description: 合同管理
+  local: true
+  path: steedos-packages/contract
+'@steedos-labs/crm':
+  enable: true
+  version: 2.7.0
+  description: CRM管理
+  local: true
+  path: steedos-packages/crm
+'@steedos-labs/workflow':
+  enable: true
+  version: 2.7.0
+  description: 审批中心
+  local: true
+  path: steedos-packages/dashboard
+'@steedos-labs/hr':
+  enable: true
+  version: 2.7.0
+  description: 人力资源管理
+  local: true
+  path: steedos-packages/hr
+'@steedos-labs/master':
+  enable: true
+  version: 2.7.0
+  description: 主数据管理
+  local: true
+  path: steedos-packages/master
+'@steedos-labs/performance':
+  enable: true
+  version: 2.7.0
+  description: 绩效管理
+  local: true
+  path: steedos-packages/performance
+'@steedos-labs/template-project':
+  enable: true
+  version: 3.0.0
+  description: 通过项目、任务、里程碑，管理项目的整个生命周期。
+  local: true
+  path: steedos-packages/project
+'@steedos-labs/purchase':
+  enable: true
+  version: 3.0.0-beta.1
+  description: ''
+  local: true
+  path: steedos-packages/purchase
+'@steedos-labs/template-work_order':
+  enable: true
+  version: 3.0.1
+  description: ''
+  local: true
+  path: steedos-packages/work_order
