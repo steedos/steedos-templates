@@ -1,0 +1,7 @@
+name: nationality
+amis:
+  id: 'u:3044b1fa7eca'
+group: 基本信息
+label: 民族
+sort_no: 400
+type: text

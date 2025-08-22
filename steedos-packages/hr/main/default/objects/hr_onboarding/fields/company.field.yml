@@ -1,10 +1,13 @@
 name: company
 amis:
   id: 'u:220d127f1a31'
+description: ''
+enable_thousands: true
 filterable: true
 generated: false
 group: 用工信息
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 所属公司
@@ -15,3 +18,4 @@ required: false
 sort_no: 850
 sortable: false
 type: lookup
+visible_on: ''
