@@ -1,0 +1,49 @@
+services:
+
+  steedos:
+    image: steedos/feikongwang:3.0.0
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
+    deploy:
+      replicas: 1
+    ports:
+      - "80:80"
+    volumes:
+      - './steedos-storage:/steedos-storage'
+      - './.steedos:/app/.steedos'
+    environment:
+      - STEEDOS_LICENSE=
+      - ROOT_URL=http://127.0.0.1
+      - TRANSPORTER=redis://redis:6379
+      - CACHER=redis://redis:6379/1
+      - STEEDOS_BULLMQ_REDIS=redis://redis:6379/2
+      - MONGO_URL=mongodb://mongodb:27017/feikongwang
+      - STEEDOS_ENABLE_WORKFLOW=true
+
+  redis:
+    image: redis:6.2.10
+    command: "redis-server --save \"\" --appendonly no --loglevel warning"
+    ports:
+      - "6379:6379"
+
+  mongodb:
+    image: 'bitnami/mongodb:7.0'
+    ports:
+      - 27017:27017
+    environment:
+      - MONGODB_ADVERTISED_HOSTNAME=mongodb
+      - MONGODB_REPLICA_SET_MODE=primary
+      - MONGODB_REPLICA_SET_NAME=steedos
+      - ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+      - 'steedos-mongodb:/bitnami'
+    healthcheck:
+      test: echo 'rs.status().ok' | mongo admin -u root -p steedos --quiet | grep 1
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  steedos-mongodb:
+    driver: local
