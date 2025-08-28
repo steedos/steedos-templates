@@ -1,7 +1,7 @@
 services:
 
   steedos:
-    image: steedos/feikongwang:3.0.0
+    image: steedos/templates:3.0.0
     build: 
       context: ./
       dockerfile: ./Dockerfile
@@ -18,7 +18,7 @@ services:
       - TRANSPORTER=redis://redis:6379
       - CACHER=redis://redis:6379/1
       - STEEDOS_BULLMQ_REDIS=redis://redis:6379/2
-      - MONGO_URL=mongodb://mongodb:27017/feikongwang
+      - MONGO_URL=mongodb://mongodb:27017/templates
       - STEEDOS_ENABLE_WORKFLOW=true
 
   redis:
