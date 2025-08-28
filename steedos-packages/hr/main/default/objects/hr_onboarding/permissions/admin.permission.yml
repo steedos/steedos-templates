@@ -61,9 +61,6 @@ field_permissions:
   - field: company
     readable: true
     editable: true
-  - field: department
-    readable: true
-    editable: true
   - field: manager
     readable: true
     editable: true

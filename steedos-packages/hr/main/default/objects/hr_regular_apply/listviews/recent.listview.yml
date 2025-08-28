@@ -4,7 +4,6 @@ columns:
   - field: staff
   - field: type
   - field: company
-  - field: department
   - field: apply_date
   - field: number
   - field: position

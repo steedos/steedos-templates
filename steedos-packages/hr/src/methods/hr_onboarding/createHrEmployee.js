@@ -15,41 +15,41 @@ module.exports = {
         console.log("=========xxx==doc", doc)
 
         // 调用添加人员graphql
-       /**  const insertUser = `mutation{record: space_users__insert(doc: {
-            email_notification:false,
-            locale:"zh-cn",
-            name:"${doc.name}",
-            password_expired:false,
-            sms_notification:false,
-            user_accepted:true,
-            zoom:"normal",
-            owner:"${doc.owner}",
-            locked:false,
-            email:"${doc.email || ""}",
-            organizations:["${doc.department}"],
-            profile:"user",
-            mobile:"${doc.phone || ""}",
-            password:"123456"
+        // const insertUser = `mutation{record: space_users__insert(doc: {
+        //     email_notification:false,
+        //     locale:"zh-cn",
+        //     name:"${doc.name}",
+        //     password_expired:false,
+        //     sms_notification:false,
+        //     user_accepted:true,
+        //     zoom:"normal",
+        //     owner:"${doc.owner}",
+        //     locked:false,
+        //     email:"${doc.email || ""}",
+        //     organizations:["${doc.department}"],
+        //     profile:"user",
+        //     mobile:"${doc.phone || ""}",
+        //     password:"123456"
             
-        })
-            {_id}
-          }`
-        console.log("======xxxxxxx>", insertUser)
-        const spaceUsers = await this.broker.call('api.graphql', {
-            query: insertUser
-        },
-            {
-                meta: {
-                    user: userSession
+        // })
+        //     {_id}
+        //   }`
+        // console.log("======xxxxxxx>", insertUser)
+        // const spaceUsers = await this.broker.call('api.graphql', {
+        //     query: insertUser
+        // },
+        //     {
+        //         meta: {
+        //             user: userSession
 
-                }
-            }
-        );
-        console.log("222xxx>", spaceUsers)
-        let spaceUserId = spaceUsers.data.record._id
-        const spaceUsersObj = this.getObject('space_users');
-        const spaceDoc = await spaceUsersObj.findOne(spaceUserId);
-        */
+        //         }
+        //     }
+        // );
+        // console.log("222xxx>", spaceUsers)
+        // let spaceUserId = spaceUsers.data.record._id
+        // const spaceUsersObj = this.getObject('space_users');
+        // const spaceDoc = await spaceUsersObj.findOne(spaceUserId);
+        
 
         const joinedDate = moment(doc.date).utcOffset(8);
         const trialPeriod = doc.trial_period ? doc.trial_period : 0
