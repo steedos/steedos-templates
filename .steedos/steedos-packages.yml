@@ -52,3 +52,25 @@
   description: ''
   local: true
   path: steedos-packages/work_order
+'@steedos/ee_branding':
+  enable: true
+  local: true
+  static: true
+  version: 3.0.0-beta.2
+  description: 自定义品牌
+'@steedos/plugin-qywx':
+  enable: false
+  local: true
+  static: true
+'@steedos/plugin-dingtalk':
+  enable: false
+  local: true
+  static: true
+'@steedos/plugin-welink':
+  enable: false
+  local: true
+  static: true
+'@steedos/print-template':
+  enable: false
+  local: true
+  static: true

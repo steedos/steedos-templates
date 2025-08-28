@@ -8,7 +8,7 @@ group: 用工信息
 index: false
 is_name: false
 is_wide: false
-label: 员工类型
+label: 聘用形式
 multiple: false
 options:
   - label: 全职
@@ -19,6 +19,6 @@ options:
     value: others
 primary: false
 required: false
-sort_no: 800
+sort_no: 850
 sortable: false
 type: select

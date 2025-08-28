@@ -19,6 +19,7 @@ field_groups:
   - group_name: 基本信息
   - group_name: 用工信息
   - group_name: 系统信息
+  - group_name: 紧急联系人
 icon: answer_public
 is_enable: true
 label: 入职

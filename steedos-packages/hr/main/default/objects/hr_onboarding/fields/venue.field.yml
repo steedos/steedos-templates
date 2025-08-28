@@ -10,6 +10,6 @@ is_wide: false
 label: 办公地点
 primary: false
 required: false
-sort_no: 1150
+sort_no: 1100
 sortable: false
 type: text

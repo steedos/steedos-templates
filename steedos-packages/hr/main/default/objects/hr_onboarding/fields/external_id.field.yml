@@ -5,6 +5,6 @@ description: ''
 group: 系统信息
 inlineHelpText: ''
 label: 外部ID
-sort_no: 1650
+sort_no: 1500
 type: text
 visible_on: '{{false}}'

@@ -1,4 +1,4 @@
-name: 人事
+name: 员工管理
 code: hr
 description: 人员入转调离及业务办理模块。
 icon_slds: service_resource
@@ -17,9 +17,6 @@ tab_groups:
   - group_name: 流程审批
     default_open: true
 tab_items:
-  hr_home:
-    group: 人员管理
-    index: 1
   object_hr_employee:
     group: 人员管理
     index: 2
@@ -44,9 +41,8 @@ tab_items:
   object_hr_salary:
     group: 其他信息
     index: 9
-  object_instance_tasks:
+  admin_process_definition:
     group: 流程审批
-    index: 10
 tabs:
   - hr_home
   - object_hr_employee

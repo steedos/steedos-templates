@@ -3,5 +3,5 @@ amis:
   id: 'u:6ad75b2cdc60'
 group: 基本信息
 label: 公积金账号
-sort_no: 700
+sort_no: 750
 type: text

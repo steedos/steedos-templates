@@ -15,7 +15,7 @@ multiple: false
 primary: false
 reference_to: company
 required: false
-sort_no: 850
+sort_no: 900
 sortable: false
 type: lookup
 visible_on: ''

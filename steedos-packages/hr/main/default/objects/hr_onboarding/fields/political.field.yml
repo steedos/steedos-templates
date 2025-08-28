@@ -13,5 +13,5 @@ options:
     value: masses
   - label: 其他
     value: others
-sort_no: 500
+sort_no: 450
 type: select

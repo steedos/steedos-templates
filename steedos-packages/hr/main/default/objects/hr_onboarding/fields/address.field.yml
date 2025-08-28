@@ -4,5 +4,5 @@ amis:
 group: 基本信息
 is_wide: true
 label: 现居住地址
-sort_no: 600
+sort_no: 650
 type: text

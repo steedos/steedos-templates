@@ -10,6 +10,6 @@ is_wide: false
 label: 入职日期
 primary: false
 required: false
-sort_no: 1100
+sort_no: 1050
 sortable: false
 type: date

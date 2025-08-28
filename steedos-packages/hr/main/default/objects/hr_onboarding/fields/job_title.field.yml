@@ -7,7 +7,7 @@ group: 用工信息
 index: false
 is_name: false
 is_wide: false
-label: 职位
+label: 岗位
 primary: false
 required: false
 sort_no: 1000

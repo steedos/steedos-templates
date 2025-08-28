@@ -4,5 +4,5 @@ amis:
 filterable: true
 group: 用工信息
 label: 工号
-sort_no: 750
+sort_no: 800
 type: text
