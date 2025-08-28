@@ -28,9 +28,6 @@ field_permissions:
   - field: date
     readable: true
     editable: true
-  - field: department
-    readable: true
-    editable: true
   - field: email
     readable: true
     editable: true

@@ -16,3 +16,4 @@ logs
 
 yarn.lock
 package-lock.json
+steedos-platform

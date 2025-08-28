@@ -3,7 +3,6 @@ columns:
   - field: name
   - field: gender
   - field: phone
-  - field: department
   - field: job_title
   - field: position_status
   - field: date
