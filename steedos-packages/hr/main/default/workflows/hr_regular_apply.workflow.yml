@@ -1,0 +1,49 @@
+rules:
+  - name: hr_regular_apply_draft
+    active: false
+    formula: 1=1
+    label: 新增转正记录审批状态为草稿
+    locked: false
+    object_name: hr_regular_apply
+    trigger_type: onCreateOnly
+    updates_field_actions:
+      - hr_regular_apply_draft
+fieldUpdates:
+  - name: hr_regular_apply_draft
+    field_name: instance_state
+    label: 转正新增审批状态为草稿
+    literal_value: draft
+    object_name: hr_regular_apply
+    operation: literal
+    recordId: 68b13adc64994705925fc6f3
+    target_object: hr_regular_apply
+  - name: hr_regular_apply_pending
+    field_name: instance_state
+    label: 转正审批状态为审批中
+    literal_value: pending
+    object_name: hr_regular_apply
+    operation: literal
+    target_object: hr_regular_apply
+  - name: hr_regular_apply_approved
+    field_name: instance_state
+    label: 转正审批状态为已核准
+    literal_value: approved
+    object_name: hr_regular_apply
+    operation: literal
+    target_object: hr_regular_apply
+  - name: hr_regular_apply_rejected
+    field_name: instance_state
+    label: 转正审批状态为已驳回
+    literal_value: rejected
+    object_name: hr_regular_apply
+    operation: literal
+    target_object: hr_regular_apply
+  - name: hr_regular_apply_terminated
+    field_name: instance_state
+    label: 转正审批状态为已取消
+    literal_value: terminated
+    object_name: hr_regular_apply
+    operation: literal
+    target_object: hr_regular_apply
+notifications: []
+outboundMessages: []

@@ -4,6 +4,7 @@ when:
   - afterUpdate
 isEnabled: true
 handler: >-
+  console.log("hr_onboarding触发器：afterUpdate");
   const { previousDoc, doc, hr_onboarding } = ctx.params;
 
   const userId = doc.staff; // 自动化操作时，userId和spaceId无法从ctx.params中获取
