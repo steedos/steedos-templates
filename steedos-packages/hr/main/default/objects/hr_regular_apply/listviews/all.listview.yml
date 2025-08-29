@@ -18,6 +18,7 @@ label: 所有
 mobile_columns: []
 scrolling_mode: standard
 shared: true
+shared_to: space
 sort:
   - field_name: apply_date
     order: desc

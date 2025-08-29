@@ -1,5 +1,8 @@
 name: actual_date
+amis:
+  id: 'u:a9d8767ccdb1'
+group: 转正信息
 label: 实际转正日期
-sort_no: 175
-type: date
 required: true
+sort_no: 300
+type: date

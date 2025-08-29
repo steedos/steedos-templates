@@ -14,6 +14,9 @@ enable_share: false
 enable_tasks: false
 enable_tree: false
 enable_workflow: false
+field_groups:
+  - group_name: 转正信息
+  - group_name: 系统信息
 icon: answer_best
 is_enable: true
 label: 转正

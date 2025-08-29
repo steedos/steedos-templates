@@ -1,0 +1,13 @@
+name: company_id
+amis:
+  id: 'u:1cbbdb50218e'
+description: ''
+group: 转正信息
+index: true
+inlineHelpText: ''
+label: 主分部
+reference_to: company
+sort_no: 850
+sortable: true
+type: lookup
+visible_on: '{{false}}'

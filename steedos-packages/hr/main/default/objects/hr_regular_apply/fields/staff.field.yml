@@ -1,6 +1,13 @@
 name: staff
+amis:
+  id: 'u:abf55ba67e3d'
 filterable: false
+filtersFunction: !<tag:yaml.org,2002:js/function> |-
+  function(filters,values) {
+    return [["status","=","trail"]];
+  }
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: false
@@ -8,11 +15,7 @@ label: 人员
 primary: false
 reference_to: hr_employee
 required: true
-sort_no: 115
+sort_no: 200
 sortable: false
 type: master_detail
 write_requires_master_read: false
-filtersFunction:  |-
-  function(filters,values) {
-    return [["status","=","trail"]];
-  }

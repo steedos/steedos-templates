@@ -1,17 +1,23 @@
 name: apply_date
+amis:
+  id: 'u:af9270ed43e5'
+defaultValue: |-
+  function(
+  ) {
+
+    var date = window.moment().utc().toDate();
+    return date;
+
+  }
 filterable: false
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: false
 label: 申请日期
 primary: false
 required: true
-sort_no: 120
+sort_no: 600
 sortable: false
 type: date
-defaultValue: !<tag:yaml.org,2002:js/function> |-
-  function () {
-    var date = window.moment().utc().toDate();
-    return date;
-  }

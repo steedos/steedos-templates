@@ -1,6 +1,9 @@
 name: remark3
+amis:
+  id: 'u:01791456ae1e'
 filterable: false
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: true
@@ -8,6 +11,6 @@ label: 目前存在的不足
 primary: false
 required: true
 rows: 3
-sort_no: 320
+sort_no: 450
 sortable: false
 type: textarea

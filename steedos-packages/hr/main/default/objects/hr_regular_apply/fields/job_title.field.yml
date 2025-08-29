@@ -1,14 +1,17 @@
 name: job_title
+amis:
+  id: 'u:b8cf016753be'
 data_type: text
 filterable: true
 formula: staff.job_title
 formula_blank_value: zeroes
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: false
-label: 职位
+label: 岗位
 primary: false
-sort_no: 116
+sort_no: 250
 sortable: false
-type: formula
+type: text

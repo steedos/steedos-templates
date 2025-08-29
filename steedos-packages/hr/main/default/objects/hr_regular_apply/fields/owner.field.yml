@@ -1,0 +1,11 @@
+name: owner
+amis:
+  id: 'u:a03db17dd087'
+description: ''
+group: 转正信息
+index: true
+inlineHelpText: ''
+label: 所有者
+sort_no: 750
+sortable: true
+visible_on: '{{false}}'

@@ -1,0 +1,10 @@
+name: external_id
+amis:
+  id: 'u:c11b84ab2d30'
+description: ''
+group: 转正信息
+inlineHelpText: ''
+label: 外部ID
+sort_no: 700
+type: text
+visible_on: '{{false}}'

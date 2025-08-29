@@ -1,12 +1,15 @@
 name: start
+amis:
+  id: 'u:723a6672260d'
 filterable: false
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: false
 label: 入职日期
 primary: false
 required: true
-sort_no: 120
+sort_no: 650
 sortable: false
 type: date

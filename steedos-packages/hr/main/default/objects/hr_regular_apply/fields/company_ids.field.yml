@@ -1,0 +1,15 @@
+name: company_ids
+amis:
+  id: 'u:f7275b025065'
+description: ''
+group: 转正信息
+hidden: false
+index: true
+inlineHelpText: ''
+label: 所属分部
+multiple: true
+reference_to: company
+sort_no: 900
+sortable: true
+type: lookup
+visible_on: '{{false}}'

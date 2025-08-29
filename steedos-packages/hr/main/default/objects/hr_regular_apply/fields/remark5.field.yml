@@ -1,6 +1,9 @@
 name: remark5
+amis:
+  id: 'u:91d6bcb3edb5'
 filterable: false
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: true
@@ -8,6 +11,6 @@ label: 对公司的建议和意见
 primary: false
 required: true
 rows: 3
-sort_no: 340
+sort_no: 550
 sortable: false
 type: textarea

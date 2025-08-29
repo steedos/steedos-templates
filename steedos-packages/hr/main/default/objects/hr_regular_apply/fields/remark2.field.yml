@@ -1,6 +1,9 @@
 name: remark2
+amis:
+  id: 'u:604c0f71f2c8'
 filterable: false
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: true
@@ -8,6 +11,6 @@ label: 试用期在那些方面有了成长
 primary: false
 required: true
 rows: 3
-sort_no: 310
+sort_no: 400
 sortable: false
 type: textarea

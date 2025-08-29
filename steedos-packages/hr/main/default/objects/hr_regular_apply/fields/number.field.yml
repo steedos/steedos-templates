@@ -1,12 +1,15 @@
 name: number
+amis:
+  id: 'u:83b679c11ee2'
 filterable: true
 formula: 'ZZ-{YYYY}{0000}'
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: false
 label: 转正编号
 primary: false
-sort_no: 110
+sort_no: 50
 sortable: false
 type: autonumber

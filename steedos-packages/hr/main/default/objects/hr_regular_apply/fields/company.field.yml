@@ -1,6 +1,9 @@
 name: company
+amis:
+  id: 'u:b713574ce62f'
 filterable: false
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: false
@@ -9,6 +12,6 @@ multiple: false
 primary: false
 reference_to: company
 required: true
-sort_no: 160
+sort_no: 100
 sortable: false
 type: lookup

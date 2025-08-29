@@ -1,6 +1,9 @@
 name: remark4
+amis:
+  id: 'u:94e9ce07abb8'
 filterable: false
 generated: false
+group: 转正信息
 index: false
 is_name: false
 is_wide: true
@@ -8,6 +11,6 @@ label: 如何在本岗位做的更好
 primary: false
 required: true
 rows: 3
-sort_no: 330
+sort_no: 500
 sortable: false
 type: textarea
