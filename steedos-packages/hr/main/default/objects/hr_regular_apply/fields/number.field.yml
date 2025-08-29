@@ -6,7 +6,7 @@ formula: 'ZZ-{YYYY}{0000}'
 generated: false
 group: 转正信息
 index: false
-is_name: false
+is_name: true
 is_wide: false
 label: 转正编号
 primary: false
