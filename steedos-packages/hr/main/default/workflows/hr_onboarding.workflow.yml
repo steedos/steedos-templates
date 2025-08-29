@@ -30,6 +30,7 @@ fieldUpdates:
     object_name: hr_onboarding
     operation: literal
     target_object: hr_onboarding
+    undirect: true
   - name: hr_onboarding_rejected
     field_name: instance_state
     label: 入职审批状态为已驳回

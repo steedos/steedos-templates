@@ -91,6 +91,7 @@ module.exports = {
             "cpf_account": doc.cpf_account, //公积金账号
             "photo": doc.photo, //员工照片
             "emergency_contact_name": doc.emergency_contact_name, //紧急联系人姓名
+            "nationalit": doc.nationalit, //民族
             "emergency_contact_relationship": doc.emergency_contact_relationship, //紧急联系人关系
             "emergency_contact_phone": doc.emergency_contact_phone, //紧急联系人电话
             "company": doc.company, //所属公司
