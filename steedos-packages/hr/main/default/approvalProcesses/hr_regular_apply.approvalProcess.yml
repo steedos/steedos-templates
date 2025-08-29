@@ -23,7 +23,7 @@ process_nodes:
     reject_behavior: reject_request
     locked: false
     object_name: hr_regular_apply
-    name: leader
+    name: manger
     label: 相关领导审批
     order: 1
     approver: submitter_choose
