@@ -18,6 +18,9 @@ recall_updates_field_actions:
 initial_submission_record_lock: lock
 recall_record_lock: unlock
 active: true
+entry_criteria: >-
+  ISPICKVAL(instance_state, 'draft') || ISPICKVAL(instance_state, 'rejected') ||
+  ISPICKVAL(instance_state, 'terminated')
 process_nodes:
   - filtrad: true
     reject_behavior: reject_request

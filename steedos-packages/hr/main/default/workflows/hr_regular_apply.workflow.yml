@@ -1,6 +1,7 @@
 rules:
   - name: hr_regular_apply_draft
-    active: false
+    active: true
+    filters: []
     formula: 1=1
     label: 新增转正记录审批状态为草稿
     locked: false
@@ -31,6 +32,7 @@ fieldUpdates:
     object_name: hr_regular_apply
     operation: literal
     target_object: hr_regular_apply
+    undirect: true
   - name: hr_regular_apply_rejected
     field_name: instance_state
     label: 转正审批状态为已驳回
@@ -38,6 +40,7 @@ fieldUpdates:
     object_name: hr_regular_apply
     operation: literal
     target_object: hr_regular_apply
+    undirect: true
   - name: hr_regular_apply_terminated
     field_name: instance_state
     label: 转正审批状态为已取消
