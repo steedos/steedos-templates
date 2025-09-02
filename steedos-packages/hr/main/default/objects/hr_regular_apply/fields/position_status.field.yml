@@ -1,0 +1,18 @@
+name: position_status
+amis:
+  id: 'u:695d1a3ec79d'
+group: 转正信息
+label: 聘用形式
+options:
+  - label: 全职
+    value: full-time
+  - label: 实习
+    value: exercitation
+  - label: 兼职
+    value: sideline
+  - label: 劳务派遣
+    value: labor_dispatch
+  - label: 其他
+    value: others
+sort_no: 300
+type: select

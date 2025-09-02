@@ -26,7 +26,7 @@ field_permissions:
   - field: job_title
     readable: true
     editable: true
-  - field: name
+  - field: !<tag:yaml.org,2002:js/undefined> ''
     readable: true
     editable: true
   - field: number

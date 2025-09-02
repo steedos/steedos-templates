@@ -2,9 +2,9 @@ name: external_id
 amis:
   id: 'u:c11b84ab2d30'
 description: ''
-group: 转正信息
+group: 系统信息
 inlineHelpText: ''
 label: 外部ID
-sort_no: 700
+sort_no: 1000
 type: text
 visible_on: '{{false}}'

@@ -11,7 +11,7 @@ label: 所属分部
 multiple: false
 primary: false
 reference_to: company
-required: true
-sort_no: 100
+required: false
+sort_no: 150
 sortable: false
 type: lookup

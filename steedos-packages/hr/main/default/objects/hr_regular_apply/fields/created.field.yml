@@ -7,6 +7,6 @@ index: true
 inlineHelpText: ''
 label: 创建时间
 readonly: true
-sort_no: 1000
+sort_no: 800
 sortable: true
 type: datetime

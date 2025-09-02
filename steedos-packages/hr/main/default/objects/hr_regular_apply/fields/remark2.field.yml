@@ -9,8 +9,8 @@ is_name: false
 is_wide: true
 label: 试用期在那些方面有了成长
 primary: false
-required: true
+required: false
 rows: 3
-sort_no: 400
+sort_no: 500
 sortable: false
 type: textarea

@@ -9,8 +9,8 @@ is_name: false
 is_wide: true
 label: 目前存在的不足
 primary: false
-required: true
+required: false
 rows: 3
-sort_no: 450
+sort_no: 550
 sortable: false
 type: textarea

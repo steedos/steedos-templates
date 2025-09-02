@@ -9,8 +9,8 @@ is_name: false
 is_wide: true
 label: 对公司的建议和意见
 primary: false
-required: true
+required: false
 rows: 3
-sort_no: 550
+sort_no: 650
 sortable: false
 type: textarea

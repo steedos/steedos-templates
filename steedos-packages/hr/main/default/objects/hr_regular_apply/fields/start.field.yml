@@ -9,7 +9,7 @@ is_name: false
 is_wide: false
 label: 入职日期
 primary: false
-required: true
-sort_no: 650
+required: false
+sort_no: 350
 sortable: false
 type: date

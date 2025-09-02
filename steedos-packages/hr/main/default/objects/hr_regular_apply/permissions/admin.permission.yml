@@ -13,7 +13,7 @@ permission_set_id: admin
 viewAllFiles: true
 viewAllRecords: true
 field_permissions:
-  - field: name
+  - field: !<tag:yaml.org,2002:js/undefined> ''
     readable: true
     editable: true
   - field: apply_date

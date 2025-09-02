@@ -4,5 +4,5 @@ amis:
 group: 转正信息
 label: 实际转正日期
 required: true
-sort_no: 300
+sort_no: 400
 type: date

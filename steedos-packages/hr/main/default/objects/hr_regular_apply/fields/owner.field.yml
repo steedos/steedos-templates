@@ -2,10 +2,12 @@ name: owner
 amis:
   id: 'u:a03db17dd087'
 description: ''
-group: 转正信息
+group: 系统信息
+hidden: true
 index: true
 inlineHelpText: ''
 label: 所有者
-sort_no: 750
+omit: true
+sort_no: 1050
 sortable: true
 visible_on: '{{false}}'

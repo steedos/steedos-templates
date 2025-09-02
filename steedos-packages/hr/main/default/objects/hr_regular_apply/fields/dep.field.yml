@@ -1,0 +1,7 @@
+name: dep
+amis:
+  id: 'u:ea62472169e2'
+group: 转正信息
+label: 部门
+sort_no: 200
+type: text

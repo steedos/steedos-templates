@@ -9,8 +9,8 @@ is_name: false
 is_wide: true
 label: 对本岗位职责的要求的理解
 primary: false
-required: true
+required: false
 rows: 3
-sort_no: 350
+sort_no: 450
 sortable: false
 type: textarea
