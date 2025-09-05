@@ -1,8 +1,10 @@
 name: job_title_before
-index: true
-label: 原职位
-required: true
-sort_no: 120
-type: text
+amis:
+  id: 'u:ecb9abbe4782'
 filterable: true
-
+group: 员工信息
+index: true
+label: 原岗位
+required: false
+sort_no: 350
+type: text

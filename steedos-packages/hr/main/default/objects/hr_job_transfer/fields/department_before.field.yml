@@ -1,7 +1,10 @@
 name: department_before
+amis:
+  id: 'u:03d3ea9b5766'
+filterable: true
+group: 员工信息
 index: true
 label: 原部门
-required: true
-sort_no: 340
+required: false
+sort_no: 300
 type: text
-filterable: true

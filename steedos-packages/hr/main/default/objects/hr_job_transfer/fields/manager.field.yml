@@ -1,4 +1,6 @@
 name: manager
+amis:
+  id: 'u:bcb241e62af4'
 filterable: false
 generated: false
 group: 调动信息
@@ -9,7 +11,7 @@ label: 直接上级
 multiple: false
 primary: false
 reference_to: users
-required: true
-sort_no: 180
+required: false
+sort_no: 750
 sortable: false
-type: lookup
+type: text

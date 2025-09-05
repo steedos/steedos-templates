@@ -1,4 +1,6 @@
 name: department
+amis:
+  id: 'u:3d91a10fb312'
 filterable: true
 generated: false
 group: 调动信息
@@ -9,7 +11,7 @@ label: 调动部门
 multiple: false
 primary: false
 reference_to: organizations
-required: true
-sort_no: 170
+required: false
+sort_no: 650
 sortable: false
-type: lookup
+type: text

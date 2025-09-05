@@ -1,7 +1,11 @@
 name: company_before
-index: true
-label: 原分部
-required: true
-sort_no: 330
-type: text
+amis:
+  id: 'u:fb54ec33111e'
 filterable: true
+group: 员工信息
+index: true
+label: 原公司
+reference_to: company
+required: false
+sort_no: 250
+type: lookup

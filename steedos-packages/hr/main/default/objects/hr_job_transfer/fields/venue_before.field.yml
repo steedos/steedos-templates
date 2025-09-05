@@ -1,7 +1,10 @@
 name: venue_before
+amis:
+  id: 'u:e2d016e5ce68'
+filterable: true
+group: 员工信息
 index: true
 label: 原办公地点
-required: true
-sort_no: 370
+required: false
+sort_no: 450
 type: text
-filterable: true

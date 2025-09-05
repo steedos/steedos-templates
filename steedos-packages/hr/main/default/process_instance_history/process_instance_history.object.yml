@@ -1,0 +1,3 @@
+extend: process_instance_history
+name: process_instance_history
+hidden: false

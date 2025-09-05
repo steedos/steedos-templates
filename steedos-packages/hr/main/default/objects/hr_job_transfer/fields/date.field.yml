@@ -1,4 +1,6 @@
 name: date
+amis:
+  id: 'u:56454a8c0944'
 filterable: true
 generated: false
 group: 调动信息
@@ -7,7 +9,7 @@ is_name: false
 is_wide: false
 label: 调动日期
 primary: false
-required: true
-sort_no: 220
+required: false
+sort_no: 850
 sortable: false
 type: date

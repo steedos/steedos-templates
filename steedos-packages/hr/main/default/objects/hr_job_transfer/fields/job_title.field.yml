@@ -1,13 +1,15 @@
 name: job_title
+amis:
+  id: 'u:8be42df006e3'
 filterable: false
 generated: false
 group: 调动信息
 index: false
 is_name: false
 is_wide: false
-label: 职务
+label: 岗位
 primary: false
-required: true
-sort_no: 190
+required: false
+sort_no: 700
 sortable: false
 type: text

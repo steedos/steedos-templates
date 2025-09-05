@@ -14,6 +14,10 @@ enable_share: false
 enable_tasks: false
 enable_tree: false
 enable_workflow: false
+field_groups:
+  - group_name: 员工信息
+  - group_name: 调动信息
+  - group_name: 系统信息
 icon: answer_public
 is_enable: true
 label: 调动

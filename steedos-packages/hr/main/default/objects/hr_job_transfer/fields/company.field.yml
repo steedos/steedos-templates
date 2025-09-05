@@ -1,15 +1,17 @@
 name: company
+amis:
+  id: 'u:c1da41e7438e'
 filterable: false
 generated: false
 group: 调动信息
 index: false
 is_name: false
 is_wide: false
-label: 调动分部
+label: 调动公司
 multiple: false
 primary: false
 reference_to: company
-required: true
-sort_no: 160
+required: false
+sort_no: 600
 sortable: false
 type: lookup

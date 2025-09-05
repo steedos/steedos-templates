@@ -1,7 +1,10 @@
 name: manager_before
+amis:
+  id: 'u:8fb2d5b31ab1'
+filterable: true
+group: 员工信息
 index: true
 label: 原直接上级
-required: true
-sort_no: 360
+required: false
+sort_no: 400
 type: text
-filterable: true
