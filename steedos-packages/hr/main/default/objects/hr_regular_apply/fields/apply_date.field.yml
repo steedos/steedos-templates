@@ -1,14 +1,7 @@
 name: apply_date
 amis:
   id: 'u:af9270ed43e5'
-defaultValue: |-
-  function(
-  ) {
-
-    var date = window.moment().utc().toDate();
-    return date;
-
-  }
+defaultValue: '${TODAY()}'
 filterable: false
 generated: false
 group: 转正信息

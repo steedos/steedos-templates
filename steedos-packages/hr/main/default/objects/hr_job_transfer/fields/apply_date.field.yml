@@ -1,15 +1,9 @@
 name: apply_date
 amis:
   id: 'u:9b108fc7fd37'
-defaultValue: |-
-  function(
-  ) {
-
-    var date = window.moment().utc().toDate();
-    return date;
-
-  }
+defaultValue: '${TODAY()}'
 filterable: false
+filters: []
 generated: false
 group: 员工信息
 index: false
@@ -21,3 +15,4 @@ required: true
 sort_no: 200
 sortable: false
 type: date
+visible_on: '${TODAY()}'
