@@ -25,6 +25,6 @@ options:
     color: '#d0d0d0'
 primary: false
 required: false
-sort_no: 850
+sort_no: 900
 sortable: false
 type: select

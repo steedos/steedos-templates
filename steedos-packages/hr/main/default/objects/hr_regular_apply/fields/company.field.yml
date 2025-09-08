@@ -1,10 +1,13 @@
 name: company
 amis:
   id: 'u:b713574ce62f'
+description: ''
+enable_thousands: true
 filterable: false
 generated: false
 group: 转正信息
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 所属分部

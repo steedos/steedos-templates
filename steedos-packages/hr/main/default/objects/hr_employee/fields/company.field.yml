@@ -1,0 +1,8 @@
+name: company
+amis:
+  id: 'u:7821c2a7be64'
+group: 员工档案
+label: 所属公司
+reference_to: company
+sort_no: 350
+type: lookup

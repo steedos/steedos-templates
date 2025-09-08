@@ -12,6 +12,6 @@ multiple: false
 primary: false
 reference_to: users
 required: false
-sort_no: 1000
+sort_no: 1050
 sortable: false
 type: text

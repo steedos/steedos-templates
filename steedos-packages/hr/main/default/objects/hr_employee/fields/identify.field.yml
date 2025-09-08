@@ -10,6 +10,6 @@ is_wide: false
 label: 身份证号码
 primary: false
 required: false
-sort_no: 400
+sort_no: 450
 sortable: false
 type: text

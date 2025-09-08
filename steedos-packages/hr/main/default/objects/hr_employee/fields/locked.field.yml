@@ -6,6 +6,6 @@ group: 系统信息
 hidden: false
 inlineHelpText: ''
 label: 已锁定
-sort_no: 1850
+sort_no: 2050
 type: boolean
 visible_on: '{{false}}'

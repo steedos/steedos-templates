@@ -21,6 +21,7 @@ field_groups:
   - group_name: 用工信息
   - group_name: 通用
   - group_name: 账户信息
+  - group_name: 紧急联系人
   - group_name: 系统信息
 icon: answer_public
 is_enable: true

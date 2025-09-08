@@ -19,16 +19,13 @@ field_permissions:
   - field: account
     readable: true
     editable: true
-  - field: actual_date
+  - field: !<tag:yaml.org,2002:js/undefined> ''
     readable: true
     editable: true
   - field: address
     readable: true
     editable: true
   - field: birth
-    readable: true
-    editable: true
-  - field: company
     readable: true
     editable: true
   - field: cpf_account
@@ -52,28 +49,16 @@ field_permissions:
   - field: identify
     readable: true
     editable: true
-  - field: job_title
-    readable: true
-    editable: true
   - field: manager
     readable: true
     editable: true
   - field: marrige
     readable: true
     editable: true
-  - field: name
-    readable: true
-    editable: true
-  - field: number
-    readable: true
-    editable: true
   - field: phone
     readable: true
     editable: true
   - field: political
-    readable: true
-    editable: true
-  - field: position_status
     readable: true
     editable: true
   - field: regularization_date
@@ -121,3 +106,21 @@ field_permissions:
   - field: instance_state
     readable: false
     editable: false
+  - field: actual_date
+    readable: true
+    editable: true
+  - field: company
+    readable: true
+    editable: true
+  - field: job_title
+    readable: true
+    editable: true
+  - field: name
+    readable: true
+    editable: true
+  - field: number
+    readable: true
+    editable: true
+  - field: position_status
+    readable: true
+    editable: true

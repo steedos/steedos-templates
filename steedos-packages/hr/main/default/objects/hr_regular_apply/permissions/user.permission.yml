@@ -13,43 +13,10 @@ permission_set_id: user
 viewAllFiles: true
 viewAllRecords: false
 field_permissions:
-  - field: actual_date
-    readable: true
-    editable: true
-  - field: apply_date
-    readable: true
-    editable: true
-  - field: company
-    readable: true
-    editable: true
-  - field: job_title
+  - field: null
     readable: true
     editable: true
   - field: !<tag:yaml.org,2002:js/undefined> ''
-    readable: true
-    editable: true
-  - field: number
-    readable: true
-    editable: true
-  - field: remark1
-    readable: true
-    editable: true
-  - field: remark2
-    readable: true
-    editable: true
-  - field: remark3
-    readable: true
-    editable: true
-  - field: remark4
-    readable: true
-    editable: true
-  - field: remark5
-    readable: true
-    editable: true
-  - field: staff
-    readable: true
-    editable: true
-  - field: start
     readable: true
     editable: true
   - field: owner
@@ -79,3 +46,39 @@ field_permissions:
   - field: instance_state
     readable: false
     editable: false
+  - field: actual_date
+    readable: true
+    editable: true
+  - field: apply_date
+    readable: true
+    editable: true
+  - field: company
+    readable: true
+    editable: true
+  - field: job_title
+    readable: true
+    editable: true
+  - field: number
+    readable: true
+    editable: true
+  - field: remark1
+    readable: true
+    editable: true
+  - field: remark2
+    readable: true
+    editable: true
+  - field: remark3
+    readable: true
+    editable: true
+  - field: remark4
+    readable: true
+    editable: true
+  - field: remark5
+    readable: true
+    editable: true
+  - field: staff
+    readable: true
+    editable: true
+  - field: start
+    readable: true
+    editable: true

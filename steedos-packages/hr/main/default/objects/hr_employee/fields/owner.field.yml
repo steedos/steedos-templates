@@ -8,6 +8,6 @@ index: true
 inlineHelpText: ''
 label: 所有者
 omit: true
-sort_no: 1800
+sort_no: 2000
 sortable: true
 visible_on: '{{false}}'

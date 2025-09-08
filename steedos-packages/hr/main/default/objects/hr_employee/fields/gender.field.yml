@@ -16,6 +16,6 @@ options:
     value: female
 primary: false
 required: false
-sort_no: 450
+sort_no: 500
 sortable: false
 type: select

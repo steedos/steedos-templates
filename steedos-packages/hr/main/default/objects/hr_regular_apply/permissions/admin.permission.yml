@@ -13,22 +13,13 @@ permission_set_id: admin
 viewAllFiles: true
 viewAllRecords: true
 field_permissions:
+  - field: null
+    readable: true
+    editable: true
   - field: !<tag:yaml.org,2002:js/undefined> ''
     readable: true
     editable: true
-  - field: apply_date
-    readable: true
-    editable: true
-  - field: company
-    readable: true
-    editable: true
-  - field: number
-    readable: true
-    editable: true
   - field: remark
-    readable: true
-    editable: true
-  - field: staff
     readable: true
     editable: true
   - field: position
@@ -73,3 +64,15 @@ field_permissions:
   - field: instance_state
     readable: true
     editable: false
+  - field: apply_date
+    readable: true
+    editable: true
+  - field: company
+    readable: true
+    editable: true
+  - field: number
+    readable: true
+    editable: true
+  - field: staff
+    readable: true
+    editable: true

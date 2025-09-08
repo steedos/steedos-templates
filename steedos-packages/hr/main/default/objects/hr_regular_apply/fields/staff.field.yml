@@ -12,18 +12,23 @@ auto_fill_mapping:
     to: position_status
   - from: date
     to: start
+description: ''
+enable_thousands: true
 filterable: false
 filters: []
 filtersFunction: !<tag:yaml.org,2002:js/function> |-
   function(filters,values
   ) {
 
+
     return [["status","=","trail"]];
+
 
   }
 generated: false
 group: 转正信息
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 人员

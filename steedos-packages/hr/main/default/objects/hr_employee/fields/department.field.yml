@@ -12,6 +12,6 @@ multiple: false
 primary: false
 reference_to: organizations
 required: false
-sort_no: 800
+sort_no: 850
 sortable: false
 type: lookup
