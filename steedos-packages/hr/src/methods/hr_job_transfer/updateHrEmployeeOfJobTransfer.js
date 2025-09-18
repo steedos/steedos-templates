@@ -19,7 +19,7 @@ module.exports = {
                    "manager":doc.manager, //直接上级
                    "job_title":doc.job_title, //职位
                    "dep":doc.dep, //部门
-                   "company":doc.company //分部
+                   "company":doc.company, //分部
                    "venue":doc.venue //办公地点
                 },
                 id: doc.staff
