@@ -1,7 +1,7 @@
 {
   "name": "Steedos Dev Container",
   "forwardPorts": [5100],  // 修改为你项目需要暴露的端口
-  "postCreateCommand": "yarn install",
+  "postCreateCommand": "",
   "features": {},
   "customizations": {
     "vscode": {
