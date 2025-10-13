@@ -1,6 +1,5 @@
 {
-  "name": "Node.js Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",  // 用适合你需求的Node版本
+  "name": "Steedos Dev Container",
   "forwardPorts": [5100],  // 修改为你项目需要暴露的端口
   "postCreateCommand": "yarn install",
   "features": {},
