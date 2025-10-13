@@ -29,7 +29,7 @@
         "panel": "dedicated"
       },
       "runOptions": {
-        "runOn": "folderOpen"
+        "runOn": "default"
       },
       "problemMatcher": []
     }
