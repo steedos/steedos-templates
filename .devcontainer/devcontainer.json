@@ -25,5 +25,5 @@
       ]
     }
   },
-  "postCreateCommand": ""
+  "postCreateCommand": "yarn install && yarn build"
 }
