@@ -22,7 +22,7 @@
       },
       "extensions": [
         // 推荐安装的VS Code扩展
-      }
+      ]
     }
   },
   "postCreateCommand": ""
