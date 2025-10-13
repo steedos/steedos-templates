@@ -40,14 +40,19 @@ services:
     volumes:
       - 'steedos-mongodb:/data/db'
 
-  mongodb-init:
+  mongo-init-replica:
     image: mongodb/mongodb-community-server:7.0-ubi8
-    restart: "no"
     depends_on:
       mongodb:
         condition: service_healthy
-    command: >
-      mongosh --host mongodb:27017 --eval "rs.initiate({ _id: 'steedos', members: [{_id: 0, host: 'mongodb:27017'}]})"
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+        echo "=> Waiting for MongoDB to be available ...";
+        sleep 2
+        mongosh --host mongodb:27017 --eval "rs.initiate({ _id: 'steedos', members: [{_id: 0, host: 'mongodb:27017'}]})" 
+        echo "=> Replica set initiated."
 
 volumes:
   steedos-mongodb:
