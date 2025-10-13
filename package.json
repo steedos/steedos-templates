@@ -6,6 +6,7 @@
     "steedos-packages/*"
   ],
   "scripts": {
+    "start:db": "docker-compose up mongodb redis",
     "start": "steedos start",
     "build": "lerna run build",
     "i18n:en": "yarn steedos i18n en"

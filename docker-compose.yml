@@ -26,23 +26,28 @@ services:
     command: "redis-server --save \"\" --appendonly no --loglevel warning"
     ports:
       - "6379:6379"
-
+ 
   mongodb:
-    image: 'bitnami/mongodb:7.0'
+    image: mongodb/mongodb-community-server:7.0-ubi8
     ports:
       - 27017:27017
-    environment:
-      - MONGODB_ADVERTISED_HOSTNAME=mongodb
-      - MONGODB_REPLICA_SET_MODE=primary
-      - MONGODB_REPLICA_SET_NAME=steedos
-      - ALLOW_EMPTY_PASSWORD=yes
-    volumes:
-      - 'steedos-mongodb:/bitnami'
+    command: ["mongod", "--replSet", "steedos", "--bind_ip_all"]
     healthcheck:
-      test: echo 'rs.status().ok' | mongo admin -u root -p steedos --quiet | grep 1
+      test: echo 'db.runCommand("ping").ok' | mongosh --quiet | grep 1
       interval: 10s
       timeout: 10s
       retries: 5
+    volumes:
+      - 'steedos-mongodb:/data/db'
+
+  mongodb-init:
+    image: mongodb/mongodb-community-server:7.0-ubi8
+    restart: "no"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    command: >
+      mongosh --host mongodb:27017 --eval "rs.initiate({ _id: 'steedos', members: [{_id: 0, host: 'mongodb:27017'}]})"
 
 volumes:
   steedos-mongodb:
