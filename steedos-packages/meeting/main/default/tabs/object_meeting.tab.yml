@@ -1,0 +1,11 @@
+name: object_meeting
+desktop: true
+icon: event
+is_new_window: false
+is_use_iframe: false
+label: 会议
+locked: false
+mobile: true
+object: meeting
+permissions: []
+type: object
