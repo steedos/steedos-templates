@@ -1,6 +1,6 @@
 name: end
-amis:
-  value: ${DATE(DATETOSTR(DATEMODIFY(NOW(), 2, 'hour'), 'YYYY-MM-DD HH:00:00'))}
+# amis:
+#   value: ${DATE(DATETOSTR(DATEMODIFY(NOW(), 2, 'hour'), 'YYYY-MM-DD HH:00:00'))}
 description: ''
 enable_thousands: true
 filterable: false
@@ -15,3 +15,4 @@ required: true
 sort_no: 150
 sortable: false
 type: datetime
+defaultValue: ${DATE(DATETOSTR(DATEMODIFY(NOW(), 2, 'hour'), 'YYYY-MM-DD HH:00:00'))}
