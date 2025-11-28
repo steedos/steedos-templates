@@ -1,0 +1,10 @@
+name: phone
+filterable: false
+index: false
+is_name: false
+is_wide: false
+label: 联系方式
+primary: false
+required: false
+sortable: false
+type: text

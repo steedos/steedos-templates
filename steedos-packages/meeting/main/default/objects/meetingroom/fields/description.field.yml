@@ -1,0 +1,10 @@
+name: description
+filterable: false
+index: false
+is_name: false
+is_wide: true
+label: 备注
+primary: false
+required: false
+sortable: false
+type: textarea

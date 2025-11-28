@@ -1,0 +1,24 @@
+name: unit
+filterable: false
+index: false
+is_name: false
+is_wide: false
+label: 参会单位
+primary: false
+required: false
+sortable: true
+type: text
+defaultValue: !!js/function |
+  function () {
+          var collection, organziation;
+          collection = Creator.Collections["organizations"];
+          organziation = collection.findOne({
+            users: Meteor.userId(),
+            space: Session.get("spaceId")
+          }, {
+            fields: {
+              name: 1
+            }
+          }).name;
+          return organziation;
+        }
