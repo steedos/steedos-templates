@@ -1,10 +1,17 @@
 name: region
+amis:
+  id: 'u:12817ee3ef3a'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 所属区域
 primary: false
 required: false
+sort_no: 150
 sortable: false
 type: text

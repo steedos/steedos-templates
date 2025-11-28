@@ -1,24 +1,17 @@
 name: phone
+amis:
+  id: 'u:6a1d31d23fc4'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 联系方式
 primary: false
 required: false
+sort_no: 350
 sortable: false
 type: text
-defaultValue: !!js/function |
-  function () {
-          var collection, mobile;
-          collection = Creator.Collections["space_users"];
-          mobile = collection.findOne({
-            user: Meteor.userId(),
-            space: Session.get("spaceId")
-          }, {
-            fields: {
-              mobile: 1
-            }
-          }).mobile;
-          return mobile;
-        }

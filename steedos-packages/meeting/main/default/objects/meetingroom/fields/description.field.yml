@@ -1,10 +1,18 @@
 name: description
+amis:
+  id: 'u:b1ca6f3c9bc7'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: true
 label: 备注
 primary: false
 required: false
+rows: 3
+sort_no: 250
 sortable: false
 type: textarea

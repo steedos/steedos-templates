@@ -1,4 +1,6 @@
 name: meeting
+custom: false
+description: ''
 enable_api: true
 enable_audit: true
 enable_chatter: false
@@ -13,7 +15,13 @@ enable_share: false
 enable_split: false
 enable_tasks: false
 enable_workflow: false
+extend: meeting
+field_groups:
+  - group_name: 通用
+  - group_name: 系统信息
 icon: event
+isMain: true
+is_customize: true
 is_enable: true
 is_system: true
 label: 会议

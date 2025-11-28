@@ -1,19 +1,17 @@
 name: start
+amis:
+  id: 'u:553531bad7a9'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 开始时间
 primary: false
 required: true
+sort_no: 100
 sortable: true
 type: datetime
-defaultValue: !!js/function |
-  function () {
-          var now, reValue;
-          now = new Date();
-          reValue = new Date(now.getTime() + 1 * 60 * 60 * 1000);
-          reValue.setMinutes(0);
-          reValue.setSeconds(0);
-          return reValue;
-        }

@@ -1,35 +1,21 @@
 name: room
+amis:
+  id: 'u:d18a3247ca79'
+description: ''
+enable_thousands: true
 filterable: true
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: true
 label: 会议室
 primary: false
-reference_to: meetingroom
+reference_limit: 20
 reference_sort:
   name: 1
-reference_limit: 20
+reference_to: meetingroom
 required: true
+sort_no: 50
 sortable: true
 type: lookup
-optionsFunction: !!js/function |
-  function (values) {
-          var options, result, rooms;
-          result = [];
-          options = {
-            $orderby: name,
-            $select: enable_open,admins,name
-          };
-          rooms = Creator.odata.query("meetingroom", options, true);
-          rooms.forEach(function (room) {
-            var ref;
-
-            if ((room != null ? (ref = room.admins) != null ? ref.indexOf(Meteor.userId()) : void 0 : void 0) > -1 || (room != null ? room.enable_open : void 0) || Steedos.isSpaceAdmin()) {
-              return result.push({
-                label: room.name,
-                value: room._id
-              });
-            }
-          });
-          return result;
-        }

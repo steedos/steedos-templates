@@ -1,11 +1,19 @@
 name: other_features
+amis:
+  multiple: true
+  id: 'u:c763d21e7bac'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 其他功能
 multiple: true
 primary: false
 required: false
+sort_no: 350
 sortable: false
 type: text

@@ -1,10 +1,19 @@
 name: capacity
+amis:
+  id: 'u:67c4b171c093'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 容纳人数
+precision: 18
 primary: false
 required: false
+scale: 2
+sort_no: 100
 sortable: false
 type: number

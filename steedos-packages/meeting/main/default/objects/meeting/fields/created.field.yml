@@ -1,0 +1,12 @@
+name: created
+amis:
+  id: 'u:bc90c3350bd5'
+description: ''
+group: 系统信息
+index: true
+inlineHelpText: ''
+label: 创建时间
+readonly: true
+sort_no: 800
+sortable: true
+type: datetime

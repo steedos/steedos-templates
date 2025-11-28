@@ -1,14 +1,17 @@
 name: features
+amis:
+  multiple: true
+  id: 'u:46702130b2a8'
+description: ''
+enable_thousands: true
 filterable: true
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: false
 is_wide: false
 label: 提供功能
 multiple: true
-primary: false
-required: false
-sortable: false
-type: select
 options:
   - label: 上网
     value: surfing
@@ -18,3 +21,8 @@ options:
     value: vedio
   - label: 会标
     value: monogram
+primary: false
+required: false
+sort_no: 300
+sortable: false
+type: select

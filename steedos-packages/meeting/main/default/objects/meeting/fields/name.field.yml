@@ -1,11 +1,18 @@
 name: name
+amis:
+  id: 'u:5008b2dbddfc'
+description: ''
+enable_thousands: true
 filterable: false
+group: 通用
 index: false
+inlineHelpText: ''
 is_name: true
 is_wide: true
-label: 会议标题
+label: 主题
 primary: false
 required: true
 searchable: true
+sort_no: 200
 sortable: false
 type: text
