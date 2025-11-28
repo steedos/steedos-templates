@@ -1,0 +1,11 @@
+name: enable_open
+filterable: false
+index: false
+is_name: false
+is_wide: false
+label: 开放预约
+primary: false
+required: false
+sortable: false
+type: boolean
+defaultValue: true

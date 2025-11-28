@@ -1,0 +1,11 @@
+name: other_features
+filterable: false
+index: false
+is_name: false
+is_wide: false
+label: 其他功能
+multiple: true
+primary: false
+required: false
+sortable: false
+type: text

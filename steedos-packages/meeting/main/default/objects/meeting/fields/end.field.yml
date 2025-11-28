@@ -1,0 +1,19 @@
+name: end
+filterable: false
+index: false
+is_name: false
+is_wide: false
+label: 结束时间
+primary: false
+required: true
+sortable: false
+type: datetime
+defaultValue: !!js/function |
+  function () {
+          var now, reValue;
+          now = new Date();
+          reValue = new Date(now.getTime() + 2 * 60 * 60 * 1000);
+          reValue.setMinutes(0);
+          reValue.setSeconds(0);
+          return reValue;
+        }

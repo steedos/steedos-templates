@@ -1,0 +1,10 @@
+name: count
+filterable: false
+index: false
+is_name: false
+is_wide: false
+label: 参会人数
+primary: false
+required: false
+sortable: false
+type: number

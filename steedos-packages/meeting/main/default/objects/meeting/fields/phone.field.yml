@@ -1,0 +1,24 @@
+name: phone
+filterable: false
+index: false
+is_name: false
+is_wide: false
+label: 联系方式
+primary: false
+required: false
+sortable: false
+type: text
+defaultValue: !!js/function |
+  function () {
+          var collection, mobile;
+          collection = Creator.Collections["space_users"];
+          mobile = collection.findOne({
+            user: Meteor.userId(),
+            space: Session.get("spaceId")
+          }, {
+            fields: {
+              mobile: 1
+            }
+          }).mobile;
+          return mobile;
+        }
