@@ -1,6 +1,6 @@
 name: end
 amis:
-  id: 'u:83796cd3f22e'
+  value: ${DATE(DATETOSTR(DATEMODIFY(NOW(), 2, 'hour'), 'YYYY-MM-DD HH:00:00'))}
 description: ''
 enable_thousands: true
 filterable: false
