@@ -1,4 +1,5 @@
 
+const auth = require('@steedos/auth');
 /**
  * 检查指定会议室和时间段内是否存在会议冲突。
  *
@@ -53,7 +54,6 @@ const checkPermission = async function (userId, roomId, getObject) {
   const meetingRoom = await getObject('meetingroom').findOne(roomId, {
     fields: ['admins', 'enable_open']
   });
-  console.log("===checkPermission==meetingRoom===", meetingRoom);
 
   if (!meetingRoom) {
     throw new Error("会议室不存在");
@@ -100,14 +100,16 @@ const checkPermission = async function (userId, roomId, getObject) {
       const doc = this.doc;
       const getObject = this.getObject;
       const {
-        userId
+        userId,
+        spaceId
       } = this;
-      let room, start, end;
+      let room, start, end, owner;
 
       // 1. 获取更新后的 start 和 end 时间
       start = doc.start;
       end = doc.end;
       room = doc.room;
+      owner = doc.owner;
 
       // 如果 doc 中没有 start/end/room，需要从数据库中获取当前文档的旧值。
       if (start === undefined || end === undefined || room === undefined) {
@@ -116,6 +118,7 @@ const checkPermission = async function (userId, roomId, getObject) {
         if (start === undefined) fieldsToFetch.push('start');
         if (end === undefined) fieldsToFetch.push('end');
         if (room === undefined) fieldsToFetch.push('room');
+        if (owner === undefined) fieldsToFetch.push('owner');
 
         // 如果有任何一个值缺失，需要查询数据库
         if (fieldsToFetch.length > 0) {
@@ -127,10 +130,16 @@ const checkPermission = async function (userId, roomId, getObject) {
           start = start !== undefined ? start : currentDoc.start;
           end = end !== undefined ? end : currentDoc.end;
           room = room !== undefined ? room : currentDoc.room;
+          owner = owner !== undefined ? owner : currentDoc.owner;
         }
       }
 
-      await checkPermission(userId, room, getObject);
+      
+      const userSession = await auth.getSessionByUserId(userId, spaceId);
+      const isSpaceAdmin = userSession.is_space_admin;
+      if(!isSpaceAdmin && owner !== userId){
+        throw new Error("您没有权限修改此会议");
+      }
       
       // 2. 检查时间有效性
       if (end <= start) {
