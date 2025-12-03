@@ -72,85 +72,85 @@ const checkPermission = async function (userId, roomId, getObject) {
 }
 
 
-  module.exports = {
-    listenTo: 'meeting',
+module.exports = {
+  listenTo: 'meeting',
 
-    beforeInsert: async function () {
-      const doc = this.doc;
-      const getObject = this.getObject;
-      const {
-        userId
-      } = this;
+  beforeInsert: async function () {
+    const doc = this.doc;
+    const getObject = this.getObject;
+    const {
+      userId
+    } = this;
 
-      await checkPermission(userId, doc.room, getObject);
+    await checkPermission(userId, doc.room, getObject);
 
-      // 检查时间有效性
-      if (doc.end <= doc.start) {
-        throw new Error("开始时间需小于结束时间");
-      }
+    // 检查时间有效性
+    if (doc.end <= doc.start) {
+      throw new Error("开始时间需小于结束时间");
+    }
 
-      const clashs = await clashRemind(null, doc.room, doc.start, doc.end, getObject);
+    const clashs = await clashRemind(null, doc.room, doc.start, doc.end, getObject);
 
-      if (clashs > 0) {
-        throw new Error("该时间段的此会议室已被占用");
-      }
-    },
+    if (clashs > 0) {
+      throw new Error("该时间段的此会议室已被占用");
+    }
+  },
 
-    beforeUpdate: async function () {
-      const doc = this.doc;
-      const getObject = this.getObject;
-      const {
-        userId,
-        spaceId
-      } = this;
-      let room, start, end, owner;
+  beforeUpdate: async function () {
+    const doc = this.doc;
+    const getObject = this.getObject;
+    const {
+      userId,
+      spaceId
+    } = this;
+    let room, start, end, owner;
 
-      // 1. 获取更新后的 start 和 end 时间
-      start = doc.start;
-      end = doc.end;
-      room = doc.room;
-      owner = doc.owner;
+    // 1. 获取更新后的 start 和 end 时间
+    start = doc.start;
+    end = doc.end;
+    room = doc.room;
+    owner = doc.owner;
 
-      // 如果 doc 中没有 start/end/room，需要从数据库中获取当前文档的旧值。
-      if (start === undefined || end === undefined || room === undefined) {
-        // 仅查询需要的值
-        const fieldsToFetch = [];
-        if (start === undefined) fieldsToFetch.push('start');
-        if (end === undefined) fieldsToFetch.push('end');
-        if (room === undefined) fieldsToFetch.push('room');
-        if (owner === undefined) fieldsToFetch.push('owner');
+    // 如果 doc 中没有 start/end/room，需要从数据库中获取当前文档的旧值。
+    if (start === undefined || end === undefined || room === undefined) {
+      // 仅查询需要的值
+      const fieldsToFetch = [];
+      if (start === undefined) fieldsToFetch.push('start');
+      if (end === undefined) fieldsToFetch.push('end');
+      if (room === undefined) fieldsToFetch.push('room');
+      if (owner === undefined) fieldsToFetch.push('owner');
 
-        // 如果有任何一个值缺失，需要查询数据库
-        if (fieldsToFetch.length > 0) {
-          const currentDoc = await getObject('meeting').findOne(this.id, {
-            fields: fieldsToFetch
-          });
+      // 如果有任何一个值缺失，需要查询数据库
+      if (fieldsToFetch.length > 0) {
+        const currentDoc = await getObject('meeting').findOne(this.id, {
+          fields: fieldsToFetch
+        });
 
-          // 使用数据库旧值补充缺失的值
-          start = start !== undefined ? start : currentDoc.start;
-          end = end !== undefined ? end : currentDoc.end;
-          room = room !== undefined ? room : currentDoc.room;
-          owner = owner !== undefined ? owner : currentDoc.owner;
-        }
-      }
-
-      
-      const userSession = await auth.getSessionByUserId(userId, spaceId);
-      const isSpaceAdmin = userSession.is_space_admin;
-      if(!isSpaceAdmin && owner !== userId){
-        throw new Error("您没有权限修改此会议");
-      }
-      
-      // 2. 检查时间有效性
-      if (end <= start) {
-        throw new Error("开始时间不能大于结束时间");
-      }
-
-      // 3. 检查冲突
-      const clashs = await clashRemind(this.id, room, start, end, getObject);
-
-      if (clashs > 0) {
-        throw new Error("该时间段的此会议室已被占用");
+        // 使用数据库旧值补充缺失的值
+        start = start !== undefined ? start : currentDoc.start;
+        end = end !== undefined ? end : currentDoc.end;
+        room = room !== undefined ? room : currentDoc.room;
+        owner = owner !== undefined ? owner : currentDoc.owner;
       }
     }
-  };
+
+
+    const userSession = await auth.getSessionByUserId(userId, spaceId);
+    const isSpaceAdmin = userSession.is_space_admin;
+    if (!isSpaceAdmin && owner !== userId) {
+      throw new Error("您没有权限修改此会议");
+    }
+
+    // 2. 检查时间有效性
+    if (end <= start) {
+      throw new Error("开始时间不能大于结束时间");
+    }
+
+    // 3. 检查冲突
+    const clashs = await clashRemind(this.id, room, start, end, getObject);
+
+    if (clashs > 0) {
+      throw new Error("该时间段的此会议室已被占用");
+    }
+  }
+};
