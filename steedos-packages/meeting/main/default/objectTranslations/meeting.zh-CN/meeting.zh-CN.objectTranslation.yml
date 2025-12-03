@@ -35,7 +35,9 @@ fields:
     help: 
     description: 
 listviews:
-  calendar_view:
+  timeline:
+    label: 时间线
+  calendar:
     label: 日历
   all:
     label: 全部

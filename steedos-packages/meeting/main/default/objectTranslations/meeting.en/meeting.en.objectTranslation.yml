@@ -35,7 +35,9 @@ fields:
     help: 
     description: 
 listviews:
-  calendar_view:
+  timeline:
+    label: Timeline
+  calendar:
     label: Calendar
   all:
     label: All

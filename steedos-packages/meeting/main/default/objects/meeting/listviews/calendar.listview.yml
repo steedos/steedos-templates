@@ -1,0 +1,10 @@
+name: calendar
+filter_scope: space
+label: Calendar View
+calendar_start_field: start
+calendar_end_field: end
+# calendar_all_day_field: is_all_day
+calendar_group_field: room
+type: calendar
+from_code_id: meeting.calendar_view
+sort_no: 10
