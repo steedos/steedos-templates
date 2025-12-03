@@ -42,6 +42,35 @@ const clashRemind = async function (_id, room, start, end, getObject) {
   return meetings.length;
 };
 
+/**
+ * 权限检查辅助函数
+*/
+const checkPermission = async function (userId, roomId, getObject) {
+  if (!roomId) {
+    return true;
+  }
+
+  const meetingRoom = await getObject('meetingroom').findOne(roomId, {
+    fields: ['admins', 'enable_open']
+  });
+  console.log("===checkPermission==meetingRoom===", meetingRoom);
+
+  if (!meetingRoom) {
+    throw new Error("会议室不存在");
+  }
+
+  const isAdmin = Array.isArray(meetingRoom.admins) && meetingRoom.admins.includes(userId);
+  const isOpen = meetingRoom.enable_open === true;
+
+  // 如果是管理员或者会议室开放，则允许操作
+  if (isAdmin || isOpen) {
+    return true;
+  } else {
+    // 既不是管理员，会议室也不开放，抛出权限错误
+    throw new Error("此会议室为特约会议室，您暂无权限预约。");
+  }
+}
+
 
   module.exports = {
     listenTo: 'meeting',
@@ -49,6 +78,11 @@ const clashRemind = async function (_id, room, start, end, getObject) {
     beforeInsert: async function () {
       const doc = this.doc;
       const getObject = this.getObject;
+      const {
+        userId
+      } = this;
+
+      await checkPermission(userId, doc.room, getObject);
 
       // 检查时间有效性
       if (doc.end <= doc.start) {
@@ -65,6 +99,9 @@ const clashRemind = async function (_id, room, start, end, getObject) {
     beforeUpdate: async function () {
       const doc = this.doc;
       const getObject = this.getObject;
+      const {
+        userId
+      } = this;
       let room, start, end;
 
       // 1. 获取更新后的 start 和 end 时间
@@ -93,6 +130,8 @@ const clashRemind = async function (_id, room, start, end, getObject) {
         }
       }
 
+      await checkPermission(userId, room, getObject);
+      
       // 2. 检查时间有效性
       if (end <= start) {
         throw new Error("开始时间不能大于结束时间");

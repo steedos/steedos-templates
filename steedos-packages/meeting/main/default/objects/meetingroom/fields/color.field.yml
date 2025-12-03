@@ -30,3 +30,4 @@ required: false
 sort_no: 400
 sortable: false
 type: select
+hidden: true
