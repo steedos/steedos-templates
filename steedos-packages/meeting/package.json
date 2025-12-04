@@ -1,6 +1,6 @@
 {
     "name": "@steedos-labs/meeting",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "会议管理",
     "main": "package.service.js",
     "scripts": {
