@@ -1,0 +1,19 @@
+name: count
+amis:
+  id: 'u:8485c7f703d9'
+description: ''
+enable_thousands: true
+filterable: false
+group: 通用
+index: false
+inlineHelpText: ''
+is_name: false
+is_wide: false
+label: 参会人数
+precision: 18
+primary: false
+required: false
+scale: 2
+sort_no: 300
+sortable: false
+type: number

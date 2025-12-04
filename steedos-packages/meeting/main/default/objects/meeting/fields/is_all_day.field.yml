@@ -1,0 +1,9 @@
+name: is_all_day
+description: ''
+group: 通用
+hidden: false
+inlineHelpText: ''
+label: 全天事件
+sort_no: 440
+type: boolean
+visible_on: ${false}

@@ -1,0 +1,17 @@
+name: unit
+amis:
+  id: 'u:ee569df4e1f6'
+description: ''
+enable_thousands: true
+filterable: false
+group: 通用
+index: false
+inlineHelpText: ''
+is_name: false
+is_wide: false
+label: 参会单位
+primary: false
+required: false
+sort_no: 250
+sortable: true
+type: text

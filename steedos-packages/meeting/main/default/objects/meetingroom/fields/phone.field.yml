@@ -1,0 +1,17 @@
+name: phone
+amis:
+  id: 'u:d75b6138e602'
+description: ''
+enable_thousands: true
+filterable: false
+group: 通用
+index: false
+inlineHelpText: ''
+is_name: false
+is_wide: false
+label: 联系方式
+primary: false
+required: false
+sort_no: 200
+sortable: false
+type: text

@@ -1,0 +1,18 @@
+name: enable_open
+amis:
+  id: 'u:91407677bd11'
+defaultValue: true
+description: ''
+enable_thousands: true
+filterable: false
+group: 通用
+index: false
+inlineHelpText: ''
+is_name: false
+is_wide: false
+label: 开放预约
+primary: false
+required: false
+sort_no: 450
+sortable: false
+type: boolean

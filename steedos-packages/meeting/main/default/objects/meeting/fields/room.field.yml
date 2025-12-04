@@ -1,0 +1,21 @@
+name: room
+amis:
+  id: 'u:d18a3247ca79'
+description: ''
+enable_thousands: true
+filterable: true
+group: 通用
+index: false
+inlineHelpText: ''
+is_name: false
+is_wide: true
+label: 会议室
+primary: false
+reference_limit: 20
+reference_sort:
+  name: 1
+reference_to: meetingroom
+required: true
+sort_no: 50
+sortable: true
+type: lookup

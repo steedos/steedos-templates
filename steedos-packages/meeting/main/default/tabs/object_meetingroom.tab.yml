@@ -1,0 +1,11 @@
+name: object_meetingroom
+desktop: true
+icon: location
+is_new_window: false
+is_use_iframe: false
+label: 会议室
+locked: false
+mobile: true
+object: meetingroom
+permissions: []
+type: object

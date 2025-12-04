@@ -1,0 +1,17 @@
+name: 会议
+code: meeting
+description: 会议日程、会议室预定、冲突提醒、统计分析
+icon_slds: event
+is_creator: true
+label: 会议
+showSidebar: true
+sort: 300
+tab_items:
+  object_meeting:
+    index: 1
+  object_meetingroom:
+    index: 2
+tabs:
+  - object_meeting
+  - object_meetingroom
+visible: true

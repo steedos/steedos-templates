@@ -1,0 +1,28 @@
+name: features
+amis:
+  multiple: true
+  id: 'u:bb41aeb3b541'
+description: ''
+enable_thousands: true
+filterable: true
+group: 通用
+index: false
+inlineHelpText: ''
+is_name: false
+is_wide: false
+label: 用品需求
+multiple: true
+options:
+  - label: 上网
+    value: surfing
+  - label: 投影
+    value: projection
+  - label: 视频
+    value: vedio
+  - label: 会标
+    value: monogram
+primary: false
+required: false
+sort_no: 400
+sortable: false
+type: select
