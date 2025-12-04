@@ -1,5 +1,4 @@
 
-const auth = require('@steedos/auth');
 /**
  * 检查指定会议室和时间段内是否存在会议冲突。
  *
@@ -132,13 +131,6 @@ module.exports = {
         room = room !== undefined ? room : currentDoc.room;
         owner = owner !== undefined ? owner : currentDoc.owner;
       }
-    }
-
-
-    const userSession = await auth.getSessionByUserId(userId, spaceId);
-    const isSpaceAdmin = userSession.is_space_admin;
-    if (!isSpaceAdmin && owner !== userId) {
-      throw new Error("您没有权限修改此会议");
     }
 
     // 2. 检查时间有效性
