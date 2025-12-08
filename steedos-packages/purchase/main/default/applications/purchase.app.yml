@@ -23,3 +23,4 @@ saml_enabled: false
 saml_logout_enabled: false
 sort: 60
 visible: true
+showSidebar: true

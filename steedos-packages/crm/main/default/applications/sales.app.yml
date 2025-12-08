@@ -35,7 +35,7 @@ description: 通过客户、潜在客户、业务机会等管理销售流程。
 icon_slds: case
 is_creator: true
 mobile: true
-showSidebar: false
+showSidebar: true
 sort: 10
 tab_groups: []
 tab_items:
