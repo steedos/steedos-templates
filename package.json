@@ -1,24 +1,20 @@
 {
-  "name": "templates",
+  "name": "steedos-templates",
   "version": "0.0.1",
   "private": true,
   "workspaces": [
     "steedos-packages/*"
   ],
   "scripts": {
-    "start:db": "docker-compose up mongodb redis mongo-init-replica",
+    "start:db": "docker-compose up mongodb redis",
     "start": "steedos start",
-    "build": "lerna run build",
-    "i18n:en": "yarn steedos i18n en"
+    "build": "lerna run build"
   },
   "dependencies": {
-    "@steedos/server": "3.0.2-beta.9"
+    "@steedos/server": "^3.0.2"
   },
   "devDependencies": {
-    "lerna": "^5.4.0",
-    "moleculer-repl": "^0.7.4",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.3",
-    "ts-jest": "^29.0.3"
+    "lerna": "^5.6.2",
+    "typescript": "^4.9.3"
   }
 }
