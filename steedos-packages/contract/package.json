@@ -1,6 +1,6 @@
 {
     "name": "@steedos-labs/template-contract",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "合同管理",
     "main": "package.service.js",
     "scripts": {
