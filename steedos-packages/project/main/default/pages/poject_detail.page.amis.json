@@ -82,7 +82,7 @@
             "body": [
                 {
                     "type": "rooms-comments",
-                    "className": "flex flex-col m-3 gap-3",
+                    "className": "flex flex-col m-4 gap-3",
                     "roomId": "objects:${objectName}:{$recordId}",
                     "id": "u:0f32dd3bc7ac"
                 }
