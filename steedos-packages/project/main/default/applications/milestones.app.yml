@@ -1,5 +1,7 @@
 name: 项目
 code: milestones
+color: green
+dark: true
 defaultValueVariables:
   - label: 全局变量
     children:
