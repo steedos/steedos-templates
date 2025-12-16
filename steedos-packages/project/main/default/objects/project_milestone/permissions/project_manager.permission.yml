@@ -7,3 +7,4 @@ modifyCompanyRecords: false
 permission_set_id: project_manager
 viewAllRecords: true
 viewCompanyRecords: false
+name: project_milestone.project_manager

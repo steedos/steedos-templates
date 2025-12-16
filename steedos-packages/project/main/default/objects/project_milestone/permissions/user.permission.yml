@@ -1,4 +1,3 @@
-name: 里程碑.用户
 allowCreate: true
 allowDelete: true
 allowEdit: true
@@ -8,3 +7,4 @@ modifyCompanyRecords: false
 permission_set_id: user
 viewAllRecords: true
 viewCompanyRecords: false
+name: project_milestone.user

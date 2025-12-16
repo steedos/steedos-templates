@@ -6,3 +6,4 @@ modifyAllRecords: true
 permission_set_id: admin
 viewAllRecords: true
 field_permissions: []
+name: contract.admin

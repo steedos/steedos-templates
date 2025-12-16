@@ -6,3 +6,4 @@ modifyAllRecords: false
 permission_set_id: user
 viewAllRecords: true
 field_permissions: []
+name: project_time.user

@@ -8,3 +8,4 @@ permission_set_id: project_manager
 viewAllRecords: true
 viewCompanyRecords: false
 field_permissions: []
+name: project_time.project_manager
