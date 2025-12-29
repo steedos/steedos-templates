@@ -23,7 +23,7 @@ module.exports = {
             name: project.name,
             path: path.join(__dirname, ".."),
             isPackage: true,
-            isUnmanaged: true
+            isUnmanaged: false
         }
     },
 
