@@ -32,7 +32,4 @@ tabs:
   - object_accounts
   - object_opportunity
   - object_case
-  - object_product
-  - object_price_book
-  - object_campaign
 visible: true
