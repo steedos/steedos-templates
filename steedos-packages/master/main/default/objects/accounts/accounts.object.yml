@@ -1,5 +1,0 @@
-name: accounts
-extend: accounts
-enable_instances: false
-enable_workflow: false
-enable_enhanced_lookup: true

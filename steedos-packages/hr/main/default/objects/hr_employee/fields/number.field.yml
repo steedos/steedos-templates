@@ -1,8 +1,0 @@
-name: number
-amis:
-  id: 'u:826fb7f9a022'
-filterable: true
-group: 员工档案
-label: 工号
-sort_no: 150
-type: text

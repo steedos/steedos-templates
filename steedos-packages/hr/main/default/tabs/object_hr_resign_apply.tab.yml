@@ -1,7 +1,0 @@
-name: object_hr_resign_apply
-desktop: true
-label: 离职
-mobile: true
-object: hr_resign_apply
-permissions: []
-type: object

@@ -1,7 +1,0 @@
-name: photo
-amis:
-  id: 'u:05315583dd73'
-group: 员工档案
-label: 员工照片
-sort_no: 100
-type: image

@@ -1,7 +1,0 @@
-name: object_hr_job_transfer
-desktop: true
-label: 调动
-mobile: true
-object: hr_job_transfer
-permissions: []
-type: object

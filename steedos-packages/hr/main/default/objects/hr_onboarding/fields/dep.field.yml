@@ -1,7 +1,0 @@
-name: dep
-amis:
-  id: 'u:360abffbaea7'
-group: 用工信息
-label: 部门
-sort_no: 950
-type: text

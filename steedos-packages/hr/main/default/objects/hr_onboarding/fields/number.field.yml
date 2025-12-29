@@ -1,8 +1,0 @@
-name: number
-amis:
-  id: 'u:641c4b9e58dc'
-filterable: true
-group: 用工信息
-label: 工号
-sort_no: 800
-type: text

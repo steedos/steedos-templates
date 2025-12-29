@@ -1,7 +1,0 @@
-name: emergency_contact_relationship
-amis:
-  id: 'u:b65fce5d8dea'
-group: 紧急联系人
-label: 紧急联系人关系
-sort_no: 1800
-type: text

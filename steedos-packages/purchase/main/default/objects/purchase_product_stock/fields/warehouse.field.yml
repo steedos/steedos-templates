@@ -1,5 +1,0 @@
-name: warehouse
-label: 仓库
-reference_to: warehouse
-sort_no: 150
-type: lookup

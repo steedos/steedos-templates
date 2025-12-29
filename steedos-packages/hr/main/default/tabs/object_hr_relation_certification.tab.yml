@@ -1,7 +1,0 @@
-name: object_hr_relation_certification
-desktop: true
-label: 证明开具
-mobile: true
-object: hr_relation_certification
-permissions: []
-type: object

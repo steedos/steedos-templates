@@ -1,5 +1,0 @@
-name: performance_index
-label: 考核项
-type: lookup
-reference_to: performance_index
-sort_no: 140

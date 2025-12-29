@@ -1,7 +1,0 @@
-name: emergency_contact_name
-amis:
-  id: 'u:97ae75ebf872'
-group: 紧急联系人
-label: 紧急联系人姓名
-sort_no: 1650
-type: text

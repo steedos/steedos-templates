@@ -1,6 +1,0 @@
-name: overtime_pay
-label: 加班工资
-precision: 18
-scale: 2
-sort_no: 150
-type: currency

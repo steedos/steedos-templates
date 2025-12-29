@@ -1,8 +1,0 @@
-name: address
-amis:
-  id: 'u:3a27166a2d2e'
-group: 基本信息
-is_wide: true
-label: 现居住地址
-sort_no: 750
-type: text

@@ -1,7 +1,0 @@
-name: social_security_account
-amis:
-  id: 'u:90a65418cb2a'
-group: 基本信息
-label: 社保账号
-sort_no: 700
-type: text

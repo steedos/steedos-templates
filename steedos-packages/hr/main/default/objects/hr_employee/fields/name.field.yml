@@ -1,9 +1,0 @@
-name: name
-amis:
-  id: 'u:7fc89c4da597'
-filterable: true
-group: 员工档案
-label: 员工姓名
-required: true
-sort_no: 50
-type: text

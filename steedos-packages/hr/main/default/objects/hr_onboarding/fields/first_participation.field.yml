@@ -1,7 +1,0 @@
-name: first_participation
-amis:
-  id: 'u:2fa857f25507'
-group: 基本信息
-label: 首次参加工作时间
-sort_no: 600
-type: date

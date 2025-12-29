@@ -1,7 +1,0 @@
-name: weight
-label: 权重
-type: formula
-formula: performance_index.weight
-formula_blank_value: zeroes
-data_type: percent
-sort_no: 150

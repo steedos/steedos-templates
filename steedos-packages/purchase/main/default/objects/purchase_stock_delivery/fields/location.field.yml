@@ -1,5 +1,0 @@
-name: location
-label: 库位
-reference_to: stock_location
-sort_no: 160
-type: lookup

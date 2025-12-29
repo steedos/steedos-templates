@@ -1,7 +1,0 @@
-name: object_contacts
-desktop: true
-label: 联系人
-mobile: true
-object: contacts
-permissions: []
-type: object

@@ -1,7 +1,0 @@
-name: object_hr_contract
-desktop: true
-label: 人事合同
-mobile: true
-object: hr_contract
-permissions: []
-type: object

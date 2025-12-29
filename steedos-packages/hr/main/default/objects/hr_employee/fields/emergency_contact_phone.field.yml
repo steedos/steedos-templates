@@ -1,7 +1,0 @@
-name: emergency_contact_phone
-amis:
-  id: 'u:10161de3635a'
-group: 紧急联系人
-label: 紧急联系人电话
-sort_no: 1700
-type: text

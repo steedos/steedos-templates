@@ -1,7 +1,0 @@
-name: bank
-amis:
-  id: 'u:b33b666a798f'
-group: 账户信息
-label: 开户行
-sort_no: 1500
-type: text

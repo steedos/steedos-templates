@@ -1,7 +1,0 @@
-name: birth
-amis:
-  id: 'u:3f10ffb9390a'
-group: 基本信息
-label: 出生日期
-sort_no: 550
-type: date

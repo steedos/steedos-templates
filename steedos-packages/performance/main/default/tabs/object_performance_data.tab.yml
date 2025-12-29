@@ -1,7 +1,0 @@
-name: object_performance_data
-desktop: true
-label: 考核数据
-mobile: true
-object: performance_data
-permissions: []
-type: object

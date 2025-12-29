@@ -1,7 +1,0 @@
-name: object_hr_employee
-desktop: true
-label: 花名册
-mobile: true
-object: hr_employee
-permissions: []
-type: object

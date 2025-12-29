@@ -1,7 +1,0 @@
-name: hr_home
-desktop: true
-icon: home
-label: 首页
-mobile: true
-page: hr_home
-type: page
