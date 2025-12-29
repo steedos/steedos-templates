@@ -9,13 +9,15 @@
     "start:db": "docker-compose up mongodb redis",
     "start": "steedos start",
     "build": "lerna run build",
-    "release": "lerna publish --force-publish --exact --registry=https://registry.npmjs.org/"
+    "release": "lerna publish --force-publish --exact --registry=https://registry.npmjs.org/",
+    "release:again": "lerna publish from-package"
+
   },
   "dependencies": {
     "@steedos/server": "^3.0.9-beta.1"
   },
   "devDependencies": {
-    "lerna": "^5.6.2",
-    "typescript": "^4.9.3"
+    "lerna": "^9.0.3",
+    "typescript": "^5.9.3"
   }
 }
