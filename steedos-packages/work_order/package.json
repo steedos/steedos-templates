@@ -1,6 +1,6 @@
 {
     "name": "@steedos-labs/template-work_order",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "description": "",
     "main": "package.service.js",
     "scripts": {
