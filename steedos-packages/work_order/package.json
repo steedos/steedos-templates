@@ -1,6 +1,6 @@
 {
     "name": "@steedos-labs/template-work_order",
-    "version": "3.0.1",
+    "version": "3.0.5",
     "description": "",
     "main": "package.service.js",
     "scripts": {
@@ -12,9 +12,6 @@
     "license": "MIT",
     "publishConfig": {
         "access": "public"
-    },
-    "dependencies": {
-       
     },
     "devDependencies": {
         "webpack": "^5.88.2",

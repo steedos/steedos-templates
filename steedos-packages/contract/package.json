@@ -1,16 +1,11 @@
 {
     "name": "@steedos-labs/template-contract",
-    "version": "3.0.2",
+    "version": "3.0.5",
     "description": "合同管理",
     "main": "package.service.js",
     "scripts": {
         "build": "webpack --config webpack.config.js",
         "build:watch": "webpack --config webpack.config.js --watch"
-    },
-    "dependencies": {
-       
-    },
-    "devDependencies": {
     },
     "license": "MIT",
     "publishConfig": {

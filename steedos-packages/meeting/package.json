@@ -1,16 +1,11 @@
 {
     "name": "@steedos-labs/meeting",
-    "version": "3.0.1",
+    "version": "3.0.5",
     "description": "会议管理",
     "main": "package.service.js",
     "scripts": {
         "build": "webpack --config webpack.config.js",
         "build:watch": "webpack --config webpack.config.js --watch"
-    },
-    "dependencies": {
-       
-    },
-    "devDependencies": {
     },
     "license": "MIT",
     "publishConfig": {

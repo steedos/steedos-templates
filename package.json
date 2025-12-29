@@ -8,7 +8,8 @@
   "scripts": {
     "start:db": "docker-compose up mongodb redis",
     "start": "steedos start",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "release": "lerna publish --force-publish --exact --registry=https://registry.npmjs.org/"
   },
   "dependencies": {
     "@steedos/server": "^3.0.9-beta.1"
